@@ -1,0 +1,222 @@
+{
+  "benchmark_date": "2026-11-03 22:36:31",
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "vram_gb": 7.96
+  },
+  "financebench_n150": {
+    "config_a_off": {
+      "n_questions": 150,
+      "pool_recall": 73.33,
+      "mrr": 0.4056,
+      "recall_at_1": 29.33,
+      "recall_at_5": 53.33,
+      "recall_at_10": 65.33,
+      "avg_latency_sec": 0.2575,
+      "peak_vram_mb": 2804.52,
+      "total_hits_top10": 98,
+      "total_pool_hits": 110
+    },
+    "config_b_on": {
+      "n_questions": 150,
+      "pool_recall": 73.33,
+      "mrr": 0.3975,
+      "recall_at_1": 26.67,
+      "recall_at_5": 59.33,
+      "recall_at_10": 67.33,
+      "avg_latency_sec": 0.2614,
+      "peak_vram_mb": 3340.36,
+      "total_hits_top10": 101,
+      "total_pool_hits": 110,
+      "coref_activations": 3,
+      "brand_mappings": [
+        {
+          "id": "financebench_id_02987",
+          "term": "Activision",
+          "detected_company": "ACTIVISIONBLIZZARD",
+          "detected_ticker": "ATVI",
+          "type": "brand_product"
+        },
+        {
+          "id": "financebench_id_07966",
+          "term": "Activision",
+          "detected_company": "ACTIVISIONBLIZZARD",
+          "detected_ticker": "ATVI",
+          "type": "brand_product"
+        },
+        {
+          "id": "financebench_id_01491",
+          "term": "Kenvue",
+          "detected_company": "JOHNSON",
+          "detected_ticker": "JNJ",
+          "type": "brand_product"
+        }
+      ]
+    },
+    "delta": {
+      "mrr": -0.0081,
+      "recall_at_1": -2.66,
+      "recall_at_5": 6.0,
+      "recall_at_10": 2.0,
+      "pool_recall": 0.0,
+      "latency_sec": 0.0039
+    }
+  },
+  "stage3_heldout_n100": {
+    "config_a_off": {
+      "n_questions": 100,
+      "pool_recall": 26.0,
+      "mrr": 0.1031,
+      "recall_at_1": 6.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 16.0,
+      "avg_latency_sec": 0.2337,
+      "peak_vram_mb": 3848.01,
+      "total_hits_top10": 16,
+      "total_pool_hits": 26
+    },
+    "config_b_on": {
+      "n_questions": 100,
+      "pool_recall": 26.0,
+      "mrr": 0.0863,
+      "recall_at_1": 3.0,
+      "recall_at_5": 17.0,
+      "recall_at_10": 20.0,
+      "avg_latency_sec": 0.241,
+      "peak_vram_mb": 4389.03,
+      "total_hits_top10": 20,
+      "total_pool_hits": 26,
+      "coref_activations": 17,
+      "brand_mappings": [
+        {
+          "id": "stage3_heldout_0006",
+          "term": "Google Cloud",
+          "detected_company": "ALPHABET",
+          "detected_ticker": "GOOGL",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0024",
+          "term": "VMware",
+          "detected_company": "BROADCOM",
+          "detected_ticker": "AVGO",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0027",
+          "term": "Reality Labs",
+          "detected_company": "META",
+          "detected_ticker": "META",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0064",
+          "term": "Gillette",
+          "detected_company": "PROCTERGAMBLE",
+          "detected_ticker": "PG",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0072",
+          "term": "Mounjaro",
+          "detected_company": "ELILILLY",
+          "detected_ticker": "LLY",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0074",
+          "term": "Mounjaro",
+          "detected_company": "ELILILLY",
+          "detected_ticker": "LLY",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0075",
+          "term": "tirzepatide",
+          "detected_company": "ELILILLY",
+          "detected_ticker": "LLY",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0077",
+          "term": "Optum",
+          "detected_company": "UNITEDHEALTH",
+          "detected_ticker": "UNH",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0079",
+          "term": "Change Healthcare",
+          "detected_company": "UNITEDHEALTH",
+          "detected_ticker": "UNH",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0081",
+          "term": "Keytruda",
+          "detected_company": "MERCK",
+          "detected_ticker": "MRK",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0083",
+          "term": "Keytruda",
+          "detected_company": "MERCK",
+          "detected_ticker": "MRK",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0084",
+          "term": "Keytruda",
+          "detected_company": "MERCK",
+          "detected_ticker": "MRK",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0086",
+          "term": "Humira",
+          "detected_company": "ABBVIE",
+          "detected_ticker": "ABBV",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0087",
+          "term": "Skyrizi",
+          "detected_company": "ABBVIE",
+          "detected_ticker": "ABBV",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0088",
+          "term": "Humira",
+          "detected_company": "ABBVIE",
+          "detected_ticker": "ABBV",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0090",
+          "term": "Humira",
+          "detected_company": "ABBVIE",
+          "detected_ticker": "ABBV",
+          "type": "brand_product"
+        },
+        {
+          "id": "stage3_heldout_0094",
+          "term": "Permian Basin unconventional",
+          "detected_company": "EXXONMOBIL",
+          "detected_ticker": "XOM",
+          "type": "brand_product"
+        }
+      ]
+    },
+    "delta": {
+      "mrr": -0.0168,
+      "recall_at_1": -3.0,
+      "recall_at_5": 2.0,
+      "recall_at_10": 4.0,
+      "pool_recall": 0.0,
+      "latency_sec": 0.0073
+    }
+  }
+}

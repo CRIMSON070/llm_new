@@ -721,9 +721,15 @@ class FinancialQueryExpander:
         ("store count", [r"\bstore\s*count\b", r"\bnumber\s*of\s*stores\b"]),
     ]
 
-    def __init__(self, enable_statement_detection: bool = True, coref_resolver: Optional[CoreferenceResolver] = None):
+    def __init__(
+        self,
+        enable_statement_detection: bool = True,
+        coref_resolver: Optional[CoreferenceResolver] = None,
+        enable_coreference: bool = True,
+    ):
         self.enable_statement_detection = enable_statement_detection
-        self.coref_resolver = coref_resolver or CoreferenceResolver()
+        self.enable_coreference = enable_coreference
+        self.coref_resolver = (coref_resolver or CoreferenceResolver()) if enable_coreference else None
 
     def detect_company(self, query: str) -> Optional[str]:
         """Detect company name deterministically from query."""
