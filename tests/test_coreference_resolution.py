@@ -79,7 +79,32 @@ class TestCoreferenceResolution(unittest.TestCase):
             self.assertEqual(exp_res.detected_ticker, expected_ticker, f"Failed for {q}")
             self.assertTrue(exp_res.is_coreference_resolved, f"Failed for {q}")
             self.assertIn(expected_ticker, exp_res.bm25_query)
-            self.assertIn(expected_ticker, exp_res.dense_query)
+            # Dense query deliberately keeps pure product terms to avoid semantic dilution in BGE-M3
+            self.assertIsNotNone(exp_res.dense_query)
+
+    def test_is_company_explicit_and_redundant_expansion_avoidance(self):
+        """Verify that queries explicitly naming the parent company do not trigger redundant entity expansion."""
+        # 1. Direct explicit company check
+        explicit_checks = [
+            ("What regulatory milestone did Eli Lilly achieve in late 2023 for tirzepatide in the chronic weight management indication?", "ELILILLY"),
+            ("Is 3M capital intensive based on its 2022 annual report?", "3M"),
+            ("What was Broadcom's revenue breakdown across segments in FY2023?", "BROADCOM"),
+            ("How much did Alphabet invest in Google Cloud research and development in 2023?", "ALPHABET"),
+        ]
+        for q, expected_company in explicit_checks:
+            self.assertTrue(self.resolver.is_company_explicit(q, expected_company), f"Failed explicit check for {q}")
+
+        # 2. Brand queries where parent company is explicitly mentioned should be 'direct_mention' with is_coreference_resolved=False
+        brand_plus_company_queries = [
+            ("What regulatory milestone did Eli Lilly achieve in late 2023 for tirzepatide in the chronic weight management indication?", "ELILILLY"),
+            ("What was Broadcom's VMware revenue in FY2023?", "BROADCOM"),
+            ("Did Alphabet's Google Cloud business generate profit in 2023?", "ALPHABET"),
+        ]
+        for q, expected_company in brand_plus_company_queries:
+            res = self.resolver.resolve_query(q)
+            self.assertFalse(res.is_coreference_resolved, f"Should not mark resolved for explicit query: {q}")
+            self.assertEqual(res.coreference_type, "direct_mention", f"Incorrect type for: {q}")
+            self.assertEqual(res.canonical_company, expected_company)
 
 
 if __name__ == "__main__":

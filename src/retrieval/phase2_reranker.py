@@ -226,19 +226,26 @@ class Phase2Reranker:
         # Prepare normalized candidate texts for Cross-Encoder with Chunk-Level Coreference Resolution
         # (Section 3.1 & Appendix A.6: resolves generic pronouns to explicit corporate antecedents)
         if self.coref_resolver is not None:
-            pairs = [
-                [
-                    norm_query,
-                    normalize_unicode(
-                        self.coref_resolver.resolve_chunk_antecedents(
-                            chunk_text=c.get("text", ""),
-                            doc_name=c.get("doc_name", ""),
-                            section_heading=c.get("section_heading")
+            # Avoid redundant chunk antecedent expansion when parent company is already explicitly in the query.
+            # When the parent company is explicit, injecting artificial company headers into filing chunks distorts
+            # cross-encoder scoring against narrative evidence chunks.
+            is_company_explicit = bool(q_company and self.coref_resolver.is_company_explicit(norm_query, q_company))
+            if not is_company_explicit:
+                pairs = [
+                    [
+                        norm_query,
+                        normalize_unicode(
+                            self.coref_resolver.resolve_chunk_antecedents(
+                                chunk_text=c.get("text", ""),
+                                doc_name=c.get("doc_name", ""),
+                                section_heading=c.get("section_heading")
+                            )
                         )
-                    )
+                    ]
+                    for c in candidates
                 ]
-                for c in candidates
-            ]
+            else:
+                pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in candidates]
         else:
             pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in candidates]
 

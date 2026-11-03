@@ -391,6 +391,41 @@ class CoreferenceResolver:
         self.brand_patterns = COMPILED_BRAND_PATTERNS
         self.canonical_info = COMPANY_CANONICAL_INFO
 
+    def is_company_explicit(self, query: str, canonical_company: str) -> bool:
+        """
+        Checks if the canonical corporate entity is already explicitly mentioned in the query.
+        Used to prevent redundant brand-to-parent expansion when the user already specified the company.
+        """
+        if not canonical_company or not query:
+            return False
+        info = self.canonical_info.get(canonical_company, {})
+        c_name = info.get("name", "")
+        ticker = info.get("ticker", "")
+        doc_prefix = info.get("doc_prefix", "")
+        q_lower = query.lower()
+
+        # Check ticker symbol (word boundary)
+        if ticker and re.search(r"\b" + re.escape(ticker.lower()) + r"\b", q_lower):
+            return True
+        # Check document prefix (e.g. LLY, AVGO, GOOGL)
+        if doc_prefix and re.search(r"\b" + re.escape(doc_prefix.lower()) + r"\b", q_lower):
+            return True
+        # Check canonical corporate names
+        if c_name:
+            short_name = re.sub(
+                r",?\s*(?:Inc\.?|Corp\.?|Corporation|Company|Co\.?|Holdings|Group|International|Plc|LLC)\.?$",
+                "",
+                c_name,
+                flags=re.IGNORECASE,
+            ).strip()
+            if short_name and re.search(r"\b" + re.escape(short_name.lower()) + r"\b", q_lower):
+                return True
+            first_word = c_name.split()[0]
+            if len(first_word) > 2 and re.search(r"\b" + re.escape(first_word.lower()) + r"\b", q_lower):
+                return True
+
+        return False
+
     def resolve_query(
         self,
         query: str,
@@ -399,6 +434,7 @@ class CoreferenceResolver:
         """
         Resolves query-side coreference by identifying product brands, subsidiaries,
         or anaphoric pronouns and grounding them to the canonical corporate entity.
+        Avoids redundant expansion when the canonical parent company is already explicitly present.
         """
         if not query:
             return ResolvedQuery(
@@ -420,11 +456,24 @@ class CoreferenceResolver:
                 info = self.canonical_info.get(canon, {})
                 c_name = info.get("name", canon)
                 ticker = info.get("ticker", "")
-                
-                # Enrich query with explicit named entity antecedent
+
+                # Check if parent company is already explicitly mentioned in the query
+                if self.is_company_explicit(query, canon):
+                    return ResolvedQuery(
+                        original_query=query,
+                        enriched_query=query,
+                        canonical_company=canon,
+                        company_name=c_name,
+                        ticker=ticker,
+                        coreference_term=matched_term,
+                        coreference_type="direct_mention",
+                        is_coreference_resolved=False
+                    )
+
+                # Enrich query with explicit named entity antecedent for brand-only queries
                 entity_context = f"[Entity: {c_name} | Ticker: {ticker}]"
                 enriched = f"{query} {entity_context}"
-                
+
                 return ResolvedQuery(
                     original_query=query,
                     enriched_query=enriched,
