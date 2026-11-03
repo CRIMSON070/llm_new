@@ -27,6 +27,7 @@ from src.retrieval.financial_expander import (
     normalize_unicode,
     parse_doc_metadata,
 )
+from src.retrieval.coreference_resolver import CoreferenceResolver
 
 
 class Phase2Reranker:
@@ -95,6 +96,7 @@ class Phase2Reranker:
         filing_boost_weight: float = 0.5,
         table_boost_weight: float = 0.5,
         expander: Optional[FinancialQueryExpander] = None,
+        coref_resolver: Optional[CoreferenceResolver] = None,
     ):
         self.model_name = model_name
         self.reranker = FlagReranker(model_name, use_fp16=use_fp16, max_length=512)
@@ -105,6 +107,7 @@ class Phase2Reranker:
         self.filing_boost_weight = filing_boost_weight
         self.table_boost_weight = table_boost_weight
         self.expander = expander or FinancialQueryExpander()
+        self.coref_resolver = coref_resolver or CoreferenceResolver()
 
     def detect_query_statement_intent(self, query: str) -> Optional[str]:
         """Identifies if the user query explicitly requests a financial statement."""
@@ -218,9 +221,21 @@ class Phase2Reranker:
             if single_stmt:
                 target_statements = [single_stmt]
 
-        # Prepare normalized candidate texts for Cross-Encoder
-        # Pass full chunk text to FlagReranker (max_length=512 configured internally)
-        pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in candidates]
+        # Prepare normalized candidate texts for Cross-Encoder with Chunk-Level Coreference Resolution
+        # (Section 3.1 & Appendix A.6: resolves generic pronouns to explicit corporate antecedents)
+        pairs = [
+            [
+                norm_query,
+                normalize_unicode(
+                    self.coref_resolver.resolve_chunk_antecedents(
+                        chunk_text=c.get("text", ""),
+                        doc_name=c.get("doc_name", ""),
+                        section_heading=c.get("section_heading")
+                    )
+                )
+            ]
+            for c in candidates
+        ]
         raw_scores = self.reranker.compute_score(pairs, batch_size=8)
         if not isinstance(raw_scores, list):
             raw_scores = [raw_scores]

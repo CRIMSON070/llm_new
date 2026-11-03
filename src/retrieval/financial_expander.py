@@ -13,6 +13,8 @@ import unicodedata
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Any, Tuple
 
+from src.retrieval.coreference_resolver import CoreferenceResolver, ResolvedQuery
+
 
 def normalize_unicode(text: str) -> str:
     """
@@ -75,6 +77,11 @@ class FinancialExpansionResult:
     is_multi_statement: bool = False
     multi_statement_type: Optional[str] = None
     multi_statement_components: List[Dict[str, str]] = field(default_factory=list)
+    # Phase 4 Coreference Resolution Intelligence (Section 3.1 & Appendix A.6)
+    is_coreference_resolved: bool = False
+    coreference_term: Optional[str] = None
+    coreference_type: str = "none"
+    resolved_company_name: Optional[str] = None
 
 
 class FinancialQueryExpander:
@@ -714,8 +721,9 @@ class FinancialQueryExpander:
         ("store count", [r"\bstore\s*count\b", r"\bnumber\s*of\s*stores\b"]),
     ]
 
-    def __init__(self, enable_statement_detection: bool = True):
+    def __init__(self, enable_statement_detection: bool = True, coref_resolver: Optional[CoreferenceResolver] = None):
         self.enable_statement_detection = enable_statement_detection
+        self.coref_resolver = coref_resolver or CoreferenceResolver()
 
     def detect_company(self, query: str) -> Optional[str]:
         """Detect company name deterministically from query."""
@@ -727,10 +735,12 @@ class FinancialQueryExpander:
         Detect company name and ticker symbol deterministically from query.
         Returns (canonical_company_key, ticker_symbol) or (None, None).
         Orders matches by earliest position in the query to prioritize subject entities.
+        Includes product/brand/subsidiary coreference resolution (Section 3.1 & Appendix A.6).
         """
         q_norm = normalize_unicode(query)
         q_lower = q_norm.lower()
 
+        # 1. Direct Company Taxonomy Match
         matches = []
         for canon, meta in self.COMPANY_TAXONOMY.items():
             for p in meta["patterns"]:
@@ -743,7 +753,13 @@ class FinancialQueryExpander:
             matches.sort(key=lambda x: x[0])
             return matches[0][1], matches[0][2]
 
-        # General entity heuristics for unseen companies
+        # 2. Product Brand / Subsidiary / Drug Coreference Resolution
+        if self.coref_resolver:
+            coref_res = self.coref_resolver.resolve_query(q_norm)
+            if coref_res.is_coreference_resolved and coref_res.canonical_company:
+                return coref_res.canonical_company, coref_res.ticker
+
+        # 3. General entity heuristics for unseen companies
         possessive_match = re.search(r"\b([A-Z][a-zA-Z0-9]+(?:\s+[A-Z][a-zA-Z0-9]+)?)[’']s\b", q_norm)
         if possessive_match:
             cand = possessive_match.group(1).strip()
@@ -974,6 +990,17 @@ class FinancialQueryExpander:
                     if term not in expansion_terms:
                         expansion_terms.append(term)
 
+        # Coreference Resolution Check (Section 3.1 & Appendix A.6)
+        coref_res = self.coref_resolver.resolve_query(norm_query) if self.coref_resolver else None
+        is_coref = bool(coref_res and coref_res.is_coreference_resolved)
+        coref_term = coref_res.coreference_term if is_coref else None
+        coref_type = coref_res.coreference_type if is_coref else "none"
+        resolved_cname = coref_res.company_name if is_coref else None
+
+        if is_coref and not detected_company and coref_res.canonical_company:
+            detected_company = coref_res.canonical_company
+            detected_ticker = coref_res.ticker
+
         # Build augmented queries preserving original query
         dense_expansion_str = " | ".join(expansion_terms[:3]) if expansion_terms else ""
         dense_query = f"{norm_query} [Official Terms: {dense_expansion_str}]" if dense_expansion_str else norm_query
@@ -985,13 +1012,20 @@ class FinancialQueryExpander:
                 if len(word) > 2 and word.lower() not in {"and", "the", "for", "with", "from"}:
                     bm25_keywords.add(word)
 
+        if is_coref and detected_ticker and detected_ticker.lower() not in norm_query.lower():
+            bm25_keywords.add(detected_ticker)
+
         bm25_extra = " ".join(list(bm25_keywords)[:10])
-        bm25_query = f"{norm_query} {bm25_extra}".strip()
+        bm25_query = f"{norm_query} {bm25_extra}".strip() if bm25_extra else norm_query
 
         trace_log["detected_statement"] = detected_stmt
         trace_log["statement_confidence"] = stmt_conf
         trace_log["detected_intent"] = detected_intent
         trace_log["expansion_count"] = len(expansion_terms)
+        trace_log["is_coreference_resolved"] = is_coref
+        trace_log["coreference_term"] = coref_term
+        trace_log["coreference_type"] = coref_type
+        trace_log["resolved_company_name"] = resolved_cname
 
         return FinancialExpansionResult(
             original_query=query,
@@ -1013,5 +1047,9 @@ class FinancialQueryExpander:
             targeted_period_queries=targeted_queries,
             is_multi_statement=is_multi,
             multi_statement_type=multi_type,
-            multi_statement_components=multi_components
+            multi_statement_components=multi_components,
+            is_coreference_resolved=is_coref,
+            coreference_term=coref_term,
+            coreference_type=coref_type,
+            resolved_company_name=resolved_cname
         )
