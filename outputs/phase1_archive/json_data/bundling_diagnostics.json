@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-10-11T19:28:19",
+  "q1_diagnostics": {
+    "query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "gold_chunks": [
+      "3M_2018_10K_p46_c4",
+      "3M_2018_10K_p60_c1",
+      "3M_2018_10K_p49_c4"
+    ],
+    "lead_chunk": "3M_2018_10K_p60_c0",
+    "tau_85": {
+      "threshold": 0.85,
+      "bundle_cids": [
+        "3M_2018_10K_p60_c0"
+      ],
+      "p60_c1_retrieved": false,
+      "final_context_cids": [
+        "3M_2018_10K_p60_c0",
+        "3M_2023Q2_10Q_p72_c3",
+        "3M_2022_10K_p39_c4"
+      ],
+      "gold_in_context": false
+    },
+    "tau_70": {
+      "threshold": 0.7,
+      "bundle_cids": [
+        "3M_2018_10K_p60_c0",
+        "3M_2018_10K_p60_c1",
+        "3M_2018_10K_p60_c2",
+        "3M_2018_10K_p60_c3"
+      ],
+      "p60_c1_retrieved": true,
+      "final_context_cids": [
+        "3M_2018_10K_p60_c0",
+        "3M_2018_10K_p60_c1",
+        "3M_2018_10K_p60_c2",
+        "3M_2018_10K_p60_c3",
+        "3M_2023Q2_10Q_p72_c3"
+      ],
+      "gold_in_context": true,
+      "has_investing_activities": true,
+      "has_ppe_purchases_line": true,
+      "has_1577_value": true,
+      "generation_raw": "{\n  \"operation\": \"extract_single_value\",\n  \"value\": 1577,\n  \"explanation\": \"The value for 'Purchases of property, plant and equipment (PP&E)' in 2018 is $(1,577) million, which represents the capital expenditure for 3M in fiscal year 2018.\"\n}",
+      "parsed_json": {
+        "operation": "extract_single_value",
+        "value": 1577,
+        "explanation": "The value for 'Purchases of property, plant and equipment (PP&E)' in 2018 is $(1,577) million, which represents the capital expenditure for 3M in fiscal year 2018."
+      },
+      "generation_latency": 5.545
+    }
+  },
+  "smoke_test_q2_q6": [
+    {
+      "qid": "Q2",
+      "query": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+      "top3_leads": [
+        "3M_2018_10K_p58_c1",
+        "3M_2018_10K_p58_c0",
+        "3M_2023Q2_10Q_p5_c0"
+      ],
+      "bundled_context_cids": [
+        "3M_2018_10K_p58_c1",
+        "3M_2018_10K_p58_c2",
+        "3M_2018_10K_p59_c0",
+        "3M_2018_10K_p59_c1",
+        "3M_2018_10K_p59_c2"
+      ],
+      "gold_chunks": [
+        "3M_2018_10K_mm_58_1",
+        "3M_2018_10K_p58_c1",
+        "3M_2018_10K_p58_c0"
+      ],
+      "gold_in_bundled_context": true
+    },
+    {
+      "qid": "Q3",
+      "query": "Which debt securities are registered to trade on a national securities exchange under Ulta Beauty's name as of FY2023?",
+      "top3_leads": [
+        "3M_2023Q2_10Q_p1_c1",
+        "PEPSICO_2023_8K_dated-2023-05-30_p1_c1",
+        "MICROSOFT_2023_10K_p1_c0"
+      ],
+      "bundled_context_cids": [
+        "3M_2023Q2_10Q_p1_c1",
+        "PEPSICO_2023_8K_dated-2023-05-30_p1_c1",
+        "PEPSICO_2023_8K_dated-2023-05-30_p1_c2",
+        "MICROSOFT_2023_10K_p1_c0"
+      ],
+      "gold_chunks": [
+        "ULTABEAUTY_2023_10K_p1_c1",
+        "ULTABEAUTY_2023_10K_p1_c0"
+      ],
+      "gold_in_bundled_context": false
+    },
+    {
+      "qid": "Q4",
+      "query": "What are major acquisitions that Ulta Beauty has done in FY2023 and FY2022?",
+      "top3_leads": [
+        "ULTABEAUTY_2023_10K_p55_c0",
+        "ULTABEAUTY_2023_10K_p54_c0",
+        "ULTABEAUTY_2023_10K_p59_c0"
+      ],
+      "bundled_context_cids": [
+        "ULTABEAUTY_2023_10K_p55_c0",
+        "ULTABEAUTY_2023_10K_p56_c0",
+        "ULTABEAUTY_2023_10K_p57_c0",
+        "ULTABEAUTY_2023_10K_p54_c0",
+        "ULTABEAUTY_2023_10K_p59_c0"
+      ],
+      "gold_chunks": [
+        "ULTABEAUTY_2023Q4_EARNINGS_p1_c2",
+        "ULTABEAUTY_2023Q4_EARNINGS_mm_1_1",
+        "ULTABEAUTY_2023_10K_p57_c0"
+      ],
+      "gold_in_bundled_context": true
+    },
+    {
+      "qid": "Q5",
+      "query": "Based on the statements of income, what is the absolute difference in net sales for 3M from 2017 to 2018? Also calculate the percentage change.",
+      "top3_leads": [
+        "3M_2018_10K_p56_c0",
+        "WALMART_2018_10K_p41_c1",
+        "3M_2018_10K_p21_c2"
+      ],
+      "bundled_context_cids": [
+        "3M_2018_10K_p56_c0",
+        "3M_2018_10K_p56_c1",
+        "3M_2018_10K_p57_c0",
+        "3M_2018_10K_p58_c0",
+        "3M_2018_10K_p58_c1"
+      ],
+      "gold_chunks": [
+        "3M_2018_10K_p127_c1",
+        "3M_2018_10K_p56_c0"
+      ],
+      "gold_in_bundled_context": true
+    },
+    {
+      "qid": "Q6",
+      "query": "What is the difference between Ulta Beauty's merchandise inventories at the end of FY2023 and the end of FY2022?",
+      "top3_leads": [
+        "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+        "ULTABEAUTY_2023_10K_p54_c0",
+        "ULTABEAUTY_2023Q4_EARNINGS_p8_c0"
+      ],
+      "bundled_context_cids": [
+        "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+        "ULTABEAUTY_2023_10K_p54_c0",
+        "ULTABEAUTY_2023Q4_EARNINGS_p8_c0"
+      ],
+      "gold_chunks": [
+        "ULTABEAUTY_2023_10K_p41_c3",
+        "ULTABEAUTY_2023_10K_p57_c0"
+      ],
+      "gold_in_bundled_context": false
+    }
+  ]
+}

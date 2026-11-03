@@ -1,0 +1,15 @@
+{
+  "run_label": "Experiment_H1a_Depth100",
+  "dense_depth": 100,
+  "pool_size": 50,
+  "num_questions": 150,
+  "runtime_seconds": 30.15,
+  "mrr": 0.3469,
+  "recall_at_1": 23.33,
+  "recall_at_3": 41.33,
+  "recall_at_5": 50.67,
+  "recall_at_10": 60.0,
+  "candidate_pool_recall": 73.33,
+  "candidate_pool_hits": 110,
+  "top10_hits": 90
+}

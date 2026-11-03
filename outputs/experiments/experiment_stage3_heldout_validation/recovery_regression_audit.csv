@@ -1,0 +1,1 @@
+question_id,company,sector,question_type,statement_intents,exp_f_pool_hit,h2_1_pool_hit,pool_transition,exp_f_rank,h2_1_rank,top10_transition,exp_f_mrr,h2_1_mrr,mrr_delta,injected_chunks_count,displaced_chunks_count

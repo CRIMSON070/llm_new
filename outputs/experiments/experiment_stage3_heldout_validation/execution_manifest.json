@@ -1,0 +1,101 @@
+{
+  "experiment_name": "Stage 3 — Independent Held-Out Validation",
+  "milestone": "Frozen Comparative Benchmark Evaluation Completed",
+  "timestamp": "2026-11-02T20:10:00+05:30",
+  "workspace_root": "c:\\Users\\user\\Downloads\\finsage-main",
+  "output_directory": "outputs/experiments/experiment_stage3_heldout_validation",
+  "isolated_data_directory": "data/heldout_stage3",
+  "execution_status": "EVALUATION_COMPLETED",
+  "readiness_verdict": "FROZEN COMPARATIVE BENCHMARK EXECUTED & AUDITED — RESULTS ARCHIVED",
+  "environment": {
+    "python_executable": "C:\\Users\\user\\miniconda3\\envs\\finsage\\python.exe",
+    "torch_device": "cuda",
+    "gpu_hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "cuda_available": true
+  },
+  "dataset_fingerprints": {
+    "heldout_questions_jsonl_sha256": "1B75376BFE803A85B600A66FB3F9609E7C9097BB96875B0A3C407FA7883F41E2",
+    "heldout_enriched_chunks_jsonl_sha256": "EA4264F5D7E889D30FC4EE9147E7286B67FFA76300967FEE3651002974062845",
+    "faiss_index_file_sha256": "E78C7F801C33840C936303277D600431439E8356D965FE35C0D3098673A3AE59"
+  },
+  "phase_milestones": {
+    "phase_a_audit_and_plan": "COMPLETED",
+    "phase_b_dataset_construction": "COMPLETED",
+    "phase_c_indexing_and_runner_preparation": "COMPLETED",
+    "phase_d_ingestion_and_evidence_verification": "COMPLETED",
+    "final_frozen_benchmark_evaluation": "COMPLETED"
+  },
+  "dataset_inventory": {
+    "companies_count": 20,
+    "sec_filings_count": 40,
+    "filing_type": "Form 10-K (Annual)",
+    "fiscal_years": [2023, 2024],
+    "gics_sectors_covered": 7,
+    "total_pdf_pages_compiled": 17751,
+    "total_enriched_chunks": 29335,
+    "table_continuations_enriched": 504,
+    "questions_count": 100,
+    "question_stratification": {
+      "single_statement_financial": 40,
+      "multi_statement_and_ratios": 20,
+      "qualitative_mnda_and_risks": 40
+    },
+    "annotation_status": {
+      "verified_with_physical_pdf_pages": 100,
+      "pending_expert_annotation": 0,
+      "questions_corrected_during_audit": 2,
+      "questions_excluded": 0
+    },
+    "overlap_with_development_benchmark": {
+      "companies_overlap": 0,
+      "filings_overlap": 0,
+      "questions_overlap": 0,
+      "overlap_rate_percent": 0.0
+    }
+  },
+  "benchmark_summary_results": {
+    "num_questions": 100,
+    "reference_exp_f": {
+      "candidate_pool_recall": 30.00,
+      "recall_at_1": 7.00,
+      "recall_at_3": 12.00,
+      "recall_at_5": 16.00,
+      "recall_at_10": 20.00,
+      "mrr": 0.1050,
+      "runtime_seconds": 18.00
+    },
+    "candidate_h2_1": {
+      "candidate_pool_recall": 30.00,
+      "recall_at_1": 7.00,
+      "recall_at_3": 12.00,
+      "recall_at_5": 16.00,
+      "recall_at_10": 20.00,
+      "mrr": 0.1050,
+      "runtime_seconds": 17.40
+    },
+    "deltas": {
+      "candidate_pool_recall_delta": 0.00,
+      "recall_at_1_delta": 0.00,
+      "recall_at_3_delta": 0.00,
+      "recall_at_5_delta": 0.00,
+      "recall_at_10_delta": 0.00,
+      "mrr_delta": 0.0000,
+      "recoveries": 0,
+      "regressions": 0,
+      "ties": 100
+    },
+    "statistical_tests": {
+      "mcnemar_p_value": 1.0,
+      "wilcoxon_p_value": 1.0
+    }
+  },
+  "protected_file_hashes_verified": {
+    "src/retrieval/phase2_reranker.py": "5C06B4DAD24079913434E64790C1D13541BD4D70B1EA4CE1C05360174A6784B9",
+    "scripts/run_phase2_benchmark.py": "945F9303A07C7696C124C0DE68C4C17D6F459931F530402C487EEDDAAE2528F1",
+    "outputs/experiments/experiment_C_company_intent/source_backup/phase2_reranker.py": "6CB436535D49209371AD07A4AAC75D30084AA4412EA41EE459EB3500630006ED",
+    "outputs/experiments/experiment_F_period_aware/experiment/phase2_retrieval_checkpoint.jsonl": "411C83B116E45C163C73A5B00DA74284F30C55D78B084204956BF8D3388F3F9C",
+    "outputs/experiments/experiment_H2_statement_aware/scorecard.json": "2771230871C9987A68E352AACFBD5F96ACD3B73BEC565D74593173BAD05793F2",
+    "outputs/experiments/experiment_H2_statement_aware/phase2_retrieval_checkpoint.jsonl": "E531F121A6FA61D6DD9A6ECBB28E358BFC338C8DB57B6D4E6E8A8C3CD5F7B26F",
+    "outputs/experiments/experiment_H2_1_correctness_fixes/scorecard.json": "ABE5D232617F93EE852BC3CC349A87D9624936B4FE5A9B7D42EF92D13CC753DC"
+  }
+}

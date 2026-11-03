@@ -1,0 +1,46 @@
+{
+  "benchmark": "Stage 3 Held-Out",
+  "dataset_size": 100,
+  "candidate_pool_size": 40,
+  "baseline_metrics": {
+    "total_questions": 100,
+    "k_pool": 40,
+    "pool_recall": 25.0,
+    "pool_hits": 25,
+    "recall_at_10": 16.0,
+    "hits_at_10": 16,
+    "recall_at_5": 11.0,
+    "hits_at_5": 11,
+    "recall_at_1": 4.0,
+    "hits_at_1": 4,
+    "mrr": 0.0756,
+    "no_relevant_candidate_count": 75,
+    "in_pool_outside_10_count": 9,
+    "avg_latency_sec": 0.0494,
+    "avg_candidate_count": 36.5
+  },
+  "phase3_metrics": {
+    "total_questions": 100,
+    "k_pool": 40,
+    "pool_recall": 26.0,
+    "pool_hits": 26,
+    "recall_at_10": 13.0,
+    "hits_at_10": 13,
+    "recall_at_5": 9.0,
+    "hits_at_5": 9,
+    "recall_at_1": 2.0,
+    "hits_at_1": 2,
+    "mrr": 0.0551,
+    "no_relevant_candidate_count": 74,
+    "in_pool_outside_10_count": 13,
+    "avg_latency_sec": 0.0835,
+    "avg_candidate_count": 37.8
+  },
+  "delta": {
+    "pool_recall_delta": 1.0,
+    "recall_at_10_delta": -3.0,
+    "recall_at_5_delta": -2.0,
+    "mrr_delta": -0.0205,
+    "latency_delta_sec": 0.0341
+  }
+}

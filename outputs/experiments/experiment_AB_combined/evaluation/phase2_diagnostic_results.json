@@ -1,0 +1,255 @@
+[
+  {
+    "qid": "Q1",
+    "query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "gold_answer": "$1,577 million",
+    "gold_chunks": [
+      "3M_2018_10K_p60_c1"
+    ],
+    "best_gold_rank": 1,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "3M_2018_10K_p60_c1",
+      "3M_2018_10K_p60_c0",
+      "3M_2018_10K_p46_c3"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p60_c1",
+      "3M_2018_10K_p60_c2",
+      "3M_2018_10K_p60_c3",
+      "3M_2018_10K_p61_c0",
+      "3M_2018_10K_p61_c1"
+    ],
+    "generated_text": "{\n  \"operation\": \"extract_single_value\",\n  \"operands\": [1577],\n  \"unit\": \"USD millions\",\n  \"explanation\": \"The capital expenditure amount for 3M in FY2018 is extracted from the 'Purchases of property, plant and equipment (PP&E)' line item, which is (1,577) million USD.\"\n}",
+    "parsed_json": {
+      "operation": "extract_single_value",
+      "operands": [
+        1577
+      ],
+      "unit": "USD millions",
+      "explanation": "The capital expenditure amount for 3M in FY2018 is extracted from the 'Purchases of property, plant and equipment (PP&E)' line item, which is (1,577) million USD."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "extract_single_value",
+      "value": 1577.0,
+      "formatted": "1,577",
+      "unit": "USD millions"
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 18.44
+  },
+  {
+    "qid": "Q2",
+    "query": "What is the FY2018 net property, plant, and equipment (in USD billions) for 3M? Give a response to the question by relying on the details shown in the balance sheet.",
+    "gold_answer": "$8.738 billion (or $8,738 million)",
+    "gold_chunks": [
+      "3M_2018_10K_p58_c1"
+    ],
+    "best_gold_rank": 1,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "3M_2018_10K_p58_c1",
+      "3M_2018_10K_p44_c2",
+      "3M_2018_10K_p44_c3"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p58_c1",
+      "3M_2018_10K_p58_c2",
+      "3M_2018_10K_p59_c0",
+      "3M_2018_10K_p59_c1",
+      "3M_2018_10K_p59_c2"
+    ],
+    "generated_text": "{\n  \"operation\": \"extract_single_value\",\n  \"operands\": [8738],\n  \"unit\": \"USD millions\",\n  \"explanation\": \"The value for property, plant and equipment \u2014 net in 2018 is 8,738 USD millions. To convert to USD billions, we divide by 1000, resulting in 8.738 USD billions.\"\n}",
+    "parsed_json": {
+      "operation": "extract_single_value",
+      "operands": [
+        8738
+      ],
+      "unit": "USD millions",
+      "explanation": "The value for property, plant and equipment \u2014 net in 2018 is 8,738 USD millions. To convert to USD billions, we divide by 1000, resulting in 8.738 USD billions."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "extract_single_value",
+      "value": 8738.0,
+      "formatted": "8,738",
+      "unit": "USD millions"
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 10.84
+  },
+  {
+    "qid": "Q3",
+    "query": "Does Ulta Beauty have any registered debt securities as of FY 2023? Answer with details from the 10-K cover page.",
+    "gold_answer": "No registered debt securities (There are none)",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c1"
+    ],
+    "best_gold_rank": 6,
+    "gold_in_context": false,
+    "top3_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c0",
+      "ULTABEAUTY_2023_10K_p50_c0",
+      "ULTABEAUTY_2023_10K_p56_c0"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c0",
+      "ULTABEAUTY_2023_10K_p50_c0",
+      "ULTABEAUTY_2023_10K_p50_c1",
+      "ULTABEAUTY_2023_10K_p56_c0",
+      "ULTABEAUTY_2023_10K_p57_c0"
+    ],
+    "generated_text": "{\n  \"operation\": \"none\",\n  \"operands\": [],\n  \"unit\": \"none\",\n  \"explanation\": \"The provided 10-K cover page does not mention any registered debt securities for Ulta Beauty, Inc. The information focuses on the company's registration details and does not include financial information about debt securities.\"\n}",
+    "parsed_json": {
+      "operation": "none",
+      "operands": [],
+      "unit": "none",
+      "explanation": "The provided 10-K cover page does not mention any registered debt securities for Ulta Beauty, Inc. The information focuses on the company's registration details and does not include financial information about debt securities."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "none",
+      "value": null,
+      "formatted": "None",
+      "unit": "none"
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 11.09
+  },
+  {
+    "qid": "Q4",
+    "query": "Did Ulta Beauty make any major acquisitions in FY 2022 or FY 2023? Answer based on the notes to consolidated financial statements.",
+    "gold_answer": "No major acquisitions made in FY 2022 or FY 2023",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p57_c0"
+    ],
+    "best_gold_rank": 9,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "ULTABEAUTY_2023_10K_p55_c0",
+      "ULTABEAUTY_2023_10K_p56_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c0"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023_10K_p55_c0",
+      "ULTABEAUTY_2023_10K_p56_c0",
+      "ULTABEAUTY_2023_10K_p57_c0",
+      "ULTABEAUTY_2023_10K_p57_c1",
+      "ULTABEAUTY_2023_10K_p57_c2"
+    ],
+    "generated_text": "{\n  \"operation\": \"none\",\n  \"operands\": [],\n  \"unit\": \"none\",\n  \"explanation\": \"The provided context does not contain any information about specific acquisitions made by Ulta Beauty in fiscal years 2022 or 2023. The only mention of acquisitions is in the 2021 period, where it states 'Acquisitions, net of cash acquired \u2014 \u2014 (1,220)', indicating a net cash outflow of $1,220 thousand due to acquisitions in 2021.\"\n}",
+    "parsed_json": {
+      "operation": "none",
+      "operands": [],
+      "unit": "none",
+      "explanation": "The provided context does not contain any information about specific acquisitions made by Ulta Beauty in fiscal years 2022 or 2023. The only mention of acquisitions is in the 2021 period, where it states 'Acquisitions, net of cash acquired \u2014 \u2014 (1,220)', indicating a net cash outflow of $1,220 thousand due to acquisitions in 2021."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "none",
+      "value": null,
+      "formatted": "None",
+      "unit": "none"
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 11.55
+  },
+  {
+    "qid": "Q5",
+    "query": "What was the difference in 3M's net sales between FY2017 and FY2018 in USD millions? Use the consolidated statement of income.",
+    "gold_answer": "$1,108 million increase (+3.5%)",
+    "gold_chunks": [
+      "3M_2018_10K_p56_c0"
+    ],
+    "best_gold_rank": 2,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "3M_2018_10K_p14_c0",
+      "3M_2018_10K_p56_c0",
+      "3M_2018_10K_p127_c2"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p14_c0",
+      "3M_2018_10K_p14_c1",
+      "3M_2018_10K_p56_c0",
+      "3M_2018_10K_p56_c1",
+      "3M_2018_10K_p57_c0"
+    ],
+    "generated_text": "{\n  \"operation\": \"absolute_difference\",\n  \"operands\": [32765.0, 31657.0],\n  \"unit\": \"USD millions\",\n  \"explanation\": \"The net sales for FY2018 was $32,765 million and for FY2017 was $31,657 million. The absolute difference between these two values is calculated to find the change in net sales.\"\n}",
+    "parsed_json": {
+      "operation": "absolute_difference",
+      "operands": [
+        32765.0,
+        31657.0
+      ],
+      "unit": "USD millions",
+      "explanation": "The net sales for FY2018 was $32,765 million and for FY2017 was $31,657 million. The absolute difference between these two values is calculated to find the change in net sales."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "absolute_difference",
+      "operands": [
+        32765.0,
+        31657.0
+      ],
+      "value": 1108.0,
+      "formatted": "1,108",
+      "unit": "USD millions"
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 11.52
+  },
+  {
+    "qid": "Q6",
+    "query": "What is the difference between merchandise inventories in FY2023 and FY2022 for Ulta Beauty in USD thousands? Rely on the balance sheet or notes.",
+    "gold_answer": "$178,574 thousand increase (or $104,233 thousand footnote difference)",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p57_c0",
+      "ULTABEAUTY_2023_10K_p39_c2"
+    ],
+    "best_gold_rank": 18,
+    "gold_in_context": false,
+    "top3_chunks": [
+      "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+      "ULTABEAUTY_2023_10K_p54_c0",
+      "ULTABEAUTY_2023_10K_p41_c3"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c1",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c2",
+      "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p7_c1",
+      "ULTABEAUTY_2023Q4_EARNINGS_p8_c0"
+    ],
+    "generated_text": "{\n  \"operation\": \"absolute_difference\",\n  \"operands\": [164161, 1499218],\n  \"unit\": \"USD thousands\",\n  \"explanation\": \"The merchandise inventories for 2023 is 1,603,451 USD thousands and for 2022 is 1,499,218 USD thousands. The absolute difference between these two values is 164,161 USD thousands.\"\n}",
+    "parsed_json": {
+      "operation": "absolute_difference",
+      "operands": [
+        164161,
+        1499218
+      ],
+      "unit": "USD thousands",
+      "explanation": "The merchandise inventories for 2023 is 1,603,451 USD thousands and for 2022 is 1,499,218 USD thousands. The absolute difference between these two values is 164,161 USD thousands."
+    },
+    "arithmetic_evaluation": {
+      "success": true,
+      "operation": "absolute_difference",
+      "operands": [
+        164161.0,
+        1499218.0
+      ],
+      "value": 1335057.0,
+      "formatted": "1,335,057",
+      "unit": "USD thousands"
+    },
+    "semantic_correct": false,
+    "numeric_correct": false,
+    "latency_seconds": 12.82
+  }
+]

@@ -1,0 +1,151 @@
+question_id,company,ref_pool_hit,h1a_pool_hit,h1b_pool_hit,h1a_jaccard_sim,h1b_jaccard_sim,h1a_new_chunk_count,h1b_new_chunk_count,h1a_displaced_chunk_count,h1b_displaced_chunk_count
+financebench_id_03029,3M,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_04672,3M,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00499,3M,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01226,3M,0,0,0,0.9231,0.9231,2,2,2,2
+financebench_id_01865,3M,0,0,0,0.9608,0.9231,1,2,1,2
+financebench_id_00807,3M,1,1,1,0.6949,0.6949,9,9,9,9
+financebench_id_00941,3M,1,1,1,0.5625,0.4925,14,17,14,17
+financebench_id_01858,3M,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_02987,Activision Blizzard,0,0,0,0.9608,0.9608,1,1,1,1
+financebench_id_07966,Activision Blizzard,1,1,1,0.8519,0.8182,4,5,4,5
+financebench_id_04735,Adobe,1,1,1,0.6393,0.5152,11,16,11,16
+financebench_id_07507,Adobe,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_03856,Adobe,1,1,1,0.6667,0.6129,10,12,10,12
+financebench_id_00438,Adobe,0,0,0,0.7857,0.7857,6,6,6,6
+financebench_id_00591,Adobe,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01319,AES Corporation,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00540,AES Corporation,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_10420,AES Corporation,0,0,0,0.9608,0.9608,1,1,1,1
+financebench_id_06655,Amazon,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_08135,Amazon,1,1,1,1.0,0.9608,0,1,0,1
+financebench_id_08286,Amazon,1,1,1,0.6393,0.6393,11,11,11,11
+financebench_id_03882,Amcor,1,1,1,0.6949,0.6949,9,9,9,9
+financebench_id_01935,Amcor,1,1,1,0.8519,0.6129,4,12,4,12
+financebench_id_00799,Amcor,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_01079,Amcor,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_01148,Amcor,1,1,1,0.9608,0.8519,1,4,1,4
+financebench_id_00684,Amcor,0,0,0,0.8519,0.8519,4,4,4,4
+financebench_id_01936,Amcor,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01928,Amcor,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_01930,Amcor,1,1,1,0.9608,0.9231,1,2,1,2
+financebench_id_03069,AMD,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00222,AMD,1,1,1,0.9608,0.8868,1,3,1,3
+financebench_id_00995,AMD,1,1,1,0.7857,0.6949,6,9,6,9
+financebench_id_01198,AMD,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00917,AMD,1,1,1,0.8519,0.6949,4,9,4,9
+financebench_id_01279,AMD,1,1,1,0.9608,0.8868,1,3,1,3
+financebench_id_00563,AMD,0,0,0,0.8868,0.8182,3,5,3,5
+financebench_id_00757,AMD,1,0,0,0.5873,0.5152,13,16,13,16
+financebench_id_00476,American Express,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_01028,American Express,0,0,0,0.7544,0.7241,7,8,7,8
+financebench_id_00723,American Express,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00720,American Express,1,1,1,0.8519,0.8519,4,4,4,4
+financebench_id_01351,American Express,0,0,0,0.9608,0.9608,1,1,1,1
+financebench_id_01964,American Express,0,0,0,1.0,0.9231,0,2,0,2
+financebench_id_01981,American Express,1,1,0,0.9231,0.7544,2,7,2,7
+financebench_id_05718,American Water Works,1,1,1,0.6949,0.6949,9,9,9,9
+financebench_id_04254,American Water Works,1,1,1,0.5625,0.5625,14,14,14,14
+financebench_id_00070,American Water Works,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_02608,Best Buy,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_04417,Best Buy,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00685,Best Buy,0,0,0,0.8868,0.7857,3,6,3,6
+financebench_id_01077,Best Buy,0,0,0,0.9231,0.8868,2,3,2,3
+financebench_id_01275,Best Buy,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00288,Best Buy,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00460,Best Buy,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01902,Best Buy,1,1,1,0.7857,0.6667,6,10,6,10
+financebench_id_04660,Block,0,0,1,0.6667,0.6667,10,10,10,10
+financebench_id_03838,Block,1,1,1,0.6393,0.6393,11,11,11,11
+financebench_id_07661,Block,1,1,1,0.6393,0.6393,11,11,11,11
+financebench_id_10285,Boeing,1,1,1,0.6129,0.5873,12,13,12,13
+financebench_id_00517,Boeing,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01091,Boeing,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_00678,Boeing,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_01290,Boeing,0,0,0,0.9608,0.9231,1,2,1,2
+financebench_id_00464,Boeing,0,0,0,0.8519,0.8182,4,5,4,5
+financebench_id_00494,Boeing,1,1,1,0.6129,0.3889,12,22,12,22
+financebench_id_00585,Boeing,1,1,1,1.0,0.9231,0,2,0,2
+financebench_id_03473,Coca-Cola,1,1,1,1.0,0.9231,0,2,0,2
+financebench_id_09724,Coca-Cola,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_06272,Coca-Cola,1,1,1,1.0,0.9231,0,2,0,2
+financebench_id_10130,Corning,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_02981,Corning,1,1,1,0.9608,0.9231,1,2,1,2
+financebench_id_01346,Corning,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00005,Corning,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_04209,Costco,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_05915,CVS Health,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00790,CVS Health,1,1,1,0.9608,0.8868,1,3,1,3
+financebench_id_01107,CVS Health,1,1,1,0.9231,0.7241,2,8,2,8
+financebench_id_01244,CVS Health,1,1,1,0.8868,0.8519,3,4,3,4
+financebench_id_00839,Foot Locker,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_00822,Foot Locker,1,1,1,0.8519,0.7544,4,7,4,7
+financebench_id_04103,General Mills,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_03471,General Mills,1,1,1,0.8519,0.8519,4,4,4,4
+financebench_id_04854,General Mills,1,1,1,0.8868,0.8868,3,3,3,3
+financebench_id_10136,General Mills,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00956,Johnson & Johnson,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00669,Johnson & Johnson,0,0,0,0.7544,0.7544,7,7,7,7
+financebench_id_00711,Johnson & Johnson,0,0,0,0.9608,0.9608,1,1,1,1
+financebench_id_00651,Johnson & Johnson,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_01484,Johnson & Johnson,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01488,Johnson & Johnson,1,1,1,0.9608,0.8868,1,3,1,3
+financebench_id_01490,Johnson & Johnson,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01491,Johnson & Johnson,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01487,Johnson & Johnson,1,1,1,0.8868,0.8868,3,3,3,3
+financebench_id_00299,JPMorgan,0,0,0,0.5873,0.4706,13,18,13,18
+financebench_id_02119,JPMorgan,0,0,0,0.6949,0.6949,9,9,9,9
+financebench_id_00206,JPMorgan,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00394,JPMorgan,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_02049,JPMorgan,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_10499,Kraft Heinz,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_04412,Lockheed Martin,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_03031,Lockheed Martin,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_03718,Lockheed Martin,1,1,1,0.8182,0.7241,5,8,5,8
+financebench_id_04171,MGM Resorts,1,1,1,0.7857,0.7857,6,6,6,6
+financebench_id_03849,MGM Resorts,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01254,MGM Resorts,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00382,MGM Resorts,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01911,MGM Resorts,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01912,MGM Resorts,1,1,1,1.0,0.9608,0,1,0,1
+financebench_id_00407,MGM Resorts,1,1,1,0.8868,0.8868,3,3,3,3
+financebench_id_04700,Microsoft,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00552,Microsoft,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_04458,Netflix,1,1,1,0.7544,0.5152,7,16,7,16
+financebench_id_03282,Netflix,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_04302,Nike,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_03531,Nike,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_04080,Nike,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01163,Nike,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_00080,Paypal,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_04980,PepsiCo,1,1,1,0.6129,0.6129,12,12,12,12
+financebench_id_01009,PepsiCo,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00735,PepsiCo,0,0,0,0.9608,0.9608,1,1,1,1
+financebench_id_01328,PepsiCo,1,1,1,0.5625,0.4493,14,19,14,19
+financebench_id_03620,PepsiCo,1,1,1,0.6129,0.6129,12,12,12,12
+financebench_id_04481,PepsiCo,1,1,1,0.5873,0.5873,13,13,13,13
+financebench_id_01482,PepsiCo,1,1,1,0.9608,0.9608,1,1,1,1
+financebench_id_00705,PepsiCo,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00882,PepsiCo,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_01474,PepsiCo,1,1,1,0.5385,0.4493,15,19,15,19
+financebench_id_01476,PepsiCo,1,1,1,0.6949,0.6949,9,9,9,9
+financebench_id_00302,Pfizer,0,0,0,0.8868,0.7544,3,7,3,7
+financebench_id_00702,Pfizer,1,1,1,0.6949,0.4493,9,19,9,19
+financebench_id_02416,Pfizer,1,1,1,0.9608,0.8868,1,3,1,3
+financebench_id_00283,Pfizer,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00724,Pfizer,1,1,1,0.9231,0.8868,2,3,2,3
+financebench_id_02419,Pfizer,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_00746,Ulta Beauty,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_00521,Ulta Beauty,1,0,0,0.6393,0.5873,11,13,11,13
+financebench_id_00601,Ulta Beauty,1,1,1,0.8182,0.8182,5,5,5,5
+financebench_id_00603,Ulta Beauty,0,0,0,0.6949,0.6667,9,10,9,10
+financebench_id_00605,Ulta Beauty,1,1,1,0.9608,0.9231,1,2,1,2
+financebench_id_00606,Ulta Beauty,1,1,1,0.9608,0.8519,1,4,1,4
+financebench_id_00859,Verizon,1,1,1,0.9231,0.9231,2,2,2,2
+financebench_id_02024,Verizon,1,1,1,0.8182,0.8182,5,5,5,5
+financebench_id_00216,Verizon,0,0,0,1.0,1.0,0,0,0,0
+financebench_id_00215,Verizon,0,0,0,0.9231,0.8519,2,4,2,4
+financebench_id_00566,Verizon,0,0,0,0.9608,0.7857,1,6,1,6
+financebench_id_06247,Walmart,1,1,1,1.0,1.0,0,0,0,0
+financebench_id_04784,Walmart,1,1,1,1.0,0.9608,0,1,0,1
+financebench_id_06741,Walmart,1,1,1,0.9608,0.8868,1,3,1,3

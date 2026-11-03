@@ -1,0 +1,69 @@
+{
+  "benchmark": "FinanceBench 150 Questions across 84 SEC Filings",
+  "analyzed_experiment": "Experiment C (Full-Universe Company Intent Detection & Boosting)",
+  "verified_metrics": {
+    "total_questions": 150,
+    "hits_rank_1": 38,
+    "recall_at_1_pct": 25.33,
+    "hits_top_3": 63,
+    "recall_at_3_pct": 42.0,
+    "hits_top_5": 72,
+    "recall_at_5_pct": 48.0,
+    "hits_top_10": 86,
+    "recall_at_10_pct": 57.33,
+    "candidate_pool_hits": 103,
+    "candidate_pool_recall_pct": 68.67,
+    "macro_mrr": 0.3513
+  },
+  "miss_set_analysis": {
+    "total_failures_rank_gt_10": 64,
+    "failure_rate_pct": 42.67,
+    "primary_failure_categories": {
+      "candidate_generation_failure": {
+        "count": 47,
+        "pct_of_failures": 73.44,
+        "pct_of_benchmark": 31.33
+      },
+      "ranking_failure": {
+        "count": 17,
+        "pct_of_failures": 26.56,
+        "pct_of_benchmark": 11.33
+      },
+      "document_extraction_failure": {
+        "count": 0,
+        "pct_of_failures": 0.0,
+        "note": "100% of target pages (74/74 unique pages) have valid extracted chunks in phase2_enriched_chunks.jsonl."
+      },
+      "gold_label_or_mapping_issue": {
+        "count": 0,
+        "pct_of_failures": 0.0,
+        "note": "All target page numbers correspond to valid physical pages within existing PDF bounds."
+      },
+      "context_assembly_failure": {
+        "count": 0,
+        "pct_of_failures": 0.0,
+        "note": "Context bundling occurs post-retrieval; not the root cause of Top-10 retrieval ranking failure."
+      }
+    },
+    "secondary_contributing_factors": {
+      "Cross-encoder 512-character context truncation": 17,
+      "Query-understanding failure (statement intent unrouted)": 16,
+      "Cross-statement multi-page requirement": 14,
+      "Query-understanding failure (fiscal year / filing confusion)": 27,
+      "Lexical-semantic gap in sparse/dense retrieval": 15
+    },
+    "gold_evidence_integrity": {
+      "total_unique_target_pages_in_failures": 74,
+      "target_pages_with_chunks": 74,
+      "target_pages_with_zero_chunks": 0,
+      "pdfs_verified_on_disk": 39
+    },
+    "feasibility_assessment_bge_vs_gemma_reranker": {
+      "rerun_candidate_generation_needed_for_full_150": true,
+      "reason": "phase2_retrieval_checkpoint.jsonl only persisted Top 3 retrieved chunks, not the full 50 candidate pool chunk IDs. The 50 candidates per question must be retrieved using the frozen indexes before scoring with Gemma DPO.",
+      "adapter_weights_available": true,
+      "adapter_path": "outputs/phase1_drr_adapter/adapter_model.safetensors",
+      "controlled_comparison_feasible": true
+    }
+  }
+}

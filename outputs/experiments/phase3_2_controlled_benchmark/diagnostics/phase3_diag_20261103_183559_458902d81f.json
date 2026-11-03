@@ -1,0 +1,330 @@
+{
+  "timestamp": "20261103_183559",
+  "original_query": "What was Alphabet's free cash flow in fiscal year 2024?",
+  "extracted_intelligence": {
+    "detected_company": "GOOGLE",
+    "detected_metric": "free cash flow",
+    "detected_statement": null,
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2024"
+    ],
+    "detected_operation": "extract_single_value"
+  },
+  "generated_search_queries": {
+    "dense_query": "What was Alphabet's free cash flow in fiscal year 2024?",
+    "bm25_query": "What was Alphabet's free cash flow in fiscal year 2024?",
+    "targeted_period_queries": [
+      "GOOGLE free cash flow 2024"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "GOOGL_2024_10K_p237_c0",
+        "GOOGL_2024_10K_p156_c0",
+        "GOOGL_2024_10K_p114_c0"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "PG_2024_10K_p89_c0",
+        "PG_2024_10K_p73_c1",
+        "PG_2023_10K_p92_c0"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "GOOGL_2024_10K_p108_c1",
+        "AVGO_2023_10K_p66_c0",
+        "GOOGL_2024_10K_p96_c0"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "PG_2024_10K_p89_c0",
+        "PG_2023_10K_p92_c0",
+        "PG_2024_10K_p73_c1"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_period_1",
+      "sparse_period_1"
+    ],
+    "total_raw_candidates": 70,
+    "unique_candidates_pooled": 52,
+    "final_pool_size": 40,
+    "deduplicated_count": 18
+  },
+  "metadata_filtering_trace": {
+    "applied": false,
+    "detected_company": "GOOGLE",
+    "detected_periods": [
+      "2024"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 0,
+    "fallback_triggered": true,
+    "reason": "fallback to unfiltered pool: company filter for 'GOOGLE' yielded only 0 candidates (< 5 threshold)"
+  },
+  "final_candidate_count": 40,
+  "top_10_candidates": [
+    {
+      "chunk_id": "PG_2024_10K_p73_c1",
+      "doc_name": "PG_2024_10K",
+      "page": 73,
+      "rrf_score": 0.045701,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 2,
+          "raw_score": 8.4692,
+          "rrf_contribution": 0.016129
+        },
+        "dense_period_1": {
+          "rank": 13,
+          "raw_score": 0.8666,
+          "rrf_contribution": 0.013699
+        },
+        "sparse_period_1": {
+          "rank": 3,
+          "raw_score": 7.9167,
+          "rrf_contribution": 0.015873
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2024_10K_p72_c0",
+      "doc_name": "PG_2024_10K",
+      "page": 72,
+      "rrf_score": 0.044665,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 4,
+          "raw_score": 7.8686,
+          "rrf_contribution": 0.015625
+        },
+        "dense_period_1": {
+          "rank": 12,
+          "raw_score": 0.8645,
+          "rrf_contribution": 0.013889
+        },
+        "sparse_period_1": {
+          "rank": 6,
+          "raw_score": 7.3549,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "CSCO_2024_10K_p133_c0",
+      "doc_name": "CSCO_2024_10K",
+      "page": 133,
+      "rrf_score": 0.04341,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 6,
+          "raw_score": 7.6157,
+          "rrf_contribution": 0.015152
+        },
+        "dense_period_1": {
+          "rank": 15,
+          "raw_score": 0.8887,
+          "rrf_contribution": 0.013333
+        },
+        "sparse_period_1": {
+          "rank": 7,
+          "raw_score": 7.0767,
+          "rrf_contribution": 0.014925
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2024_10K_p89_c0",
+      "doc_name": "PG_2024_10K",
+      "page": 89,
+      "rrf_score": 0.032787,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 1,
+          "raw_score": 8.7136,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_period_1": {
+          "rank": 1,
+          "raw_score": 8.7136,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2023_10K_p92_c0",
+      "doc_name": "PG_2023_10K",
+      "page": 92,
+      "rrf_score": 0.032002,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 3,
+          "raw_score": 8.3416,
+          "rrf_contribution": 0.015873
+        },
+        "sparse_period_1": {
+          "rank": 2,
+          "raw_score": 8.3416,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2024_10K_p90_c0",
+      "doc_name": "PG_2024_10K",
+      "page": 90,
+      "rrf_score": 0.03101,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 5,
+          "raw_score": 7.7449,
+          "rrf_contribution": 0.015385
+        },
+        "sparse_period_1": {
+          "rank": 4,
+          "raw_score": 7.7449,
+          "rrf_contribution": 0.015625
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p156_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 156,
+      "rrf_score": 0.030415,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 2,
+          "raw_score": 0.658,
+          "rrf_contribution": 0.016129
+        },
+        "sparse_orig": {
+          "rank": 10,
+          "raw_score": 7.3746,
+          "rrf_contribution": 0.014286
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2024_10K_p89_c1",
+      "doc_name": "PG_2024_10K",
+      "page": 89,
+      "rrf_score": 0.03009,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 8,
+          "raw_score": 7.4447,
+          "rrf_contribution": 0.014706
+        },
+        "sparse_period_1": {
+          "rank": 5,
+          "raw_score": 7.4447,
+          "rrf_contribution": 0.015385
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "PG_2023_10K_p73_c0",
+      "doc_name": "PG_2023_10K",
+      "page": 73,
+      "rrf_score": 0.02837,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 11,
+          "raw_score": 7.2447,
+          "rrf_contribution": 0.014085
+        },
+        "sparse_period_1": {
+          "rank": 10,
+          "raw_score": 6.2772,
+          "rrf_contribution": 0.014286
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2023_10K_p154_c0",
+      "doc_name": "GOOGL_2023_10K",
+      "page": 154,
+      "rrf_score": 0.028259,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 7,
+          "raw_score": 0.6926,
+          "rrf_contribution": 0.014925
+        },
+        "sparse_orig": {
+          "rank": 15,
+          "raw_score": 6.5905,
+          "rrf_contribution": 0.013333
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

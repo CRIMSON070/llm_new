@@ -1,0 +1,12 @@
+question_id,company,f_bm25_rank,k1_bm25_rank,f_pool_hit,k1_pool_hit,pool_transition,f_final_rank,k1_final_rank,top10_transition
+stage3_heldout_0001,Apple Inc.,1,1,True,True,UNCHANGED,1,1,UNCHANGED
+stage3_heldout_0007,Alphabet Inc.,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0016,"Cisco Systems, Inc.",9,15,True,True,UNCHANGED,7,7,UNCHANGED
+stage3_heldout_0023,Broadcom Inc.,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0031,Bank of America Corp,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0045,Morgan Stanley,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0056,Target Corporation,,,True,True,UNCHANGED,,,UNCHANGED
+stage3_heldout_0068,Starbucks Corporation,1,4,True,True,UNCHANGED,2,2,UNCHANGED
+stage3_heldout_0079,UnitedHealth Group Inc.,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0092,Exxon Mobil Corporation,,,False,False,UNCHANGED,,,UNCHANGED
+stage3_heldout_0099,Caterpillar Inc.,48,,True,True,UNCHANGED,,10,RECOVERY (+)

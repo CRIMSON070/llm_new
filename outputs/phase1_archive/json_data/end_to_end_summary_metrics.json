@@ -1,0 +1,44 @@
+{
+  "benchmark_size": 6,
+  "phase1_drr_top3": {
+    "evidence_retrieval_accuracy": 0.3333,
+    "semantic_answer_accuracy": 0.8333,
+    "numeric_unit_accuracy": 0.8333,
+    "strict_schema_compliance_accuracy": 0.6667,
+    "counts": {
+      "evidence_retrieval": "2/6",
+      "semantic_correct": "5/6",
+      "numeric_unit_correct": "5/6",
+      "strict_schema_compliant": "4/6"
+    }
+  },
+  "historical_phase9c_top3": {
+    "evidence_retrieval_accuracy": 0.8333,
+    "semantic_answer_accuracy": 0.6667,
+    "numeric_unit_accuracy": 0.6667,
+    "strict_schema_compliance_accuracy": 0.5,
+    "counts": {
+      "evidence_retrieval": "5/6",
+      "semantic_correct": "4/6",
+      "numeric_unit_correct": "4/6",
+      "strict_schema_compliant": "3/6"
+    }
+  },
+  "historical_phase9c_top5": {
+    "evidence_retrieval_accuracy": 0.8333,
+    "semantic_answer_accuracy": 0.5,
+    "numeric_unit_accuracy": 0.5,
+    "strict_schema_compliance_accuracy": 0.5,
+    "counts": {
+      "evidence_retrieval": "5/6",
+      "semantic_correct": "3/6",
+      "numeric_unit_correct": "3/6",
+      "strict_schema_compliant": "3/6"
+    }
+  },
+  "outcomes_vs_phase9c": {
+    "improved": 1,
+    "regressed": 0,
+    "unchanged": 5
+  }
+}

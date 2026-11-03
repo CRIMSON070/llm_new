@@ -1,0 +1,101 @@
+question_id,company,sector,question_type,statement_intents,exp_f_pool_hit,h2_1_pool_hit,pool_transition,exp_f_rank,h2_1_rank,top10_transition,exp_f_mrr,h2_1_mrr,mrr_delta,injected_chunks_count,displaced_chunks_count
+stage3_heldout_0001,Apple Inc.,Information Technology,single_statement,income_statement,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0002,Apple Inc.,Information Technology,single_statement,NONE,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0003,Apple Inc.,Information Technology,multi_statement,income_statement,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0004,Apple Inc.,Information Technology,qualitative_narrative,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0005,Apple Inc.,Information Technology,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0006,Alphabet Inc.,Communication Services,single_statement,NONE,1,1,TIE_HIT,5,5,TIE_HIT,0.2,0.2,0.0,0,0
+stage3_heldout_0007,Alphabet Inc.,Communication Services,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0008,Alphabet Inc.,Communication Services,multi_statement,cash_flow_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0009,Alphabet Inc.,Communication Services,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0010,Alphabet Inc.,Communication Services,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0011,NVIDIA Corporation,Information Technology,single_statement,NONE,1,1,TIE_HIT,5,5,TIE_HIT,0.2,0.2,0.0,0,0
+stage3_heldout_0012,NVIDIA Corporation,Information Technology,single_statement,income_statement,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0013,NVIDIA Corporation,Information Technology,multi_statement,NONE,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0014,NVIDIA Corporation,Information Technology,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0015,NVIDIA Corporation,Information Technology,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0016,"Cisco Systems, Inc.",Information Technology,single_statement,income_statement,1,1,TIE_HIT,7,7,TIE_HIT,0.1429,0.1429,0.0,0,0
+stage3_heldout_0017,"Cisco Systems, Inc.",Information Technology,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0018,"Cisco Systems, Inc.",Information Technology,multi_statement,income_statement+cash_flow_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,1,1
+stage3_heldout_0019,"Cisco Systems, Inc.",Information Technology,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0020,"Cisco Systems, Inc.",Information Technology,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0021,Broadcom Inc.,Information Technology,single_statement,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0022,Broadcom Inc.,Information Technology,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0023,Broadcom Inc.,Information Technology,multi_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,1,1
+stage3_heldout_0024,Broadcom Inc.,Information Technology,qualitative_narrative,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0025,Broadcom Inc.,Information Technology,qualitative_narrative,NONE,1,1,TIE_HIT,4,4,TIE_HIT,0.25,0.25,0.0,0,0
+stage3_heldout_0026,"Meta Platforms, Inc.",Communication Services,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0027,"Meta Platforms, Inc.",Communication Services,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0028,"Meta Platforms, Inc.",Communication Services,multi_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0029,"Meta Platforms, Inc.",Communication Services,qualitative_narrative,cash_flow_statement,1,1,TIE_HIT,10,10,TIE_HIT,0.1,0.1,0.0,0,0
+stage3_heldout_0030,"Meta Platforms, Inc.",Communication Services,qualitative_narrative,NONE,1,1,TIE_HIT,2,2,TIE_HIT,0.5,0.5,0.0,0,0
+stage3_heldout_0031,Bank of America Corp,Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0032,Bank of America Corp,Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0033,Bank of America Corp,Financials,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0034,Bank of America Corp,Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0035,Bank of America Corp,Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0036,"The Goldman Sachs Group, Inc.",Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0037,"The Goldman Sachs Group, Inc.",Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0038,"The Goldman Sachs Group, Inc.",Financials,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0039,"The Goldman Sachs Group, Inc.",Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0040,"The Goldman Sachs Group, Inc.",Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0041,Morgan Stanley,Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0042,Morgan Stanley,Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0043,Morgan Stanley,Financials,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0044,Morgan Stanley,Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0045,Morgan Stanley,Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0046,Wells Fargo & Company,Financials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0047,Wells Fargo & Company,Financials,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0048,Wells Fargo & Company,Financials,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0049,Wells Fargo & Company,Financials,qualitative_narrative,NONE,1,1,TIE_HIT,8,8,TIE_HIT,0.125,0.125,0.0,0,0
+stage3_heldout_0050,Wells Fargo & Company,Financials,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0051,"The Home Depot, Inc.",Consumer Discretionary,single_statement,balance_sheet,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,1,1
+stage3_heldout_0052,"The Home Depot, Inc.",Consumer Discretionary,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0053,"The Home Depot, Inc.",Consumer Discretionary,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0054,"The Home Depot, Inc.",Consumer Discretionary,qualitative_narrative,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0055,"The Home Depot, Inc.",Consumer Discretionary,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0056,Target Corporation,Consumer Discretionary,single_statement,income_statement,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,1,1
+stage3_heldout_0057,Target Corporation,Consumer Discretionary,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,1,1
+stage3_heldout_0058,Target Corporation,Consumer Discretionary,multi_statement,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0059,Target Corporation,Consumer Discretionary,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0060,Target Corporation,Consumer Discretionary,qualitative_narrative,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0061,The Procter & Gamble Company,Consumer Staples,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0062,The Procter & Gamble Company,Consumer Staples,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0063,The Procter & Gamble Company,Consumer Staples,multi_statement,cash_flow_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0064,The Procter & Gamble Company,Consumer Staples,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0065,The Procter & Gamble Company,Consumer Staples,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0066,Starbucks Corporation,Consumer Discretionary,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0067,Starbucks Corporation,Consumer Discretionary,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0068,Starbucks Corporation,Consumer Discretionary,multi_statement,income_statement,1,1,TIE_HIT,2,2,TIE_HIT,0.5,0.5,0.0,0,0
+stage3_heldout_0069,Starbucks Corporation,Consumer Discretionary,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0070,Starbucks Corporation,Consumer Discretionary,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0071,Eli Lilly and Company,Health Care,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0072,Eli Lilly and Company,Health Care,single_statement,income_statement,1,1,TIE_HIT,3,3,TIE_HIT,0.3333,0.3333,0.0,1,1
+stage3_heldout_0073,Eli Lilly and Company,Health Care,multi_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0074,Eli Lilly and Company,Health Care,qualitative_narrative,NONE,1,1,TIE_HIT,9,9,TIE_HIT,0.1111,0.1111,0.0,0,0
+stage3_heldout_0075,Eli Lilly and Company,Health Care,qualitative_narrative,NONE,1,1,TIE_HIT,3,3,TIE_HIT,0.3333,0.3333,0.0,0,0
+stage3_heldout_0076,UnitedHealth Group Inc.,Health Care,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0077,UnitedHealth Group Inc.,Health Care,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0078,UnitedHealth Group Inc.,Health Care,multi_statement,income_statement+cash_flow_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,1,1
+stage3_heldout_0079,UnitedHealth Group Inc.,Health Care,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0080,UnitedHealth Group Inc.,Health Care,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0081,"Merck & Co., Inc.",Health Care,single_statement,NONE,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0082,"Merck & Co., Inc.",Health Care,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0083,"Merck & Co., Inc.",Health Care,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0084,"Merck & Co., Inc.",Health Care,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0085,"Merck & Co., Inc.",Health Care,qualitative_narrative,NONE,1,1,TIE_HIT,1,1,TIE_HIT,1.0,1.0,0.0,0,0
+stage3_heldout_0086,AbbVie Inc.,Health Care,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0087,AbbVie Inc.,Health Care,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0088,AbbVie Inc.,Health Care,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0089,AbbVie Inc.,Health Care,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0090,AbbVie Inc.,Health Care,qualitative_narrative,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0091,Exxon Mobil Corporation,Energy,single_statement,income_statement,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0092,Exxon Mobil Corporation,Energy,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0093,Exxon Mobil Corporation,Energy,multi_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0094,Exxon Mobil Corporation,Energy,qualitative_narrative,NONE,1,1,TIE_HIT,5,5,TIE_HIT,0.2,0.2,0.0,0,0
+stage3_heldout_0095,Exxon Mobil Corporation,Energy,qualitative_narrative,NONE,1,1,TIE_HIT,2,2,TIE_HIT,0.5,0.5,0.0,0,0
+stage3_heldout_0096,Caterpillar Inc.,Industrials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0097,Caterpillar Inc.,Industrials,single_statement,NONE,0,0,TIE_MISS,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0098,Caterpillar Inc.,Industrials,multi_statement,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0099,Caterpillar Inc.,Industrials,qualitative_narrative,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0
+stage3_heldout_0100,Caterpillar Inc.,Industrials,qualitative_narrative,NONE,1,1,TIE_HIT,999,999,TIE_MISS,0.0,0.0,0.0,0,0

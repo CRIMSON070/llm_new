@@ -1,0 +1,638 @@
+[
+  {
+    "qid": "Q1",
+    "query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "gold_answer": "$1,577 million",
+    "gold_chunks": [
+      "3M_2018_10K_p60_c1"
+    ],
+    "best_gold_rank": 21,
+    "gold_in_context": false,
+    "top3_chunks": [
+      "3M_2018_10K_p47_c4",
+      "3M_2018_10K_p43_c3",
+      "3M_2022_10K_p39_c4"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p47_c1",
+      "3M_2018_10K_p47_c2",
+      "3M_2018_10K_p47_c3",
+      "3M_2018_10K_p47_c4",
+      "3M_2018_10K_p47_c5"
+    ],
+    "generated_text": "```json\n{\n  \"response\": \"None of the provided chunks contain direct information about the FY2018 capital expenditure amount. The chunks discuss debt activities, treasury stock purchases, and dividends paid, but do not provide details on capital expenditures.\",\n  \"operation\": \"none\"\n}\n```",
+    "parsed_json": {
+      "response": "None of the provided chunks contain direct information about the FY2018 capital expenditure amount. The chunks discuss debt activities, treasury stock purchases, and dividends paid, but do not provide details on capital expenditures.",
+      "operation": "none"
+    },
+    "semantic_correct": false,
+    "numeric_correct": false,
+    "latency_seconds": 13.5,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "3M_2018_10K_p3_statement_of_cash_flows",
+        "section_title": "3M_2018_10K Statement of Cash Flows",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5561792850494385,
+        "chunk_count": 9,
+        "chunk_ids": [
+          "3M_2018_10K_p3_c0",
+          "3M_2018_10K_p3_c1",
+          "3M_2018_10K_p3_c2",
+          "3M_2018_10K_p4_c0",
+          "3M_2018_10K_p4_c1",
+          "3M_2018_10K_p4_c2",
+          "3M_2018_10K_p4_c3",
+          "3M_2018_10K_p4_c4",
+          "3M_2018_10K_p4_c5"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "3M_2018_10K_p46_statement_of_cash_flows",
+        "section_title": "3M_2018_10K Statement of Cash Flows",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5561792850494385,
+        "chunk_count": 11,
+        "chunk_ids": [
+          "3M_2018_10K_p46_c0",
+          "3M_2018_10K_p46_c1",
+          "3M_2018_10K_p46_c2",
+          "3M_2018_10K_p46_c3",
+          "3M_2018_10K_p46_c4",
+          "3M_2018_10K_p47_c0",
+          "3M_2018_10K_p47_c1",
+          "3M_2018_10K_p47_c2",
+          "3M_2018_10K_p47_c3",
+          "3M_2018_10K_p47_c4",
+          "3M_2018_10K_p47_c5"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "3M_2018_10K_p60_statement_of_cash_flows",
+        "section_title": "3M_2018_10K Statement of Cash Flows",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5561792850494385,
+        "chunk_count": 4,
+        "chunk_ids": [
+          "3M_2018_10K_p60_c0",
+          "3M_2018_10K_p60_c1",
+          "3M_2018_10K_p60_c2",
+          "3M_2018_10K_p60_c3"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "3M_2018_10K_p83_statement_of_cash_flows",
+        "section_title": "3M_2018_10K Statement of Cash Flows",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5561792850494385,
+        "chunk_count": 6,
+        "chunk_ids": [
+          "3M_2018_10K_p83_c0",
+          "3M_2018_10K_p83_c1",
+          "3M_2018_10K_p83_c2",
+          "3M_2018_10K_p84_c0",
+          "3M_2018_10K_p84_c1",
+          "3M_2018_10K_p84_c2"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "[Table Level]\n\u2022\tTable Title: 3M Capital Expenditure for FY2018\n\u2022\tTable Summary: A breakdown of 3M's capital expenditures in USD millions for FY2018.\n\u2022\tContext: This table provides insight into 3M's investment in assets.\n\u2022\tSpecial Notes: The data reflects the company's focus on long-term growth.\n\n[Row Level]\n\u2022\tRow 1: FY2018 Capital Expenditure\n\u2022\tRow 2: $2,100 million",
+      "According to the cash flow statement, 3M's capital expenditure for FY2018 was approximately $2,100 million.",
+      "The FY2018 capital expenditure for 3M, as shown in the cash flow statement, was around $2,100 million, indicating significant investment in assets."
+    ]
+  },
+  {
+    "qid": "Q2",
+    "query": "What is the FY2018 net property, plant, and equipment (in USD billions) for 3M? Give a response to the question by relying on the details shown in the balance sheet.",
+    "gold_answer": "$8.738 billion (or $8,738 million)",
+    "gold_chunks": [
+      "3M_2018_10K_p58_c1"
+    ],
+    "best_gold_rank": 1,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "3M_2018_10K_p58_c1",
+      "3M_2018_10K_p127_c0",
+      "3M_2018_10K_p39_c1"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p58_c1",
+      "3M_2018_10K_p58_c2",
+      "3M_2018_10K_p59_c0",
+      "3M_2018_10K_p59_c1",
+      "3M_2018_10K_p59_c2"
+    ],
+    "generated_text": "{\n  \"operation\": \"extract_single_value\",\n  \"value\": 8.738\n}\nThe FY2018 net property, plant, and equipment for 3M is $8.738 billion.",
+    "parsed_json": {
+      "operation": "extract_single_value",
+      "value": 8.738
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 10.97,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "3M_2018_10K_p2_balance_sheet",
+        "section_title": "3M_2018_10K Balance Sheet",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5768556594848633,
+        "chunk_count": 3,
+        "chunk_ids": [
+          "3M_2018_10K_p2_c0",
+          "3M_2018_10K_p2_c1",
+          "3M_2018_10K_p2_c2"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "3M_2018_10K_p54_balance_sheet",
+        "section_title": "3M_2018_10K Balance Sheet",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5768556594848633,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "3M_2018_10K_p54_c0",
+          "3M_2018_10K_p54_c1",
+          "3M_2018_10K_p54_c2",
+          "3M_2018_10K_p54_c3",
+          "3M_2018_10K_p54_c4",
+          "3M_2018_10K_p54_c5",
+          "3M_2018_10K_p54_c6",
+          "3M_2018_10K_p55_c0"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "3M_2018_10K_p66_balance_sheet",
+        "section_title": "3M_2018_10K Balance Sheet",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5768556594848633,
+        "chunk_count": 16,
+        "chunk_ids": [
+          "3M_2018_10K_p66_c0",
+          "3M_2018_10K_p66_c1",
+          "3M_2018_10K_p66_c2",
+          "3M_2018_10K_p66_c3",
+          "3M_2018_10K_p66_c4",
+          "3M_2018_10K_p66_c5",
+          "3M_2018_10K_p66_c6",
+          "3M_2018_10K_p66_c7",
+          "3M_2018_10K_p67_c0",
+          "3M_2018_10K_p67_c1",
+          "3M_2018_10K_p67_c2",
+          "3M_2018_10K_p67_c3",
+          "3M_2018_10K_p67_c4",
+          "3M_2018_10K_p67_c5",
+          "3M_2018_10K_p67_c6",
+          "3M_2018_10K_p67_c7"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "3M_2018_10K_p74_balance_sheet",
+        "section_title": "3M_2018_10K Balance Sheet",
+        "doc_name": "3M_2018_10K",
+        "score": 0.5768556594848633,
+        "chunk_count": 13,
+        "chunk_ids": [
+          "3M_2018_10K_p74_c0",
+          "3M_2018_10K_p74_c1",
+          "3M_2018_10K_p74_c2",
+          "3M_2018_10K_p74_c3",
+          "3M_2018_10K_p74_c4",
+          "3M_2018_10K_p74_c5",
+          "3M_2018_10K_p75_c0",
+          "3M_2018_10K_p75_c1",
+          "3M_2018_10K_p75_c2",
+          "3M_2018_10K_p75_c3",
+          "3M_2018_10K_p75_c4",
+          "3M_2018_10K_p75_c5",
+          "3M_2018_10K_p75_c6"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "According to the 3M FY2018 balance sheet, the net property, plant, and equipment was $7.3 billion.",
+      "[Table Level]\n\u2022\tTable Title: 3M FY2018 Balance Sheet - Property, Plant, and Equipment\n\u2022\tTable Summary: This table shows the net property, plant, and equipment value for 3M in FY2018.\n\u2022\tContext: This data is crucial for understanding 3M's capital investment and long-term asset management.\n\u2022\tSpecial Notes: The table also includes other balance sheet items for a comprehensive view.\n\n    [Row Level]\n    \u2022\tRow 1: Net Property, Plant, and Equipment\n    \u2022\tRow 2: $7.3 billion",
+      "The FY2018 net property, plant, and equipment for 3M, as per the balance sheet, amounted to $7.3 billion."
+    ]
+  },
+  {
+    "qid": "Q3",
+    "query": "Does Ulta Beauty have any registered debt securities as of FY 2023? Answer with details from the 10-K cover page.",
+    "gold_answer": "No registered debt securities (There are none)",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c1"
+    ],
+    "best_gold_rank": 24,
+    "gold_in_context": false,
+    "top3_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c0",
+      "ULTABEAUTY_2023_10K_p59_c0",
+      "ULTABEAUTY_2023_10K_p33_c2"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023_10K_p1_c0",
+      "ULTABEAUTY_2023_10K_p59_c0",
+      "ULTABEAUTY_2023_10K_p33_c1",
+      "ULTABEAUTY_2023_10K_p33_c2"
+    ],
+    "generated_text": "{\n  \"operation\": \"none\",\n  \"response\": \"No, the provided context does not mention any registered debt securities for Ulta Beauty as of the fiscal year ended January 28, 2023. The cover page of the 10-K only lists the registration of common stock, but there is no mention of any debt securities.\"\n}",
+    "parsed_json": {
+      "operation": "none",
+      "response": "No, the provided context does not mention any registered debt securities for Ulta Beauty as of the fiscal year ended January 28, 2023. The cover page of the 10-K only lists the registration of common stock, but there is no mention of any debt securities."
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 10.73,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "ULTABEAUTY_2023Q4_EARNINGS_cover",
+        "section_title": "Cover Page and Registered Securities",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "score": 0.6656601428985596,
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c0",
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c1",
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c2"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "ULTABEAUTY_2023_10K_cover",
+        "section_title": "Cover Page and Registered Securities",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.679443359375,
+        "chunk_count": 5,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p1_c0",
+          "ULTABEAUTY_2023_10K_p1_c1",
+          "ULTABEAUTY_2023_10K_p1_c2",
+          "ULTABEAUTY_2023_10K_p1_c3",
+          "ULTABEAUTY_2023_10K_p1_c4"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "ULTABEAUTY_2023_10K_p1_cover_page:_registered_securities",
+        "section_title": "ULTABEAUTY_2023_10K Cover Page: Registered Securities",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.6979894638061523,
+        "chunk_count": 6,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p1_c0",
+          "ULTABEAUTY_2023_10K_p1_c1",
+          "ULTABEAUTY_2023_10K_p1_c2",
+          "ULTABEAUTY_2023_10K_p1_c3",
+          "ULTABEAUTY_2023_10K_p1_c4",
+          "ULTABEAUTY_2023_10K_p2_c0"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "ULTABEAUTY_2023_10K_p41_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.8069108724594116,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p41_c0",
+          "ULTABEAUTY_2023_10K_p41_c1",
+          "ULTABEAUTY_2023_10K_p41_c2",
+          "ULTABEAUTY_2023_10K_p41_c3",
+          "ULTABEAUTY_2023_10K_p42_c0",
+          "ULTABEAUTY_2023_10K_p42_c1",
+          "ULTABEAUTY_2023_10K_p42_c2",
+          "ULTABEAUTY_2023_10K_p42_c3"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "[Table Level]\n\u2022\tTable Title: Ulta Beauty 2023 10-K Debt Summary\n\u2022\tTable Summary: This table details Ulta Beauty's debt securities as of FY 2023, including total amount and types.\n\u2022\tContext: Important for assessing Ulta Beauty's financial leverage and liquidity.\n\u2022\tSpecial Notes: The table includes both short-term and long-term debt.\n\n[Row 1: Total Debt Securities]\n[Row 2: Types of Debt]",
+      "According to the 10-K cover page, Ulta Beauty reported $1.2 billion in total debt securities as of FY 2023, consisting of both short-term and long-term obligations.",
+      "The 10-K for FY 2023 indicates that Ulta Beauty has registered $1.2 billion in debt securities, which are crucial for understanding the company's financial structure and risk profile."
+    ]
+  },
+  {
+    "qid": "Q4",
+    "query": "Did Ulta Beauty make any major acquisitions in FY 2022 or FY 2023? Answer based on the notes to consolidated financial statements.",
+    "gold_answer": "No major acquisitions made in FY 2022 or FY 2023",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p57_c0"
+    ],
+    "best_gold_rank": 8,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "ULTABEAUTY_2023_10K_p56_c0",
+      "ULTABEAUTY_2023_10K_p55_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c0"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023_10K_p55_c0",
+      "ULTABEAUTY_2023_10K_p56_c0",
+      "ULTABEAUTY_2023_10K_p57_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c1"
+    ],
+    "generated_text": "None of the provided financial statements or notes mention any major acquisitions by Ulta Beauty for the fiscal years 2023 or 2022. Therefore, the answer to the question is \"No, there is no information about major acquisitions in the provided context.\"\n\nJSON Response:\n```json\n{\n  \"answer\": \"No, there is no information about major acquisitions in the provided context.\"\n}\n```",
+    "parsed_json": {
+      "answer": "No, there is no information about major acquisitions in the provided context."
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 13.34,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "ULTABEAUTY_2023Q4_EARNINGS_p7_balance_sheet",
+        "section_title": "ULTABEAUTY_2023Q4_EARNINGS Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "score": 0.8341454863548279,
+        "chunk_count": 2,
+        "chunk_ids": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+          "ULTABEAUTY_2023Q4_EARNINGS_p7_c1"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "ULTABEAUTY_2023Q4_EARNINGS_p6_income_statement",
+        "section_title": "ULTABEAUTY_2023Q4_EARNINGS Income Statement",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "score": 0.8577280640602112,
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p6_c0",
+          "ULTABEAUTY_2023Q4_EARNINGS_p6_c1",
+          "ULTABEAUTY_2023Q4_EARNINGS_p6_c2"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "ULTABEAUTY_2023_10K_p41_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.85996013879776,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p41_c0",
+          "ULTABEAUTY_2023_10K_p41_c1",
+          "ULTABEAUTY_2023_10K_p41_c2",
+          "ULTABEAUTY_2023_10K_p41_c3",
+          "ULTABEAUTY_2023_10K_p42_c0",
+          "ULTABEAUTY_2023_10K_p42_c1",
+          "ULTABEAUTY_2023_10K_p42_c2",
+          "ULTABEAUTY_2023_10K_p42_c3"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "ULTABEAUTY_2023_10K_p50_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.85996013879776,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p50_c0",
+          "ULTABEAUTY_2023_10K_p50_c1",
+          "ULTABEAUTY_2023_10K_p50_c2",
+          "ULTABEAUTY_2023_10K_p50_c3",
+          "ULTABEAUTY_2023_10K_p51_c0",
+          "ULTABEAUTY_2023_10K_p51_c1",
+          "ULTABEAUTY_2023_10K_p51_c2",
+          "ULTABEAUTY_2023_10K_p51_c3"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "[Table Level]\n\u2022\tTable Title: Ulta Beauty Acquisitions Overview\n\u2022\tTable Summary: A summary of major acquisitions by Ulta Beauty from 2020 to 2023, including acquisition dates and costs.\n\u2022\tContext: This table helps investors understand Ulta's growth strategy through acquisitions.\n\u2022\tSpecial Notes: The latest data covers FY 2023.\n\n[Row Level]\n\u2022\tRow 1: FY 2023, Sep 2023, $1.5B\n\u2022\tRow 2: FY 2022, Sep 2022, $1.2B",
+      "According to the notes to the consolidated financial statements, Ulta Beauty made significant acquisitions in both FY 2022 and FY 2023, with costs of $1.2B and $1.5B respectively.",
+      "In FY 2023, Ulta Beauty acquired a company for $1.5B in September 2023, expanding its portfolio. Similarly, in FY 2022, they acquired another company for $1.2B in September 2022."
+    ]
+  },
+  {
+    "qid": "Q5",
+    "query": "What was the difference in 3M's net sales between FY2017 and FY2018 in USD millions? Use the consolidated statement of income.",
+    "gold_answer": "$1,108 million increase (+3.5%)",
+    "gold_chunks": [
+      "3M_2018_10K_p56_c0"
+    ],
+    "best_gold_rank": 2,
+    "gold_in_context": true,
+    "top3_chunks": [
+      "3M_2018_10K_p14_c0",
+      "3M_2018_10K_p56_c0",
+      "3M_2018_10K_p127_c2"
+    ],
+    "bundled_context_chunks": [
+      "3M_2018_10K_p14_c0",
+      "3M_2018_10K_p14_c1",
+      "3M_2018_10K_p56_c0",
+      "3M_2018_10K_p56_c1",
+      "3M_2018_10K_p57_c0"
+    ],
+    "generated_text": "{\n  \"operation\": \"absolute_difference\",\n  \"values\": [\n    32765,\n    31657\n  ]\n}",
+    "parsed_json": {
+      "operation": "absolute_difference",
+      "values": [
+        32765,
+        31657
+      ]
+    },
+    "semantic_correct": true,
+    "numeric_correct": true,
+    "latency_seconds": 13.06,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "3M_2018_10K_p65_income_statement",
+        "section_title": "3M_2018_10K Income Statement",
+        "doc_name": "3M_2018_10K",
+        "score": 0.503878116607666,
+        "chunk_count": 15,
+        "chunk_ids": [
+          "3M_2018_10K_p65_c0",
+          "3M_2018_10K_p65_c1",
+          "3M_2018_10K_p65_c2",
+          "3M_2018_10K_p65_c3",
+          "3M_2018_10K_p65_c4",
+          "3M_2018_10K_p65_c5",
+          "3M_2018_10K_p65_c6",
+          "3M_2018_10K_p66_c0",
+          "3M_2018_10K_p66_c1",
+          "3M_2018_10K_p66_c2",
+          "3M_2018_10K_p66_c3",
+          "3M_2018_10K_p66_c4",
+          "3M_2018_10K_p66_c5",
+          "3M_2018_10K_p66_c6",
+          "3M_2018_10K_p66_c7"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "3M_2018_10K_p100_income_statement",
+        "section_title": "3M_2018_10K Income Statement",
+        "doc_name": "3M_2018_10K",
+        "score": 0.503878116607666,
+        "chunk_count": 11,
+        "chunk_ids": [
+          "3M_2018_10K_p100_c0",
+          "3M_2018_10K_p100_c1",
+          "3M_2018_10K_p100_c2",
+          "3M_2018_10K_p100_c3",
+          "3M_2018_10K_p100_c4",
+          "3M_2018_10K_p101_c0",
+          "3M_2018_10K_p101_c1",
+          "3M_2018_10K_p101_c2",
+          "3M_2018_10K_p101_c3",
+          "3M_2018_10K_p101_c4",
+          "3M_2018_10K_p101_c5"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "3M_2018_10K_p102_income_statement",
+        "section_title": "3M_2018_10K Income Statement",
+        "doc_name": "3M_2018_10K",
+        "score": 0.503878116607666,
+        "chunk_count": 4,
+        "chunk_ids": [
+          "3M_2018_10K_p102_c0",
+          "3M_2018_10K_p102_c1",
+          "3M_2018_10K_p102_c2",
+          "3M_2018_10K_p102_c3"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "3M_2018_10K_p103_income_statement",
+        "section_title": "3M_2018_10K Income Statement",
+        "doc_name": "3M_2018_10K",
+        "score": 0.503878116607666,
+        "chunk_count": 3,
+        "chunk_ids": [
+          "3M_2018_10K_p103_c0",
+          "3M_2018_10K_p103_c1",
+          "3M_2018_10K_p103_c2"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "[Table Level]\n\u2022\tTable Title: 3M Consolidated Statement of Income (FY2017 vs FY2018)\n\u2022\tTable Summary: Net sales figures for fiscal years 2017 and 2018.\n\u2022\tContext: This table highlights the financial performance of 3M over two consecutive fiscal years.\n\u2022\tSpecial Notes: The difference indicates growth or decline in sales.\n\n[Row Level]\n\u2022\tRow 1: FY2018 - $27,630 million\n\u2022\tRow 2: FY2017 - $26,918 million",
+      "According to 3M's consolidated statement of income, the net sales difference between FY2018 and FY2017 was $712 million, with FY2018 showing higher sales.",
+      "The difference in 3M's net sales between FY2017 and FY2018 was $712 million, with FY2018 recording $27,630 million and FY2017 at $26,918 million. This increase reflects growth in the company's revenue."
+    ]
+  },
+  {
+    "qid": "Q6",
+    "query": "What is the difference between merchandise inventories in FY2023 and FY2022 for Ulta Beauty in USD thousands? Rely on the balance sheet or notes.",
+    "gold_answer": "$104,233 thousand increase",
+    "gold_chunks": [
+      "ULTABEAUTY_2023_10K_p57_c0"
+    ],
+    "best_gold_rank": 13,
+    "gold_in_context": false,
+    "top3_chunks": [
+      "ULTABEAUTY_2023_10K_p33_c2",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c1",
+      "ULTABEAUTY_2023_10K_p54_c0"
+    ],
+    "bundled_context_chunks": [
+      "ULTABEAUTY_2023_10K_p33_c1",
+      "ULTABEAUTY_2023_10K_p33_c2",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c0",
+      "ULTABEAUTY_2023Q4_EARNINGS_p6_c1",
+      "ULTABEAUTY_2023_10K_p54_c0"
+    ],
+    "generated_text": "{\n  \"operation\": \"absolute_difference\",\n  \"values\": [\n    1603451,\n    1499218\n  ]\n}",
+    "parsed_json": {
+      "operation": "absolute_difference",
+      "values": [
+        1603451,
+        1499218
+      ]
+    },
+    "semantic_correct": false,
+    "numeric_correct": false,
+    "latency_seconds": 12.92,
+    "matched_sections": [
+      {
+        "rank": 1,
+        "section_id": "ULTABEAUTY_2023Q4_EARNINGS_p7_balance_sheet",
+        "section_title": "ULTABEAUTY_2023Q4_EARNINGS Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "score": 0.7191442251205444,
+        "chunk_count": 2,
+        "chunk_ids": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p7_c0",
+          "ULTABEAUTY_2023Q4_EARNINGS_p7_c1"
+        ]
+      },
+      {
+        "rank": 2,
+        "section_id": "ULTABEAUTY_2023_10K_p41_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.7513177394866943,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p41_c0",
+          "ULTABEAUTY_2023_10K_p41_c1",
+          "ULTABEAUTY_2023_10K_p41_c2",
+          "ULTABEAUTY_2023_10K_p41_c3",
+          "ULTABEAUTY_2023_10K_p42_c0",
+          "ULTABEAUTY_2023_10K_p42_c1",
+          "ULTABEAUTY_2023_10K_p42_c2",
+          "ULTABEAUTY_2023_10K_p42_c3"
+        ]
+      },
+      {
+        "rank": 3,
+        "section_id": "ULTABEAUTY_2023_10K_p50_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.7513177394866943,
+        "chunk_count": 8,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p50_c0",
+          "ULTABEAUTY_2023_10K_p50_c1",
+          "ULTABEAUTY_2023_10K_p50_c2",
+          "ULTABEAUTY_2023_10K_p50_c3",
+          "ULTABEAUTY_2023_10K_p51_c0",
+          "ULTABEAUTY_2023_10K_p51_c1",
+          "ULTABEAUTY_2023_10K_p51_c2",
+          "ULTABEAUTY_2023_10K_p51_c3"
+        ]
+      },
+      {
+        "rank": 4,
+        "section_id": "ULTABEAUTY_2023_10K_p52_balance_sheet",
+        "section_title": "ULTABEAUTY_2023_10K Balance Sheet",
+        "doc_name": "ULTABEAUTY_2023_10K",
+        "score": 0.7513177394866943,
+        "chunk_count": 6,
+        "chunk_ids": [
+          "ULTABEAUTY_2023_10K_p52_c0",
+          "ULTABEAUTY_2023_10K_p52_c1",
+          "ULTABEAUTY_2023_10K_p52_c2",
+          "ULTABEAUTY_2023_10K_p52_c3",
+          "ULTABEAUTY_2023_10K_p52_c4",
+          "ULTABEAUTY_2023_10K_p53_c0"
+        ]
+      }
+    ],
+    "hyde_passages": [
+      "[Table Level]\n\u2022\tTable Title: Ulta Beauty Merchandise Inventories Comparison FY2022 vs FY2023\n\u2022\tTable Summary: This table shows the merchandise inventory values for Ulta Beauty as of the end of FY2022 and FY2023.\n\u2022\tContext: The difference indicates growth or decline in inventory levels, affecting cost of goods sold and working capital.\n\u2022\tSpecial Notes: Note any changes in inventory valuation methods.\n\n[Row Level]\n\u2022\tRow 1: FY2022 - $1,250,000\n\u2022\tRow 2: FY2023 - $1,500,000\n\n---",
+      "According to Ulta Beauty's FY2023 annual report, merchandise inventories increased from $1,250,000 in FY2022 to $1,500,000 in FY2023, a rise of $250,000.\n\n---",
+      "The difference in merchandise inventories between FY2023 and FY2022 for Ulta Beauty is $250,000, with FY2023 inventory being higher. This data is found in the company's balance sheet or notes to the financial statements."
+    ]
+  }
+]

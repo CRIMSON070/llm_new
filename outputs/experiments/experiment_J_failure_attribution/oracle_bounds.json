@@ -1,0 +1,37 @@
+{
+  "benchmark": "Stage 3 Held-Out Benchmark (N=100)",
+  "baseline_actual_metrics": {
+    "candidate_pool_recall": 30.0,
+    "recall_at_1": 7.0,
+    "recall_at_3": 12.0,
+    "recall_at_5": 16.0,
+    "recall_at_10": 20.0,
+    "mrr": 0.105
+  },
+  "candidate_pool_oracle": {
+    "definition": "Upper bound if reranker places gold evidence at Rank 1 whenever it is in the 50 candidate pool.",
+    "oracle_recall_at_1": 30,
+    "oracle_recall_at_3": 30,
+    "oracle_recall_at_5": 30,
+    "oracle_recall_at_10": 30,
+    "oracle_mrr": 0.3,
+    "headroom_recall_at_1": 23.0,
+    "headroom_recall_at_10": 10.0,
+    "headroom_mrr": 0.195
+  },
+  "reranker_oracle_on_pool_hits": {
+    "definition": "Potential gain from improving the cross-encoder among the 30 questions where gold evidence reaches the pool.",
+    "total_pool_hits": 30,
+    "actual_top10_retained": 20,
+    "lost_by_reranker": 10,
+    "reranker_loss_rate_percent": 33.3,
+    "reranker_potential_recall_gain": 10
+  },
+  "retrieval_path_union_oracle": {
+    "definition": "Upper bound if fusion and candidate selection perfectly captured any gold chunk retrieved by either BM25 (k=100) or Dense FAISS (k=100).",
+    "total_union_hits": 43,
+    "union_recall_percent": 43.0,
+    "unretrievable_by_either_path_top100": 57,
+    "unretrievable_percent": 57.0
+  }
+}

@@ -1,0 +1,3 @@
+failure_category,question_count,percentage
+"Correct document retrieved in top 50, but gold page missed",33,86.84%
+Present in individual path @50 but excluded by fusion/period cutoff,5,13.16%

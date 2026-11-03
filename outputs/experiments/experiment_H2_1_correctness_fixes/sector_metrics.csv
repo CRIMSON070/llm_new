@@ -1,0 +1,10 @@
+sector,questions,ref_pool_recall,h2_1_pool_recall,delta_pool_recall,ref_mrr,h2_1_mrr,delta_mrr
+Communication Services,9,55.56,77.78,22.22,0.2333,0.3568,0.1235
+Consumer Discretionary,30,86.67,90.0,3.33,0.3893,0.4365,0.0472
+Consumer Staples,23,91.3,95.65,4.35,0.5453,0.6986,0.1533
+Financials,13,30.77,53.85,23.08,0.2462,0.3436,0.0974
+Health Care,19,78.95,84.21,5.26,0.2759,0.3023,0.0264
+Industrials,19,78.95,78.95,0.0,0.293,0.3368,0.0438
+Information Technology,22,77.27,95.45,18.18,0.4284,0.5898,0.1614
+Materials,9,66.67,88.89,22.22,0.0611,0.075,0.0139
+Utilities,6,66.67,100.0,33.33,0.3611,0.6944,0.3333

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "sample_1_aapl_operations",
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 68,
+    "table_type": "Primary Statement (Operations)",
+    "description": "Apple Inc. Consolidated Statements of Operations (FY24, FY23, FY22)",
+    "status": "SUCCESS_RECONSTRUCTED",
+    "raw_line_count": 33,
+    "reconstructed_table": "| Line Item / Metric | September 28, 2024 | September 30, 2023 | September 24, 2022 |\n| :--- | :---: | :---: | :---: |\n| Net sales: Products | $294,866 | $298,085 | $316,199 |\n| Services | 96,169 | 85,200 | 78,129 |\n| Total net sales | 391,035 | 383,285 | 394,328 |\n| Cost of sales: Products | 185,233 | 189,282 | 201,471 |",
+    "raw_text_sample": "Apple Inc.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(In millions, except number of shares, which are reﬂected in thousands, and per-\nshare amounts)\nYears ended\nSeptember 28,\n2024\nSeptember 30,\n2023\nSeptember 24,\n2022\nNet sales:\n   Products\n$\n294,866 \n$\n298,085 \n$\n316,199 \n   Services\n96,169 \n85,200 \n78,129 \nTotal net sales\n391,035 \n383,285 \n394,328 \nCost of sales:\n   Products\n185,233 "
+  },
+  {
+    "id": "sample_2_aapl_balance_sheet",
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 74,
+    "table_type": "Primary Statement (Balance Sheet)",
+    "description": "Apple Inc. Consolidated Balance Sheets (September 28, 2024 & September 30, 2023)",
+    "status": "SUCCESS_RECONSTRUCTED",
+    "raw_line_count": 34,
+    "reconstructed_table": "| Line Item / Metric | September 28, 2024 | September 30, 2023 |\n| :--- | :---: | :---: |\n| ASSETS: Current assets: Cash and cash equivalents | $29,943 | $29,965 |\n| Marketable securities | 35,228 | 31,590 |\n| Accounts receivable, net | 33,410 | 29,508 |\n| Vendor non-trade receivables | 32,833 | 31,477 |\n| Inventories | 7,286 | 6,331 |\n| Other current assets | 14,287 | 14,695 |\n| Total current assets | 152,987 | 143,566 |",
+    "raw_text_sample": "Apple Inc.\nCONSOLIDATED BALANCE SHEETS\n(In millions, except number of shares, which are reﬂected in thousands, and par\nvalue)\nSeptember 28,\n2024\nSeptember 30,\n2023\nASSETS:\nCurrent assets:\nCash and cash equivalents\n$\n29,943 \n$\n29,965 \nMarketable securities\n35,228 \n31,590 \nAccounts receivable, net\n33,410 \n29,508 \nVendor non-trade receivables\n32,833 \n31,477 \nInventories\n7,286 \n6,331 \nOther current assets\n14,287 \n14,695 "
+  },
+  {
+    "id": "sample_3_aapl_product_performance",
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 53,
+    "table_type": "MD&A / Segment Disclosure",
+    "description": "Apple Inc. Net Sales by Category (iPhone, Mac, iPad, Wearables, Services)",
+    "status": "TRAILING_UNMATCHED_VALUES: 2 values for label 'iPad'",
+    "raw_line_count": 31,
+    "reconstructed_table": null,
+    "raw_text_sample": "Products and Services Performance\nThe following table shows net sales by category for 2024, 2023 and 2022 (dollars in\nmillions):\n2024\nChange\n2023\nChange\n2022\niPhone\n$\n201,183 \n— \n%\n$\n200,583 \n(2)\n%\n$\n205,489 \nMac\n29,984 \n2 \n%\n29,357 \n(27)\n%\n40,177 \niPad\n26,694 \n(6)"
+  },
+  {
+    "id": "sample_4_nvda_income_statement",
+    "doc_name": "NVDA_2024_10K",
+    "page_num": 113,
+    "table_type": "Primary Statement (Income Statement)",
+    "description": "NVIDIA Consolidated Statements of Income (Jan 28, 2024, Jan 29, 2023, Jan 30, 2022)",
+    "status": "SUCCESS_RECONSTRUCTED",
+    "raw_line_count": 33,
+    "reconstructed_table": "| Line Item / Metric | Jan 28, 2024 | Jan 29, 2023 | Jan 30, 2022 |\n| :--- | :---: | :---: | :---: |\n| Revenue | $60,922 | $26,974 | $26,914 |\n| Cost of revenue | 16,621 | 11,618 | 9,439 |\n| Gross profit | 44,301 | 15,356 | 17,475 |\n| Operating expenses Research and development | 8,675 | 7,339 | 5,268 |",
+    "raw_text_sample": "Table of Contents\nNVIDIA Corporation and Subsidiaries\nConsolidated Statements of Income\n(In millions, except per share data)\nYear Ended\nJan 28, 2024\nJan 29, 2023\nJan 30, 2022\nRevenue\n$\n60,922 \n$\n26,974 \n$\n26,914 \nCost of revenue\n16,621 \n11,618 \n9,439 \nGross proﬁt\n44,301 \n15,356 \n17,475 \nOperating expenses\n \n \n \nResearch and development\n8,675 \n7,339 "
+  },
+  {
+    "id": "sample_5_nvda_pct_revenue",
+    "doc_name": "NVDA_2024_10K",
+    "page_num": 84,
+    "table_type": "MD&A Tabular Breakdown",
+    "description": "NVIDIA Statements of Income as % of Revenue (FY24, FY23)",
+    "status": "SUCCESS_RECONSTRUCTED",
+    "raw_line_count": 34,
+    "reconstructed_table": "| Line Item / Metric | Jan 28, 2024 | Jan 29, 2023 |\n| :--- | :---: | :---: |\n| Revenue | 100.0% | 100.0% |\n| Cost of revenue | 27.3 | 43.1 |\n| Gross profit | 72.7 | 56.9 |\n| Operating expenses Research and development | 14.2 | 27.2 |\n| Sales, general and administrative | 4.4 | 9.1 |\n| Acquisition termination cost | — | 5.0 |\n| Total operating expenses | 18.6 | 41.3 |",
+    "raw_text_sample": "Table of Contents\nThe following table sets forth, for the periods indicated, certain items in our\nConsolidated Statements of Income expressed as a percentage of revenue. \n  \nYear Ended\n \nJan 28, 2024\nJan 29, 2023\nRevenue\n100.0 \n%\n100.0 \n%\nCost of revenue\n27.3 \n43.1 \nGross proﬁt\n72.7 \n56.9 \nOperating expenses\n \nResearch and development\n14.2 \n27.2 \nSales, general and administrative\n4.4 \n9.1 \nAcquisition termination cost\n— \n5.0 "
+  },
+  {
+    "id": "sample_6_googl_income_statement",
+    "doc_name": "GOOGL_2024_10K",
+    "page_num": 144,
+    "table_type": "Primary Statement (Income Statement)",
+    "description": "Alphabet Inc. Consolidated Statements of Income (FY22, FY23, FY24)",
+    "status": "SUCCESS_RECONSTRUCTED",
+    "raw_line_count": 32,
+    "reconstructed_table": "| Line Item / Metric | Year Ended December 31, 2022 | 2023 | 2024 |\n| :--- | :---: | :---: | :---: |\n| Revenues | $282,836 | $307,394 | $350,018 |\n| Costs and expenses: Cost of revenues | 126,203 | 133,332 | 146,306 |\n| Research and development | 39,500 | 45,427 | 49,326 |\n| Sales and marketing | 26,567 | 27,917 | 27,808 |",
+    "raw_text_sample": "Table of Contents\nAlphabet Inc.\nAlphabet Inc.\nCONSOLIDATED STATEMENTS OF INCOME\n(in millions, except per share amounts)\n \nYear Ended December 31,\n \n2022\n2023\n2024\nRevenues\n$\n282,836 \n$\n307,394 \n$\n350,018 \nCosts and expenses:\nCost of revenues\n126,203 \n133,332 \n146,306 \nResearch and development\n39,500 \n45,427 \n49,326 \nSales and marketing\n26,567 \n27,917 "
+  },
+  {
+    "id": "sample_7_unsupported_footnote",
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 80,
+    "table_type": "Complex Unstructured Footnote Prose",
+    "description": "Apple Inc. Note 1 Summary of Significant Accounting Policies (Prose text with sporadic numbers)",
+    "status": "NO_VALID_COLUMN_HEADERS_FOUND",
+    "raw_line_count": 29,
+    "reconstructed_table": null,
+    "raw_text_sample": "Beginning balances\n(11,452)\n(11,109)\n163 \nOther comprehensive income/(loss)\n4,280 \n(343)\n(11,272)\nEnding balances\n(7,172)\n(11,452)\n(11,109)\nTotal shareholders’ equity, ending balances\n$\n56,950 \n$\n62,146 \n$\n50,672 \nDividends and dividend equivalents declared per share or RSU\n$\n0.98 \n$\n0.94 \n$\n0.90 \nSee accompanying Notes to Consolidated Financial Statements.\nApple Inc. | 2024 Form 10-K | 32\n"
+  }
+]

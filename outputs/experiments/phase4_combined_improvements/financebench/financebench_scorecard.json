@@ -1,0 +1,37 @@
+{
+  "benchmark": "FinanceBench N=150 Full Scale Evaluation",
+  "timestamp": "2026-11-03 21:32:56",
+  "metrics_phase4": {
+    "candidate_pool_recall_40": 73.33,
+    "mrr": 0.4061,
+    "recall_at_1": 29.33,
+    "recall_at_5": 53.33,
+    "recall_at_10": 65.33,
+    "hits_at_1": 44,
+    "hits_at_5": 80,
+    "hits_at_10": 98,
+    "pool_hits_at_40": 110,
+    "total_questions": 150,
+    "avg_latency_seconds": 6.3211,
+    "total_time_seconds": 948.18,
+    "peak_vram_mb": 0.0
+  },
+  "comparison_vs_phase2_baseline": {
+    "mrr_baseline": 0.2926,
+    "mrr_delta": 0.1135,
+    "recall_10_baseline": 52.0,
+    "recall_10_delta": 13.33,
+    "improved_count": 98,
+    "regressed_count": 0,
+    "unchanged_count": 52
+  },
+  "comparison_vs_step2_fixed": {
+    "mrr_step2": 0.3082,
+    "mrr_delta": 0.0979,
+    "recall_10_step2": 54.67,
+    "recall_10_delta": 10.66,
+    "improved_count": 98,
+    "regressed_count": 0,
+    "unchanged_count": 52
+  }
+}

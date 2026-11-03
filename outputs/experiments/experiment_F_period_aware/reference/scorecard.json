@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-02T10:23:07Z",
+  "mode": "reference",
+  "total_questions": 150,
+  "runtime_seconds": 31.42,
+  "metrics": {
+    "mrr": 0.3513,
+    "recall_at_1": 25.33,
+    "recall_at_3": 42.0,
+    "recall_at_5": 48.0,
+    "recall_at_10": 57.33,
+    "candidate_pool_recall": 68.67,
+    "candidate_pool_hits": 103,
+    "top10_hits": 86
+  }
+}

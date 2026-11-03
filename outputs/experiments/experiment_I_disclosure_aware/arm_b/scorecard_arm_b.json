@@ -1,0 +1,68 @@
+{
+  "mode": "arm_i_b_disclosure_aware",
+  "retrieval_depth_bm25": 50,
+  "retrieval_depth_dense": 50,
+  "pool_size": 50,
+  "max_novel_quota": 10,
+  "reserved_base_floor": 40,
+  "num_questions": 100,
+  "runtime_seconds": 18.7,
+  "avg_query_time_ms": 187.0,
+  "candidate_pool_recall": 30.0,
+  "candidate_pool_hits": 30,
+  "recall_at_1": 6.0,
+  "recall_at_3": 11.0,
+  "recall_at_5": 15.0,
+  "recall_at_10": 18.0,
+  "top10_hits": 18,
+  "mrr": 0.094,
+  "pool_turnover": {
+    "avg_jaccard_similarity_vs_exp_f": 0.9731,
+    "avg_novel_injected_per_query": 0.72
+  },
+  "deltas_vs_exp_f": {
+    "candidate_pool_recall_delta": 0.0,
+    "recall_at_1_delta": -1.0,
+    "recall_at_3_delta": -1.0,
+    "recall_at_5_delta": -1.0,
+    "recall_at_10_delta": -2.0,
+    "mrr_delta": -0.011,
+    "pool_transitions": {
+      "recoveries": 1,
+      "regressions": 1,
+      "ties_hit": 29,
+      "ties_miss": 69
+    },
+    "top10_transitions": {
+      "recoveries": 0,
+      "regressions": 2,
+      "ties_hit": 18,
+      "ties_miss": 80
+    }
+  },
+  "statistical_tests": {
+    "candidate_pool_mcnemar": {
+      "b": 1,
+      "c": 1,
+      "chi2_continuity_corrected": 0.0,
+      "exact_binomial_p_value": 1.0,
+      "significant_at_05": false
+    },
+    "recall_at_10_mcnemar": {
+      "b": 0,
+      "c": 2,
+      "chi2_continuity_corrected": 0.5,
+      "exact_binomial_p_value": 0.5,
+      "significant_at_05": false
+    },
+    "mrr_wilcoxon_signed_rank": {
+      "n_discordant": 2,
+      "w_plus": 0,
+      "w_minus": 3.0,
+      "w_stat": 0,
+      "z_score": -1.3416,
+      "p_value": 0.179712,
+      "significant_at_05": false
+    }
+  }
+}

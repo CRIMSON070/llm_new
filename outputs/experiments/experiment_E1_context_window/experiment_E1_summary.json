@@ -1,0 +1,1043 @@
+{
+  "experiment": "Experiment E1: Reranker Context Window Ablation (512 vs 1024 characters)",
+  "baseline_experiment": "Experiment C (Full-Universe Company Intent, 512 characters)",
+  "upstream_retrieval_identity_verified": true,
+  "metrics_comparison": {
+    "experiment_c": {
+      "mrr": 0.3513,
+      "r1": 25.33,
+      "r3": 42.0,
+      "r5": 48.0,
+      "r10": 57.33,
+      "pool_rec": 68.67,
+      "hits_r1": 38,
+      "hits_r3": 63,
+      "hits_r5": 72,
+      "hits_r10": 86,
+      "pool_hits": 103
+    },
+    "experiment_e1": {
+      "mrr": 0.3353,
+      "r1": 23.33,
+      "r3": 41.33,
+      "r5": 48.0,
+      "r10": 56.67,
+      "pool_rec": 68.67,
+      "hits_r1": 35,
+      "hits_r3": 62,
+      "hits_r5": 72,
+      "hits_r10": 85,
+      "pool_hits": 103
+    },
+    "delta": {
+      "mrr": -0.016,
+      "recall_at_1_pp": -2.0,
+      "recall_at_3_pp": -0.67,
+      "recall_at_5_pp": 0.0,
+      "recall_at_10_pp": -0.66,
+      "candidate_pool_recall_pp": 0.0
+    }
+  },
+  "movement_summary": {
+    "improved_count": 21,
+    "regressed_count": 31,
+    "unchanged_count": 98,
+    "improved_questions": [
+      {
+        "qid": "financebench_id_04672",
+        "company": "3M",
+        "doc_name": "3M_2018_10K",
+        "rank_c": 3,
+        "rank_e1": 2,
+        "pool_rank": 42,
+        "question": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+        "top3_c": [
+          "3M_2018_10K_p44_c2_p44",
+          "3M_2023Q2_10Q_p71_c1_p71",
+          "3M_2018_10K_p58_c2_p58"
+        ],
+        "top3_e1": [
+          "3M_2018_10K_p44_c2_p44",
+          "3M_2018_10K_p58_c2_p58",
+          "3M_2023Q2_10Q_p71_c1_p71"
+        ]
+      },
+      {
+        "qid": "financebench_id_00499",
+        "company": "3M",
+        "doc_name": "3M_2022_10K",
+        "rank_c": 999,
+        "rank_e1": 10,
+        "pool_rank": 12,
+        "question": "Is 3M a capital-intensive business based on FY2022 data?",
+        "top3_c": [
+          "3M_2022_10K_p36_c2_p36",
+          "3M_2022_10K_p39_c4_p39",
+          "3M_2022_10K_p39_c1_p39"
+        ],
+        "top3_e1": [
+          "3M_2022_10K_p40_c1_p40",
+          "3M_2022_10K_p36_c2_p36",
+          "3M_2022_10K_p39_c4_p39"
+        ]
+      },
+      {
+        "qid": "financebench_id_06655",
+        "company": "Amazon",
+        "doc_name": "AMAZON_2017_10K",
+        "rank_c": 3,
+        "rank_e1": 1,
+        "pool_rank": 50,
+        "question": "What is Amazon's FY2017 days payable outstanding (DPO)? DPO is defined as: 365 * (average accounts payable between FY2016 and FY2017) / (FY2017 COGS + change in inventory between FY2016 and FY2017). Round your answer to two decimal places. Address the question by using the line items and information shown within the balance sheet and the P&L statement.",
+        "top3_c": [
+          "AMAZON_2017_10K_p18_c1_p18",
+          "CORNING_2020_10K_p43_c3_p43",
+          "AMAZON_2017_10K_p40_c0_p40"
+        ],
+        "top3_e1": [
+          "AMAZON_2017_10K_p40_c0_p40",
+          "CORNING_2020_10K_p43_c3_p43",
+          "AMAZON_2017_10K_p18_c1_p18"
+        ]
+      },
+      {
+        "qid": "financebench_id_01935",
+        "company": "Amcor",
+        "doc_name": "AMCOR_2022_8K_dated-2022-07-01",
+        "rank_c": 9,
+        "rank_e1": 3,
+        "pool_rank": 2,
+        "question": "What was the key agenda of the AMCOR's 8k filing dated 1st July 2022?",
+        "top3_c": [
+          "AMCOR_2022_8K_dated-2022-07-01_p1_c0_p1",
+          "AMCOR_2023_10K_p114_c2_p114",
+          "AMCOR_2023_10K_p114_c1_p114"
+        ],
+        "top3_e1": [
+          "AMCOR_2023_10K_p114_c2_p114",
+          "AMCOR_2022_8K_dated-2022-07-01_p1_c0_p1",
+          "AMCOR_2022_8K_dated-2022-07-01_p2_c5_p2"
+        ]
+      },
+      {
+        "qid": "financebench_id_00995",
+        "company": "AMD",
+        "doc_name": "AMD_2022_10K",
+        "rank_c": 9,
+        "rank_e1": 6,
+        "pool_rank": 4,
+        "question": "What are the major products and services that AMD sells as of FY22?",
+        "top3_c": [
+          "AMD_2022_10K_p11_c0_p11",
+          "AMD_2022_10K_p60_c0_p60",
+          "AMD_2022_10K_p5_c1_p5"
+        ],
+        "top3_e1": [
+          "AMD_2022_10K_p60_c0_p60",
+          "AMD_2022_10K_p11_c0_p11",
+          "AMD_2022_10K_p5_c1_p5"
+        ]
+      },
+      {
+        "qid": "financebench_id_02608",
+        "company": "Best Buy",
+        "doc_name": "BESTBUY_2017_10K",
+        "rank_c": 3,
+        "rank_e1": 2,
+        "pool_rank": 2,
+        "question": "In agreement with the information outlined in the income statement, what is the FY2015 - FY2017 3 year average net profit margin (as a %) for Best Buy? Answer in units of percents and round to one decimal place.",
+        "top3_c": [
+          "BESTBUY_2017_10K_p31_c1_p31",
+          "BESTBUY_2017_10K_p31_c0_p31",
+          "BESTBUY_2017_10K_p56_c1_p56"
+        ],
+        "top3_e1": [
+          "BESTBUY_2017_10K_p31_c0_p31",
+          "BESTBUY_2017_10K_p56_c1_p56",
+          "BESTBUY_2017_10K_p31_c1_p31"
+        ]
+      },
+      {
+        "qid": "financebench_id_00517",
+        "company": "Boeing",
+        "doc_name": "BOEING_2022_10K",
+        "rank_c": 4,
+        "rank_e1": 3,
+        "pool_rank": 9,
+        "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
+        "top3_c": [
+          "BOEING_2018_10K_p3_c3_p3",
+          "BOEING_2022_10K_p3_c2_p3",
+          "ULTABEAUTY_2023_10K_p10_c4_p10"
+        ],
+        "top3_e1": [
+          "BOEING_2022_10K_p12_c0_p12",
+          "BOEING_2022_10K_p3_c2_p3",
+          "BOEING_2022_10K_p62_c0_p62"
+        ]
+      },
+      {
+        "qid": "financebench_id_00494",
+        "company": "Boeing",
+        "doc_name": "BOEING_2022_10K",
+        "rank_c": 999,
+        "rank_e1": 10,
+        "pool_rank": 1,
+        "question": "What production rate changes is Boeing forecasting for FY2023?",
+        "top3_c": [
+          "BOEING_2022_10K_p116_c2_p116",
+          "BESTBUY_2023_10K_p25_c2_p25",
+          "BOEING_2022_10K_p41_c1_p41"
+        ],
+        "top3_e1": [
+          "BOEING_2022_10K_p41_c1_p41",
+          "BOEING_2022_10K_p116_c2_p116",
+          "Pfizer_2023Q2_10Q_p42_c3_p42"
+        ]
+      },
+      {
+        "qid": "financebench_id_01107",
+        "company": "CVS Health",
+        "doc_name": "CVSHEALTH_2022_10K",
+        "rank_c": 10,
+        "rank_e1": 3,
+        "pool_rank": 1,
+        "question": "Has CVS Health reported any materially important ongoing legal battles from 2022, 2021 and 2020?",
+        "top3_c": [
+          "CVSHEALTH_2022_10K_p68_c0_p68",
+          "CVSHEALTH_2022_10K_p133_c1_p133",
+          "CVSHEALTH_2022_10K_p92_c4_p92"
+        ],
+        "top3_e1": [
+          "CVSHEALTH_2022_10K_p133_c1_p133",
+          "CVSHEALTH_2022_10K_p68_c0_p68",
+          "CVSHEALTH_2022_10K_p174_c1_p174"
+        ]
+      },
+      {
+        "qid": "financebench_id_00822",
+        "company": "Foot Locker",
+        "doc_name": "FOOTLOCKER_2022_8K_dated-2022-05-20",
+        "rank_c": 5,
+        "rank_e1": 4,
+        "pool_rank": 3,
+        "question": "Were there any board member nominees who had substantially more votes against joining than the other nominees?",
+        "top3_c": [
+          "MGMRESORTS_2020_10K_p119_c4_p119",
+          "WALMART_2020_10K_p92_c0_p92",
+          "LOCKHEEDMARTIN_2021_10K_p116_c2_p116"
+        ],
+        "top3_e1": [
+          "AMERICANWATERWORKS_2022_10K_p145_c2_p145",
+          "WALMART_2020_10K_p92_c0_p92",
+          "MGMRESORTS_2020_10K_p119_c4_p119"
+        ]
+      },
+      {
+        "qid": "financebench_id_01491",
+        "company": "Johnson & Johnson",
+        "doc_name": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+        "rank_c": 2,
+        "rank_e1": 1,
+        "pool_rank": 2,
+        "question": "What is the amount of the cash proceeds that JnJ realised from the separation of Kenvue (formerly Consumer Health business segment), as of August 30, 2023?",
+        "top3_c": [
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p6_c4_p6",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c2_p4",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c1_p4"
+        ],
+        "top3_e1": [
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c0_p4",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c2_p4",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p6_c4_p6"
+        ]
+      },
+      {
+        "qid": "financebench_id_04412",
+        "company": "Lockheed Martin",
+        "doc_name": "LOCKHEEDMARTIN_2020_10K",
+        "rank_c": 2,
+        "rank_e1": 1,
+        "pool_rank": 9,
+        "question": "We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the balance sheet and the P&L statement, what is Lockheed Martin's FY2020 asset turnover ratio? Asset turnover ratio is defined as: FY2020 revenue / (average total assets between FY2019 and FY2020). Round your answer to two decimal places.",
+        "top3_c": [
+          "LOCKHEEDMARTIN_2020_10K_p22_c4_p22",
+          "LOCKHEEDMARTIN_2020_10K_p69_c0_p69",
+          "LOCKHEEDMARTIN_2021_10K_p68_c0_p68"
+        ],
+        "top3_e1": [
+          "LOCKHEEDMARTIN_2020_10K_p69_c0_p69",
+          "LOCKHEEDMARTIN_2020_10K_p22_c4_p22",
+          "LOCKHEEDMARTIN_2021_10K_p68_c0_p68"
+        ]
+      },
+      {
+        "qid": "financebench_id_03718",
+        "company": "Lockheed Martin",
+        "doc_name": "LOCKHEEDMARTIN_2022_10K",
+        "rank_c": 6,
+        "rank_e1": 3,
+        "pool_rank": 12,
+        "question": "What is Lockheed Martin's 2 year total revenue CAGR from FY2020 to FY2022 (in units of percents and round to one decimal place)? Provide a response to the question by primarily using the statement of income.",
+        "top3_c": [
+          "LOCKHEEDMARTIN_2022_10K_p64_c0_p64",
+          "LOCKHEEDMARTIN_2022_10K_p29_c0_p29",
+          "LOCKHEEDMARTIN_2020_10K_p68_c0_p68"
+        ],
+        "top3_e1": [
+          "LOCKHEEDMARTIN_2022_10K_p64_c0_p64",
+          "LOCKHEEDMARTIN_2022_10K_p29_c0_p29",
+          "LOCKHEEDMARTIN_2022_10K_p63_c0_p63"
+        ]
+      },
+      {
+        "qid": "financebench_id_00382",
+        "company": "MGM Resorts",
+        "doc_name": "MGMRESORTS_2022Q4_EARNINGS",
+        "rank_c": 999,
+        "rank_e1": 9,
+        "pool_rank": 13,
+        "question": "Which region had the Highest EBITDAR Contribution for MGM during FY2022?",
+        "top3_c": [
+          "MGMRESORTS_2022Q4_EARNINGS_p1_c0_p1",
+          "MGMRESORTS_2022_10K_p6_c0_p6",
+          "MGMRESORTS_2022_10K_p100_c0_p100"
+        ],
+        "top3_e1": [
+          "MGMRESORTS_2022Q4_EARNINGS_p1_c0_p1",
+          "MGMRESORTS_2022_10K_p100_c0_p100",
+          "MGMRESORTS_2022_10K_p41_c0_p41"
+        ]
+      },
+      {
+        "qid": "financebench_id_00407",
+        "company": "MGM Resorts",
+        "doc_name": "MGMRESORTS_2023Q2_10Q",
+        "rank_c": 2,
+        "rank_e1": 1,
+        "pool_rank": 1,
+        "question": "Which type of debt received the largest investment among the short term investments for MGM in H1 FY2023?",
+        "top3_c": [
+          "NIKE_2023_10K_p67_c0_p67",
+          "MGMRESORTS_2023Q2_10Q_p11_c0_p11",
+          "MGMRESORTS_2023Q2_10Q_p37_c2_p37"
+        ],
+        "top3_e1": [
+          "MGMRESORTS_2023Q2_10Q_p11_c0_p11",
+          "NIKE_2023_10K_p67_c0_p67",
+          "MGMRESORTS_2023Q2_10Q_p37_c2_p37"
+        ]
+      },
+      {
+        "qid": "financebench_id_03282",
+        "company": "Netflix",
+        "doc_name": "NETFLIX_2017_10K",
+        "rank_c": 999,
+        "rank_e1": 3,
+        "pool_rank": 11,
+        "question": "What is Netflix's year end FY2017 total current liabilities (in USD millions)? Base your judgments on the information provided primarily in the balance sheet.",
+        "top3_c": [
+          "NETFLIX_2017_10K_p31_c0_p31",
+          "NETFLIX_2017_10K_p13_c1_p13",
+          "NETFLIX_2017_10K_p50_c2_p50"
+        ],
+        "top3_e1": [
+          "NETFLIX_2017_10K_p50_c2_p50",
+          "NETFLIX_2017_10K_p31_c0_p31",
+          "NETFLIX_2017_10K_p45_c0_p45"
+        ]
+      },
+      {
+        "qid": "financebench_id_04080",
+        "company": "Nike",
+        "doc_name": "NIKE_2021_10K",
+        "rank_c": 6,
+        "rank_e1": 5,
+        "pool_rank": 3,
+        "question": "When primarily referencing the income statement and the statement of financial position, what is the FY2021 inventory turnover ratio for Nike? Inventory turnover ratio is defined as: (FY2021 COGS) / (average inventory between FY2020 and FY2021). Round your answer to two decimal places.",
+        "top3_c": [
+          "NIKE_2021_10K_p38_c2_p38",
+          "NIKE_2018_10K_p72_c0_p72",
+          "NIKE_2021_10K_p60_c0_p60"
+        ],
+        "top3_e1": [
+          "NIKE_2021_10K_p38_c2_p38",
+          "NIKE_2021_10K_p60_c0_p60",
+          "NIKE_2018_10K_p72_c0_p72"
+        ]
+      },
+      {
+        "qid": "financebench_id_04980",
+        "company": "PepsiCo",
+        "doc_name": "PEPSICO_2021_10K",
+        "rank_c": 3,
+        "rank_e1": 1,
+        "pool_rank": 3,
+        "question": "What is the FY2021 capital expenditure amount (in USD billions) for PepsiCo? Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows.",
+        "top3_c": [
+          "PEPSICO_2021_10K_p54_c1_p54",
+          "PEPSICO_2021_10K_p54_c2_p54",
+          "PEPSICO_2021_10K_p63_c1_p63"
+        ],
+        "top3_e1": [
+          "PEPSICO_2021_10K_p63_c1_p63",
+          "PEPSICO_2021_10K_p54_c1_p54",
+          "PEPSICO_2021_10K_p54_c2_p54"
+        ]
+      },
+      {
+        "qid": "financebench_id_02419",
+        "company": "Pfizer",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "rank_c": 8,
+        "rank_e1": 2,
+        "pool_rank": 1,
+        "question": "As of Q2'2023, is Pfizer spinning off any large business segments?",
+        "top3_c": [
+          "JOHNSON_JOHNSON_2023Q2_EARNINGS_p12_c2_p12",
+          "Pfizer_2023Q2_10Q_p37_c4_p37",
+          "PFIZER_2021_10K_p76_c4_p76"
+        ],
+        "top3_e1": [
+          "Pfizer_2023Q2_10Q_p50_c3_p50",
+          "Pfizer_2023Q2_10Q_p41_c5_p41",
+          "Pfizer_2023Q2_10Q_p37_c4_p37"
+        ]
+      },
+      {
+        "qid": "financebench_id_00859",
+        "company": "Verizon",
+        "doc_name": "VERIZON_2021_10K",
+        "rank_c": 2,
+        "rank_e1": 1,
+        "pool_rank": 1,
+        "question": "Among all of the derivative instruments that Verizon used to manage the exposure to fluctuations of foreign currencies exchange rates or interest rates, which one had the highest notional value in FY 2021?",
+        "top3_c": [
+          "VERIZON_2021_10K_p63_c2_p63",
+          "VERIZON_2021_10K_p85_c4_p85",
+          "PEPSICO_2021_10K_p98_c0_p98"
+        ],
+        "top3_e1": [
+          "VERIZON_2021_10K_p85_c4_p85",
+          "VERIZON_2021_10K_p63_c2_p63",
+          "VERIZON_2021_10K_p47_c3_p47"
+        ]
+      },
+      {
+        "qid": "financebench_id_04784",
+        "company": "Walmart",
+        "doc_name": "WALMART_2019_10K",
+        "rank_c": 6,
+        "rank_e1": 5,
+        "pool_rank": 1,
+        "question": "Based on the information provided primarily in the statement of income, what is the FY2018 - FY2019 change in unadjusted operating income % margin for Walmart? Answer in units of percents and round to one decimal place.",
+        "top3_c": [
+          "WALMART_2019_10K_p29_c1_p29",
+          "WALMART_2019_10K_p35_c0_p35",
+          "WALMART_2020_10K_p37_c2_p37"
+        ],
+        "top3_e1": [
+          "WALMART_2019_10K_p35_c0_p35",
+          "WALMART_2019_10K_p29_c1_p29",
+          "WALMART_2020_10K_p37_c2_p37"
+        ]
+      }
+    ],
+    "regressed_questions": [
+      {
+        "qid": "financebench_id_00807",
+        "company": "3M",
+        "doc_name": "3M_2023Q2_10Q",
+        "rank_c": 4,
+        "rank_e1": 7,
+        "pool_rank": 9,
+        "question": "Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2023? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+        "top3_c": [
+          "3M_2023Q2_10Q_p71_c2_p71",
+          "3M_2022_10K_p15_c3_p15",
+          "3M_2022_10K_p38_c2_p38"
+        ],
+        "top3_e1": [
+          "3M_2023Q2_10Q_p70_c1_p70",
+          "3M_2023Q2_10Q_p71_c2_p71",
+          "3M_2022_10K_p37_c1_p37"
+        ]
+      },
+      {
+        "qid": "financebench_id_07966",
+        "company": "Activision Blizzard",
+        "doc_name": "ACTIVISIONBLIZZARD_2019_10K",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 22,
+        "question": "What is the FY2017 - FY2019 3 year average of capex as a % of revenue for Activision Blizzard? Answer in units of percents and round to one decimal place. Calculate (or extract) the answer from the statement of income and the cash flow statement.",
+        "top3_c": [
+          "ACTIVISIONBLIZZARD_2019_10K_p73_c0_p73",
+          "ACTIVISIONBLIZZARD_2019_10K_p38_c1_p38",
+          "ACTIVISIONBLIZZARD_2019_10K_p38_c2_p38"
+        ],
+        "top3_e1": [
+          "ACTIVISIONBLIZZARD_2019_10K_p38_c1_p38",
+          "ACTIVISIONBLIZZARD_2019_10K_p73_c0_p73",
+          "ACTIVISIONBLIZZARD_2019_10K_p38_c2_p38"
+        ]
+      },
+      {
+        "qid": "financebench_id_00591",
+        "company": "Adobe",
+        "doc_name": "ADOBE_2022_10K",
+        "rank_c": 3,
+        "rank_e1": 4,
+        "pool_rank": 1,
+        "question": "Does Adobe have an improving Free cashflow conversion as of FY2022?",
+        "top3_c": [
+          "ADOBE_2015_10K_p4_c3_p4",
+          "ADOBE_2016_10K_p4_c3_p4",
+          "ADOBE_2022_10K_p57_c1_p57"
+        ],
+        "top3_e1": [
+          "ADOBE_2015_10K_p4_c3_p4",
+          "ADOBE_2015_10K_p39_c2_p39",
+          "ADOBE_2022_10K_p58_c1_p58"
+        ]
+      },
+      {
+        "qid": "financebench_id_08135",
+        "company": "Amazon",
+        "doc_name": "AMAZON_2017_10K",
+        "rank_c": 2,
+        "rank_e1": 5,
+        "pool_rank": 1,
+        "question": "What is Amazon's year-over-year change in revenue from FY2016 to FY2017 (in units of percents and round to one decimal place)? Calculate what was asked by utilizing the line items clearly shown in the statement of income.",
+        "top3_c": [
+          "AMAZON_2017_10K_p39_c0_p39",
+          "AMAZON_2017_10K_p38_c1_p38",
+          "COCACOLA_2017_10K_p52_c3_p52"
+        ],
+        "top3_e1": [
+          "AMAZON_2017_10K_p39_c0_p39",
+          "AMAZON_2017_10K_p25_c1_p25",
+          "AMAZON_2017_10K_p32_c2_p32"
+        ]
+      },
+      {
+        "qid": "financebench_id_01148",
+        "company": "Amcor",
+        "doc_name": "AMCOR_2023_10K",
+        "rank_c": 5,
+        "rank_e1": 8,
+        "pool_rank": 18,
+        "question": "What industry does AMCOR primarily operate in?",
+        "top3_c": [
+          "AMCOR_2020_10K_p8_c2_p8",
+          "AMCOR_2023Q2_10Q_p34_c0_p34",
+          "AMCOR_2023_10K_p30_c0_p30"
+        ],
+        "top3_e1": [
+          "AMCOR_2020_10K_p8_c2_p8",
+          "AMCOR_2023Q4_EARNINGS_p6_c0_p6",
+          "AMCOR_2023_10K_p30_c0_p30"
+        ]
+      },
+      {
+        "qid": "financebench_id_03069",
+        "company": "AMD",
+        "doc_name": "AMD_2015_10K",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 1,
+        "question": "Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",
+        "top3_c": [
+          "AMD_2015_10K_p60_c2_p60",
+          "AMD_2015_10K_p61_c1_p61",
+          "AMD_2015_10K_p61_c0_p61"
+        ],
+        "top3_e1": [
+          "AMD_2015_10K_p61_c0_p61",
+          "AMD_2015_10K_p60_c1_p60",
+          "AMD_2015_10K_p60_c0_p60"
+        ]
+      },
+      {
+        "qid": "financebench_id_01198",
+        "company": "AMD",
+        "doc_name": "AMD_2022_10K",
+        "rank_c": 1,
+        "rank_e1": 3,
+        "pool_rank": 11,
+        "question": "What drove revenue change as of the FY22 for AMD?",
+        "top3_c": [
+          "AMD_2022_10K_p43_c4_p43",
+          "AMD_2022_10K_p5_c0_p5",
+          "AMD_2022_10K_p14_c4_p14"
+        ],
+        "top3_e1": [
+          "AMD_2022_10K_p5_c0_p5",
+          "AMD_2022_10K_p14_c4_p14",
+          "AMD_2022_10K_p43_c4_p43"
+        ]
+      },
+      {
+        "qid": "financebench_id_00917",
+        "company": "AMD",
+        "doc_name": "AMD_2022_10K",
+        "rank_c": 1,
+        "rank_e1": 8,
+        "pool_rank": 33,
+        "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+        "top3_c": [
+          "AMD_2022_10K_p43_c4_p43",
+          "AMD_2022_10K_p62_c1_p62",
+          "AMD_2015_10K_p3_c6_p3"
+        ],
+        "top3_e1": [
+          "AMD_2015_10K_p3_c6_p3",
+          "AMD_2022_10K_p4_c2_p4",
+          "AMD_2022_10K_p62_c1_p62"
+        ]
+      },
+      {
+        "qid": "financebench_id_00476",
+        "company": "American Express",
+        "doc_name": "AMERICANEXPRESS_2022_10K",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 1,
+        "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+        "top3_c": [
+          "AMERICANEXPRESS_2022_10K_p1_c0_p1",
+          "WALMART_2020_10K_p1_c1_p1",
+          "VERIZON_2022_10K_p1_c1_p1"
+        ],
+        "top3_e1": [
+          "AMERICANEXPRESS_2022_10K_p162_c0_p162",
+          "AMERICANEXPRESS_2022_10K_p1_c0_p1",
+          "VERIZON_2022_10K_p1_c1_p1"
+        ]
+      },
+      {
+        "qid": "financebench_id_05718",
+        "company": "American Water Works",
+        "doc_name": "AMERICANWATERWORKS_2020_10K",
+        "rank_c": 3,
+        "rank_e1": 5,
+        "pool_rank": 1,
+        "question": "How much (in USD billions) did American Water Works pay out in cash dividends for FY2020? Compute or extract the answer by primarily using the details outlined in the statement of cash flows.",
+        "top3_c": [
+          "AMERICANWATERWORKS_2020_10K_p87_c2_p87",
+          "AMERICANWATERWORKS_2020_10K_p87_c1_p87",
+          "AMERICANWATERWORKS_2020_10K_p86_c3_p86"
+        ],
+        "top3_e1": [
+          "AMERICANWATERWORKS_2020_10K_p87_c1_p87",
+          "AMERICANWATERWORKS_2020_10K_p87_c2_p87",
+          "AMERICANWATERWORKS_2020_10K_p87_c0_p87"
+        ]
+      },
+      {
+        "qid": "financebench_id_00288",
+        "company": "Best Buy",
+        "doc_name": "BESTBUY_2024Q2_10Q",
+        "rank_c": 2,
+        "rank_e1": 3,
+        "pool_rank": 5,
+        "question": "Was there any drop in Cash & Cash equivalents between FY 2023 and Q2 of FY2024?",
+        "top3_c": [
+          "BESTBUY_2023_10K_p29_c1_p29",
+          "BESTBUY_2024Q2_10Q_p20_c6_p20",
+          "BESTBUY_2024Q2_10Q_p21_c1_p21"
+        ],
+        "top3_e1": [
+          "BESTBUY_2023_10K_p29_c1_p29",
+          "BESTBUY_2024Q2_10Q_p21_c1_p21",
+          "BESTBUY_2024Q2_10Q_p20_c6_p20"
+        ]
+      },
+      {
+        "qid": "financebench_id_00678",
+        "company": "Boeing",
+        "doc_name": "BOEING_2022_10K",
+        "rank_c": 4,
+        "rank_e1": 6,
+        "pool_rank": 13,
+        "question": "Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+        "top3_c": [
+          "BOEING_2022_10K_p30_c3_p30",
+          "GENERALMILLS_2022_10K_p19_c3_p19",
+          "BOEING_2018_10K_p28_c2_p28"
+        ],
+        "top3_e1": [
+          "BOEING_2018_10K_p28_c2_p28",
+          "CORNING_2022_10K_p25_c1_p25",
+          "BOEING_2022_10K_p30_c3_p30"
+        ]
+      },
+      {
+        "qid": "financebench_id_00585",
+        "company": "Boeing",
+        "doc_name": "BOEING_2022_10K",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 4,
+        "question": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
+        "top3_c": [
+          "BOEING_2022_10K_p55_c1_p55",
+          "ADOBE_2022_10K_p45_c2_p45",
+          "JOHNSON_JOHNSON_2022_10K_p68_c2_p68"
+        ],
+        "top3_e1": [
+          "BOEING_2022_10K_p43_c0_p43",
+          "BOEING_2022_10K_p55_c1_p55",
+          "BOEING_2022_10K_p27_c0_p27"
+        ]
+      },
+      {
+        "qid": "financebench_id_06272",
+        "company": "Coca-Cola",
+        "doc_name": "COCACOLA_2022_10K",
+        "rank_c": 10,
+        "rank_e1": 999,
+        "pool_rank": 4,
+        "question": "What is Coca Cola's FY2022 dividend payout ratio (using total cash dividends paid and net income attributable to shareholders)? Round answer to two decimal places. Answer the question asked by assuming you only have access to information clearly displayed in the cash flow statement and the income statement.",
+        "top3_c": [
+          "COCACOLA_2022_10K_p67_c1_p67",
+          "COCACOLA_2022_10K_p67_c2_p67",
+          "COCACOLA_2021_10K_p66_c1_p66"
+        ],
+        "top3_e1": [
+          "COCACOLA_2022_10K_p67_c1_p67",
+          "COCACOLA_2022_10K_p67_c2_p67",
+          "COCACOLA_2021_10K_p66_c1_p66"
+        ]
+      },
+      {
+        "qid": "financebench_id_04209",
+        "company": "Costco",
+        "doc_name": "COSTCO_2021_10K",
+        "rank_c": 2,
+        "rank_e1": 3,
+        "pool_rank": 5,
+        "question": "Using only the information within the balance sheet, how much total assets did Costco have at the end of FY2021? Answer in USD millions.",
+        "top3_c": [
+          "COSTCO_2021_10K_p39_c0_p39",
+          "COSTCO_2021_10K_p38_c0_p38",
+          "COSTCO_2021_10K_p45_c4_p45"
+        ],
+        "top3_e1": [
+          "COSTCO_2021_10K_p39_c0_p39",
+          "COSTCO_2021_10K_p45_c4_p45",
+          "COSTCO_2021_10K_p38_c1_p38"
+        ]
+      },
+      {
+        "qid": "financebench_id_00790",
+        "company": "CVS Health",
+        "doc_name": "CVSHEALTH_2022_10K",
+        "rank_c": 4,
+        "rank_e1": 999,
+        "pool_rank": 20,
+        "question": "Is CVS Health a capital-intensive business based on FY2022 data?",
+        "top3_c": [
+          "CVSHEALTH_2022_10K_p4_c0_p4",
+          "CVSHEALTH_2022_10K_p66_c4_p66",
+          "CVSHEALTH_2022_10K_p66_c5_p66"
+        ],
+        "top3_e1": [
+          "CVSHEALTH_2022_10K_p151_c4_p151",
+          "CVSHEALTH_2022_10K_p17_c0_p17",
+          "CVSHEALTH_2022_10K_p164_c2_p164"
+        ]
+      },
+      {
+        "qid": "financebench_id_00839",
+        "company": "Foot Locker",
+        "doc_name": "FOOTLOCKER_2022_8K_dated_2022-08-19",
+        "rank_c": 2,
+        "rank_e1": 6,
+        "pool_rank": 18,
+        "question": "Does Foot Locker's new CEO have previous CEO experience in a similar company to Footlocker?",
+        "top3_c": [
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p29_c3_p29",
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p2_c0_p2",
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p29_c1_p29"
+        ],
+        "top3_e1": [
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p29_c1_p29",
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p29_c3_p29",
+          "FOOTLOCKER_2022_8K_dated_2022-08-19_p29_c4_p29"
+        ]
+      },
+      {
+        "qid": "financebench_id_00651",
+        "company": "Johnson & Johnson",
+        "doc_name": "JOHNSON_JOHNSON_2022Q4_EARNINGS",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 2,
+        "question": "Is growth in JnJ's adjusted EPS expected to accelerate in FY2023?",
+        "top3_c": [
+          "JOHNSON_JOHNSON_2022Q4_EARNINGS_p1_c1_p1",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c0_p4",
+          "JOHNSON_JOHNSON_2023Q2_EARNINGS_p1_c0_p1"
+        ],
+        "top3_e1": [
+          "JOHNSON_JOHNSON_2023Q2_EARNINGS_p1_c0_p1",
+          "JOHNSON_JOHNSON_2022Q4_EARNINGS_p1_c1_p1",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p4_c0_p4"
+        ]
+      },
+      {
+        "qid": "financebench_id_01487",
+        "company": "Johnson & Johnson",
+        "doc_name": "JOHNSON_JOHNSON_2023Q2_EARNINGS",
+        "rank_c": 5,
+        "rank_e1": 6,
+        "pool_rank": 15,
+        "question": "Did JnJ's net earnings as a percent of sales increase in Q2 of FY2023 compared to Q2 of FY2022?",
+        "top3_c": [
+          "JOHNSON_JOHNSON_2022Q4_EARNINGS_p1_c1_p1",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p17_c0_p17",
+          "JOHNSON_JOHNSON_2023Q2_EARNINGS_p11_c0_p11"
+        ],
+        "top3_e1": [
+          "JOHNSON_JOHNSON_2023Q2_EARNINGS_p1_c0_p1",
+          "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30_p12_c0_p12",
+          "JOHNSON_JOHNSON_2022Q4_EARNINGS_p1_c1_p1"
+        ]
+      },
+      {
+        "qid": "financebench_id_10499",
+        "company": "Kraft Heinz",
+        "doc_name": "KRAFTHEINZ_2019_10K",
+        "rank_c": 1,
+        "rank_e1": 3,
+        "pool_rank": 2,
+        "question": "What is Kraft Heinz's FY2019 inventory turnover ratio? Inventory turnover ratio is defined as: (FY2019 COGS) / (average inventory between FY2018 and FY2019). Round your answer to two decimal places. Please base your judgments on the information provided primarily in the balance sheet and the P&L statement.",
+        "top3_c": [
+          "KRAFTHEINZ_2019_10K_p52_c0_p52",
+          "KRAFTHEINZ_2019_10K_p53_c0_p53",
+          "KRAFTHEINZ_2019_10K_p53_c2_p53"
+        ],
+        "top3_e1": [
+          "KRAFTHEINZ_2019_10K_p53_c0_p53",
+          "KRAFTHEINZ_2019_10K_p53_c1_p53",
+          "KRAFTHEINZ_2019_10K_p52_c0_p52"
+        ]
+      },
+      {
+        "qid": "financebench_id_03031",
+        "company": "Lockheed Martin",
+        "doc_name": "LOCKHEEDMARTIN_2021_10K",
+        "rank_c": 3,
+        "rank_e1": 4,
+        "pool_rank": 3,
+        "question": "What is Lockheed Martin's FY2021 net working capital? Define net working capital as total current assets less total current liabilities. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the balance sheet.",
+        "top3_c": [
+          "LOCKHEEDMARTIN_2021_10K_p31_c1_p31",
+          "LOCKHEEDMARTIN_2021_10K_p30_c4_p30",
+          "LOCKHEEDMARTIN_2021_10K_p68_c0_p68"
+        ],
+        "top3_e1": [
+          "LOCKHEEDMARTIN_2021_10K_p30_c4_p30",
+          "LOCKHEEDMARTIN_2021_10K_p31_c0_p31",
+          "LOCKHEEDMARTIN_2021_10K_p76_c6_p76"
+        ]
+      },
+      {
+        "qid": "financebench_id_01912",
+        "company": "MGM Resorts",
+        "doc_name": "MGMRESORTS_2022Q4_EARNINGS",
+        "rank_c": 7,
+        "rank_e1": 9,
+        "pool_rank": 41,
+        "question": "Which region had the worst topline performance for MGM during FY2022?",
+        "top3_c": [
+          "MGMRESORTS_2022_10K_p6_c0_p6",
+          "MGMRESORTS_2022_10K_p99_c1_p99",
+          "MGMRESORTS_2022_10K_p38_c1_p38"
+        ],
+        "top3_e1": [
+          "MGMRESORTS_2023Q2_10Q_p24_c2_p24",
+          "MGMRESORTS_2022Q4_EARNINGS_p1_c0_p1",
+          "MGMRESORTS_2022_10K_p99_c1_p99"
+        ]
+      },
+      {
+        "qid": "financebench_id_04302",
+        "company": "Nike",
+        "doc_name": "NIKE_2018_10K",
+        "rank_c": 2,
+        "rank_e1": 3,
+        "pool_rank": 1,
+        "question": "We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the statement of income, what is Nike's three year average of cost of goods sold as a % of revenue from FY2016 to FY2018? Answer in units of percents and round to one decimal place.",
+        "top3_c": [
+          "NIKE_2018_10K_p25_c3_p25",
+          "NIKE_2018_10K_p46_c0_p46",
+          "NIKE_2018_10K_p47_c0_p47"
+        ],
+        "top3_e1": [
+          "NIKE_2018_10K_p25_c3_p25",
+          "NIKE_2018_10K_p25_c5_p25",
+          "NIKE_2018_10K_p46_c0_p46"
+        ]
+      },
+      {
+        "qid": "financebench_id_01009",
+        "company": "PepsiCo",
+        "doc_name": "PEPSICO_2022_10K",
+        "rank_c": 4,
+        "rank_e1": 5,
+        "pool_rank": 1,
+        "question": "What are the geographies that Pepsico primarily operates in as of FY2022?",
+        "top3_c": [
+          "PEPSICO_2022_10K_p32_c1_p32",
+          "PEPSICO_2021_10K_p29_c2_p29",
+          "PEPSICO_2022_10K_p29_c1_p29"
+        ],
+        "top3_e1": [
+          "PEPSICO_2022_10K_p32_c1_p32",
+          "PEPSICO_2023Q1_EARNINGS_p12_c1_p12",
+          "PEPSICO_2021_10K_p29_c2_p29"
+        ]
+      },
+      {
+        "qid": "financebench_id_01328",
+        "company": "PepsiCo",
+        "doc_name": "PEPSICO_2022_10K",
+        "rank_c": 6,
+        "rank_e1": 8,
+        "pool_rank": 37,
+        "question": "What is the quantity of restructuring costs directly outlined in Pepsico's income statements for FY2022? If restructuring costs are not explicitly outlined then state 0.",
+        "top3_c": [
+          "PEPSICO_2022_10K_p63_c0_p63",
+          "PEPSICO_2022_10K_p62_c1_p62",
+          "PEPSICO_2022_10K_p62_c0_p62"
+        ],
+        "top3_e1": [
+          "JOHNSON_JOHNSON_2022_10K_p37_c1_p37",
+          "PEPSICO_2022_10K_p63_c0_p63",
+          "PEPSICO_2022_10K_p62_c1_p62"
+        ]
+      },
+      {
+        "qid": "financebench_id_00702",
+        "company": "Pfizer",
+        "doc_name": "PFIZER_2021_10K",
+        "rank_c": 3,
+        "rank_e1": 4,
+        "pool_rank": 10,
+        "question": "Were there any potential events that are not in Pfizer's standard business operations that substantially increased net income in 2019?",
+        "top3_c": [
+          "PFIZER_2021_10K_p61_c0_p61",
+          "PFIZER_2021_10K_p64_c2_p64",
+          "PFIZER_2021_10K_p57_c1_p57"
+        ],
+        "top3_e1": [
+          "PFIZER_2021_10K_p64_c2_p64",
+          "PFIZER_2021_10K_p79_c0_p79",
+          "PFIZER_2021_10K_p64_c1_p64"
+        ]
+      },
+      {
+        "qid": "financebench_id_00283",
+        "company": "Pfizer",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "rank_c": 6,
+        "rank_e1": 9,
+        "pool_rank": 38,
+        "question": "How much does Pfizer expect to pay to spin off Upjohn in the future in USD million?",
+        "top3_c": [
+          "PFIZER_2021_10K_p82_c0_p82",
+          "PFIZER_2021_10K_p6_c0_p6",
+          "Pfizer_2023Q2_10Q_p14_c6_p14"
+        ],
+        "top3_e1": [
+          "PFIZER_2021_10K_p113_c2_p113",
+          "Pfizer_2023Q2_10Q_p14_c6_p14",
+          "PFIZER_2021_10K_p110_c2_p110"
+        ]
+      },
+      {
+        "qid": "financebench_id_00724",
+        "company": "Pfizer",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "rank_c": 9,
+        "rank_e1": 999,
+        "pool_rank": 34,
+        "question": "For Pfizer, which geographic region had the biggest drop in Q22023 year over year revenues (on a percentage basis)?",
+        "top3_c": [
+          "PFIZER_2021_10K_p39_c0_p39",
+          "PFIZER_2021_10K_p109_c0_p109",
+          "PFIZER_2021_10K_p112_c2_p112"
+        ],
+        "top3_e1": [
+          "PFIZER_2021_10K_p109_c0_p109",
+          "PFIZER_2021_10K_p39_c0_p39",
+          "PFIZER_2021_10K_p39_c3_p39"
+        ]
+      },
+      {
+        "qid": "financebench_id_00601",
+        "company": "Ulta Beauty",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "rank_c": 1,
+        "rank_e1": 2,
+        "pool_rank": 8,
+        "question": "What drove the reduction in SG&A expense as a percent of net sales in FY2023?",
+        "top3_c": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p2_c1_p2",
+          "AMCOR_2023_10K_p33_c2_p33",
+          "ULTABEAUTY_2023Q4_EARNINGS_p2_c3_p2"
+        ],
+        "top3_e1": [
+          "AMCOR_2023_10K_p33_c2_p33",
+          "ULTABEAUTY_2023Q4_EARNINGS_p2_c1_p2",
+          "ULTABEAUTY_2023Q4_EARNINGS_p2_c0_p2"
+        ]
+      },
+      {
+        "qid": "financebench_id_00606",
+        "company": "Ulta Beauty",
+        "doc_name": "ULTABEAUTY_2023Q4_EARNINGS",
+        "rank_c": 8,
+        "rank_e1": 999,
+        "pool_rank": 8,
+        "question": "Did Ulta Beauty's wages expense as a percent of net sales increase or decrease in FY2023?",
+        "top3_c": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c1_p1",
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c0_p1",
+          "ULTABEAUTY_2023Q4_EARNINGS_p6_c0_p6"
+        ],
+        "top3_e1": [
+          "ULTABEAUTY_2023Q4_EARNINGS_p6_c0_p6",
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c1_p1",
+          "ULTABEAUTY_2023Q4_EARNINGS_p1_c0_p1"
+        ]
+      },
+      {
+        "qid": "financebench_id_02024",
+        "company": "Verizon",
+        "doc_name": "VERIZON_2021_10K",
+        "rank_c": 6,
+        "rank_e1": 999,
+        "pool_rank": 17,
+        "question": "As of FY 2021, how much did Verizon expect to pay for its retirees in 2024?",
+        "top3_c": [
+          "PEPSICO_2021_10K_p91_c2_p91",
+          "VERIZON_2021_10K_p78_c0_p78",
+          "VERIZON_2022_10K_p35_c1_p35"
+        ],
+        "top3_e1": [
+          "VERIZON_2021_10K_p44_c8_p44",
+          "VERIZON_2022_10K_p70_c2_p70",
+          "VERIZON_2021_10K_p103_c3_p103"
+        ]
+      }
+    ]
+  },
+  "runtime_seconds": {
+    "experiment_c": 32.48,
+    "experiment_e1": 40.22,
+    "delta_seconds": 7.74
+  }
+}

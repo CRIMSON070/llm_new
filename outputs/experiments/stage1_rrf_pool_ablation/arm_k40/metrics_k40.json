@@ -1,0 +1,25 @@
+{
+  "arm_name": "Baseline (K_pool=40)",
+  "k_pool": 40,
+  "questions_evaluated": 37,
+  "candidate_pool_recall": {
+    "hits": 0,
+    "rate_pct": 0.0
+  },
+  "displaced_12_recovered": {
+    "count": 0,
+    "rate_pct": 0.0
+  },
+  "irrelevant_candidates_volume": {
+    "total_candidates": 1480,
+    "irrelevant_candidates": 1480,
+    "avg_per_query": 40.0
+  },
+  "reranked_metrics": {
+    "mrr": 0.0,
+    "recall_at_1": 0.0,
+    "recall_at_3": 0.0,
+    "recall_at_5": 0.0,
+    "recall_at_10": 0.0
+  }
+}

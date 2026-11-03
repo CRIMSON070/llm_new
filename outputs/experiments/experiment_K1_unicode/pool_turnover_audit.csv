@@ -1,0 +1,101 @@
+question_id,company,shared_candidates,novel_k1_candidates,pool_jaccard,pool_transition,top10_transition
+stage3_heldout_0001,Apple Inc.,40,10,0.6667,UNCHANGED,UNCHANGED
+stage3_heldout_0002,Apple Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0003,Apple Inc.,38,12,0.6129,UNCHANGED,UNCHANGED
+stage3_heldout_0004,Apple Inc.,46,4,0.8519,UNCHANGED,UNCHANGED
+stage3_heldout_0005,Apple Inc.,34,16,0.5152,UNCHANGED,UNCHANGED
+stage3_heldout_0006,Alphabet Inc.,47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0007,Alphabet Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0008,Alphabet Inc.,37,13,0.5873,UNCHANGED,UNCHANGED
+stage3_heldout_0009,Alphabet Inc.,33,17,0.4925,UNCHANGED,UNCHANGED
+stage3_heldout_0010,Alphabet Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0011,NVIDIA Corporation,40,10,0.6667,UNCHANGED,UNCHANGED
+stage3_heldout_0012,NVIDIA Corporation,47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0013,NVIDIA Corporation,35,15,0.5385,UNCHANGED,UNCHANGED
+stage3_heldout_0014,NVIDIA Corporation,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0015,NVIDIA Corporation,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0016,"Cisco Systems, Inc.",45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0017,"Cisco Systems, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0018,"Cisco Systems, Inc.",36,14,0.5625,UNCHANGED,UNCHANGED
+stage3_heldout_0019,"Cisco Systems, Inc.",45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0020,"Cisco Systems, Inc.",38,12,0.6129,UNCHANGED,UNCHANGED
+stage3_heldout_0021,Broadcom Inc.,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0022,Broadcom Inc.,47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0023,Broadcom Inc.,34,16,0.5152,UNCHANGED,UNCHANGED
+stage3_heldout_0024,Broadcom Inc.,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0025,Broadcom Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0026,"Meta Platforms, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0027,"Meta Platforms, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0028,"Meta Platforms, Inc.",34,16,0.5152,UNCHANGED,UNCHANGED
+stage3_heldout_0029,"Meta Platforms, Inc.",39,11,0.6393,UNCHANGED,REGRESSION (-)
+stage3_heldout_0030,"Meta Platforms, Inc.",36,14,0.5625,UNCHANGED,UNCHANGED
+stage3_heldout_0031,Bank of America Corp,41,9,0.6949,UNCHANGED,UNCHANGED
+stage3_heldout_0032,Bank of America Corp,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0033,Bank of America Corp,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0034,Bank of America Corp,47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0035,Bank of America Corp,46,4,0.8519,UNCHANGED,UNCHANGED
+stage3_heldout_0036,"The Goldman Sachs Group, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0037,"The Goldman Sachs Group, Inc.",48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0038,"The Goldman Sachs Group, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0039,"The Goldman Sachs Group, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0040,"The Goldman Sachs Group, Inc.",48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0041,Morgan Stanley,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0042,Morgan Stanley,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0043,Morgan Stanley,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0044,Morgan Stanley,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0045,Morgan Stanley,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0046,Wells Fargo & Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0047,Wells Fargo & Company,36,14,0.5625,UNCHANGED,UNCHANGED
+stage3_heldout_0048,Wells Fargo & Company,45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0049,Wells Fargo & Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0050,Wells Fargo & Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0051,"The Home Depot, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0052,"The Home Depot, Inc.",45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0053,"The Home Depot, Inc.",47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0054,"The Home Depot, Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0055,"The Home Depot, Inc.",45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0056,Target Corporation,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0057,Target Corporation,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0058,Target Corporation,36,14,0.5625,UNCHANGED,UNCHANGED
+stage3_heldout_0059,Target Corporation,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0060,Target Corporation,44,6,0.7857,UNCHANGED,UNCHANGED
+stage3_heldout_0061,The Procter & Gamble Company,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0062,The Procter & Gamble Company,45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0063,The Procter & Gamble Company,47,3,0.8868,UNCHANGED,UNCHANGED
+stage3_heldout_0064,The Procter & Gamble Company,45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0065,The Procter & Gamble Company,49,1,0.9608,UNCHANGED,UNCHANGED
+stage3_heldout_0066,Starbucks Corporation,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0067,Starbucks Corporation,46,4,0.8519,UNCHANGED,UNCHANGED
+stage3_heldout_0068,Starbucks Corporation,34,16,0.5152,UNCHANGED,UNCHANGED
+stage3_heldout_0069,Starbucks Corporation,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0070,Starbucks Corporation,45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0071,Eli Lilly and Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0072,Eli Lilly and Company,39,11,0.6393,UNCHANGED,UNCHANGED
+stage3_heldout_0073,Eli Lilly and Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0074,Eli Lilly and Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0075,Eli Lilly and Company,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0076,UnitedHealth Group Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0077,UnitedHealth Group Inc.,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0078,UnitedHealth Group Inc.,44,6,0.7857,UNCHANGED,UNCHANGED
+stage3_heldout_0079,UnitedHealth Group Inc.,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0080,UnitedHealth Group Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0081,"Merck & Co., Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0082,"Merck & Co., Inc.",45,5,0.8182,UNCHANGED,UNCHANGED
+stage3_heldout_0083,"Merck & Co., Inc.",41,9,0.6949,UNCHANGED,UNCHANGED
+stage3_heldout_0084,"Merck & Co., Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0085,"Merck & Co., Inc.",50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0086,AbbVie Inc.,38,12,0.6129,UNCHANGED,UNCHANGED
+stage3_heldout_0087,AbbVie Inc.,42,8,0.7241,UNCHANGED,UNCHANGED
+stage3_heldout_0088,AbbVie Inc.,40,10,0.6667,UNCHANGED,UNCHANGED
+stage3_heldout_0089,AbbVie Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0090,AbbVie Inc.,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0091,Exxon Mobil Corporation,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0092,Exxon Mobil Corporation,44,6,0.7857,UNCHANGED,UNCHANGED
+stage3_heldout_0093,Exxon Mobil Corporation,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0094,Exxon Mobil Corporation,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0095,Exxon Mobil Corporation,48,2,0.9231,UNCHANGED,UNCHANGED
+stage3_heldout_0096,Caterpillar Inc.,50,0,1.0,UNCHANGED,UNCHANGED
+stage3_heldout_0097,Caterpillar Inc.,43,7,0.7544,UNCHANGED,UNCHANGED
+stage3_heldout_0098,Caterpillar Inc.,36,14,0.5625,UNCHANGED,UNCHANGED
+stage3_heldout_0099,Caterpillar Inc.,47,3,0.8868,UNCHANGED,RECOVERY (+)
+stage3_heldout_0100,Caterpillar Inc.,46,4,0.8519,UNCHANGED,UNCHANGED

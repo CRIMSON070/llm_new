@@ -1,0 +1,66 @@
+{
+  "benchmark": "FinanceBench 150",
+  "timestamp": "2026-11-02T17:59:48.704899",
+  "reference_baseline_exp_f": {
+    "mode": "reference",
+    "pool_size": 50,
+    "num_questions": 150,
+    "runtime_seconds": 30.64,
+    "mrr": 0.3498,
+    "recall_at_1": 23.33,
+    "recall_at_3": 42.67,
+    "recall_at_5": 50.67,
+    "recall_at_10": 61.33,
+    "candidate_pool_recall": 75.33,
+    "candidate_pool_hits": 113,
+    "top10_hits": 92
+  },
+  "experiment_h2_prior": {
+    "mode": "experiment_h2",
+    "pool_size": 50,
+    "num_questions": 150,
+    "runtime_seconds": 29.99,
+    "mrr": 0.3796,
+    "recall_at_1": 25.33,
+    "recall_at_3": 47.33,
+    "recall_at_5": 55.33,
+    "recall_at_10": 65.33,
+    "candidate_pool_recall": 79.33,
+    "candidate_pool_hits": 119,
+    "top10_hits": 98
+  },
+  "experiment_h2_1_correctness_fixes": {
+    "mode": "experiment_h2_1",
+    "pool_size": 50,
+    "num_questions": 150,
+    "runtime_seconds": 29.8,
+    "mrr": 0.4453,
+    "recall_at_1": 32.67,
+    "recall_at_3": 51.33,
+    "recall_at_5": 60.0,
+    "recall_at_10": 72.0,
+    "candidate_pool_recall": 86.0,
+    "candidate_pool_hits": 129,
+    "top10_hits": 108
+  },
+  "delta_h2_1_vs_ref": {
+    "mrr": 0.0955,
+    "recall_at_1": 9.34,
+    "recall_at_3": 8.66,
+    "recall_at_5": 9.33,
+    "recall_at_10": 10.67,
+    "candidate_pool_recall": 10.67,
+    "pool_hits_diff": 16,
+    "top10_hits_diff": 16
+  },
+  "delta_h2_1_vs_h2": {
+    "mrr": 0.0657,
+    "recall_at_1": 7.34,
+    "recall_at_3": 4.0,
+    "recall_at_5": 4.67,
+    "recall_at_10": 6.67,
+    "candidate_pool_recall": 6.67,
+    "pool_hits_diff": 10,
+    "top10_hits_diff": 10
+  }
+}

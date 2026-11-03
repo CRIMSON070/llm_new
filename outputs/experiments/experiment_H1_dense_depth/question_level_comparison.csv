@@ -1,0 +1,151 @@
+question_id,company,sector,is_exp_g_38_miss,ref_cand_hit,h1a_cand_hit,h1b_cand_hit,ref_cand_rank,h1a_cand_rank,h1b_cand_rank,ref_final_rank,h1a_final_rank,h1b_final_rank,ref_mrr,h1a_mrr,h1b_mrr,h1b_vs_ref_status
+financebench_id_03029,3M,Industrials,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_04672,3M,Industrials,0,1,1,1,30,30,30,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_00499,3M,Industrials,0,1,1,1,10,5,5,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_01226,3M,Industrials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01865,3M,Industrials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00807,3M,Industrials,0,1,1,1,4,4,4,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_00941,3M,Industrials,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01858,3M,Industrials,0,1,1,1,9,9,9,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_02987,Activision Blizzard,Communication Services,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_07966,Activision Blizzard,Communication Services,0,1,1,1,20,20,20,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_04735,Adobe,Information Technology,0,1,1,1,1,2,2,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_07507,Adobe,Information Technology,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_03856,Adobe,Information Technology,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00438,Adobe,Information Technology,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00591,Adobe,Information Technology,0,1,1,1,1,1,1,6,6,6,0.1667,0.1667,0.1667,STABLE_HIT
+financebench_id_01319,AES Corporation,Utilities,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00540,AES Corporation,Utilities,0,1,1,1,39,39,39,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_10420,AES Corporation,Utilities,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_06655,Amazon,Consumer Discretionary,0,1,1,1,28,28,28,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_08135,Amazon,Consumer Discretionary,0,1,1,1,1,1,1,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_08286,Amazon,Consumer Discretionary,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_03882,Amcor,Materials,0,1,1,1,24,24,24,4,4,4,0.25,0.25,0.25,STABLE_HIT
+financebench_id_01935,Amcor,Materials,0,1,1,1,2,2,2,10,10,10,0.1,0.1,0.1,STABLE_HIT
+financebench_id_00799,Amcor,Materials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01079,Amcor,Materials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01148,Amcor,Materials,0,1,1,1,18,19,24,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_00684,Amcor,Materials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01936,Amcor,Materials,0,1,1,1,5,5,5,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_01928,Amcor,Materials,0,1,1,1,10,12,12,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_01930,Amcor,Materials,0,1,1,1,19,20,22,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_03069,AMD,Information Technology,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00222,AMD,Information Technology,0,1,1,1,16,4,4,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00995,AMD,Information Technology,0,1,1,1,4,9,9,9,9,9,0.1111,0.1111,0.1111,STABLE_HIT
+financebench_id_01198,AMD,Information Technology,0,1,1,1,11,14,16,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00917,AMD,Information Technology,0,1,1,1,33,38,42,1,1,999,1.0,1.0,0.0,STABLE_HIT
+financebench_id_01279,AMD,Information Technology,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00563,AMD,Information Technology,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00757,AMD,Information Technology,0,1,0,0,41,999,999,999,999,999,0.0,0.0,0.0,REGRESSED
+financebench_id_00476,American Express,Financials,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01028,American Express,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00723,American Express,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00720,American Express,Financials,0,1,1,1,4,6,7,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_01351,American Express,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01964,American Express,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01981,American Express,Financials,0,1,1,0,46,48,999,1,1,999,1.0,1.0,0.0,REGRESSED
+financebench_id_05718,American Water Works,Utilities,0,1,1,1,1,1,1,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_04254,American Water Works,Utilities,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00070,American Water Works,Utilities,0,1,1,1,35,35,40,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_02608,Best Buy,Consumer Discretionary,0,1,1,1,2,2,2,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_04417,Best Buy,Consumer Discretionary,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00685,Best Buy,Consumer Discretionary,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01077,Best Buy,Consumer Discretionary,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01275,Best Buy,Consumer Discretionary,0,1,1,1,4,7,7,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00288,Best Buy,Consumer Discretionary,0,1,1,1,5,5,5,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_00460,Best Buy,Consumer Discretionary,0,1,1,1,4,8,8,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_01902,Best Buy,Consumer Discretionary,0,1,1,1,22,22,22,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_04660,Block,Information Technology,1,0,0,1,999,999,31,999,999,7,0.0,0.0,0.1429,RECOVERED
+financebench_id_03838,Block,Information Technology,0,1,1,1,2,2,2,3,4,4,0.3333,0.25,0.25,STABLE_HIT
+financebench_id_07661,Block,Information Technology,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_10285,Boeing,Industrials,0,1,1,1,3,3,3,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_00517,Boeing,Industrials,0,1,1,1,5,6,8,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_01091,Boeing,Industrials,0,1,1,1,13,15,15,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00678,Boeing,Industrials,0,1,1,1,4,3,3,6,6,6,0.1667,0.1667,0.1667,STABLE_HIT
+financebench_id_01290,Boeing,Industrials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00464,Boeing,Industrials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00494,Boeing,Industrials,0,1,1,1,17,29,39,999,999,8,0.0,0.0,0.125,STABLE_HIT
+financebench_id_00585,Boeing,Industrials,0,1,1,1,3,3,3,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_03473,Coca-Cola,Consumer Staples,0,1,1,1,29,29,32,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_09724,Coca-Cola,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_06272,Coca-Cola,Consumer Staples,0,1,1,1,2,2,2,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_10130,Corning,Information Technology,0,1,1,1,48,48,48,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_02981,Corning,Information Technology,0,1,1,1,7,8,8,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01346,Corning,Information Technology,0,1,1,1,19,19,19,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00005,Corning,Information Technology,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_04209,Costco,Consumer Staples,0,1,1,1,4,4,5,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_05915,CVS Health,Health Care,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00790,CVS Health,Health Care,0,1,1,1,13,10,12,4,4,4,0.25,0.25,0.25,STABLE_HIT
+financebench_id_01107,CVS Health,Health Care,0,1,1,1,1,1,1,10,999,999,0.1,0.0,0.0,STABLE_HIT
+financebench_id_01244,CVS Health,Health Care,0,1,1,1,3,3,3,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_00839,Foot Locker,Consumer Discretionary,0,1,1,1,18,18,18,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_00822,Foot Locker,Consumer Discretionary,0,1,1,1,3,3,3,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_04103,General Mills,Consumer Staples,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_03471,General Mills,Consumer Staples,0,1,1,1,43,44,44,7,7,7,0.1429,0.1429,0.1429,STABLE_HIT
+financebench_id_04854,General Mills,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_10136,General Mills,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00956,Johnson & Johnson,Health Care,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00669,Johnson & Johnson,Health Care,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00711,Johnson & Johnson,Health Care,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00651,Johnson & Johnson,Health Care,0,1,1,1,2,2,2,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01484,Johnson & Johnson,Health Care,0,1,1,1,43,43,43,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_01488,Johnson & Johnson,Health Care,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01490,Johnson & Johnson,Health Care,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01491,Johnson & Johnson,Health Care,0,1,1,1,2,2,2,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_01487,Johnson & Johnson,Health Care,0,1,1,1,14,19,21,4,4,4,0.25,0.25,0.25,STABLE_HIT
+financebench_id_00299,JPMorgan,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_02119,JPMorgan,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00206,JPMorgan,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00394,JPMorgan,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_02049,JPMorgan,Financials,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_10499,Kraft Heinz,Consumer Staples,0,1,1,1,2,2,2,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_04412,Lockheed Martin,Industrials,0,1,1,1,4,4,4,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_03031,Lockheed Martin,Industrials,0,1,1,1,1,1,1,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_03718,Lockheed Martin,Industrials,0,1,1,1,12,18,19,6,6,5,0.1667,0.1667,0.2,STABLE_HIT
+financebench_id_04171,MGM Resorts,Consumer Discretionary,0,1,1,1,15,17,18,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_03849,MGM Resorts,Consumer Discretionary,0,1,1,1,3,3,3,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01254,MGM Resorts,Consumer Discretionary,0,1,1,1,2,3,3,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00382,MGM Resorts,Consumer Discretionary,0,1,1,1,8,8,8,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_01911,MGM Resorts,Consumer Discretionary,0,1,1,1,29,29,29,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_01912,MGM Resorts,Consumer Discretionary,0,1,1,1,26,26,28,999,999,10,0.0,0.0,0.1,STABLE_HIT
+financebench_id_00407,MGM Resorts,Consumer Discretionary,0,1,1,1,1,1,1,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_04700,Microsoft,Information Technology,0,1,1,1,48,48,48,10,10,10,0.1,0.1,0.1,STABLE_HIT
+financebench_id_00552,Microsoft,Information Technology,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_04458,Netflix,Communication Services,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_03282,Netflix,Communication Services,0,1,1,1,8,10,12,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_04302,Nike,Consumer Discretionary,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_03531,Nike,Consumer Discretionary,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_04080,Nike,Consumer Discretionary,0,1,1,1,1,1,1,6,6,6,0.1667,0.1667,0.1667,STABLE_HIT
+financebench_id_01163,Nike,Consumer Discretionary,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00080,Paypal,Financials,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_04980,PepsiCo,Consumer Staples,0,1,1,1,3,3,3,3,3,3,0.3333,0.3333,0.3333,STABLE_HIT
+financebench_id_01009,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_00735,PepsiCo,Consumer Staples,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_01328,PepsiCo,Consumer Staples,0,1,1,1,12,15,15,6,6,8,0.1667,0.1667,0.125,STABLE_HIT
+financebench_id_03620,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_04481,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01482,PepsiCo,Consumer Staples,0,1,1,1,2,2,2,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_00705,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00882,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01474,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_01476,PepsiCo,Consumer Staples,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00302,Pfizer,Health Care,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00702,Pfizer,Health Care,0,1,1,1,20,24,33,3,4,3,0.3333,0.25,0.3333,STABLE_HIT
+financebench_id_02416,Pfizer,Health Care,0,1,1,1,28,30,32,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00283,Pfizer,Health Care,0,1,1,1,38,40,40,6,6,6,0.1667,0.1667,0.1667,STABLE_HIT
+financebench_id_00724,Pfizer,Health Care,0,1,1,1,34,37,39,9,9,9,0.1111,0.1111,0.1111,STABLE_HIT
+financebench_id_02419,Pfizer,Health Care,0,1,1,1,1,1,1,7,7,7,0.1429,0.1429,0.1429,STABLE_HIT
+financebench_id_00746,Ulta Beauty,Consumer Discretionary,0,1,1,1,1,1,1,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00521,Ulta Beauty,Consumer Discretionary,0,1,0,0,41,999,999,999,999,999,0.0,0.0,0.0,REGRESSED
+financebench_id_00601,Ulta Beauty,Consumer Discretionary,0,1,1,1,3,3,3,1,1,1,1.0,1.0,1.0,STABLE_HIT
+financebench_id_00603,Ulta Beauty,Consumer Discretionary,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00605,Ulta Beauty,Consumer Discretionary,0,1,1,1,46,48,50,999,999,999,0.0,0.0,0.0,STABLE_HIT
+financebench_id_00606,Ulta Beauty,Consumer Discretionary,0,1,1,1,8,8,8,9,9,8,0.1111,0.1111,0.125,STABLE_HIT
+financebench_id_00859,Verizon,Communication Services,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT
+financebench_id_02024,Verizon,Communication Services,0,1,1,1,7,10,12,10,999,999,0.1,0.0,0.0,STABLE_HIT
+financebench_id_00216,Verizon,Communication Services,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00215,Verizon,Communication Services,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_00566,Verizon,Communication Services,1,0,0,0,999,999,999,999,999,999,0.0,0.0,0.0,STABLE_MISS
+financebench_id_06247,Walmart,Consumer Staples,0,1,1,1,35,35,35,5,5,5,0.2,0.2,0.2,STABLE_HIT
+financebench_id_04784,Walmart,Consumer Staples,0,1,1,1,1,1,1,6,6,6,0.1667,0.1667,0.1667,STABLE_HIT
+financebench_id_06741,Walmart,Consumer Staples,0,1,1,1,1,1,1,2,2,2,0.5,0.5,0.5,STABLE_HIT

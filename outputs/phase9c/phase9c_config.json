@@ -1,0 +1,36 @@
+{
+  "hybrid_retrieval": {
+    "dense_model": "BAAI/bge-m3",
+    "sparse_model": "BM25Okapi",
+    "k_dense": 20,
+    "k_sparse": 20,
+    "k_pool": 40,
+    "k_rrf": 60
+  },
+  "financial_query_expansion": {
+    "enabled": true,
+    "mappings": [
+      "CapEx / PP&E Purchases",
+      "Net PP&E",
+      "Debt Securities vs Obligations",
+      "Net Sales / Revenue"
+    ],
+    "intent_detection": true,
+    "statement_detection": true
+  },
+  "statement_aware_reranking": {
+    "reranker_model": "BAAI/bge-reranker-base",
+    "use_fp16": true,
+    "statement_boost_weight": 2.0,
+    "company_boost_weight": 1.5,
+    "period_boost_weight": 1.5,
+    "table_boost_weight": 0.5,
+    "min_confidence_for_boost": 0.5,
+    "k_final": 5
+  },
+  "downstream_llm": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "adapter": "outputs/phase9b_dpo_phase2",
+    "quantization": "4bit-nf4"
+  }
+}

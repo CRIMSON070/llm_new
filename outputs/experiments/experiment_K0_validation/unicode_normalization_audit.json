@@ -1,0 +1,698 @@
+{
+  "audit_data": {
+    "total_chunks": 29335,
+    "chunks_with_ligatures": 27522,
+    "ligature_counts": {
+      "U+FB01 (fi)": 42606,
+      "U+00A0 ( )": 141702,
+      "U+FB03 (ffi)": 5837,
+      "U+2019 (')": 11554,
+      "U+2014 (-)": 15908,
+      "U+201C (\")": 3984,
+      "U+201D (\")": 3990,
+      "U+FB00 (ff)": 17304,
+      "U+FB02 (fl)": 7086,
+      "U+2013 (-)": 1964,
+      "U+FB04 (ffl)": 22,
+      "U+2018 (')": 9
+    },
+    "corrupted_word_counts": {
+      "financial": 9394,
+      "significant": 3792,
+      "fiscal": 2520,
+      "benefit": 2033,
+      "effective": 1935,
+      "benefits": 1780,
+      "officer": 1760,
+      "flows": 1648,
+      "flow": 996,
+      "defined": 826,
+      "officers": 647,
+      "first": 548,
+      "profit": 411,
+      "difficult": 375,
+      "inflation": 335,
+      "sufficient": 329,
+      "affiliates": 321,
+      "profits": 265,
+      "influence": 125,
+      "financials": 2
+    },
+    "doc_stats": {
+      "AAPL_2023_10K": {
+        "ligature_chunks": 299,
+        "total_chunks": 305,
+        "pct": 98.0
+      },
+      "AAPL_2024_10K": {
+        "ligature_chunks": 303,
+        "total_chunks": 309,
+        "pct": 98.1
+      },
+      "ABBV_2023_10K": {
+        "ligature_chunks": 638,
+        "total_chunks": 683,
+        "pct": 93.4
+      },
+      "ABBV_2024_10K": {
+        "ligature_chunks": 674,
+        "total_chunks": 711,
+        "pct": 94.8
+      },
+      "AVGO_2023_10K": {
+        "ligature_chunks": 568,
+        "total_chunks": 592,
+        "pct": 95.9
+      },
+      "AVGO_2024_10K": {
+        "ligature_chunks": 565,
+        "total_chunks": 601,
+        "pct": 94.0
+      },
+      "BAC_2023_10K": {
+        "ligature_chunks": 1414,
+        "total_chunks": 1503,
+        "pct": 94.1
+      },
+      "BAC_2024_10K": {
+        "ligature_chunks": 1383,
+        "total_chunks": 1481,
+        "pct": 93.4
+      },
+      "CAT_2023_10K": {
+        "ligature_chunks": 747,
+        "total_chunks": 782,
+        "pct": 95.5
+      },
+      "CAT_2024_10K": {
+        "ligature_chunks": 751,
+        "total_chunks": 774,
+        "pct": 97.0
+      },
+      "CSCO_2023_10K": {
+        "ligature_chunks": 603,
+        "total_chunks": 640,
+        "pct": 94.2
+      },
+      "CSCO_2024_10K": {
+        "ligature_chunks": 630,
+        "total_chunks": 671,
+        "pct": 93.9
+      },
+      "GOOGL_2023_10K": {
+        "ligature_chunks": 493,
+        "total_chunks": 538,
+        "pct": 91.6
+      },
+      "GOOGL_2024_10K": {
+        "ligature_chunks": 497,
+        "total_chunks": 555,
+        "pct": 89.5
+      },
+      "GS_2023_10K": {
+        "ligature_chunks": 1931,
+        "total_chunks": 2096,
+        "pct": 92.1
+      },
+      "GS_2024_10K": {
+        "ligature_chunks": 1924,
+        "total_chunks": 2080,
+        "pct": 92.5
+      },
+      "HD_2023_10K": {
+        "ligature_chunks": 430,
+        "total_chunks": 464,
+        "pct": 92.7
+      },
+      "HD_2024_10K": {
+        "ligature_chunks": 426,
+        "total_chunks": 475,
+        "pct": 89.7
+      },
+      "LLY_2023_10K": {
+        "ligature_chunks": 578,
+        "total_chunks": 628,
+        "pct": 92.0
+      },
+      "LLY_2024_10K": {
+        "ligature_chunks": 579,
+        "total_chunks": 632,
+        "pct": 91.6
+      },
+      "META_2023_10K": {
+        "ligature_chunks": 669,
+        "total_chunks": 736,
+        "pct": 90.9
+      },
+      "META_2024_10K": {
+        "ligature_chunks": 685,
+        "total_chunks": 746,
+        "pct": 91.8
+      },
+      "MRK_2023_10K": {
+        "ligature_chunks": 859,
+        "total_chunks": 901,
+        "pct": 95.3
+      },
+      "MRK_2024_10K": {
+        "ligature_chunks": 866,
+        "total_chunks": 904,
+        "pct": 95.8
+      },
+      "MS_2023_10K": {
+        "ligature_chunks": 1340,
+        "total_chunks": 1424,
+        "pct": 94.1
+      },
+      "MS_2024_10K": {
+        "ligature_chunks": 1343,
+        "total_chunks": 1418,
+        "pct": 94.7
+      },
+      "NVDA_2023_10K": {
+        "ligature_chunks": 462,
+        "total_chunks": 496,
+        "pct": 93.1
+      },
+      "NVDA_2024_10K": {
+        "ligature_chunks": 486,
+        "total_chunks": 518,
+        "pct": 93.8
+      },
+      "PG_2023_10K": {
+        "ligature_chunks": 430,
+        "total_chunks": 456,
+        "pct": 94.3
+      },
+      "PG_2024_10K": {
+        "ligature_chunks": 432,
+        "total_chunks": 454,
+        "pct": 95.2
+      },
+      "SBUX_2023_10K": {
+        "ligature_chunks": 515,
+        "total_chunks": 553,
+        "pct": 93.1
+      },
+      "SBUX_2024_10K": {
+        "ligature_chunks": 570,
+        "total_chunks": 599,
+        "pct": 95.2
+      },
+      "TGT_2023_10K": {
+        "ligature_chunks": 316,
+        "total_chunks": 332,
+        "pct": 95.2
+      },
+      "TGT_2024_10K": {
+        "ligature_chunks": 331,
+        "total_chunks": 356,
+        "pct": 93.0
+      },
+      "UNH_2023_10K": {
+        "ligature_chunks": 465,
+        "total_chunks": 491,
+        "pct": 94.7
+      },
+      "UNH_2024_10K": {
+        "ligature_chunks": 482,
+        "total_chunks": 504,
+        "pct": 95.6
+      },
+      "WFC_2023_10K": {
+        "ligature_chunks": 112,
+        "total_chunks": 116,
+        "pct": 96.6
+      },
+      "WFC_2024_10K": {
+        "ligature_chunks": 132,
+        "total_chunks": 139,
+        "pct": 95.0
+      },
+      "XOM_2023_10K": {
+        "ligature_chunks": 781,
+        "total_chunks": 817,
+        "pct": 95.6
+      },
+      "XOM_2024_10K": {
+        "ligature_chunks": 813,
+        "total_chunks": 855,
+        "pct": 95.1
+      }
+    },
+    "samples": [
+      {
+        "chunk_id": "AAPL_2024_10K_p1_c0",
+        "doc_name": "AAPL_2024_10K",
+        "page_number": 1,
+        "text_sample": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n(Mark One)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nFor the ﬁscal year ended September 28, 2024\nor\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXC"
+      },
+      {
+        "chunk_id": "AAPL_2024_10K_p2_c0",
+        "doc_name": "AAPL_2024_10K",
+        "page_number": 2,
+        "text_sample": "Title of each class\nTrading symbol(s)\nName of each exchange on which registered\nCommon Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC\n0.000% Notes due 2025\n—\nThe Nasdaq Stock Market LLC\n0.875% Notes due 2025\n—\nThe Nasdaq Stock Market LLC\n1.625% Notes due 2026\n—\nThe Nasdaq Stock"
+      },
+      {
+        "chunk_id": "AAPL_2024_10K_p3_c0",
+        "doc_name": "AAPL_2024_10K",
+        "page_number": 3,
+        "text_sample": "Indicate by check mark whether the Registrant (1) has ﬁled all reports required to be ﬁled by\nSection 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months\n(or for such shorter period that the Registrant was required to ﬁle such reports), and (2) has\nbeen subject to such "
+      },
+      {
+        "chunk_id": "AAPL_2024_10K_p3_c1",
+        "doc_name": "AAPL_2024_10K",
+        "page_number": 3,
+        "text_sample": "a non-accelerated ﬁler, a smaller reporting company, or an emerging growth company. See\nthe deﬁnitions of “large accelerated ﬁler,” “accelerated ﬁler,” “smaller reporting company,” and\n“emerging growth company” in Rule 12b-2 of the Exchange Act.\nLarge accelerated ﬁler\n☒\nAccelerated ﬁler\n☐\nNon-accele"
+      },
+      {
+        "chunk_id": "AAPL_2024_10K_p3_c2",
+        "doc_name": "AAPL_2024_10K",
+        "page_number": 3,
+        "text_sample": "under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public\naccounting ﬁrm that prepared or issued its audit report. ☒\nIf securities are registered pursuant to Section 12(b) of the Act, indicate by check mark\nwhether the ﬁnancial statements of the registrant included "
+      }
+    ]
+  },
+  "tokenizer_tests": {
+    "bm25_results": [
+      {
+        "query": "Apple fiscal 2024 financial statements",
+        "q_tokens": [
+          "appl",
+          "fiscal",
+          "2024",
+          "financi",
+          "statement"
+        ],
+        "raw_tokens": [
+          "appl",
+          "inc",
+          "consolid",
+          "ﬁnancial",
+          "statement",
+          "ﬁscal",
+          "year",
+          "end",
+          "septemb",
+          "28",
+          "2024"
+        ],
+        "norm_tokens": [
+          "appl",
+          "inc",
+          "consolid",
+          "financi",
+          "statement",
+          "fiscal",
+          "year",
+          "end",
+          "septemb",
+          "28",
+          "2024"
+        ],
+        "raw_overlap": [
+          "statement",
+          "2024",
+          "appl"
+        ],
+        "norm_overlap": [
+          "fiscal",
+          "2024",
+          "statement",
+          "financi",
+          "appl"
+        ],
+        "raw_bm25_score": 0.3452184796333313,
+        "norm_bm25_score": 0.5753641724586487
+      },
+      {
+        "query": "Alphabet cash flows from operating activities",
+        "q_tokens": [
+          "alphabet",
+          "cash",
+          "flow",
+          "from",
+          "oper",
+          "activ"
+        ],
+        "raw_tokens": [
+          "alphabet",
+          "inc",
+          "consolid",
+          "statement",
+          "cash",
+          "ﬂow",
+          "oper",
+          "activ",
+          "cash",
+          "ﬂow"
+        ],
+        "norm_tokens": [
+          "alphabet",
+          "inc",
+          "consolid",
+          "statement",
+          "cash",
+          "flow",
+          "oper",
+          "activ",
+          "cash",
+          "flow"
+        ],
+        "raw_overlap": [
+          "cash",
+          "oper",
+          "alphabet",
+          "activ"
+        ],
+        "norm_overlap": [
+          "activ",
+          "cash",
+          "alphabet",
+          "flow",
+          "oper"
+        ],
+        "raw_bm25_score": 0.509608268737793,
+        "norm_bm25_score": 0.6739979982376099
+      },
+      {
+        "query": "effective income tax rate benefits",
+        "q_tokens": [
+          "effect",
+          "incom",
+          "tax",
+          "rate",
+          "benefit"
+        ],
+        "raw_tokens": [
+          "eﬀect",
+          "tax",
+          "rate",
+          "reﬂect",
+          "tax",
+          "beneﬁt",
+          "from",
+          "research",
+          "develop",
+          "credit"
+        ],
+        "norm_tokens": [
+          "effect",
+          "tax",
+          "rate",
+          "reflect",
+          "tax",
+          "benefit",
+          "from",
+          "research",
+          "develop",
+          "credit"
+        ],
+        "raw_overlap": [
+          "tax",
+          "rate"
+        ],
+        "norm_overlap": [
+          "tax",
+          "rate",
+          "benefit",
+          "effect"
+        ],
+        "raw_bm25_score": 0.2794625759124756,
+        "norm_bm25_score": 0.509608268737793
+      }
+    ],
+    "bge_results": [
+      {
+        "raw": "Apple Inc. Consolidated ﬁnancial Statements for the ﬁscal year ended September 28, 2024.",
+        "norm": "Apple Inc. Consolidated financial Statements for the fiscal year ended September 28, 2024.",
+        "raw_subwords": [
+          "▁Apple",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁financial",
+          "▁State",
+          "ments",
+          "▁for",
+          "▁the",
+          "▁fiscal",
+          "▁year",
+          "▁ended",
+          "▁September",
+          "▁28,",
+          "▁20",
+          "24."
+        ],
+        "norm_subwords": [
+          "▁Apple",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁financial",
+          "▁State",
+          "ments",
+          "▁for",
+          "▁the",
+          "▁fiscal",
+          "▁year",
+          "▁ended",
+          "▁September",
+          "▁28,",
+          "▁20",
+          "24."
+        ],
+        "raw_token_count": 18,
+        "norm_token_count": 18
+      },
+      {
+        "raw": "Alphabet Inc. Consolidated Statements of Cash ﬂows Operating activities cash ﬂow.",
+        "norm": "Alphabet Inc. Consolidated Statements of Cash flows Operating activities cash flow.",
+        "raw_subwords": [
+          "▁Alpha",
+          "bet",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁State",
+          "ments",
+          "▁of",
+          "▁Cash",
+          "▁flow",
+          "s",
+          "▁Opera",
+          "ting",
+          "▁activities",
+          "▁cash",
+          "▁flow",
+          "."
+        ],
+        "norm_subwords": [
+          "▁Alpha",
+          "bet",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁State",
+          "ments",
+          "▁of",
+          "▁Cash",
+          "▁flow",
+          "s",
+          "▁Opera",
+          "ting",
+          "▁activities",
+          "▁cash",
+          "▁flow",
+          "."
+        ],
+        "raw_token_count": 19,
+        "norm_token_count": 19
+      },
+      {
+        "raw": "The eﬀective tax rate reﬂected tax beneﬁts from research and development credits.",
+        "norm": "The effective tax rate reflected tax benefits from research and development credits.",
+        "raw_subwords": [
+          "▁The",
+          "▁effective",
+          "▁tax",
+          "▁rate",
+          "▁reflect",
+          "ed",
+          "▁tax",
+          "▁benefits",
+          "▁from",
+          "▁research",
+          "▁and",
+          "▁development",
+          "▁credit",
+          "s",
+          "."
+        ],
+        "norm_subwords": [
+          "▁The",
+          "▁effective",
+          "▁tax",
+          "▁rate",
+          "▁reflect",
+          "ed",
+          "▁tax",
+          "▁benefits",
+          "▁from",
+          "▁research",
+          "▁and",
+          "▁development",
+          "▁credit",
+          "s",
+          "."
+        ],
+        "raw_token_count": 15,
+        "norm_token_count": 15
+      }
+    ],
+    "rerank_results": [
+      {
+        "raw": "Apple Inc. Consolidated ﬁnancial Statements for the ﬁscal year ended September 28, 2024.",
+        "norm": "Apple Inc. Consolidated financial Statements for the fiscal year ended September 28, 2024.",
+        "raw_subwords": [
+          "▁Apple",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁financial",
+          "▁State",
+          "ments",
+          "▁for",
+          "▁the",
+          "▁fiscal",
+          "▁year",
+          "▁ended",
+          "▁September",
+          "▁28,",
+          "▁20",
+          "24."
+        ],
+        "norm_subwords": [
+          "▁Apple",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁financial",
+          "▁State",
+          "ments",
+          "▁for",
+          "▁the",
+          "▁fiscal",
+          "▁year",
+          "▁ended",
+          "▁September",
+          "▁28,",
+          "▁20",
+          "24."
+        ],
+        "raw_token_count": 18,
+        "norm_token_count": 18
+      },
+      {
+        "raw": "Alphabet Inc. Consolidated Statements of Cash ﬂows Operating activities cash ﬂow.",
+        "norm": "Alphabet Inc. Consolidated Statements of Cash flows Operating activities cash flow.",
+        "raw_subwords": [
+          "▁Alpha",
+          "bet",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁State",
+          "ments",
+          "▁of",
+          "▁Cash",
+          "▁flow",
+          "s",
+          "▁Opera",
+          "ting",
+          "▁activities",
+          "▁cash",
+          "▁flow",
+          "."
+        ],
+        "norm_subwords": [
+          "▁Alpha",
+          "bet",
+          "▁Inc",
+          ".",
+          "▁Con",
+          "solid",
+          "ated",
+          "▁State",
+          "ments",
+          "▁of",
+          "▁Cash",
+          "▁flow",
+          "s",
+          "▁Opera",
+          "ting",
+          "▁activities",
+          "▁cash",
+          "▁flow",
+          "."
+        ],
+        "raw_token_count": 19,
+        "norm_token_count": 19
+      },
+      {
+        "raw": "The eﬀective tax rate reﬂected tax beneﬁts from research and development credits.",
+        "norm": "The effective tax rate reflected tax benefits from research and development credits.",
+        "raw_subwords": [
+          "▁The",
+          "▁effective",
+          "▁tax",
+          "▁rate",
+          "▁reflect",
+          "ed",
+          "▁tax",
+          "▁benefits",
+          "▁from",
+          "▁research",
+          "▁and",
+          "▁development",
+          "▁credit",
+          "s",
+          "."
+        ],
+        "norm_subwords": [
+          "▁The",
+          "▁effective",
+          "▁tax",
+          "▁rate",
+          "▁reflect",
+          "ed",
+          "▁tax",
+          "▁benefits",
+          "▁from",
+          "▁research",
+          "▁and",
+          "▁development",
+          "▁credit",
+          "s",
+          "."
+        ],
+        "raw_token_count": 15,
+        "norm_token_count": 15
+      }
+    ]
+  }
+}

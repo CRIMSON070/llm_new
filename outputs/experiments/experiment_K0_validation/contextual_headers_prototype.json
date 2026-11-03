@@ -1,0 +1,306 @@
+[
+  {
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 68,
+    "header": "[DOCUMENT: Apple Inc. (AAPL) | FORM: Form 10-K | FISCAL PERIOD: FY2024 (Ended 2024-09-28) | SECTION: Consolidated Statements of Operations | PDF PAGE: 68]",
+    "bge_token_count": 60,
+    "rerank_token_count": 60,
+    "bm25_token_count": 21,
+    "bm25_tokens": [
+      "document",
+      "appl",
+      "inc",
+      "aapl",
+      "form",
+      "form",
+      "10",
+      "fiscal",
+      "period",
+      "fy2024",
+      "end",
+      "2024",
+      "09",
+      "28",
+      "section",
+      "consolid",
+      "statement",
+      "oper",
+      "pdf",
+      "page",
+      "68"
+    ],
+    "provenance": {
+      "company": {
+        "value": "Apple Inc.",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "ticker": {
+        "value": "AAPL",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "form": {
+        "value": "Form 10-K",
+        "status": "VERIFIED_FILING"
+      },
+      "fiscal_year": {
+        "value": "FY2024",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "period_end_date": {
+        "value": "2024-09-28",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "pdf_page": {
+        "value": 68,
+        "status": "VERIFIED_PDF_INDEX"
+      },
+      "section": {
+        "value": "Consolidated Statements of Operations",
+        "status": "INFERRED"
+      }
+    }
+  },
+  {
+    "doc_name": "AAPL_2024_10K",
+    "page_num": 74,
+    "header": "[DOCUMENT: Apple Inc. (AAPL) | FORM: Form 10-K | FISCAL PERIOD: FY2024 (Ended 2024-09-28) | SECTION: Consolidated Balance Sheets | PDF PAGE: 74]",
+    "bge_token_count": 58,
+    "rerank_token_count": 58,
+    "bm25_token_count": 21,
+    "bm25_tokens": [
+      "document",
+      "appl",
+      "inc",
+      "aapl",
+      "form",
+      "form",
+      "10",
+      "fiscal",
+      "period",
+      "fy2024",
+      "end",
+      "2024",
+      "09",
+      "28",
+      "section",
+      "consolid",
+      "balanc",
+      "sheet",
+      "pdf",
+      "page",
+      "74"
+    ],
+    "provenance": {
+      "company": {
+        "value": "Apple Inc.",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "ticker": {
+        "value": "AAPL",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "form": {
+        "value": "Form 10-K",
+        "status": "VERIFIED_FILING"
+      },
+      "fiscal_year": {
+        "value": "FY2024",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "period_end_date": {
+        "value": "2024-09-28",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "pdf_page": {
+        "value": 74,
+        "status": "VERIFIED_PDF_INDEX"
+      },
+      "section": {
+        "value": "Consolidated Balance Sheets",
+        "status": "INFERRED"
+      }
+    }
+  },
+  {
+    "doc_name": "NVDA_2024_10K",
+    "page_num": 113,
+    "header": "[DOCUMENT: NVIDIA Corporation (NVDA) | FORM: Form 10-K | FISCAL PERIOD: FY2024 (Ended 2024-01-28) | SECTION: Consolidated Statements of Income | PDF PAGE: 113]",
+    "bge_token_count": 59,
+    "rerank_token_count": 59,
+    "bm25_token_count": 21,
+    "bm25_tokens": [
+      "document",
+      "nvidia",
+      "corpor",
+      "nvda",
+      "form",
+      "form",
+      "10",
+      "fiscal",
+      "period",
+      "fy2024",
+      "end",
+      "2024",
+      "01",
+      "28",
+      "section",
+      "consolid",
+      "statement",
+      "incom",
+      "pdf",
+      "page",
+      "113"
+    ],
+    "provenance": {
+      "company": {
+        "value": "NVIDIA Corporation",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "ticker": {
+        "value": "NVDA",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "form": {
+        "value": "Form 10-K",
+        "status": "VERIFIED_FILING"
+      },
+      "fiscal_year": {
+        "value": "FY2024",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "period_end_date": {
+        "value": "2024-01-28",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "pdf_page": {
+        "value": 113,
+        "status": "VERIFIED_PDF_INDEX"
+      },
+      "section": {
+        "value": "Consolidated Statements of Income",
+        "status": "INFERRED"
+      }
+    }
+  },
+  {
+    "doc_name": "GOOGL_2024_10K",
+    "page_num": 144,
+    "header": "[DOCUMENT: Alphabet Inc. (GOOGL) | FORM: Form 10-K | FISCAL PERIOD: FY2024 (Ended 2024-12-31) | SECTION: Consolidated Statements of Income | PDF PAGE: 144]",
+    "bge_token_count": 62,
+    "rerank_token_count": 62,
+    "bm25_token_count": 21,
+    "bm25_tokens": [
+      "document",
+      "alphabet",
+      "inc",
+      "googl",
+      "form",
+      "form",
+      "10",
+      "fiscal",
+      "period",
+      "fy2024",
+      "end",
+      "2024",
+      "12",
+      "31",
+      "section",
+      "consolid",
+      "statement",
+      "incom",
+      "pdf",
+      "page",
+      "144"
+    ],
+    "provenance": {
+      "company": {
+        "value": "Alphabet Inc.",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "ticker": {
+        "value": "GOOGL",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "form": {
+        "value": "Form 10-K",
+        "status": "VERIFIED_FILING"
+      },
+      "fiscal_year": {
+        "value": "FY2024",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "period_end_date": {
+        "value": "2024-12-31",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "pdf_page": {
+        "value": 144,
+        "status": "VERIFIED_PDF_INDEX"
+      },
+      "section": {
+        "value": "Consolidated Statements of Income",
+        "status": "INFERRED"
+      }
+    }
+  },
+  {
+    "doc_name": "MS_2024_10K",
+    "page_num": 55,
+    "header": "[DOCUMENT: Morgan Stanley (MS) | FORM: Form 10-K | FISCAL PERIOD: FY2024 (Ended 2024-12-31) | SECTION: General Disclosure | PDF PAGE: 55]",
+    "bge_token_count": 53,
+    "rerank_token_count": 53,
+    "bm25_token_count": 20,
+    "bm25_tokens": [
+      "document",
+      "morgan",
+      "stanley",
+      "ms",
+      "form",
+      "form",
+      "10",
+      "fiscal",
+      "period",
+      "fy2024",
+      "end",
+      "2024",
+      "12",
+      "31",
+      "section",
+      "general",
+      "disclosur",
+      "pdf",
+      "page",
+      "55"
+    ],
+    "provenance": {
+      "company": {
+        "value": "Morgan Stanley",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "ticker": {
+        "value": "MS",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "form": {
+        "value": "Form 10-K",
+        "status": "VERIFIED_FILING"
+      },
+      "fiscal_year": {
+        "value": "FY2024",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "period_end_date": {
+        "value": "2024-12-31",
+        "status": "VERIFIED_MANIFEST"
+      },
+      "pdf_page": {
+        "value": 55,
+        "status": "VERIFIED_PDF_INDEX"
+      },
+      "section": {
+        "value": "General Disclosure",
+        "status": "UNCLASSIFIED"
+      }
+    }
+  }
+]

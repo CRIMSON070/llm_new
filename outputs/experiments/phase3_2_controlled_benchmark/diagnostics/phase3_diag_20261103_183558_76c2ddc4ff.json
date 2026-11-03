@@ -1,0 +1,318 @@
+{
+  "timestamp": "20261103_183558",
+  "original_query": "What was Alphabet's net income for the year ended December 31, 2023?",
+  "extracted_intelligence": {
+    "detected_company": "GOOGLE",
+    "detected_metric": "net income",
+    "detected_statement": null,
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2023"
+    ],
+    "detected_operation": "extract_single_value"
+  },
+  "generated_search_queries": {
+    "dense_query": "What was Alphabet's net income for the year ended December 31, 2023?",
+    "bm25_query": "What was Alphabet's net income for the year ended December 31, 2023?",
+    "targeted_period_queries": [
+      "GOOGLE net income 2023"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "GOOGL_2024_10K_p237_c0",
+        "GOOGL_2024_10K_p257_c0",
+        "GOOGL_2023_10K_p145_c0"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "GOOGL_2023_10K_p145_c0",
+        "GOOGL_2024_10K_p147_c0",
+        "GOOGL_2024_10K_p257_c0"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "GOOGL_2024_10K_p108_c1",
+        "GOOGL_2023_10K_p108_c0",
+        "GOOGL_2024_10K_p181_c0"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "GOOGL_2024_10K_p110_c0",
+        "GOOGL_2024_10K_p108_c1",
+        "GOOGL_2023_10K_p108_c1"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_period_1",
+      "sparse_period_1"
+    ],
+    "total_raw_candidates": 70,
+    "unique_candidates_pooled": 50,
+    "final_pool_size": 40,
+    "deduplicated_count": 20
+  },
+  "metadata_filtering_trace": {
+    "applied": false,
+    "detected_company": "GOOGLE",
+    "detected_periods": [
+      "2023"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 0,
+    "fallback_triggered": true,
+    "reason": "fallback to unfiltered pool: company filter for 'GOOGLE' yielded only 0 candidates (< 5 threshold)"
+  },
+  "final_candidate_count": 40,
+  "top_10_candidates": [
+    {
+      "chunk_id": "GOOGL_2024_10K_p108_c1",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 108,
+      "rrf_score": 0.04568,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 16,
+          "raw_score": 8.4202,
+          "rrf_contribution": 0.013158
+        },
+        "dense_period_1": {
+          "rank": 1,
+          "raw_score": 0.6344,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_period_1": {
+          "rank": 2,
+          "raw_score": 5.434,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2023_10K_p145_c0",
+      "doc_name": "GOOGL_2023_10K",
+      "page": 145,
+      "rrf_score": 0.032266,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 3,
+          "raw_score": 0.514,
+          "rrf_contribution": 0.015873
+        },
+        "sparse_orig": {
+          "rank": 1,
+          "raw_score": 9.3606,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p257_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 257,
+      "rrf_score": 0.032002,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 2,
+          "raw_score": 0.5115,
+          "rrf_contribution": 0.016129
+        },
+        "sparse_orig": {
+          "rank": 3,
+          "raw_score": 9.0035,
+          "rrf_contribution": 0.015873
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p147_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 147,
+      "rrf_score": 0.031754,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 4,
+          "raw_score": 0.518,
+          "rrf_contribution": 0.015625
+        },
+        "sparse_orig": {
+          "rank": 2,
+          "raw_score": 9.1974,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p237_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 237,
+      "rrf_score": 0.030679,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 1,
+          "raw_score": 0.4884,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_orig": {
+          "rank": 10,
+          "raw_score": 8.5941,
+          "rrf_contribution": 0.014286
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p110_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 110,
+      "rrf_score": 0.030679,
+      "contributing_paths": [
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_period_1": {
+          "rank": 10,
+          "raw_score": 0.6964,
+          "rrf_contribution": 0.014286
+        },
+        "sparse_period_1": {
+          "rank": 1,
+          "raw_score": 5.4421,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2023_10K_p254_c0",
+      "doc_name": "GOOGL_2023_10K",
+      "page": 254,
+      "rrf_score": 0.030536,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 5,
+          "raw_score": 0.5204,
+          "rrf_contribution": 0.015385
+        },
+        "sparse_orig": {
+          "rank": 6,
+          "raw_score": 8.8546,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p108_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 108,
+      "rrf_score": 0.030303,
+      "contributing_paths": [
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_period_1": {
+          "rank": 6,
+          "raw_score": 0.6818,
+          "rrf_contribution": 0.015152
+        },
+        "sparse_period_1": {
+          "rank": 6,
+          "raw_score": 4.7925,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p156_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 156,
+      "rrf_score": 0.02967,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 10,
+          "raw_score": 0.5534,
+          "rrf_contribution": 0.014286
+        },
+        "sparse_orig": {
+          "rank": 5,
+          "raw_score": 8.8726,
+          "rrf_contribution": 0.015385
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GOOGL_2024_10K_p98_c0",
+      "doc_name": "GOOGL_2024_10K",
+      "page": 98,
+      "rrf_score": 0.029631,
+      "contributing_paths": [
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_period_1": {
+          "rank": 8,
+          "raw_score": 0.6864,
+          "rrf_contribution": 0.014706
+        },
+        "sparse_period_1": {
+          "rank": 7,
+          "raw_score": 4.6034,
+          "rrf_contribution": 0.014925
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

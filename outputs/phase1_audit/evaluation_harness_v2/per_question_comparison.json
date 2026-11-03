@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "Q1",
+    "query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "gold_answer": "$1577.00",
+    "top3": {
+      "evidence_retrieval": false,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": false,
+      "audit_notes": "Extracted $27M environmental capital projects instead of $1,577M official cash flow PP&E purchases.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          "27"
+        ],
+        "unit": "million USD"
+      }
+    },
+    "top5": {
+      "evidence_retrieval": false,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": false,
+      "audit_notes": "Extracted $27M environmental capital projects instead of $1,577M official cash flow PP&E purchases.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          "27"
+        ]
+      }
+    }
+  },
+  {
+    "question_id": "Q2",
+    "query": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+    "gold_answer": "$8.70",
+    "top3": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": false,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Correctly extracted $8,738M from Balance Sheet and converted to 8.738 billion USD as requested.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          8.738
+        ]
+      }
+    },
+    "top5": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": false,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": false,
+      "audit_notes": "Distracted by Total Assets ($36,500M) in Top-5 context; Net PP&E is $8,738M.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          {
+            "page": "3M_2018_10K_p58_c1",
+            "value": "36,500"
+          }
+        ],
+        "unit": "Millions",
+        "answer": 36.5
+      }
+    }
+  },
+  {
+    "question_id": "Q3",
+    "query": "Which debt securities are registered to trade on a national securities exchange under Ulta Beauty's name as of FY2023?",
+    "gold_answer": "There are none",
+    "top3": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": false,
+      "audit_notes": "Model extracted Common Stock (equity security) under extract_single_value instead of selecting operation 'none'. Per user constraint: Section 12(b) table proves absence of registered debt securities, but model returned equity.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          "Common stock, par value $0.01 per share"
+        ]
+      }
+    },
+    "top5": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": false,
+      "audit_notes": "Model extracted Common Stock (equity security) under extract_single_value instead of selecting operation 'none'. Per user constraint: Section 12(b) table proves absence of registered debt securities, but model returned equity.",
+      "raw_parsed": {
+        "operation": "extract_single_value",
+        "values": [
+          "Common stock, par value $0.01 per share"
+        ]
+      }
+    }
+  },
+  {
+    "question_id": "Q4",
+    "query": "What are major acquisitions that Ulta Beauty has done in FY2023 and FY2022?",
+    "gold_answer": "Ulta Beauty did not make any acquisitions in FY2023 and FY2022.",
+    "top3": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Correctly asserted absence of acquisitions in FY2022 and FY2023 (proper refusal).",
+      "raw_parsed": {
+        "operation": "none",
+        "result": "No information about major acquisitions in FY2023 and FY2022 is provided in the given context."
+      }
+    },
+    "top5": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Correctly asserted absence of acquisitions in FY2022 and FY2023 (proper refusal).",
+      "raw_parsed": {
+        "operation": "none",
+        "result": "None of the provided context mentions any specific acquisitions made by Ulta Beauty in FY2023 or FY2022."
+      }
+    }
+  },
+  {
+    "question_id": "Q5",
+    "query": "Based on the statements of income, what is the absolute difference in net sales for 3M from 2017 to 2018? Also calculate the percentage change.",
+    "gold_answer": "Net sales in 2018 - Net sales in 2017. Approx 3%.",
+    "top3": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Extracted exact operands ($32,765M, $31,657M) and computed 1,108M difference and 3.5% change.",
+      "raw_parsed": {
+        "operation": "absolute_difference",
+        "values": [
+          32765,
+          31657
+        ],
+        "result": 1108
+      }
+    },
+    "top5": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": true,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Extracted exact operands ($32,765M, $31,657M) and computed 1,108M difference and 3.5% change.",
+      "raw_parsed": {
+        "operation": "absolute_difference",
+        "values": [
+          32765,
+          31657
+        ],
+        "percentage_change": true
+      }
+    }
+  },
+  {
+    "question_id": "Q6",
+    "query": "What is the difference between Ulta Beauty's merchandise inventories at the end of FY2023 and the end of FY2022?",
+    "gold_answer": "$1,603,451 - $1,499,218 = $104,233",
+    "top3": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": false,
+      "numeric_unit_correct": false,
+      "reporting_period_correct": true,
+      "arithmetic_correct": false,
+      "semantic_correct": false,
+      "audit_notes": "Top-3 reported difference 104,219 has minor arithmetic error (expected 104,233).",
+      "raw_parsed": {
+        "operation": "absolute_difference",
+        "value": 104219
+      }
+    },
+    "top5": {
+      "evidence_retrieval": true,
+      "strict_schema_pass": false,
+      "numeric_unit_correct": true,
+      "reporting_period_correct": true,
+      "arithmetic_correct": true,
+      "semantic_correct": true,
+      "audit_notes": "Top-5 reported exact difference $104,233 thousand from $1,603,451k and $1,499,218k. Harness V2 accepts precomputed difference in 'value' field.",
+      "raw_parsed": {
+        "operation": "absolute_difference",
+        "value": 104233
+      }
+    }
+  }
+]

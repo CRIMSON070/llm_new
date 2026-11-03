@@ -1,0 +1,67 @@
+{
+  "arm_name": "exp_f_control",
+  "timestamp": "2026-11-03T09:39:23.286537",
+  "num_questions": 100,
+  "runtime_seconds": 27.29,
+  "avg_query_time_ms": 272.9,
+  "candidate_pool_recall": 30.0,
+  "candidate_pool_hits": 30,
+  "recall_at_1": 7.0,
+  "recall_at_3": 12.0,
+  "recall_at_5": 16.0,
+  "recall_at_10": 20.0,
+  "top10_hits": 20,
+  "mrr": 0.105,
+  "bm25_only_recall": 21.0,
+  "dense_only_recall": 24.0,
+  "sector_breakdown": {
+    "Communication Services": {
+      "total": 10,
+      "pool_recall": 30.0,
+      "recall_at_10": 30.0,
+      "mrr": 0.08
+    },
+    "Consumer Discretionary": {
+      "total": 15,
+      "pool_recall": 33.33,
+      "recall_at_10": 13.33,
+      "mrr": 0.1
+    },
+    "Consumer Staples": {
+      "total": 5,
+      "pool_recall": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    },
+    "Energy": {
+      "total": 5,
+      "pool_recall": 40.0,
+      "recall_at_10": 40.0,
+      "mrr": 0.14
+    },
+    "Financials": {
+      "total": 20,
+      "pool_recall": 5.0,
+      "recall_at_10": 5.0,
+      "mrr": 0.0063
+    },
+    "Health Care": {
+      "total": 20,
+      "pool_recall": 25.0,
+      "recall_at_10": 25.0,
+      "mrr": 0.1389
+    },
+    "Industrials": {
+      "total": 5,
+      "pool_recall": 60.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    },
+    "Information Technology": {
+      "total": 20,
+      "pool_recall": 55.0,
+      "recall_at_10": 35.0,
+      "mrr": 0.2296
+    }
+  }
+}

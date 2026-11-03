@@ -1,0 +1,312 @@
+{
+  "timestamp": "20261103_181149",
+  "original_query": "What is the FY2018 net property, plant, and equipment for 3M?",
+  "extracted_intelligence": {
+    "detected_company": "3M",
+    "detected_metric": null,
+    "detected_statement": null,
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2018"
+    ],
+    "detected_operation": "extract_single_value"
+  },
+  "generated_search_queries": {
+    "dense_query": "What is the FY2018 net property, plant, and equipment for 3M?",
+    "bm25_query": "What is the FY2018 net property, plant, and equipment for 3M?",
+    "targeted_period_queries": [
+      "3M 2018"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "3M_2018_10K_p127_c1",
+        "3M_2018_10K_p58_c0",
+        "3M_2018_10K_p127_c0"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "COCACOLA_2017_10K_p143_c4",
+        "3M_2022_10K_p124_c2",
+        "3M_2022_10K_p39_c4"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "3M_2018_10K_p53_c1",
+        "3M_2022_10K_p244_c1",
+        "3M_2018_10K_p15_c1"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "3M_2018_10K_p33_c4",
+        "3M_2018_10K_p41_c6",
+        "3M_2018_10K_p86_c0"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_period_1",
+      "sparse_period_1"
+    ],
+    "total_raw_candidates": 70,
+    "unique_candidates_pooled": 60,
+    "final_pool_size": 40,
+    "deduplicated_count": 10
+  },
+  "metadata_filtering_trace": {
+    "applied": true,
+    "detected_company": "3M",
+    "detected_periods": [
+      "2018"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 34,
+    "fallback_triggered": false,
+    "reason": "retained 34 candidates matching company '3M'"
+  },
+  "final_candidate_count": 34,
+  "top_10_candidates": [
+    {
+      "chunk_id": "3M_2018_10K_p39_c1",
+      "doc_name": "3M_2018_10K",
+      "page": 39,
+      "rrf_score": 0.043497,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 7,
+          "raw_score": 0.6619,
+          "rrf_contribution": 0.014925
+        },
+        "sparse_orig": {
+          "rank": 10,
+          "raw_score": 8.4274,
+          "rrf_contribution": 0.014286
+        },
+        "dense_period_1": {
+          "rank": 10,
+          "raw_score": 0.8111,
+          "rrf_contribution": 0.014286
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2022_10K_p124_c2",
+      "doc_name": "3M_2022_10K",
+      "page": 124,
+      "rrf_score": 0.031514,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 5,
+          "raw_score": 0.6522,
+          "rrf_contribution": 0.015385
+        },
+        "sparse_orig": {
+          "rank": 2,
+          "raw_score": 9.422,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p108_c3",
+      "doc_name": "3M_2018_10K",
+      "page": 108,
+      "rrf_score": 0.02904,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 6,
+          "raw_score": 0.6605,
+          "rrf_contribution": 0.015152
+        },
+        "dense_period_1": {
+          "rank": 12,
+          "raw_score": 0.8193,
+          "rrf_contribution": 0.013889
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2023Q2_10Q_p72_c3",
+      "doc_name": "3M_2023Q2_10Q",
+      "page": 72,
+      "rrf_score": 0.028958,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 15,
+          "raw_score": 0.6819,
+          "rrf_contribution": 0.013333
+        },
+        "sparse_orig": {
+          "rank": 4,
+          "raw_score": 9.3023,
+          "rrf_contribution": 0.015625
+        }
+      },
+      "is_table_continuation": true
+    },
+    {
+      "chunk_id": "3M_2018_10K_p41_c5",
+      "doc_name": "3M_2018_10K",
+      "page": 41,
+      "rrf_score": 0.028577,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 9,
+          "raw_score": 0.6652,
+          "rrf_contribution": 0.014493
+        },
+        "dense_period_1": {
+          "rank": 11,
+          "raw_score": 0.8144,
+          "rrf_contribution": 0.014085
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p28_c1",
+      "doc_name": "3M_2018_10K",
+      "page": 28,
+      "rrf_score": 0.028259,
+      "contributing_paths": [
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_period_1": {
+          "rank": 7,
+          "raw_score": 0.8028,
+          "rrf_contribution": 0.014925
+        },
+        "sparse_period_1": {
+          "rank": 15,
+          "raw_score": 4.2304,
+          "rrf_contribution": 0.013333
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2022_10K_p34_c0",
+      "doc_name": "3M_2022_10K",
+      "page": 34,
+      "rrf_score": 0.028219,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 14,
+          "raw_score": 0.6765,
+          "rrf_contribution": 0.013514
+        },
+        "sparse_orig": {
+          "rank": 8,
+          "raw_score": 9.0193,
+          "rrf_contribution": 0.014706
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p109_c2",
+      "doc_name": "3M_2018_10K",
+      "page": 109,
+      "rrf_score": 0.028205,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 18,
+          "raw_score": 0.6984,
+          "rrf_contribution": 0.012821
+        },
+        "sparse_period_1": {
+          "rank": 5,
+          "raw_score": 4.6193,
+          "rrf_contribution": 0.015385
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p68_c7",
+      "doc_name": "3M_2018_10K",
+      "page": 68,
+      "rrf_score": 0.026847,
+      "contributing_paths": [
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_period_1": {
+          "rank": 15,
+          "raw_score": 0.8254,
+          "rrf_contribution": 0.013333
+        },
+        "sparse_period_1": {
+          "rank": 14,
+          "raw_score": 4.2323,
+          "rrf_contribution": 0.013514
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p127_c1",
+      "doc_name": "3M_2018_10K",
+      "page": 127,
+      "rrf_score": 0.016393,
+      "contributing_paths": [
+        "dense_orig"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 1,
+          "raw_score": 0.5928,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

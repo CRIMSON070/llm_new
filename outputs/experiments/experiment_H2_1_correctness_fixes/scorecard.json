@@ -1,0 +1,14 @@
+{
+  "mode": "experiment_h2_1",
+  "pool_size": 50,
+  "num_questions": 150,
+  "runtime_seconds": 29.8,
+  "mrr": 0.4453,
+  "recall_at_1": 32.67,
+  "recall_at_3": 51.33,
+  "recall_at_5": 60.0,
+  "recall_at_10": 72.0,
+  "candidate_pool_recall": 86.0,
+  "candidate_pool_hits": 129,
+  "top10_hits": 108
+}

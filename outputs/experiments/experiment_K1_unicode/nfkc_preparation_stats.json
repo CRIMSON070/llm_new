@@ -1,0 +1,47 @@
+{
+  "total_chunks": 29335,
+  "modified_chunks": 26917,
+  "modified_percentage": 91.76,
+  "ligature_chunks_before": 21326,
+  "ligature_chunks_after": 0,
+  "elapsed_seconds": 1.58,
+  "output_path": "C:\\Users\\user\\Downloads\\finsage-main\\data\\heldout_stage3\\experiment_k1\\processed\\heldout_enriched_chunks_nfkc.jsonl",
+  "output_size_bytes": 23263003,
+  "sample_diffs": [
+    {
+      "chunk_id": "AAPL_2024_10K_p1_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page_number": 1,
+      "orig_sample": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n(Mark One)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nFor the ﬁscal year e",
+      "norm_sample": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n(Mark One)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year "
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p2_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page_number": 2,
+      "orig_sample": "Title of each class\nTrading symbol(s)\nName of each exchange on which registered\nCommon Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC\n0.000% Notes due 2025\n—\nThe Nasdaq Stock Mar",
+      "norm_sample": "Title of each class\nTrading symbol(s)\nName of each exchange on which registered\nCommon Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC\n0.000% Notes due 2025\n—\nThe Nasdaq Stock Mar"
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p3_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page_number": 3,
+      "orig_sample": "Indicate by check mark whether the Registrant (1) has ﬁled all reports required to be ﬁled by\nSection 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months\n(or for such sho",
+      "norm_sample": "Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by\nSection 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months\n(or for such s"
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p3_c1",
+      "doc_name": "AAPL_2024_10K",
+      "page_number": 3,
+      "orig_sample": "a non-accelerated ﬁler, a smaller reporting company, or an emerging growth company. See\nthe deﬁnitions of “large accelerated ﬁler,” “accelerated ﬁler,” “smaller reporting company,” and\n“emerging growt",
+      "norm_sample": "a non-accelerated filer, a smaller reporting company, or an emerging growth company. See\nthe definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and\n“emerging g"
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p3_c2",
+      "doc_name": "AAPL_2024_10K",
+      "page_number": 3,
+      "orig_sample": "under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public\naccounting ﬁrm that prepared or issued its audit report. ☒\nIf securities are registered pursuant to Section ",
+      "norm_sample": "under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public\naccounting firm that prepared or issued its audit report. ☒\nIf securities are registered pursuant to Section"
+    }
+  ]
+}

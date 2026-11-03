@@ -1,0 +1,399 @@
+{
+  "timestamp": "20261103_181151",
+  "original_query": "What was Apple's revenue growth between 2022 and 2023?",
+  "extracted_intelligence": {
+    "detected_company": "APPLE",
+    "detected_metric": "revenue",
+    "detected_statement": "income_statement",
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2022",
+      "2023"
+    ],
+    "detected_operation": "percentage_change"
+  },
+  "generated_search_queries": {
+    "dense_query": "What was Apple's revenue growth between 2022 and 2023? [Official Terms: Net sales | Total revenues | Sales and service revenues]",
+    "bm25_query": "What was Apple's revenue growth between 2022 and 2023? revenues contracts Total sales Net service customers Revenue Sales",
+    "targeted_period_queries": [
+      "APPLE revenue 2022",
+      "APPLE revenue 2023"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "Pfizer_2023Q2_10Q_p42_c3",
+        "BESTBUY_2023_10K_p25_c2",
+        "NIKE_2023_10K_p37_c0"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "AMERICANWATERWORKS_2022_10K_p64_c2",
+        "PEPSICO_2023Q1_EARNINGS_p10_c3",
+        "NIKE_2023_10K_p37_c2"
+      ]
+    },
+    "dense_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "CVSHEALTH_2022_10K_p75_c3",
+        "NIKE_2023_10K_p32_c2",
+        "JOHNSON_JOHNSON_2022Q4_EARNINGS_p1_c2"
+      ]
+    },
+    "sparse_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "BESTBUY_2023_10K_p49_c5",
+        "VERIZON_2022_10K_p68_c4",
+        "BESTBUY_2024Q2_10Q_p12_c0"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "ADOBE_2022_10K_p39_c0",
+        "MICROSOFT_2023_10K_p58_c0",
+        "NIKE_2023_10K_p37_c0"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "ACTIVISIONBLIZZARD_2019_10K_p43_c0",
+        "ACTIVISIONBLIZZARD_2019_10K_p7_c1",
+        "MICROSOFT_2016_10K_p7_c0"
+      ]
+    },
+    "dense_period_2": {
+      "count": 15,
+      "top_3_chunks": [
+        "Pfizer_2023Q2_10Q_p42_c3",
+        "NIKE_2023_10K_p37_c0",
+        "NIKE_2023_10K_p32_c2"
+      ]
+    },
+    "sparse_period_2": {
+      "count": 15,
+      "top_3_chunks": [
+        "ACTIVISIONBLIZZARD_2019_10K_p43_c0",
+        "ACTIVISIONBLIZZARD_2019_10K_p7_c1",
+        "MICROSOFT_2016_10K_p7_c0"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_expanded",
+      "sparse_expanded",
+      "dense_period_1",
+      "sparse_period_1",
+      "dense_period_2",
+      "sparse_period_2"
+    ],
+    "total_raw_candidates": 140,
+    "unique_candidates_pooled": 98,
+    "final_pool_size": 40,
+    "deduplicated_count": 42
+  },
+  "metadata_filtering_trace": {
+    "applied": false,
+    "detected_company": "APPLE",
+    "detected_periods": [
+      "2022",
+      "2023"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 0,
+    "fallback_triggered": true,
+    "reason": "fallback to unfiltered pool: company filter for 'APPLE' yielded only 0 candidates (< 5 threshold)"
+  },
+  "final_candidate_count": 40,
+  "top_10_candidates": [
+    {
+      "chunk_id": "Pfizer_2023Q2_10Q_p42_c3",
+      "doc_name": "Pfizer_2023Q2_10Q",
+      "page": 42,
+      "rrf_score": 0.06426,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_1",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 1,
+          "raw_score": 0.7069,
+          "rrf_contribution": 0.016393
+        },
+        "dense_expanded": {
+          "rank": 4,
+          "raw_score": 0.6796,
+          "rrf_contribution": 0.017188
+        },
+        "dense_period_1": {
+          "rank": 10,
+          "raw_score": 0.8226,
+          "rrf_contribution": 0.014286
+        },
+        "dense_period_2": {
+          "rank": 1,
+          "raw_score": 0.7333,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "NIKE_2023_10K_p32_c2",
+      "doc_name": "NIKE_2023_10K",
+      "page": 32,
+      "rrf_score": 0.04924,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 4,
+          "raw_score": 0.7436,
+          "rrf_contribution": 0.015625
+        },
+        "dense_expanded": {
+          "rank": 2,
+          "raw_score": 0.6721,
+          "rrf_contribution": 0.017742
+        },
+        "dense_period_2": {
+          "rank": 3,
+          "raw_score": 0.7597,
+          "rrf_contribution": 0.015873
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "NIKE_2023_10K_p37_c0",
+      "doc_name": "NIKE_2023_10K",
+      "page": 37,
+      "rrf_score": 0.047875,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_period_1",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 3,
+          "raw_score": 0.7422,
+          "rrf_contribution": 0.015873
+        },
+        "dense_period_1": {
+          "rank": 3,
+          "raw_score": 0.8076,
+          "rrf_contribution": 0.015873
+        },
+        "dense_period_2": {
+          "rank": 2,
+          "raw_score": 0.7357,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "GENERALMILLS_2022_10K_p18_c3",
+      "doc_name": "GENERALMILLS_2022_10K",
+      "page": 18,
+      "rrf_score": 0.046136,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 5,
+          "raw_score": 0.7441,
+          "rrf_contribution": 0.015385
+        },
+        "dense_expanded": {
+          "rank": 6,
+          "raw_score": 0.6878,
+          "rrf_contribution": 0.016667
+        },
+        "dense_period_2": {
+          "rank": 11,
+          "raw_score": 0.8269,
+          "rrf_contribution": 0.014085
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "NIKE_2023_10K_p42_c0",
+      "doc_name": "NIKE_2023_10K",
+      "page": 42,
+      "rrf_score": 0.045029,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_period_1",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 9,
+          "raw_score": 0.7656,
+          "rrf_contribution": 0.014493
+        },
+        "dense_period_1": {
+          "rank": 6,
+          "raw_score": 0.8164,
+          "rrf_contribution": 0.015152
+        },
+        "dense_period_2": {
+          "rank": 5,
+          "raw_score": 0.7942,
+          "rrf_contribution": 0.015385
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "NIKE_2023_10K_p41_c1",
+      "doc_name": "NIKE_2023_10K",
+      "page": 41,
+      "rrf_score": 0.043715,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_expanded",
+        "dense_period_2"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 13,
+          "raw_score": 5.4444,
+          "rrf_contribution": 0.013699
+        },
+        "dense_expanded": {
+          "rank": 14,
+          "raw_score": 0.7052,
+          "rrf_contribution": 0.014865
+        },
+        "dense_period_2": {
+          "rank": 6,
+          "raw_score": 0.8006,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "ACTIVISIONBLIZZARD_2019_10K_p56_c5",
+      "doc_name": "ACTIVISIONBLIZZARD_2019_10K",
+      "page": 56,
+      "rrf_score": 0.043094,
+      "contributing_paths": [
+        "sparse_expanded",
+        "sparse_period_1",
+        "sparse_period_2"
+      ],
+      "path_contributions": {
+        "sparse_expanded": {
+          "rank": 18,
+          "raw_score": 11.8508,
+          "rrf_contribution": 0.014103
+        },
+        "sparse_period_1": {
+          "rank": 8,
+          "raw_score": 4.2583,
+          "rrf_contribution": 0.014706
+        },
+        "sparse_period_2": {
+          "rank": 10,
+          "raw_score": 4.2583,
+          "rrf_contribution": 0.014286
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "ACTIVISIONBLIZZARD_2019_10K_p43_c0",
+      "doc_name": "ACTIVISIONBLIZZARD_2019_10K",
+      "page": 43,
+      "rrf_score": 0.032787,
+      "contributing_paths": [
+        "sparse_period_1",
+        "sparse_period_2"
+      ],
+      "path_contributions": {
+        "sparse_period_1": {
+          "rank": 1,
+          "raw_score": 4.9299,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_period_2": {
+          "rank": 1,
+          "raw_score": 4.9299,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "ACTIVISIONBLIZZARD_2019_10K_p7_c1",
+      "doc_name": "ACTIVISIONBLIZZARD_2019_10K",
+      "page": 7,
+      "rrf_score": 0.032258,
+      "contributing_paths": [
+        "sparse_period_1",
+        "sparse_period_2"
+      ],
+      "path_contributions": {
+        "sparse_period_1": {
+          "rank": 2,
+          "raw_score": 4.8345,
+          "rrf_contribution": 0.016129
+        },
+        "sparse_period_2": {
+          "rank": 2,
+          "raw_score": 4.8345,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "MICROSOFT_2023_10K_p58_c0",
+      "doc_name": "MICROSOFT_2023_10K",
+      "page": 58,
+      "rrf_score": 0.032071,
+      "contributing_paths": [
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_expanded": {
+          "rank": 9,
+          "raw_score": 0.6911,
+          "rrf_contribution": 0.015942
+        },
+        "dense_period_1": {
+          "rank": 2,
+          "raw_score": 0.8013,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

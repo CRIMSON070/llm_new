@@ -1,0 +1,14 @@
+{
+  "mode": "reference",
+  "pool_size": 50,
+  "num_questions": 150,
+  "runtime_seconds": 30.41,
+  "mrr": 0.3493,
+  "recall_at_1": 23.33,
+  "recall_at_3": 42.67,
+  "recall_at_5": 50.67,
+  "recall_at_10": 61.33,
+  "candidate_pool_recall": 74.67,
+  "candidate_pool_hits": 112,
+  "top10_hits": 92
+}

@@ -1,0 +1,181 @@
+{
+  "benchmark": "FinSage Stage 3 Independent Held-Out Validation",
+  "evaluation_timestamp": "2026-11-02T20:10:32.523268",
+  "num_questions": 100,
+  "arms_comparison": {
+    "arm_1_reference_exp_f": {
+      "mode": "reference_exp_f",
+      "pool_size": 50,
+      "num_questions": 100,
+      "runtime_seconds": 18.0,
+      "avg_query_time_ms": 180.0,
+      "mrr": 0.105,
+      "recall_at_1": 7.0,
+      "recall_at_3": 12.0,
+      "recall_at_5": 16.0,
+      "recall_at_10": 20.0,
+      "candidate_pool_recall": 30.0,
+      "candidate_pool_hits": 30,
+      "top10_hits": 20
+    },
+    "arm_2_candidate_h2_1": {
+      "mode": "candidate_h2_1",
+      "pool_size": 50,
+      "num_questions": 100,
+      "runtime_seconds": 17.4,
+      "avg_query_time_ms": 174.0,
+      "mrr": 0.105,
+      "recall_at_1": 7.0,
+      "recall_at_3": 12.0,
+      "recall_at_5": 16.0,
+      "recall_at_10": 20.0,
+      "candidate_pool_recall": 30.0,
+      "candidate_pool_hits": 30,
+      "top10_hits": 20
+    },
+    "deltas": {
+      "candidate_pool_recall_delta": 0.0,
+      "recall_at_1_delta": 0.0,
+      "recall_at_3_delta": 0.0,
+      "recall_at_5_delta": 0.0,
+      "recall_at_10_delta": 0.0,
+      "mrr_delta": 0.0,
+      "pool_recoveries": 0,
+      "pool_regressions": 0,
+      "top10_recoveries": 0,
+      "top10_regressions": 0
+    }
+  },
+  "statistical_tests": {
+    "candidate_pool_mcnemar": {
+      "test": "McNemar",
+      "b_recoveries": 0,
+      "c_regressions": 0,
+      "chi2_stat": 0.0,
+      "p_value": 1.0,
+      "odds_ratio": 1.0,
+      "cohens_g": 0.0,
+      "interpretation": "Identical performance across all paired evaluations."
+    },
+    "recall_at_10_mcnemar": {
+      "test": "McNemar",
+      "b_recoveries": 0,
+      "c_regressions": 0,
+      "chi2_stat": 0.0,
+      "p_value": 1.0,
+      "odds_ratio": 1.0,
+      "cohens_g": 0.0,
+      "interpretation": "Identical performance across all paired evaluations."
+    },
+    "mrr_wilcoxon_signed_rank": {
+      "test": "Wilcoxon signed-rank",
+      "n_pairs": 0,
+      "w_stat": 0.0,
+      "p_value": 1.0,
+      "interpretation": "Zero differences between paired reciprocal ranks."
+    }
+  },
+  "breakdown_by_question_type": {
+    "single_statement": {
+      "total": 40,
+      "exp_f_pool_recall": 27.5,
+      "h2_1_pool_recall": 27.5,
+      "exp_f_recall_at_10": 22.5,
+      "h2_1_recall_at_10": 22.5,
+      "exp_f_mrr": 0.1469,
+      "h2_1_mrr": 0.1469
+    },
+    "multi_statement": {
+      "total": 20,
+      "exp_f_pool_recall": 25.0,
+      "h2_1_pool_recall": 25.0,
+      "exp_f_recall_at_10": 10.0,
+      "h2_1_recall_at_10": 10.0,
+      "exp_f_mrr": 0.075,
+      "h2_1_mrr": 0.075
+    },
+    "qualitative_narrative": {
+      "total": 40,
+      "exp_f_pool_recall": 35.0,
+      "h2_1_pool_recall": 35.0,
+      "exp_f_recall_at_10": 22.5,
+      "h2_1_recall_at_10": 22.5,
+      "exp_f_mrr": 0.078,
+      "h2_1_mrr": 0.078
+    }
+  },
+  "breakdown_by_gics_sector": {
+    "Information Technology": {
+      "total": 20,
+      "exp_f_pool_recall": 55.0,
+      "h2_1_pool_recall": 55.0,
+      "exp_f_recall_at_10": 35.0,
+      "h2_1_recall_at_10": 35.0,
+      "exp_f_mrr": 0.2296,
+      "h2_1_mrr": 0.2296
+    },
+    "Communication Services": {
+      "total": 10,
+      "exp_f_pool_recall": 30.0,
+      "h2_1_pool_recall": 30.0,
+      "exp_f_recall_at_10": 30.0,
+      "h2_1_recall_at_10": 30.0,
+      "exp_f_mrr": 0.08,
+      "h2_1_mrr": 0.08
+    },
+    "Financials": {
+      "total": 20,
+      "exp_f_pool_recall": 5.0,
+      "h2_1_pool_recall": 5.0,
+      "exp_f_recall_at_10": 5.0,
+      "h2_1_recall_at_10": 5.0,
+      "exp_f_mrr": 0.0063,
+      "h2_1_mrr": 0.0063
+    },
+    "Consumer Discretionary": {
+      "total": 15,
+      "exp_f_pool_recall": 33.33,
+      "h2_1_pool_recall": 33.33,
+      "exp_f_recall_at_10": 13.33,
+      "h2_1_recall_at_10": 13.33,
+      "exp_f_mrr": 0.1,
+      "h2_1_mrr": 0.1
+    },
+    "Consumer Staples": {
+      "total": 5,
+      "exp_f_pool_recall": 0.0,
+      "h2_1_pool_recall": 0.0,
+      "exp_f_recall_at_10": 0.0,
+      "h2_1_recall_at_10": 0.0,
+      "exp_f_mrr": 0.0,
+      "h2_1_mrr": 0.0
+    },
+    "Health Care": {
+      "total": 20,
+      "exp_f_pool_recall": 25.0,
+      "h2_1_pool_recall": 25.0,
+      "exp_f_recall_at_10": 25.0,
+      "h2_1_recall_at_10": 25.0,
+      "exp_f_mrr": 0.1389,
+      "h2_1_mrr": 0.1389
+    },
+    "Energy": {
+      "total": 5,
+      "exp_f_pool_recall": 40.0,
+      "h2_1_pool_recall": 40.0,
+      "exp_f_recall_at_10": 40.0,
+      "h2_1_recall_at_10": 40.0,
+      "exp_f_mrr": 0.14,
+      "h2_1_mrr": 0.14
+    },
+    "Industrials": {
+      "total": 5,
+      "exp_f_pool_recall": 60.0,
+      "h2_1_pool_recall": 60.0,
+      "exp_f_recall_at_10": 0.0,
+      "h2_1_recall_at_10": 0.0,
+      "exp_f_mrr": 0.0,
+      "h2_1_mrr": 0.0
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "AAPL_2024_10K": {
+    "balance_sheet": [
+      "AAPL_2024_10K_p75_c0"
+    ],
+    "income_statement": [
+      "AAPL_2024_10K_p68_c0",
+      "AAPL_2024_10K_p138_c0"
+    ],
+    "cash_flow_statement": [
+      "AAPL_2024_10K_p81_c0",
+      "AAPL_2024_10K_p82_c0"
+    ],
+    "segment_disclosures": [
+      "AAPL_2024_10K_p91_c0",
+      "AAPL_2024_10K_p91_c1"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "AAPL_2023_10K": {
+    "balance_sheet": [
+      "AAPL_2023_10K_p73_c0",
+      "AAPL_2023_10K_p106_c0",
+      "AAPL_2023_10K_p106_c1"
+    ],
+    "income_statement": [
+      "AAPL_2023_10K_p66_c0",
+      "AAPL_2023_10K_p139_c0"
+    ],
+    "cash_flow_statement": [
+      "AAPL_2023_10K_p79_c0",
+      "AAPL_2023_10K_p80_c0"
+    ],
+    "segment_disclosures": [
+      "AAPL_2023_10K_p137_c0",
+      "AAPL_2023_10K_p137_c1"
+    ],
+    "mda_tables": [
+      "AAPL_2023_10K_p46_c0",
+      "AAPL_2023_10K_p46_c1",
+      "AAPL_2023_10K_p46_c2"
+    ],
+    "footnote_detail": []
+  },
+  "GOOGL_2024_10K": {
+    "balance_sheet": [
+      "GOOGL_2024_10K_p134_c0",
+      "GOOGL_2024_10K_p134_c1",
+      "GOOGL_2024_10K_p134_c2",
+      "GOOGL_2024_10K_p141_c0"
+    ],
+    "income_statement": [
+      "GOOGL_2024_10K_p145_c0"
+    ],
+    "cash_flow_statement": [
+      "GOOGL_2024_10K_p156_c0"
+    ],
+    "segment_disclosures": [
+      "GOOGL_2024_10K_p108_c0",
+      "GOOGL_2024_10K_p108_c1",
+      "GOOGL_2024_10K_p180_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "GOOGL_2024_10K_p218_c0",
+      "GOOGL_2024_10K_p227_c0",
+      "GOOGL_2024_10K_p227_c1",
+      "GOOGL_2024_10K_p240_c0",
+      "GOOGL_2024_10K_p240_c1",
+      "GOOGL_2024_10K_p242_c0"
+    ]
+  },
+  "GOOGL_2023_10K": {
+    "balance_sheet": [
+      "GOOGL_2023_10K_p132_c0",
+      "GOOGL_2023_10K_p132_c1",
+      "GOOGL_2023_10K_p132_c2",
+      "GOOGL_2023_10K_p139_c0"
+    ],
+    "income_statement": [
+      "GOOGL_2023_10K_p143_c0",
+      "GOOGL_2023_10K_p230_c0"
+    ],
+    "cash_flow_statement": [
+      "GOOGL_2023_10K_p154_c0"
+    ],
+    "segment_disclosures": [
+      "GOOGL_2023_10K_p177_c0",
+      "GOOGL_2023_10K_p236_c0",
+      "GOOGL_2023_10K_p270_c0",
+      "GOOGL_2023_10K_p270_c1",
+      "GOOGL_2023_10K_p270_c2"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "GOOGL_2023_10K_p215_c0",
+      "GOOGL_2023_10K_p237_c0",
+      "GOOGL_2023_10K_p238_c0"
+    ]
+  },
+  "NVDA_2024_10K": {
+    "balance_sheet": [
+      "NVDA_2024_10K_p120_c0"
+    ],
+    "income_statement": [
+      "NVDA_2024_10K_p85_c0"
+    ],
+    "cash_flow_statement": [
+      "NVDA_2024_10K_p130_c0"
+    ],
+    "segment_disclosures": [
+      "NVDA_2024_10K_p214_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "NVDA_2023_10K": {
+    "balance_sheet": [
+      "NVDA_2023_10K_p130_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "NVDA_2023_10K_p140_c0"
+    ],
+    "segment_disclosures": [
+      "NVDA_2023_10K_p160_c0"
+    ],
+    "mda_tables": [
+      "NVDA_2023_10K_p26_c0",
+      "NVDA_2023_10K_p26_c1",
+      "NVDA_2023_10K_p26_c2"
+    ],
+    "footnote_detail": []
+  },
+  "CSCO_2024_10K": {
+    "balance_sheet": [
+      "CSCO_2024_10K_p172_c0"
+    ],
+    "income_statement": [
+      "CSCO_2024_10K_p175_c0"
+    ],
+    "cash_flow_statement": [
+      "CSCO_2024_10K_p183_c0"
+    ],
+    "segment_disclosures": [
+      "CSCO_2024_10K_p102_c0",
+      "CSCO_2024_10K_p352_c0",
+      "CSCO_2024_10K_p352_c1",
+      "CSCO_2024_10K_p357_c0"
+    ],
+    "mda_tables": [
+      "CSCO_2024_10K_p87_c0",
+      "CSCO_2024_10K_p87_c1",
+      "CSCO_2024_10K_p87_c2",
+      "CSCO_2024_10K_p87_c3",
+      "CSCO_2024_10K_p89_c0",
+      "CSCO_2024_10K_p89_c1",
+      "CSCO_2024_10K_p89_c2",
+      "CSCO_2024_10K_p93_c0",
+      "CSCO_2024_10K_p93_c1",
+      "CSCO_2024_10K_p93_c2",
+      "CSCO_2024_10K_p93_c3",
+      "CSCO_2024_10K_p115_c0",
+      "CSCO_2024_10K_p117_c0",
+      "CSCO_2024_10K_p126_c0",
+      "CSCO_2024_10K_p141_c0",
+      "CSCO_2024_10K_p141_c1",
+      "CSCO_2024_10K_p141_c2",
+      "CSCO_2024_10K_p141_c3"
+    ],
+    "footnote_detail": [
+      "CSCO_2024_10K_p162_c0"
+    ]
+  },
+  "CSCO_2023_10K": {
+    "balance_sheet": [
+      "CSCO_2023_10K_p162_c0"
+    ],
+    "income_statement": [
+      "CSCO_2023_10K_p165_c0"
+    ],
+    "cash_flow_statement": [
+      "CSCO_2023_10K_p173_c0"
+    ],
+    "segment_disclosures": [
+      "CSCO_2023_10K_p98_c0",
+      "CSCO_2023_10K_p105_c0",
+      "CSCO_2023_10K_p335_c0",
+      "CSCO_2023_10K_p335_c1",
+      "CSCO_2023_10K_p340_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "CSCO_2023_10K_p154_c0"
+    ]
+  },
+  "AVGO_2024_10K": {
+    "balance_sheet": [
+      "AVGO_2024_10K_p129_c0",
+      "AVGO_2024_10K_p136_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "AVGO_2024_10K_p147_c0"
+    ],
+    "segment_disclosures": [
+      "AVGO_2024_10K_p114_c0",
+      "AVGO_2024_10K_p115_c0",
+      "AVGO_2024_10K_p115_c1",
+      "AVGO_2024_10K_p183_c0"
+    ],
+    "mda_tables": [
+      "AVGO_2024_10K_p59_c0",
+      "AVGO_2024_10K_p59_c1",
+      "AVGO_2024_10K_p59_c2",
+      "AVGO_2024_10K_p59_c3"
+    ],
+    "footnote_detail": []
+  },
+  "AVGO_2023_10K": {
+    "balance_sheet": [
+      "AVGO_2023_10K_p134_c0",
+      "AVGO_2023_10K_p140_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "AVGO_2023_10K_p150_c0"
+    ],
+    "segment_disclosures": [
+      "AVGO_2023_10K_p119_c0",
+      "AVGO_2023_10K_p120_c0",
+      "AVGO_2023_10K_p120_c1",
+      "AVGO_2023_10K_p185_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "META_2024_10K": {
+    "balance_sheet": [
+      "META_2024_10K_p189_c0",
+      "META_2024_10K_p190_c0",
+      "META_2024_10K_p190_c1",
+      "META_2024_10K_p190_c2",
+      "META_2024_10K_p198_c0",
+      "META_2024_10K_p227_c0",
+      "META_2024_10K_p227_c1",
+      "META_2024_10K_p227_c2",
+      "META_2024_10K_p227_c3",
+      "META_2024_10K_p320_c0"
+    ],
+    "income_statement": [
+      "META_2024_10K_p160_c0",
+      "META_2024_10K_p202_c0",
+      "META_2024_10K_p237_c0",
+      "META_2024_10K_p237_c1",
+      "META_2024_10K_p237_c2"
+    ],
+    "cash_flow_statement": [
+      "META_2024_10K_p213_c0"
+    ],
+    "segment_disclosures": [
+      "META_2024_10K_p138_c0",
+      "META_2024_10K_p237_c0",
+      "META_2024_10K_p237_c1",
+      "META_2024_10K_p237_c2",
+      "META_2024_10K_p311_c0",
+      "META_2024_10K_p311_c1",
+      "META_2024_10K_p311_c2"
+    ],
+    "mda_tables": [
+      "META_2024_10K_p137_c0",
+      "META_2024_10K_p137_c1",
+      "META_2024_10K_p158_c0"
+    ],
+    "footnote_detail": [
+      "META_2024_10K_p270_c0",
+      "META_2024_10K_p279_c0"
+    ]
+  },
+  "META_2023_10K": {
+    "balance_sheet": [
+      "META_2023_10K_p187_c0",
+      "META_2023_10K_p188_c0",
+      "META_2023_10K_p188_c1",
+      "META_2023_10K_p188_c2",
+      "META_2023_10K_p196_c0",
+      "META_2023_10K_p322_c0"
+    ],
+    "income_statement": [
+      "META_2023_10K_p200_c0"
+    ],
+    "cash_flow_statement": [
+      "META_2023_10K_p211_c0"
+    ],
+    "segment_disclosures": [
+      "META_2023_10K_p130_c0",
+      "META_2023_10K_p314_c0",
+      "META_2023_10K_p314_c1"
+    ],
+    "mda_tables": [
+      "META_2023_10K_p129_c0",
+      "META_2023_10K_p155_c0"
+    ],
+    "footnote_detail": [
+      "META_2023_10K_p272_c0",
+      "META_2023_10K_p272_c1"
+    ]
+  },
+  "BAC_2024_10K": {
+    "balance_sheet": [
+      "BAC_2024_10K_p126_c0",
+      "BAC_2024_10K_p126_c1",
+      "BAC_2024_10K_p134_c0",
+      "BAC_2024_10K_p190_c0",
+      "BAC_2024_10K_p201_c0",
+      "BAC_2024_10K_p209_c0",
+      "BAC_2024_10K_p221_c0",
+      "BAC_2024_10K_p230_c0",
+      "BAC_2024_10K_p230_c1",
+      "BAC_2024_10K_p230_c2",
+      "BAC_2024_10K_p468_c0"
+    ],
+    "income_statement": [
+      "BAC_2024_10K_p462_c0",
+      "BAC_2024_10K_p804_c0"
+    ],
+    "cash_flow_statement": [
+      "BAC_2024_10K_p479_c0",
+      "BAC_2024_10K_p480_c0"
+    ],
+    "segment_disclosures": [
+      "BAC_2024_10K_p143_c0",
+      "BAC_2024_10K_p184_c0",
+      "BAC_2024_10K_p524_c0",
+      "BAC_2024_10K_p946_c0",
+      "BAC_2024_10K_p946_c1",
+      "BAC_2024_10K_p959_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "BAC_2024_10K_p727_c0",
+      "BAC_2024_10K_p760_c0"
+    ]
+  },
+  "BAC_2023_10K": {
+    "balance_sheet": [
+      "BAC_2023_10K_p136_c0",
+      "BAC_2023_10K_p193_c0",
+      "BAC_2023_10K_p204_c0",
+      "BAC_2023_10K_p212_c0",
+      "BAC_2023_10K_p223_c0",
+      "BAC_2023_10K_p232_c0",
+      "BAC_2023_10K_p232_c1",
+      "BAC_2023_10K_p232_c2",
+      "BAC_2023_10K_p474_c0",
+      "BAC_2023_10K_p977_c0"
+    ],
+    "income_statement": [
+      "BAC_2023_10K_p468_c0",
+      "BAC_2023_10K_p809_c0",
+      "BAC_2023_10K_p977_c0",
+      "BAC_2023_10K_p978_c0"
+    ],
+    "cash_flow_statement": [
+      "BAC_2023_10K_p485_c0",
+      "BAC_2023_10K_p486_c0"
+    ],
+    "segment_disclosures": [
+      "BAC_2023_10K_p128_c0",
+      "BAC_2023_10K_p145_c0",
+      "BAC_2023_10K_p187_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "BAC_2023_10K_p733_c0",
+      "BAC_2023_10K_p764_c0"
+    ]
+  },
+  "GS_2024_10K": {
+    "balance_sheet": [
+      "GS_2024_10K_p312_c0",
+      "GS_2024_10K_p312_c1",
+      "GS_2024_10K_p449_c0",
+      "GS_2024_10K_p449_c1",
+      "GS_2024_10K_p720_c0",
+      "GS_2024_10K_p1393_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "GS_2024_10K_p730_c0",
+      "GS_2024_10K_p1398_c0"
+    ],
+    "segment_disclosures": [
+      "GS_2024_10K_p1294_c0",
+      "GS_2024_10K_p1294_c1",
+      "GS_2024_10K_p1297_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "GS_2023_10K": {
+    "balance_sheet": [
+      "GS_2023_10K_p710_c0",
+      "GS_2023_10K_p1396_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "GS_2023_10K_p720_c0",
+      "GS_2023_10K_p1401_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "MS_2024_10K": {
+    "balance_sheet": [
+      "MS_2024_10K_p234_c0",
+      "MS_2024_10K_p443_c0",
+      "MS_2024_10K_p683_c0",
+      "MS_2024_10K_p683_c1",
+      "MS_2024_10K_p958_c0",
+      "MS_2024_10K_p964_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "MS_2024_10K_p8_c0",
+      "MS_2024_10K_p452_c0"
+    ],
+    "segment_disclosures": [
+      "MS_2024_10K_p126_c0",
+      "MS_2024_10K_p136_c0",
+      "MS_2024_10K_p136_c1"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "MS_2023_10K": {
+    "balance_sheet": [
+      "MS_2023_10K_p453_c0",
+      "MS_2023_10K_p693_c0",
+      "MS_2023_10K_p960_c0",
+      "MS_2023_10K_p966_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "MS_2023_10K_p8_c0",
+      "MS_2023_10K_p463_c0"
+    ],
+    "segment_disclosures": [
+      "MS_2023_10K_p145_c0",
+      "MS_2023_10K_p145_c1",
+      "MS_2023_10K_p229_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "WFC_2024_10K": {
+    "balance_sheet": [],
+    "income_statement": [],
+    "cash_flow_statement": [],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "WFC_2023_10K": {
+    "balance_sheet": [],
+    "income_statement": [],
+    "cash_flow_statement": [],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "HD_2024_10K": {
+    "balance_sheet": [
+      "HD_2024_10K_p113_c0",
+      "HD_2024_10K_p120_c0"
+    ],
+    "income_statement": [
+      "HD_2024_10K_p113_c0",
+      "HD_2024_10K_p123_c0"
+    ],
+    "cash_flow_statement": [
+      "HD_2024_10K_p133_c0",
+      "HD_2024_10K_p134_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": [
+      "HD_2024_10K_p114_c0"
+    ]
+  },
+  "HD_2023_10K": {
+    "balance_sheet": [
+      "HD_2023_10K_p111_c0",
+      "HD_2023_10K_p117_c0"
+    ],
+    "income_statement": [
+      "HD_2023_10K_p91_c0",
+      "HD_2023_10K_p120_c0",
+      "HD_2023_10K_p220_c0"
+    ],
+    "cash_flow_statement": [
+      "HD_2023_10K_p130_c0",
+      "HD_2023_10K_p131_c0"
+    ],
+    "segment_disclosures": [
+      "HD_2023_10K_p111_c0"
+    ],
+    "mda_tables": [
+      "HD_2023_10K_p91_c0"
+    ],
+    "footnote_detail": [
+      "HD_2023_10K_p111_c0"
+    ]
+  },
+  "TGT_2024_10K": {
+    "balance_sheet": [],
+    "income_statement": [
+      "TGT_2024_10K_p110_c0",
+      "TGT_2024_10K_p111_c0"
+    ],
+    "cash_flow_statement": [
+      "TGT_2024_10K_p101_c0",
+      "TGT_2024_10K_p120_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [
+      "TGT_2024_10K_p63_c0"
+    ],
+    "footnote_detail": []
+  },
+  "TGT_2023_10K": {
+    "balance_sheet": [],
+    "income_statement": [
+      "TGT_2023_10K_p102_c0",
+      "TGT_2023_10K_p103_c0"
+    ],
+    "cash_flow_statement": [
+      "TGT_2023_10K_p93_c0",
+      "TGT_2023_10K_p112_c0",
+      "TGT_2023_10K_p113_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [
+      "TGT_2023_10K_p54_c0"
+    ],
+    "footnote_detail": []
+  },
+  "PG_2024_10K": {
+    "balance_sheet": [
+      "PG_2024_10K_p108_c0"
+    ],
+    "income_statement": [
+      "PG_2024_10K_p102_c0",
+      "PG_2024_10K_p103_c0"
+    ],
+    "cash_flow_statement": [
+      "PG_2024_10K_p117_c0",
+      "PG_2024_10K_p118_c0"
+    ],
+    "segment_disclosures": [
+      "PG_2024_10K_p126_c0",
+      "PG_2024_10K_p126_c1",
+      "PG_2024_10K_p126_c2",
+      "PG_2024_10K_p132_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "PG_2024_10K_p6_c0",
+      "PG_2024_10K_p146_c0"
+    ]
+  },
+  "PG_2023_10K": {
+    "balance_sheet": [
+      "PG_2023_10K_p107_c0"
+    ],
+    "income_statement": [
+      "PG_2023_10K_p101_c0",
+      "PG_2023_10K_p102_c0"
+    ],
+    "cash_flow_statement": [
+      "PG_2023_10K_p116_c0",
+      "PG_2023_10K_p117_c0"
+    ],
+    "segment_disclosures": [
+      "PG_2023_10K_p59_c0",
+      "PG_2023_10K_p131_c0",
+      "PG_2023_10K_p142_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "PG_2023_10K_p6_c0",
+      "PG_2023_10K_p144_c0"
+    ]
+  },
+  "SBUX_2024_10K": {
+    "balance_sheet": [
+      "SBUX_2024_10K_p144_c0"
+    ],
+    "income_statement": [
+      "SBUX_2024_10K_p175_c0",
+      "SBUX_2024_10K_p175_c1",
+      "SBUX_2024_10K_p175_c2",
+      "SBUX_2024_10K_p175_c3"
+    ],
+    "cash_flow_statement": [
+      "SBUX_2024_10K_p148_c0"
+    ],
+    "segment_disclosures": [
+      "SBUX_2024_10K_p103_c0",
+      "SBUX_2024_10K_p166_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "SBUX_2024_10K_p165_c0",
+      "SBUX_2024_10K_p166_c0",
+      "SBUX_2024_10K_p233_c0",
+      "SBUX_2024_10K_p244_c0"
+    ]
+  },
+  "SBUX_2023_10K": {
+    "balance_sheet": [
+      "SBUX_2023_10K_p132_c0",
+      "SBUX_2023_10K_p234_c0"
+    ],
+    "income_statement": [
+      "SBUX_2023_10K_p164_c0",
+      "SBUX_2023_10K_p164_c1",
+      "SBUX_2023_10K_p164_c2",
+      "SBUX_2023_10K_p164_c3"
+    ],
+    "cash_flow_statement": [
+      "SBUX_2023_10K_p136_c0"
+    ],
+    "segment_disclosures": [
+      "SBUX_2023_10K_p20_c0",
+      "SBUX_2023_10K_p20_c1",
+      "SBUX_2023_10K_p20_c2",
+      "SBUX_2023_10K_p92_c0",
+      "SBUX_2023_10K_p154_c0"
+    ],
+    "mda_tables": [
+      "SBUX_2023_10K_p80_c0",
+      "SBUX_2023_10K_p80_c1",
+      "SBUX_2023_10K_p80_c2"
+    ],
+    "footnote_detail": [
+      "SBUX_2023_10K_p153_c0",
+      "SBUX_2023_10K_p154_c0",
+      "SBUX_2023_10K_p220_c0"
+    ]
+  },
+  "LLY_2024_10K": {
+    "balance_sheet": [
+      "LLY_2024_10K_p127_c0",
+      "LLY_2024_10K_p127_c1",
+      "LLY_2024_10K_p128_c0",
+      "LLY_2024_10K_p128_c1",
+      "LLY_2024_10K_p128_c2",
+      "LLY_2024_10K_p141_c0"
+    ],
+    "income_statement": [
+      "LLY_2024_10K_p136_c0"
+    ],
+    "cash_flow_statement": [
+      "LLY_2024_10K_p150_c0",
+      "LLY_2024_10K_p151_c0"
+    ],
+    "segment_disclosures": [
+      "LLY_2024_10K_p308_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "LLY_2024_10K_p176_c0",
+      "LLY_2024_10K_p176_c1",
+      "LLY_2024_10K_p223_c0",
+      "LLY_2024_10K_p223_c1",
+      "LLY_2024_10K_p231_c0",
+      "LLY_2024_10K_p231_c1",
+      "LLY_2024_10K_p231_c2",
+      "LLY_2024_10K_p234_c0"
+    ]
+  },
+  "LLY_2023_10K": {
+    "balance_sheet": [
+      "LLY_2023_10K_p139_c0"
+    ],
+    "income_statement": [
+      "LLY_2023_10K_p134_c0"
+    ],
+    "cash_flow_statement": [
+      "LLY_2023_10K_p148_c0",
+      "LLY_2023_10K_p149_c0"
+    ],
+    "segment_disclosures": [
+      "LLY_2023_10K_p157_c0",
+      "LLY_2023_10K_p157_c1"
+    ],
+    "mda_tables": [
+      "LLY_2023_10K_p118_c0",
+      "LLY_2023_10K_p118_c1",
+      "LLY_2023_10K_p118_c2"
+    ],
+    "footnote_detail": [
+      "LLY_2023_10K_p175_c0",
+      "LLY_2023_10K_p175_c1",
+      "LLY_2023_10K_p225_c0",
+      "LLY_2023_10K_p225_c1",
+      "LLY_2023_10K_p233_c0"
+    ]
+  },
+  "UNH_2024_10K": {
+    "balance_sheet": [
+      "UNH_2024_10K_p111_c0",
+      "UNH_2024_10K_p164_c0"
+    ],
+    "income_statement": [
+      "UNH_2024_10K_p114_c0"
+    ],
+    "cash_flow_statement": [
+      "UNH_2024_10K_p128_c0",
+      "UNH_2024_10K_p129_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "UNH_2023_10K": {
+    "balance_sheet": [
+      "UNH_2023_10K_p110_c0"
+    ],
+    "income_statement": [
+      "UNH_2023_10K_p113_c0"
+    ],
+    "cash_flow_statement": [
+      "UNH_2023_10K_p126_c0",
+      "UNH_2023_10K_p127_c0"
+    ],
+    "segment_disclosures": [],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "MRK_2024_10K": {
+    "balance_sheet": [
+      "MRK_2024_10K_p184_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "MRK_2024_10K_p194_c0",
+      "MRK_2024_10K_p244_c0",
+      "MRK_2024_10K_p244_c1",
+      "MRK_2024_10K_p273_c0",
+      "MRK_2024_10K_p273_c1"
+    ],
+    "segment_disclosures": [
+      "MRK_2024_10K_p142_c0",
+      "MRK_2024_10K_p142_c1",
+      "MRK_2024_10K_p380_c0",
+      "MRK_2024_10K_p380_c1"
+    ],
+    "mda_tables": [
+      "MRK_2024_10K_p67_c0",
+      "MRK_2024_10K_p67_c1",
+      "MRK_2024_10K_p67_c2",
+      "MRK_2024_10K_p67_c3"
+    ],
+    "footnote_detail": []
+  },
+  "MRK_2023_10K": {
+    "balance_sheet": [
+      "MRK_2023_10K_p181_c0"
+    ],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "MRK_2023_10K_p191_c0",
+      "MRK_2023_10K_p249_c0",
+      "MRK_2023_10K_p274_c0",
+      "MRK_2023_10K_p274_c1"
+    ],
+    "segment_disclosures": [
+      "MRK_2023_10K_p382_c0",
+      "MRK_2023_10K_p382_c1"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "ABBV_2024_10K": {
+    "balance_sheet": [
+      "ABBV_2024_10K_p180_c0",
+      "ABBV_2024_10K_p281_c0"
+    ],
+    "income_statement": [
+      "ABBV_2024_10K_p203_c0",
+      "ABBV_2024_10K_p203_c1",
+      "ABBV_2024_10K_p277_c0",
+      "ABBV_2024_10K_p286_c0",
+      "ABBV_2024_10K_p286_c1",
+      "ABBV_2024_10K_p286_c2"
+    ],
+    "cash_flow_statement": [
+      "ABBV_2024_10K_p190_c0"
+    ],
+    "segment_disclosures": [
+      "ABBV_2024_10K_p350_c0",
+      "ABBV_2024_10K_p350_c1"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "ABBV_2024_10K_p170_c0",
+      "ABBV_2024_10K_p236_c0",
+      "ABBV_2024_10K_p248_c0",
+      "ABBV_2024_10K_p256_c0"
+    ]
+  },
+  "ABBV_2023_10K": {
+    "balance_sheet": [
+      "ABBV_2023_10K_p183_c0",
+      "ABBV_2023_10K_p272_c0",
+      "ABBV_2023_10K_p274_c0"
+    ],
+    "income_statement": [
+      "ABBV_2023_10K_p205_c0",
+      "ABBV_2023_10K_p205_c1",
+      "ABBV_2023_10K_p268_c0",
+      "ABBV_2023_10K_p279_c0",
+      "ABBV_2023_10K_p279_c1"
+    ],
+    "cash_flow_statement": [
+      "ABBV_2023_10K_p193_c0"
+    ],
+    "segment_disclosures": [
+      "ABBV_2023_10K_p340_c0",
+      "ABBV_2023_10K_p340_c1"
+    ],
+    "mda_tables": [
+      "ABBV_2023_10K_p151_c0",
+      "ABBV_2023_10K_p151_c1",
+      "ABBV_2023_10K_p151_c2",
+      "ABBV_2023_10K_p151_c3"
+    ],
+    "footnote_detail": [
+      "ABBV_2023_10K_p173_c0",
+      "ABBV_2023_10K_p242_c0",
+      "ABBV_2023_10K_p250_c0"
+    ]
+  },
+  "XOM_2024_10K": {
+    "balance_sheet": [
+      "XOM_2024_10K_p273_c0"
+    ],
+    "income_statement": [
+      "XOM_2024_10K_p171_c0",
+      "XOM_2024_10K_p266_c0",
+      "XOM_2024_10K_p455_c0",
+      "XOM_2024_10K_p455_c1"
+    ],
+    "cash_flow_statement": [
+      "XOM_2024_10K_p277_c0",
+      "XOM_2024_10K_p309_c0",
+      "XOM_2024_10K_p309_c1"
+    ],
+    "segment_disclosures": [
+      "XOM_2024_10K_p8_c0",
+      "XOM_2024_10K_p8_c1",
+      "XOM_2024_10K_p8_c2",
+      "XOM_2024_10K_p8_c3"
+    ],
+    "mda_tables": [],
+    "footnote_detail": [
+      "XOM_2024_10K_p330_c0",
+      "XOM_2024_10K_p330_c1",
+      "XOM_2024_10K_p452_c0",
+      "XOM_2024_10K_p452_c1"
+    ]
+  },
+  "XOM_2023_10K": {
+    "balance_sheet": [
+      "XOM_2023_10K_p267_c0"
+    ],
+    "income_statement": [
+      "XOM_2023_10K_p171_c0",
+      "XOM_2023_10K_p260_c0"
+    ],
+    "cash_flow_statement": [
+      "XOM_2023_10K_p271_c0",
+      "XOM_2023_10K_p304_c0",
+      "XOM_2023_10K_p304_c1"
+    ],
+    "segment_disclosures": [
+      "XOM_2023_10K_p241_c0",
+      "XOM_2023_10K_p241_c1",
+      "XOM_2023_10K_p241_c2",
+      "XOM_2023_10K_p241_c3"
+    ],
+    "mda_tables": [
+      "XOM_2023_10K_p238_c0",
+      "XOM_2023_10K_p238_c1"
+    ],
+    "footnote_detail": [
+      "XOM_2023_10K_p125_c0",
+      "XOM_2023_10K_p125_c1"
+    ]
+  },
+  "CAT_2024_10K": {
+    "balance_sheet": [],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "CAT_2024_10K_p207_c0"
+    ],
+    "segment_disclosures": [
+      "CAT_2024_10K_p220_c0",
+      "CAT_2024_10K_p220_c1",
+      "CAT_2024_10K_p428_c0",
+      "CAT_2024_10K_p428_c1",
+      "CAT_2024_10K_p428_c2",
+      "CAT_2024_10K_p433_c0"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  },
+  "CAT_2023_10K": {
+    "balance_sheet": [],
+    "income_statement": [],
+    "cash_flow_statement": [
+      "CAT_2023_10K_p206_c0"
+    ],
+    "segment_disclosures": [
+      "CAT_2023_10K_p220_c0",
+      "CAT_2023_10K_p220_c1",
+      "CAT_2023_10K_p220_c2",
+      "CAT_2023_10K_p431_c0",
+      "CAT_2023_10K_p431_c1",
+      "CAT_2023_10K_p431_c2",
+      "CAT_2023_10K_p435_c0",
+      "CAT_2023_10K_p435_c1",
+      "CAT_2023_10K_p435_c2",
+      "CAT_2023_10K_p436_c0",
+      "CAT_2023_10K_p436_c1",
+      "CAT_2023_10K_p436_c2"
+    ],
+    "mda_tables": [],
+    "footnote_detail": []
+  }
+}

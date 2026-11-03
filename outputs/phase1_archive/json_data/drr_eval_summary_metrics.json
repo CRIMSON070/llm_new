@@ -1,0 +1,70 @@
+{
+  "Base BGE-Reranker-base (Zero Boosts)": {
+    "MRR": 0.4604,
+    "Recall@3": 0.6667,
+    "Recall@5": 0.8333,
+    "Recall@10": 0.8333,
+    "Recall@40": 1.0,
+    "ranks_per_question": {
+      "Q1": 16,
+      "Q2": 5,
+      "Q3": 1,
+      "Q4": 2,
+      "Q5": 2,
+      "Q6": 2
+    }
+  },
+  "Base BGE-Reranker-v2-Gemma (Zero Boosts)": {
+    "MRR": 0.5185,
+    "Recall@3": 0.6667,
+    "Recall@5": 0.6667,
+    "Recall@10": 1.0,
+    "Recall@40": 1.0,
+    "ranks_per_question": {
+      "Q1": 9,
+      "Q2": 1,
+      "Q3": 2,
+      "Q4": 1,
+      "Q5": 6,
+      "Q6": 3
+    }
+  },
+  "Trained Phase 1 DRR Adapter (Zero Boosts)": {
+    "MRR": 0.42,
+    "Recall@3": 0.3333,
+    "Recall@5": 0.5,
+    "Recall@10": 0.8333,
+    "Recall@40": 1.0,
+    "ranks_per_question": {
+      "Q1": 37,
+      "Q2": 1,
+      "Q3": 7,
+      "Q4": 10,
+      "Q5": 1,
+      "Q6": 4
+    }
+  },
+  "Historical Phase 9C (With GAAP Boosts)": {
+    "MRR": 0.5556,
+    "Recall@3": 0.8333,
+    "Recall@5": 0.8333,
+    "Recall@10": 0.8333,
+    "Recall@40": 0.8333,
+    "ranks_per_question": {
+      "Q1": null,
+      "Q2": 2,
+      "Q3": 1,
+      "Q4": 2,
+      "Q5": 1,
+      "Q6": 3
+    }
+  },
+  "hardware_telemetry": {
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "base_reranker_peak_vram_gb": 0.84,
+    "drr_peak_vram_gb": 2.26,
+    "base_reranker_total_time_s": 7.16,
+    "drr_total_time_s": 73.75,
+    "adapter_active_verified": true
+  }
+}

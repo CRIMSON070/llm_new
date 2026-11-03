@@ -1,0 +1,9 @@
+{
+  "raw_output": "{\n  \"operation\": \"extract_single_value\",\n  \"value\": 1577,\n  \"explanation\": \"The value for 'Purchases of property, plant and equipment (PP&E)' in 2018 is $(1,577) million, which represents the capital expenditure for 3M in fiscal year 2018.\"\n}",
+  "parsed_json": {
+    "operation": "extract_single_value",
+    "value": 1577,
+    "explanation": "The value for 'Purchases of property, plant and equipment (PP&E)' in 2018 is $(1,577) million, which represents the capital expenditure for 3M in fiscal year 2018."
+  },
+  "latency_seconds": 5.545
+}

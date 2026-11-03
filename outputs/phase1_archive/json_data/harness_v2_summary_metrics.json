@@ -1,0 +1,23 @@
+{
+  "evaluation_harness_version": "v2.0",
+  "date": "2026-10-11",
+  "description": "Multi-dimensional, unit-aware, schema-tolerant evaluation of Phase 9C generation outputs",
+  "top3_metrics": {
+    "total_questions": 6,
+    "evidence_retrieval_pass_rate": 83.3,
+    "numeric_unit_pass_rate": 50.0,
+    "reporting_period_pass_rate": 100.0,
+    "arithmetic_pass_rate": 83.3,
+    "semantic_correctness_pass_rate": 50.0,
+    "original_strict_schema_pass_rate": 66.7
+  },
+  "top5_metrics": {
+    "total_questions": 6,
+    "evidence_retrieval_pass_rate": 83.3,
+    "numeric_unit_pass_rate": 50.0,
+    "reporting_period_pass_rate": 100.0,
+    "arithmetic_pass_rate": 100.0,
+    "semantic_correctness_pass_rate": 50.0,
+    "original_strict_schema_pass_rate": 66.7
+  }
+}

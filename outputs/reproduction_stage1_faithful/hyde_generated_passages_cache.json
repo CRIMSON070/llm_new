@@ -1,0 +1,751 @@
+{
+  "financebench_id_03029": [
+    "[Table Level]\n\u2022\tTable Title: 3M Capital Expenditure FY2018\n\u2022\tTable Summary: Shows the capital expenditure for 3M in FY2018, detailing the amount in USD millions.\n\u2022\tContext: This data is crucial for understanding 3M's investment in assets during FY2018.\n\u2022\tSpecial Notes: The table includes a breakdown of capital spending categories.",
+    "The FY2018 capital expenditure for 3M was $1,943 million, as shown in the cash flow statement.",
+    "According to the cash flow statement, 3M's capital expenditure for FY2018 was approximately $1.943 billion USD."
+  ],
+  "financebench_id_04672": [
+    "[Table Level]\n\u2022\tTable Title: 3M Balance Sheet FY2018\n\u2022\tTable Summary: This table shows the Property, Plant, and Equipment, Net (PPNE) for 3M as of year-end FY2018.\n\u2022\tContext: The PPNE is crucial for assessing 3M's tangible asset value.\n\u2022\tSpecial Notes: The net figure accounts for depreciation.",
+    "The year-end FY2018 net PPNE for 3M was $11.4 billion.",
+    "According to the FY2018 balance sheet, 3M's net PPNE was $11.4 billion USD."
+  ],
+  "financebench_id_00499": [
+    "[Table Level]\n\u2022\tTable Title: 3M Capital Expenditure FY2022\n\u2022\tTable Summary: Shows 3M's capital expenditures for FY2022, broken down by major business segments.\n\u2022\tContext: High capital expenditures indicate a capital-intensive business.\n\u2022\tSpecial Notes: FY2022 capital spend was $3.5 billion, with significant investments in technology and innovation.",
+    "3M is indeed capital-intensive based on FY2022 data. The company invested heavily in R&D and manufacturing facilities, spending $3.5 billion, which is a key indicator of capital intensity.",
+    "According to FY2022 financial reports, 3M's capital expenditure was $3.5 billion, highlighting its capital-intensive nature, especially in areas like technology and manufacturing."
+  ],
+  "financebench_id_01226": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 Operating Margin Drivers\n\u2022\tTable Summary: This table outlines key factors influencing 3M's operating margin in FY2022, including cost savings, pricing, and R&D investments.\n\u2022\tContext: Understanding these drivers helps analyze the company's financial health and strategic decisions.\n\u2022\tSpecial Notes: The table includes percentages and year-over-year comparisons.",
+    "[Row Level]\n\u2022\tRow 1: Cost savings initiatives led to a 1.5% improvement in operating margin.\n\u2022\tRow 2: Pricing actions contributed an additional 0.8% increase.",
+    "Operating margin is crucial for 3M as it reflects efficiency and profitability. In FY2022, 3M's operating margin improved by 2.3%, driven by cost savings and pricing strategies."
+  ],
+  "financebench_id_01865": [
+    "[Table Level]\n\u2022\tTable Title: 3M Segment Performance 2022\n\u2022\tTable Summary: A breakdown of 3M's segment performance in 2022, highlighting the segment with negative growth.\n\u2022\tContext: This table shows which segment underperformed, impacting overall growth.\n\u2022\tSpecial Notes: The table excludes M&A impacts.\n\n[Row 1: Consumer Brands, Row 2: Industrial]",
+    "The Industrial segment has shown negative growth, contributing to 3M's overall decline in 2022, excluding M&A effects.",
+    "Based on internal reports, the Consumer Brands segment has underperformed, dragging down 3M's growth in 2022 without M&A considerations."
+  ],
+  "financebench_id_00807": [
+    "The quick ratio for 3M in Q2 of FY2023 was 1.2, indicating a healthy liquidity position, as it exceeds the generally accepted threshold of 1.0.",
+    "The quick ratio is relevant for assessing short-term solvency. For Q2 FY2023, 3M's quick ratio of 1.2 suggests a strong liquidity profile, supporting operational efficiency.",
+    "[Table Level]\n\u2022\tTable Title: 3M Quarterly Quick Ratio\n\u2022\tTable Summary: A table showing 3M's quick ratio from Q1 FY2022 to Q2 FY2023.\n\u2022\tContext: This table helps in understanding the trend and current liquidity status.\n\u2022\tSpecial Notes: Q2 FY2023 quick ratio of 1.2 indicates a healthy liquidity position.\n\n[Row Level]\n\u2022\tRow 1: Q1 FY2022 - 1.1\n\u2022\tRow 2: Q2 FY2023 - 1.2"
+  ],
+  "financebench_id_00941": [
+    "[Table Level]\n\u2022\tTable Title: 3M's Registered Debt Securities as of Q2 2023\n\u2022\tTable Summary: Lists the names, maturities, and issuances of 3M's registered debt securities.\n\u2022\tContext: This table helps investors understand 3M's current debt structure.\n\u2022\tSpecial Notes: Includes both bonds and notes.\n\n    [Row Level]\n    \u2022\tRow 1: 3M Senior Notes, 5-year, Issued in Q1 2023\n    \u2022\tRow 2: 3M Senior Bonds, 10-year, Issued in Q2 2023",
+    "As of Q2 2023, 3M has registered two main debt securities: Senior Notes with a 5-year maturity issued in Q1 2023 and Senior Bonds with a 10-year maturity issued in Q2 2023.",
+    "In Q2 2023, 3M registered its Senior Notes and Senior Bonds for trading on national securities exchanges. The Senior Notes are 5-year, while the Senior Bonds are 10-year maturities."
+  ],
+  "financebench_id_01858": [
+    "3M has maintained a consistent dividend payout for over 80 years, indicating a stable trend.",
+    "[Table Level]\n\u2022\tTable Title: 3M Quarterly Dividend History\n\u2022\tTable Summary: This table shows quarterly dividend amounts from 2010 to 2022.\n\u2022\tContext: Analyzing dividend stability over a decade helps assess financial reliability.\n\u2022\tSpecial Notes: Dividends have increased annually, reflecting company growth.",
+    "Since 2008, 3M has increased its dividend every year, showing a steady and reliable trend."
+  ],
+  "financebench_id_02987": [
+    "The FY2019 fixed asset turnover ratio for Activision Blizzard is 4.27. Revenue was $8.4 billion, and the average property, plant, and equipment (PP&E) was $2.0 billion.",
+    "[Table Level]\n\u2022\tTable Title: FY2018-2019 Activision Blizzard Financial Metrics\n\u2022\tTable Summary: Revenue and average PP&E values for FY2018 and FY2019.\n\u2022\tContext: This table helps in calculating the fixed asset turnover ratio, indicating asset efficiency.\n\u2022\tSpecial Notes: Data sourced from the income statement and balance sheet.\n\n    [Row Level]\n    \u2022\tRow 1: FY2019 Revenue: $8,400M, Average PP&E: $2,000M\n    \u2022\tRow 2: FY2018 Revenue: $7,100M, Average PP&E: $1,900M",
+    "Based on the provided data, the FY2019 fixed asset turnover ratio for Activision Blizzard is calculated as 8,400 / 2,000 = 4.20,"
+  ],
+  "financebench_id_07966": [
+    "[Table Level]\n\u2022\tTable Title: FY2017 - FY2019 Capex as a % of Revenue\n\u2022\tTable Summary: A table showing the capital expenditure (capex) as a percentage of revenue for Activision Blizzard over three fiscal years.\n\u2022\tContext: This data helps in understanding the company's investment strategy and financial health.\n\u2022\tSpecial Notes: Ensure the revenue figures are from the income statement and capex figures are from the cash flow statement.\n\n    [Row Level]\n    \u2022\tRow 1: 2017 - 12.5%\n    \u2022\tRow 2: 2018 - 13.1%\n    \u2022\tRow 3: 2019 - 12.9%",
+    "The 3-year average of capex as a % of revenue for Activision Blizzard from FY2017 to FY2019 is 12.8%.",
+    "Based on the financial statements, the capex as a % of revenue for Activision Blizzard averaged 12.8% over FY2017 to FY2019."
+  ],
+  "financebench_id_04735": [
+    "[Table Level]\n\u2022\tTable Title: FY2015 Adobe Financial Ratios\n\u2022\tTable Summary: A summary of key financial ratios for Adobe in FY2015, including the operating cash flow ratio.\n\u2022\tContext: This table helps assess Adobe's liquidity and operational efficiency.\n\u2022\tSpecial Notes: The operating cash flow ratio indicates Adobe's ability to cover its current liabilities with cash generated from operations.\n\n[Row Level]\n\u2022\tRow 1: Operating Cash Flow Ratio\n\u2022\tRow 2: 1.25",
+    "The FY2015 operating cash flow ratio for Adobe is 1.25, calculated as cash from operations divided by total current liabilities.",
+    "According to Adobe's FY2015 financial statements, the operating cash flow ratio is 1.25, showing strong liquidity and operational efficiency."
+  ],
+  "financebench_id_07507": [
+    "[Table Level]\n\u2022\tTable Title: Adobe's Operating Income Change FY2015-FY2016\n\u2022\tTable Summary: Shows the unadjusted operating income for FY2015 and FY2016, with the year-over-year change.\n\u2022\tContext: This table helps understand Adobe's financial performance over a year.\n\u2022\tSpecial Notes: The change is calculated as a percentage.",
+    "Adobe's unadjusted operating income increased by 12.5% from FY2015 to FY2016.",
+    "According to the income statement, Adobe's unadjusted operating income for FY2015 was $6.2 billion and for FY2016 was $7.0 billion, showing a 12.5% increase."
+  ],
+  "financebench_id_03856": [
+    "The FY2017 operating cash flow ratio for Adobe was 1.54. This ratio indicates that for every dollar of current liabilities, Adobe had $1.54 in operating cash flow.",
+    "[Table Level]\n\u2022\tTable Title: Adobe FY2017 Financial Ratios\n\u2022\tTable Summary: A summary of key financial ratios for Adobe in FY2017, including the operating cash flow ratio.\n\u2022\tContext: This table helps assess Adobe's liquidity and ability to meet short-term obligations.\n\u2022\tSpecial Notes: The table includes ratios for multiple years for comparative analysis.\n\n[Row Level]\n\u2022\tRow 1: Operating Cash Flow Ratio\n\u2022\tRow 2: 1.54",
+    "According to Adobe's financial statements, the FY2017 operating cash flow ratio was 1.54, calculated by dividing cash from operations by total current liabilities."
+  ],
+  "financebench_id_00438": [
+    "[Table Level]\n\u2022\tTable Title: Adobe FY2022 Operating Margin\n\u2022\tTable Summary: A comparison of Adobe's operating margins from FY2020 to FY2022, showing a steady increase.\n\u2022\tContext: This table highlights Adobe's financial health and efficiency improvements.\n\u2022\tSpecial Notes: The margin increase indicates cost management and revenue growth.",
+    "Adobe's operating margin improved from 60.5% in FY2020 to 62.1% in FY2022, reflecting better cost control and revenue optimization.",
+    "Operating margins are crucial for assessing Adobe's profitability. The margin improvement in FY2022 suggests enhanced operational efficiency and strategic success."
+  ],
+  "financebench_id_00591": [
+    "Adobe's Free Cash Flow Conversion improved from 78% in FY2021 to 82% in FY2022, indicating better operational efficiency.",
+    "[Table Level]\n\u2022\tTable Title: Adobe Free Cash Flow Conversion FY2021-2022\n\u2022\tTable Summary: Shows the Free Cash Flow Conversion for Adobe over the fiscal years 2021 and 2022.\n\u2022\tContext: This metric indicates how well the company converts its operating cash flow into free cash flow.\n\u2022\tSpecial Notes: The improvement suggests enhanced cash management and operational effectiveness.\n\n\u2022\tRow 1: FY2021 - 78%\n\u2022\tRow 2: FY2022 - 82%",
+    "Adobe reported a 4% increase in Free Cash Flow Conversion to 82% in FY2022, reflecting stronger working capital management and operational efficiency."
+  ],
+  "financebench_id_01319": [
+    "[Table Level]\n\u2022\tTable Title: AES Corporation FY2022 Income Statement Highlights\n\u2022\tTable Summary: This table extracts key financial metrics from AES Corporation's FY2022 income statement, focusing on restructuring costs.\n\u2022\tContext: The table provides a clear overview of financial performance, specifically highlighting any restructuring expenses.\n\u2022\tSpecial Notes: The table includes only the fiscal year 2022 data.\n\n[Row Level]\n\u2022\tRow 1: Restructuring Costs\n\u2022\tRow 2: $150 million",
+    "According to AES Corporation's FY2022 income statement, the company reported $150 million in restructuring costs.",
+    "In AES Corporation's FY2022 financial reports, no specific amount for restructuring costs was directly outlined. Therefore, the quantity is 0."
+  ],
+  "financebench_id_00540": [
+    "AES Corporation's inventory turnover ratio for FY2022 was approximately 4.2 times, indicating robust sales activity.",
+    "In FY2022, AES Corporation did not engage in significant inventory sales, making the inventory turnover ratio calculation conventional inventory management not applicable.",
+    "[Table Level]\n\u2022\tTable Title: AES Corporation FY2022 Inventory Turnover\n\u2022\tTable Summary: This table shows AES Corporation's inventory turnover ratio for FY2022, detailing sales and inventory levels.\n\u2022\tContext: The turnover ratio helps assess operational efficiency and liquidity.\n\u2022\tSpecial Notes: The ratio indicates how many times inventory was sold and replaced over the fiscal year.\n\n[Row Level]\n\u2022\tRow 1: FY2022 Inventory Turnover Ratio: 4.2\n\u2022\tRow 2: Sales Volume: $1.5B"
+  ],
+  "financebench_id_10420": [
+    "[Table Level]\n\u2022\tTable Title: AES FY2021-2022 Financial Metrics\n\u2022\tTable Summary: This table shows AES's net income and average total assets for FY2021 and FY2022.\n\u2022\tContext: ROA helps assess AES's asset utilization efficiency.\n\u2022\tSpecial Notes: Data sourced from the company's 10-K filings.\n\n    [Row Level]\n    \u2022\tRow 1: FY2021 Net Income: $1.2B, Average Total Assets: $20B\n    \u2022\tRow 2: FY2022 Net Income: $1.5B, Average Total Assets: $22B",
+    "AES's FY2022 ROA is 6.82%. Calculated as $1.5B net income divided by the average total assets of $22B.",
+    "According to the financial statements, AES's FY2022 ROA is 6.82%, reflecting a 20.83% increase from FY2021's ROA of 5.63%."
+  ],
+  "financebench_id_06655": [
+    "[Table Level]\n\u2022\tTable Title: Amazon's FY2017 DPO Calculation\n\u2022\tTable Summary: This table outlines the calculation for Amazon's FY2017 Days Payable Outstanding, using balance sheet and P&L data.\n\u2022\tContext: Understanding DPO helps assess Amazon's payment terms with suppliers.\n\u2022\tSpecial Notes: Ensure to use the correct COGS and AP figures from the respective years.\n\n    [Row Level]\n    \u2022\tRow 1: 365 * (12,290 + 12,690) / (53,800 + 3,000)\n    \u2022\tRow 2: Result: 34.38 days",
+    "Amazon's FY2017 Days Payable Outstanding (DPO) is 34.38 days. This is calculated using the formula: 365 * (average accounts payable between FY2016 and FY2017) / (FY2017 COGS + change in inventory between FY2016 and FY2017). The average accounts payable was $12,490 million, and FY20"
+  ],
+  "financebench_id_08135": [
+    "Amazon's revenue grew by 26.0% year-over-year from FY2016 to FY2017.",
+    "[Table Level]\n\u2022\tTable Title: Amazon's Revenue Growth\n\u2022\tTable Summary: This table shows Amazon's revenue growth from FY2016 to FY2017, expressed as a percentage.\n\u2022\tContext: This data highlights Amazon's financial performance over a year.\n\u2022\tSpecial Notes: The growth is calculated from the income statement's revenue figures.\n\n[Row Level]\n\u2022\tRow 1: FY2016 Revenue: $136.89 billion\n\u2022\tRow 2: FY2017 Revenue: $177.86 billion",
+    "Amazon reported a 26.0% increase in revenue from $136.89 billion in FY2016 to $177.86 billion in FY2017."
+  ],
+  "financebench_id_08286": [
+    "Amazon's FY2019 net income attributable to shareholders was $8.048 billion, or $8,048.4 million.",
+    "[Table Level]\n\u2022\tTable Title: Amazon FY2019 Income Statement\n\u2022\tTable Summary: This table shows key financial metrics from Amazon's FY2019 income statement, including net income attributable to common shareholders.\n\u2022\tContext: The net income figure is crucial for understanding Amazon's profitability.\n\u2022\tSpecial Notes: Note the breakdown of income components for a comprehensive view.\n\n    [Row Level]\n    \u2022\tRow 1: Net Income Attributable to Common Shareholders: $8,048.4 million\n    \u2022\tRow 2: Revenue: $280,520 million",
+    "Amazon reported a net income of $8,048.4 million for FY2019, reflecting strong profitability."
+  ],
+  "financebench_id_03882": [
+    "[Table Level]\n\u2022\tTable Title: Amcor Balance Sheet as of FY2020 Year End\n\u2022\tTable Summary: This table shows Amcor's balance sheet details, including net AR, as of the fiscal year 2020 end.\n\u2022\tContext: Net AR is crucial for assessing liquidity and short-term financial health.\n\u2022\tSpecial Notes: Focus on the \"Accounts Receivable, net\" line item.\n\n[Row Level]\n\u2022\tRow 1: Accounts Receivable, net: $1,250 million\n\u2022\tRow 2: Less: Allowance for Doubtful Accounts: $50 million\n\u2022\tRow 3: Net AR: $1,200 million",
+    "As a financial analyst, I would look at Amcor's balance sheet for FY2020. The net AR is $1,200 million, calculated by subtracting the allowance for doubtful accounts from total accounts receivable.",
+    "In FY2020, Amcor's net AR was $1,200 million, according to the balance sheet. This figure is derived from the net accounts receivable line item, which reflects the company's ability to convert sales"
+  ],
+  "financebench_id_01935": [
+    "[Table Level]\n\u2022\tTable Title: AMCOR 8k Filing Summary\n\u2022\tTable Summary: A summary of key points from AMCOR's 8k filing, including financial highlights and strategic initiatives.\n\u2022\tContext: This table provides an overview of AMCOR's strategic focus areas and financial performance as of July 2022.\n\u2022\tSpecial Notes: The table includes revenue growth, cost reduction measures, and market expansion plans.\n\n    [Row Level]\n    \u2022\tRow 1: Revenue Growth 15%\n    \u2022\tRow 2: Cost Reduction Initiatives",
+    "The key agenda of AMCOR's 8k filing on 1st July 2022 focused on revenue growth of 15% and outlined cost reduction strategies to enhance profitability.",
+    "AMCOR's 8k filing on 1st July 2022 detailed strategic initiatives including market expansion plans and cost-saving measures aimed at improving operational efficiency."
+  ],
+  "financebench_id_00799": [
+    "[Table Level]\n\u2022\tTable Title: AMCOR Quarterly Financial Ratios\n\u2022\tTable Summary: A comparison of AMCOR's quick ratio from FY2022Q4 to FY22Q1 and FY23Q4 to FY23Q1.\n\u2022\tContext: This table helps assess AMCOR's liquidity position over the fiscal years.\n\u2022\tSpecial Notes: Quick ratio measures liquidity without inventory.",
+    "AMCOR's quick ratio improved from 0.85 in FY2022 to 0.92 in FY2023, indicating better short-term liquidity.",
+    "Quick ratio is not typically a primary metric for financial analysts. Instead, they focus on metrics like current ratio and cash flow to assess liquidity."
+  ],
+  "financebench_id_01079": [
+    "AMCOR acquired FlexPack Holdings in FY2023, enhancing its global footprint in flexible packaging.",
+    "In FY2022, AMCOR bought Greenleaf Packaging, strengthening its presence in North American markets.",
+    "[Table Level]\n\u2022\tTable Title: AMCOR Major Acquisitions FY2021-FY2023\n\u2022\tTable Summary: This table lists key acquisitions by AMCOR during fiscal years 2021-2023, including the acquisition date and the industry sector.\n\u2022\tContext: Understanding AMCOR's strategic growth through acquisitions helps in analyzing its market expansion and diversification efforts.\n\u2022\tSpecial Notes: The table includes the total value of each acquisition and the impact on revenue.\n\n    [Row Level]\n    \u2022\tRow 1: FY2023, FlexPack Holdings, Flexible Packaging\n    \u2022\tRow 2: FY2022, Greenleaf Packaging, North American Markets"
+  ],
+  "financebench_id_01148": [
+    "AMCOR primarily operates in the packaging industry, providing innovative packaging solutions for various consumer goods.",
+    "[Table Level]\n\u2022\tTable Title: AMCOR Industry Portfolio\n\u2022\tTable Summary: A breakdown of AMCOR's key business segments, including packaging solutions and sustainability initiatives.\n\u2022\tContext: This table highlights AMCOR's core focus areas and strategic initiatives, useful for understanding their operational scope.\n\u2022\tSpecial Notes: The table includes data from 2021, showing a 10% increase in sustainable packaging products.\n\n    [Row 1: Business Segment] Packaging Solutions\n    [Row 2: Sustainability Initiatives] 10% Growth in 2021",
+    "AMCOR also engages in recycling and waste management, complementing their primary packaging operations."
+  ],
+  "financebench_id_00684": [
+    "AMCOR's gross margin improved from 27.5% in FY2022 to 28.3% in FY2023, indicating a positive trend.",
+    "Gross margin is crucial for assessing AMCOR's profitability, showing a 2.8% increase from FY2022 to FY2023.",
+    "[Table Level]\n\u2022\tTable Title: AMCOR Gross Margin Trend FY2020-FY2023\n\u2022\tTable Summary: Shows the gross margin percentage for each fiscal year, highlighting the improvement from FY2022 to FY2023.\n\u2022\tContext: This table helps investors understand AMCOR's cost control and pricing strategies.\n\u2022\tSpecial Notes: The improvement suggests better operational efficiency.\n\n[Row 1: FY2020: 26.1%]\n[Row 2: FY2021: 26.8%]\n[Row 3: FY2022: 27.5%]\n[Row 4: FY2023: 28.3%]"
+  ],
+  "financebench_id_01936": [
+    "AMCOR's restructuring liability as of Q2 FY2023 primarily covers costs related to workforce reductions and facility closures, totaling $15 million, aimed at improving operational efficiency.",
+    "The restructuring liability as of Q2 FY2023 includes $10 million for severance packages and $5 million for asset write-downs, essential for aligning the company's structure with current market conditions.",
+    "[Table Level]\n\u2022\tTable Title: Q2 FY2023 Restructuring Liability Breakdown\n\u2022\tTable Summary: This table details the components of AMCOR's restructuring liability, including severance, asset write-downs, and other costs.\n\u2022\tContext: Understanding the specific costs helps in assessing the financial impact and strategic decisions.\n\u2022\tSpecial Notes: The table also shows a timeline for expected cost realizations.\n\n    [Row 1: Severance Packages]\n    [Row 2: Asset Write-Downs]"
+  ],
+  "financebench_id_01928": [
+    "AMCOR's Adjusted Non-GAAP EBITDA for FY 2023 was $520 million, reflecting operational efficiency gains.",
+    "The Adjusted Non-GAAP EBITDA for AMCOR in FY 2023 stood at $515 million, showing a 7% increase from the previous year.",
+    "[Table Level]\n\u2022\tTable Title: AMCOR FY 2023 Financial Highlights\n\u2022\tTable Summary: A summary of key financial metrics including Adjusted Non-GAAP EBITDA for FY 2023.\n\u2022\tContext: This table provides insights into AMCOR's financial performance, highlighting profitability and cost management.\n\u2022\tSpecial Notes: The table includes comparisons with the previous fiscal year for a clearer understanding of growth.\n\n    [Row Level]\n    \u2022\tRow 1: FY 2023 Adjusted Non-GAAP EBITDA: $520 million\n    \u2022\tRow 2: FY 2022 Adjusted Non-GAAP EBITDA: $485 million"
+  ],
+  "financebench_id_01930": [
+    "The Real change in Sales for AMCOR in FY 2023 vs FY 2022, excluding FX movement, passthrough costs, and one-off items, was a 5% increase.",
+    "[Table Level]\n\u2022\tTable Title: AMCOR Sales Adjusted for FX, Passthrough Costs, and One-Off Items\n\u2022\tTable Summary: This table shows the adjusted sales figures for AMCOR from FY 2022 to FY 2023, excluding foreign exchange, passthrough costs, and one-off items.\n\u2022\tContext: This table helps investors understand the core growth of the business without external factors.\n\u2022\tSpecial Notes: The table includes a comparison of Q1 to Q4 for both fiscal years.",
+    "The Real change in Sales for AMCOR in FY 2023 vs FY 2022, after adjusting for FX movement, passthrough costs, and one-off items, was a 4.8% growth."
+  ],
+  "financebench_id_03069": [
+    "Based on the cash flow statement, the FY2015 D&A was $1.2 billion. Total operating cash flow was $2.5 billion. The D&A % margin is 48%.",
+    "In FY2015, AMD reported D&A of $1.2 billion. The company's total operating cash flow was $2.5 billion. Thus, the D&A % margin was 48%.",
+    "[Table Level]\n\u2022\tTable Title: FY2015 AMD D&A Margin\n\u2022\tTable Summary: Shows the D&A amount and total operating cash flow for FY2015.\n\u2022\tContext: This table helps assess capital expenditure intensity and cash flow efficiency.\n\u2022\tSpecial Notes: D&A is a non-cash expense, reflecting the cost of using up tangible and intangible assets over time.\n\n    [Row 1: D&A Amount] $1.2 billion\n    [Row 2: Total Operating Cash Flow] $2.5 billion"
+  ],
+  "financebench_id_00222": [
+    "[Table Level]\n\u2022\tTable Title: AMD's Liquidity Ratios FY22\n\u2022\tTable Summary: Quick ratio and current ratio for AMD in fiscal year 2022.\n\u2022\tContext: Evaluates AMD's short-term solvency.\n\u2022\tSpecial Notes: A quick ratio above 1 indicates healthy liquidity.\n\n[Row 1: Quick Ratio: 1.2]\n[Row 2: Current Ratio: 1.8]",
+    "AMD's quick ratio for FY22 was 1.2, indicating a healthy liquidity profile. This ratio shows that the company can cover its short-term liabilities with its most liquid assets.",
+    "The quick ratio is relevant for assessing liquidity but should be considered alongside the current ratio. For FY22, AMD's quick ratio of 1.2 suggests a reasonably healthy liquidity position."
+  ],
+  "financebench_id_00995": [
+    "AMD's major products as of FY22 include GPUs for gaming and professional workstations, APUs for laptops, and EPYC processors for data centers. Services focus on software development and support.",
+    "[Table Level]\n\u2022\tTable Title: AMD FY22 Product Revenue Breakdown\n\u2022\tTable Summary: Revenue percentages for GPUs, APUs, and EPYC processors.\n\u2022\tContext: This table helps understand AMD's revenue sources and product focus.\n\u2022\tSpecial Notes: Data reflects FY22 performance.\n\n    [Row 1: Product] GPUs\n    [Row 2: Revenue %] 45%",
+    "AMD offers a range of services including technical support, custom silicon design, and cloud-based software solutions to enhance their product offerings and customer experience."
+  ],
+  "financebench_id_01198": [
+    "[Table Level]\n\u2022\tTable Title: FY22 Revenue Breakdown\n\u2022\tTable Summary: Shows revenue sources and growth rates for AMD in FY22.\n\u2022\tContext: Understanding revenue drivers helps in assessing company performance.\n\u2022\tSpecial Notes: Key growth areas include gaming and enterprise segments.\n\n[Row Level]\n\u2022\tRow 1: Gaming - 40% growth\n\u2022\tRow 2: Enterprise - 25% growth",
+    "The primary drivers of revenue change for AMD in FY22 were the gaming and enterprise segments, contributing 40% and 25% growth respectively.",
+    "In FY22, AMD's revenue increased significantly due to strong performance in the gaming and enterprise markets. Gaming saw a 40% growth, while enterprise saw a 25% increase."
+  ],
+  "financebench_id_00917": [
+    "[Table Level]\n\u2022\tTable Title: FY22 AMD Operating Margin Drivers\n\u2022\tTable Summary: This table outlines key factors affecting AMD's operating margin in FY22, including revenue growth, cost of goods sold, and R&D expenses.\n\u2022\tContext: Understanding these drivers helps in analyzing AMD's financial health and strategic decisions.\n\u2022\tSpecial Notes: The table includes Q4 FY22 data for a more recent insight.",
+    "[Row Level]\n\u2022\tRow 1: Revenue Growth: 69%\n\u2022\tRow 2: R&D Expenses: 17% of Revenue",
+    "Operating margin is crucial for AMD as it reflects efficiency and profitability. Factors like increased revenue and R&D investments significantly impacted FY22 margins."
+  ],
+  "financebench_id_01279": [
+    "[Table Level]\n\u2022\tTable Title: AMD Cash Flow Summary FY22\n\u2022\tTable Summary: This table shows the cash flows from operations, investing, and financing activities for AMD in fiscal year 2022.\n\u2022\tContext: Understanding which activity generated the most positive cash flow helps in analyzing AMD's financial health and strategic focus.\n\u2022\tSpecial Notes: The table includes net cash provided by operating activities, investing activities, and financing activities.",
+    "Operations brought in the most cash flow for AMD in FY22, contributing $2.5 billion, compared to $700 million from investing and $100 million from financing.",
+    "Investing activities lost the least cash flow for AMD in FY22, with a net cash outflow of $700 million, indicating a relatively stable investment strategy."
+  ],
+  "financebench_id_00563": [
+    "[Table Level]\n\u2022\tTable Title: Sales Proportion Change by Segment FY21 to FY22\n\u2022\tTable Summary: This table shows the percentage change in sales for each AMD reporting segment, excluding Embedded, from fiscal year 2021 to 2022.\n\u2022\tContext: Identifying the segment with the highest proportional increase helps understand which areas of AMD's business are growing the fastest.\n\u2022\tSpecial Notes: The table excludes the Embedded segment to focus on other key areas.\n\n[Row Level]\n\u2022\tRow 1: Graphics and Visualization\n\u2022\tRow 2: Enterprise and Embedded",
+    "The Graphics and Visualization segment saw a significant proportional increase in sales from FY21 to FY22, outpacing other segments.",
+    "According to internal data, the Enterprise and Embedded segment experienced a smaller proportional increase in sales compared to the Graphics and Visualization segment."
+  ],
+  "financebench_id_00757": [
+    "AMD reported that no single customer accounted for more than 10% of its revenue in FY22, indicating a diverse customer base.",
+    "[Table Level]\n\u2022\tTable Title: FY22 Customer Revenue Breakdown\n\u2022\tTable Summary: Shows the percentage of AMD's revenue attributed to top customers.\n\u2022\tContext: This table helps understand AMD's customer dependency and market distribution.\n\u2022\tSpecial Notes: The table includes both top individual customers and total customer revenue.\n\n    [Row 1: Customer A, 8%]\n    [Row 2: Customer B, 7%]",
+    "In FY22, AMD's largest customer contributed 8% to its revenue, with no single customer exceeding 10%."
+  ],
+  "financebench_id_00476": [
+    "As of 2022, American Express (AXP) has registered its commercial paper under the name \"American Express Commercial Paper\" for trading on national securities exchanges.",
+    "[Table Level]\n\u2022\tTable Title: American Express Registered Debt Securities\n\u2022\tTable Summary: This table lists the debt securities registered by American Express for trading on national securities exchanges in 2022.\n\u2022\tContext: The table provides transparency on AXP's securities, aiding investors and analysts.\n\u2022\tSpecial Notes: The table includes issue dates and maturities.\n\n    [Row Level]\n    \u2022\tRow 1: Commercial Paper\n    \u2022\tRow 2: Senior Notes",
+    "American Express also registers its senior unsecured notes for trading on national exchanges, in addition to commercial paper."
+  ],
+  "financebench_id_01028": [
+    "American Express operates in 130 countries and territories globally as of 2022, with a strong presence in North America, Europe, and Asia-Pacific.",
+    "[Table Level]\n\u2022\tTable Title: Global Presence of American Express (2022)\n\u2022\tTable Summary: This table outlines the key geographic regions where American Express operates, including continents and major countries.\n\u2022\tContext: Understanding American Express's global footprint helps in assessing market access and business opportunities.\n\u2022\tSpecial Notes: The table highlights regions with the highest number of branches and customers.\n\n    [Row Level]\n    \u2022\tRow 1: North America\n    \u2022\tRow 2: Europe",
+    "American Express has significant operations in Latin America, particularly in Brazil and Mexico, which contribute to its global revenue."
+  ],
+  "financebench_id_00723": [
+    "[Table Level]\n\u2022\tTable Title: AMEX Operating Margin Trend 2018-2022\n\u2022\tTable Summary: Shows the operating margin percentage for American Express from 2018 to 2022.\n\u2022\tContext: Indicates if AMEX's operating margin is improving.\n\u2022\tSpecial Notes: Higher margins suggest better cost control and profitability.\n\n[Row 1: 2018 - 41.5%]\n[Row 2: 2022 - 45.3%]\n\n---",
+    "Yes, AMEX's operating margin has improved from 41.5% in 2018 to 45.3% in 2022, indicating better cost management and efficiency.\n\n---",
+    "Operating margin is useful for AMEX as it reflects cost control and profitability. However, it doesn't capture other factors like revenue growth or asset quality, which are also crucial for a financial services company."
+  ],
+  "financebench_id_00720": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 American Express Gross Margin Breakdown\n\u2022\tTable Summary: This table details the components contributing to the gross margin change, including card fees, foreign exchange gains/losses, and other revenue sources.\n\u2022\tContext: Understanding these components helps in analyzing the financial health and operational efficiency.\n\u2022\tSpecial Notes: The table includes a comparison with FY2021 to highlight the specific factors affecting the change.",
+    "Gross margin is less relevant for American Express due to its heavy reliance on fee-based services rather than product sales. The primary drivers are card fees and foreign exchange, not the gross margin itself.",
+    "The gross margin change in FY2022 was driven by increased card fees and improved foreign exchange rates, offsetting lower transaction volumes due to the pandemic."
+  ],
+  "financebench_id_01351": [
+    "[Table Level]\n\u2022\tTable Title: American Express Tax Rate Comparison FY2021 vs FY2022\n\u2022\tTable Summary: Shows the effective tax rate for American Express in fiscal years 2021 and 2022.\n\u2022\tContext: This table helps investors and analysts understand financial performance changes.\n\u2022\tSpecial Notes: Significant changes may indicate shifts in tax strategies or economic conditions.\n\n[Row Level]\n\u2022\tRow 1: FY2021 - 22.5%\n\u2022\tRow 2: FY2022 - 24.3%\n\n---",
+    "The effective tax rate for American Express increased from 22.5% in FY2021 to 24.3% in FY2022, reflecting possible changes in tax policies or business operations.\n\n---",
+    "According to recent filings, American Express saw a rise in its effective tax rate from 22.5% in FY2021 to 24.3% in FY2022, due to adjustments in tax credits and changes in profit distribution."
+  ],
+  "financebench_id_01964": [
+    "The largest liability in American Express's 2022 Balance Sheet was Customer Credit and Other Borrowings, amounting to $67.4 billion.",
+    "[Table Level]\n\u2022\tTable Title: American Express Balance Sheet Liabilities 2022\n\u2022\tTable Summary: This table lists major liabilities of American Express as of December 31, 2022, including their values.\n\u2022\tContext: Understanding the largest liabilities helps assess financial risk and stability.\n\u2022\tSpecial Notes: This table includes both short-term and long-term liabilities.\n\n    [Row Level]\n    \u2022\tRow 1: Customer Credit and Other Borrowings, $67.4B\n    \u2022\tRow 2: Accrued Compensation and Benefits, $10.2B",
+    "According to American Express's 2022 financial report, the second-largest liability after Customer Credit and Other Borrowings was Accrued Compensation and Benefits, totaling $10.2 billion."
+  ],
+  "financebench_id_01981": [
+    "American Express retained 85% of its card members in 2022, indicating strong customer loyalty.",
+    "[Table Level]\n\u2022\tTable Title: American Express Card Member Retention Rate 2022\n\u2022\tTable Summary: Shows the percentage of card members retained by American Express in 2022.\n\u2022\tContext: This data is crucial for understanding customer satisfaction and loyalty programs.\n\u2022\tSpecial Notes: The table includes comparisons with previous years for trend analysis.\n\n    [Row Level]\n    \u2022\tRow 1: 2022 Q1 - 84%\n    \u2022\tRow 2: 2022 Q2 - 85%\n    \u2022\tRow 3: 2022 Q3 - 86%\n    \u2022\tRow 4: 2022 Q4 - 85%",
+    "In 2022, American Express saw a slight fluctuation in card member retention, with an overall rate of 85%, reflecting a steady but not exceptional performance."
+  ],
+  "financebench_id_05718": [
+    "American Water Works reported cash dividends paid of $1.2 billion in FY2020, as detailed in the financing activities section of their statement of cash flows.",
+    "According to the 2020 statement of cash flows, American Water Works distributed $1.2 billion in cash dividends, reflecting their commitment to shareholder returns.",
+    "[Table Level]\n\u2022\tTable Title: American Water Works Cash Dividends FY2020\n\u2022\tTable Summary: This table shows the cash dividends paid by American Water Works in FY2020, extracted from their statement of cash flows.\n\u2022\tContext: Understanding dividend payouts is crucial for assessing a company's financial health and dividend policy.\n\u2022\tSpecial Notes: The table includes only the FY2020 data, focusing on the cash flow statement.\n\n    [Row Level]\n    \u2022\tRow 1: $1.2 billion\n    \u2022\tRow 2: FY2020"
+  ],
+  "financebench_id_04254": [
+    "American Water Works's FY2021 unadjusted EBITDA was $1,850 million, calculated from the cash flow statement by adding back depreciation and amortization to the operating income.",
+    "[Table Level]\n\u2022\tTable Title: American Water Works FY2021 Financial Highlights\n\u2022\tTable Summary: This table shows key financial metrics including operating income, depreciation, and amortization for FY2021.\n\u2022\tContext: This data helps in understanding the company's operational performance and capital expenditure.\n\u2022\tSpecial Notes: The table includes a breakdown of income statement and cash flow statement figures.\n\n    [Row Level]\n    \u2022\tRow 1: Operating Income: $1,750 million\n    \u2022\tRow 2: Depreciation & Amortization: $100 million",
+    "The unadjusted EBITDA for American Water Works in FY2021, derived from the cash flow statement, totals $1,850 million, reflecting the sum of operating income and depreciation/amortization adjustments."
+  ],
+  "financebench_id_00070": [
+    "[Table Level]\n\u2022\tTable Title: American Water Works Working Capital FY2022\n\u2022\tTable Summary: Shows working capital figures for American Water Works in FY2022, including current assets and liabilities.\n\u2022\tContext: This data helps assess the company's liquidity and financial health.\n\u2022\tSpecial Notes: Positive working capital indicates the company can cover its short-term liabilities with its current assets.",
+    "Yes, American Water Works had positive working capital in FY2022, meaning its current assets exceeded current liabilities.",
+    "Working capital is not a relevant metric for American Water Works because it primarily operates in water utilities, where asset turnover and cash flow are more critical."
+  ],
+  "financebench_id_02608": [
+    "The 3-year average net profit margin for Best Buy from FY2015 to FY2017 was 2.9%.",
+    "[Table Level]\n\u2022\tTable Title: Best Buy Net Profit Margin (FY2015 - FY2017)\n\u2022\tTable Summary: This table shows the annual net profit margins for Best Buy from fiscal years 2015 to 2017.\n\u2022\tContext: Understanding the company's profitability over these years can help assess financial health and trends.\n\u2022\tSpecial Notes: The data reflects pre-COVID conditions.\n\n    [Row Level]\n    \u2022\tRow 1: FY2015: 2.8%\n    \u2022\tRow 2: FY2016: 3.0%\n    \u2022\tRow 3: FY2017: 2.7%",
+    "According to the financial reports, the net profit margin for Best Buy averaged 2.9% over FY2015 to FY2017."
+  ],
+  "financebench_id_04417": [
+    "According to Best Buy's FY2019 balance sheet, the total inventories amount to $4,237 million as of the year-end.",
+    "[Table Level]\n\u2022\tTable Title: Best Buy FY2019 Balance Sheet (Inventories)\n\u2022\tTable Summary: This table shows the inventories value at the end of FY2019.\n\u2022\tContext: This data is crucial for understanding Best Buy's asset management.\n\u2022\tSpecial Notes: The table also includes other balance sheet items for context.\n\n    [Row Level]\n    \u2022\tRow 1: Inventories: $4,237 million\n    \u2022\tRow 2: Current Assets: $21,345 million",
+    "The FY2019 year-end inventory for Best Buy was reported at $4,237 million, reflecting the company's stock levels at that time."
+  ],
+  "financebench_id_00685": [
+    "Best Buy's gross margins have been relatively stable, typically fluctuating within a 1-2% range over the past five years, indicating historical consistency.",
+    "Gross margins are indeed relevant for Best Buy, as they reflect the company's ability to control costs and price its products effectively. Over the past decade, margins have shown minor fluctuations, staying within a 1-2% range.",
+    "[Table Level]\n\u2022\tTable Title: Best Buy Gross Margin Trends (2015-2023)\n\u2022\tTable Summary: This table shows the annual gross margins for Best Buy from 2015 to 2023, highlighting consistent performance with minimal variation.\n\u2022\tContext: Understanding these trends helps assess the company's pricing and cost management strategies.\n\u2022\tSpecial Notes: The table indicates that Best Buy's gross margins have remained between 20.5% and 22.5% during this period, with only slight yearly deviations.\n\n    [Row Level]\n    \u2022\tRow 1: 2015 - 21.8%\n    \u2022\tRow 2: 2023 - 21.7%"
+  ],
+  "financebench_id_01077": [
+    "[Table Level]\n\u2022\tTable Title: Best Buy Acquisitions FY2021-2023\n\u2022\tTable Summary: A summary of major acquisitions by Best Buy in fiscal years 2021, 2022, and 2023, including acquisition date, target company, and financial details.\n\u2022\tContext: This table helps investors and analysts track Best Buy's expansion strategy and market presence.\n\u2022\tSpecial Notes: The table includes acquisitions in technology and retail sectors.",
+    "Best Buy acquired Xtralis in FY2023 for $100 million to enhance its security solutions. In FY2022, it bought ShopRunner for $900 million to compete with Amazon Prime. FY2021 saw the acquisition of Modo Games for $110 million to strengthen its gaming division.",
+    "In FY2023, Best Buy acquired Xtralis to bolster its security technology. FY2022 included the purchase of ShopRunner to compete with Amazon. FY2021 saw the acquisition of Modo Games to expand its gaming offerings."
+  ],
+  "financebench_id_01275": [
+    "Investing activities generated the highest cash flow of $1.2 billion for Best Buy in FY2023, supporting expansion and acquisitions.",
+    "Operations provided the most stable cash flow at $2.5 billion for Best Buy in FY2023, ensuring consistent revenue generation.",
+    "Financing activities resulted in a cash inflow of $300 million in FY2023 for Best Buy, primarily from issuing debt.\n\n[Table Level]\n\u2022\tTable Title: Best Buy Cash Flow by Activity FY2023\n\u2022\tTable Summary: This table shows the cash flow from operations, investing, and financing activities for Best Buy in FY2023.\n\u2022\tContext: Understanding the sources of cash flow helps in assessing the company's financial health and strategic focus.\n\u2022\tSpecial Notes: The table includes specific values for each activity, highlighting the significant contribution of investing activities.\n\n    [Row Level]\n    \u2022\tRow 1: Operations, $2.5 billion\n    \u2022\tRow 2: Investing, $1.2 billion\n    \u2022\tRow 3: Financing, $300 million"
+  ],
+  "financebench_id_00288": [
+    "[Table Level]\n\u2022\tTable Title: Quarterly Cash & Cash Equivalents\n\u2022\tTable Summary: A comparison of Cash & Cash Equivalents from FY 2023 Q1 to Q2 FY 2024.\n\u2022\tContext: This table helps in analyzing financial stability and liquidity.\n\u2022\tSpecial Notes: The drop is significant, indicating potential operational challenges.\n\n\u2022\tRow 1: FY 2023 Q2 - $150M\n\u2022\tRow 2: Q2 FY 2024 - $120M",
+    "Yes, there was a $30M drop in Cash & Cash Equivalents from FY 2023 Q2 to Q2 of FY 2024, suggesting reduced liquidity.",
+    "The decrease in Cash & Cash Equivalents from FY 2023 Q2 to Q2 of FY 2024 by $30M might indicate increased expenses or lower than expected revenue."
+  ],
+  "financebench_id_00460": [
+    "[Table Level]\n\u2022\tTable Title: Best Buy Store Count Comparison\n\u2022\tTable Summary: A comparison of Best Buy store counts for Q2 FY2023 and Q2 FY2024.\n\u2022\tContext: This table helps assess Best Buy's expansion or contraction strategies.\n\u2022\tSpecial Notes: The table includes both total stores and new stores opened.\n\n[Row Level]\n\u2022\tRow 1: Q2 FY2023 - 1,138 stores\n\u2022\tRow 2: Q2 FY2024 - 1,125 stores",
+    "In Q2 FY2024, Best Buy had 1,125 stores, down from 1,138 stores in Q2 FY2023, indicating a reduction of 13 stores.",
+    "The decrease in Best Buy stores from Q2 FY2023 to Q2 FY2024 suggests a strategic focus on optimizing store locations rather than expanding."
+  ],
+  "financebench_id_01902": [
+    "[Table Level]\n\u2022\tTable Title: Q2 FY2024 Domestic Best Buy Sales Summary\n\u2022\tTable Summary: This table shows the top line sales figures for each product category in the USA market during Q2 FY2024.\n\u2022\tContext: Identifying the top-performing category helps in understanding market trends and making informed business decisions.\n\u2022\tSpecial Notes: The table includes categories like Electronics, Appliances, and Gaming.\n\n[Row Level]\n\u2022\tRow 1: Electronics\n\u2022\tRow 2: Appliances",
+    "The Electronics category performed the best in Q2 FY2024, driven by strong sales of laptops and gaming consoles.",
+    "According to internal sales data, the Appliances category saw a significant increase in sales due to the launch of new energy-efficient models."
+  ],
+  "financebench_id_04660": [
+    "Block's FY2016 working capital ratio was 2.53.",
+    "[Table Level]\n\u2022\tTable Title: Block's FY2016 Financial Ratios\n\u2022\tTable Summary: A table showing various financial ratios for Block in FY2016, including the working capital ratio.\n\u2022\tContext: This table helps in understanding Block's liquidity and operational efficiency.\n\u2022\tSpecial Notes: The working capital ratio indicates Block's ability to meet short-term obligations.\n\n\u2022\tRow 1: Working Capital Ratio\n\u2022\tRow 2: 2.53",
+    "Block reported a working capital ratio of 2.53 for FY2016, indicating strong liquidity."
+  ],
+  "financebench_id_03838": [
+    "[Table Level]\n\u2022\tTable Title: FY2019 - FY2020 Revenue Growth\n\u2022\tTable Summary: Shows the revenue figures for FY2019 and FY2020, highlighting the growth rate.\n\u2022\tContext: This table is crucial for analyzing the company's financial health and growth over the fiscal years.\n\u2022\tSpecial Notes: The growth rate is calculated as ((FY2020 Revenue - FY2019 Revenue) / FY2019 Revenue) * 100.\n\n    [Row Level]\n    \u2022\tRow 1: FY2019 Revenue: $13,000,000,000\n    \u2022\tRow 2: FY2020 Revenue: $18,000,000,000",
+    "The FY2019 - FY2020 total revenue growth rate for Block is 38.5%.",
+    "According to the income statement, Block's FY2019 revenue was $13 billion, and FY2020 revenue increased to $18 billion, indicating a 38.5% growth rate.\n\nANS"
+  ],
+  "financebench_id_07661": [
+    "According to Block's 2020 annual report, the company generated $7,193 million in cash flow from operating activities.",
+    "[Table Level]\n\u2022\tTable Title: Block's Cash Flow from Operating Activities FY2020\n\u2022\tTable Summary: This table shows Block's cash flow from operating activities for fiscal year 2020.\n\u2022\tContext: This data is crucial for understanding Block's operational performance and financial health.\n\u2022\tSpecial Notes: The table includes details on revenue sources and expenses.\n\n    [Row Level]\n    \u2022\tRow 1: $7,193 million",
+    "In FY2020, Block reported a robust $7,193 million in cash flow from operating activities, reflecting strong operational performance."
+  ],
+  "financebench_id_10285": [
+    "According to Boeing's FY2018 balance sheet, their net property, plant, and equipment was $21,500 million.",
+    "[Table Level]\n\u2022\tTable Title: Boeing FY2018 Balance Sheet\n\u2022\tTable Summary: This table shows key balance sheet items for Boeing as of December 31, 2018, including net property, plant, and equipment.\n\u2022\tContext: This data is crucial for understanding Boeing's long-term asset position.\n\u2022\tSpecial Notes: The table also includes other assets and liabilities for a comprehensive view.\n\n\u2022\tRow 1: Net Property, Plant, and Equipment\n\u2022\tRow 2: $21,500 million",
+    "Boeing reported a net property, plant, and equipment value of $21,500 million at the end of FY2018."
+  ],
+  "financebench_id_00517": [
+    "Yes, commercial airplanes and defense products together account for over 70% of Boeing's FY2022 revenue.",
+    "[Table Level]\n\u2022\tTable Title: Boeing Revenue Breakdown FY2022\n\u2022\tTable Summary: A breakdown of Boeing's revenue by product/service category for fiscal year 2022.\n\u2022\tContext: This table highlights key revenue drivers for Boeing, indicating which categories are most significant.\n\u2022\tSpecial Notes: The data shows that commercial airplanes and defense products significantly outpace other categories.\n\n    [Row 1: Commercial Airplanes, Row 2: Defense Products]",
+    "In FY2022, both commercial airplanes and defense products exceeded 20% of Boeing's total revenue, with commercial airplanes contributing the most."
+  ],
+  "financebench_id_01091": [
+    "Boeing reported significant legal disputes in FY2022, including ongoing litigation related to the 737 Max grounding and warranty claims from customers.",
+    "[Table Level]\n\u2022\tTable Title: Boeing Legal Cases FY2022\n\u2022\tTable Summary: This table lists major legal cases Boeing faced in FY2022, including case names, parties involved, and estimated financial impacts.\n\u2022\tContext: Understanding these cases helps assess Boeing's financial health and operational risks.\n\u2022\tSpecial Notes: The table includes cases with potential long-term impacts on Boeing's business.\n\n    [Row 1]: 737 Max Grounding Litigation\n    [Row 2]: Customer Warranty Claims",
+    "Boeing's FY2022 financial reports indicate substantial legal expenses, primarily due to the 737 Max legal settlements and other regulatory fines."
+  ],
+  "financebench_id_00678": [
+    "[Boeing's gross margin improved from 8.5% in FY2021 to 10.2% in FY2022, indicating a positive trend.]",
+    "[Gross margin is a useful metric for Boeing as it reflects efficiency in production and pricing strategies, which has shown improvement from 8.5% to 10.2% in FY2022.]",
+    "[Table Level]\n\u2022\tTable Title: Boeing Gross Margin FY2021-2022\n\u2022\tTable Summary: This table shows Boeing's gross margin for fiscal years 2021 and 2022, highlighting the improvement.\n\u2022\tContext: The improvement in gross margin is crucial for assessing Boeing's operational efficiency and financial health.\n\u2022\tSpecial Notes: The increase from 8.5% to 10.2% suggests better cost management and pricing strategies.\n\n    [Row Level]\n    \u2022\tRow 1: FY2021 - 8.5%\n    \u2022\tRow 2: FY2022 - 10.2%"
+  ],
+  "financebench_id_01290": [
+    "Boeing's primary customers as of FY2022 include airlines, military organizations, and leasing companies. Major airline customers include American Airlines, Delta Air Lines, and United Airlines.",
+    "The U.S. Department of Defense is a key government customer for Boeing, procuring military aircraft like the F-15 and F-18 fighters.",
+    "[Table Level]\n\u2022\tTable Title: Boeing's Top Customers FY2022\n\u2022\tTable Summary: This table lists Boeing's top commercial and military customers for FY2022, including their respective purchase volumes.\n\u2022\tContext: Understanding Boeing's customer base helps in assessing market trends and company performance.\n\u2022\tSpecial Notes: Data includes both commercial airline and military contracts.\n\n    [Row 1: Commercial Airlines]\n    \u2022\tAmerican Airlines: 15 aircraft orders\n    \u2022\tDelta Air Lines: 12 aircraft orders\n\n    [Row 2: Military]\n    \u2022\tU.S. Department of Defense: $10B in contracts"
+  ],
+  "financebench_id_00464": [
+    "Boeing's business is highly cyclic, influenced by global economic conditions and defense spending trends.",
+    "Yes, Boeing's revenue and profits fluctuate significantly with the aerospace market, peaking during defense and commercial aviation upcycles.",
+    "[Table Level]\n\u2022\tTable Title: Boeing Revenue Cyclicality\n\u2022\tTable Summary: This table shows Boeing's quarterly revenue from 2010 to 2023, highlighting peaks and troughs.\n\u2022\tContext: Understanding revenue fluctuations helps in assessing business risk and planning.\n\u2022\tSpecial Notes: The table includes both commercial and defense segments, illustrating how different markets impact cyclicality.\n\n    [Row Level]\n    \u2022\tRow 1: Q1 2010, $14.5B\n    \u2022\tRow 2: Q4 2018, $18.3B"
+  ],
+  "financebench_id_00494": [
+    "Boeing forecasts a 10% increase in 737 MAX production to 52 aircraft per month by Q4 FY2023, up from 47 in Q1 FY2023.",
+    "[Table Level]\n\u2022\tTable Title: Boeing FY2023 Production Forecast\n\u2022\tTable Summary: Monthly production rates for the 737 MAX from Q1 to Q4 FY2023.\n\u2022\tContext: This table helps track Boeing's recovery in production post-pandemic.\n\u2022\tSpecial Notes: The increase is aimed at meeting global demand and restoring pre-pandemic levels.\n\n    [Row Level]\n    \u2022\tRow 1: Q1 FY2023 - 47 aircraft/month\n    \u2022\tRow 2: Q4 FY2023 - 52 aircraft/month",
+    "Boeing anticipates a gradual increase in production, with a target of 57 aircraft per month by the end of FY2023, reflecting improved supply chain and demand recovery."
+  ],
+  "financebench_id_00585": [
+    "Boeing's effective tax rate decreased from 27.5% in FY2021 to 24.3% in FY2022, reflecting improved profitability and tax strategies.",
+    "[Table Level]\n\u2022\tTable Title: Boeing's Tax Rate Comparison\n\u2022\tTable Summary: A comparison of Boeing's effective tax rates for FY2021 and FY2022.\n\u2022\tContext: This table helps investors understand tax efficiency changes over time.\n\u2022\tSpecial Notes: The decrease in rate is due to better tax planning and higher profits.\n\n    [Row Level]\n    \u2022\tRow 1: FY2021 - 27.5%\n    \u2022\tRow 2: FY2022 - 24.3%",
+    "The reduction in Boeing's effective tax rate from 27.5% in FY2021 to 24.3% in FY2022 indicates enhanced financial performance and strategic tax management."
+  ],
+  "financebench_id_03473": [
+    "[Table Level]\n\u2022\tTable Title: FY2016-2017 Coca Cola Financial Summary\n\u2022\tTable Summary: This table includes net income and average total assets for FY2016 and FY2017.\n\u2022\tContext: ROA measures asset efficiency and profitability.\n\u2022\tSpecial Notes: ROA helps assess how effectively the company uses its assets to generate profits.\n\n| Year | Net Income | Average Total Assets |\n|------|-----------|---------------------|\n| 2016 | $7,130M   | $104,800M           |\n| 2017 | $7,326M   | $108,400M           |",
+    "[Row Level]\n\u2022\tRow 1: FY2017 Net Income: $7,326M\n\u2022\tRow 2: Average Total Assets (2016-2017): $106,600M",
+    "The FY2017 ROA for Coca Cola is 6.86%, calculated as $7,326M / $106,60"
+  ],
+  "financebench_id_09724": [
+    "[Table Level]\n\u2022\tTable Title: FY2021 COGS Margin for Coca Cola\n\u2022\tTable Summary: A breakdown of COGS and total revenue to calculate the COGS margin.\n\u2022\tContext: This table helps understand the cost efficiency in producing Coca Cola's products.\n\u2022\tSpecial Notes: The margin indicates profitability from production costs.\n\n    [Row Level]\n    \u2022\tRow 1: COGS - $7,200M\n    \u2022\tRow 2: Total Revenue - $41,500M",
+    "[Row Level]\n\u2022\tRow 1: COGS - $7,200M\n\u2022\tRow 2: Total Revenue - $41,500M\n\u2022\tRow 3: COGS Margin - 17.3%",
+    "To calculate the COGS margin for FY2021, divide COGS ($7,200M) by total revenue ($41,500M), resulting in a margin of 17.3%. This indicates the percentage of revenue spent on production costs."
+  ],
+  "financebench_id_06272": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 Coca Cola Financial Ratios\n\u2022\tTable Summary: This table shows the calculation for the dividend payout ratio using total cash dividends paid and net income attributable to shareholders.\n\u2022\tContext: This ratio indicates how much of the company's profits are paid out as dividends.\n\u2022\tSpecial Notes: Ensure to use the net income from the income statement and the cash dividends from the cash flow statement.\n\n    [Row Level]\n    \u2022\tRow 1: Total Cash Dividends Paid: $10,500 million\n    \u2022\tRow 2: Net Income Attributable to Shareholders: $12,300 million\n    \u2022\tRow 3: Dividend Payout Ratio: 85.12%",
+    "Based on the FY2022 financials, Coca Cola's dividend payout ratio is 85.12%, calculated by dividing total cash dividends paid by net income attributable to shareholders.",
+    "The FY2022 dividend payout ratio for Coca Cola is 85.12%, derived from total cash dividends of $10,500 million and net income of $12"
+  ],
+  "financebench_id_10130": [
+    "[Table Level]\n\u2022\tTable Title: Corning's FY2019 and FY2020 Financial Metrics\n\u2022\tTable Summary: A summary of key financial metrics including COGS, Inventory, and Accounts Payable for Corning in FY2019 and FY2020.\n\u2022\tContext: This table provides the necessary data to calculate DPO, offering insights into Corning's payment practices.\n\u2022\tSpecial Notes: Ensure to use the average accounts payable and the change in inventory over the two fiscal years.\n\n[Row Level]\n\u2022\tRow 1: FY2019 COGS: $12,000M, Inventory: $1,500M, Accounts Payable: $2,000M\n\u2022\tRow 2: FY2020 COGS: $12,500M, Inventory: $1,600M, Accounts Payable: $2,200M",
+    "Based on the provided formula and financial data, Corning's FY2020 DPO is approximately 64.55 days.",
+    "The DPO for Corning in FY2020 indicates an average"
+  ],
+  "financebench_id_02981": [
+    "[Table Level]\n\u2022\tTable Title: Corning's Unadjusted Operating Income Margin (FY2019 - FY2021)\n\u2022\tTable Summary: A summary of Corning's unadjusted operating income margin for the fiscal years 2019, 2020, and 2021.\n\u2022\tContext: This data is crucial for understanding Corning's profitability over the past three years.\n\u2022\tSpecial Notes: The margin reflects the company's operational efficiency without adjustments.\n\n    [Row Level]\n    \u2022\tRow 1: FY2019 - 12.4%\n    \u2022\tRow 2: FY2020 - 11.3%\n    \u2022\tRow 3: FY2021 - 12.1%",
+    "The 3-year average unadjusted operating income % margin for Corning from FY2019 to FY2021 is 12.0%.",
+    "According to the income statement, Corning's unadjusted operating income % margin averaged 12.0% over the fiscal years 2019 to 2021."
+  ],
+  "financebench_id_01346": [
+    "Corning's effective tax rate decreased from 21% in FY2021 to 19% in FY2022, reflecting improved tax planning strategies.",
+    "[Table Level]\n\u2022\tTable Title: Corning's Tax Rate Comparison FY2021 vs FY2022\n\u2022\tTable Summary: This table shows the effective tax rates for Corning in fiscal years 2021 and 2022.\n\u2022\tContext: The table highlights the change in tax rates, indicating potential shifts in financial strategies.\n\u2022\tSpecial Notes: The decrease in tax rate suggests better tax management or favorable tax environments.\n\n    [Row Level]\n    \u2022\tRow 1: FY2021 - 21%\n    \u2022\tRow 2: FY2022 - 19%",
+    "The effective tax rate for Corning reduced from 20.5% in FY2021 to 18.7% in FY2022, indicating a 3.8% decrease."
+  ],
+  "financebench_id_00005": [
+    "[Table Level]\n\u2022\tTable Title: Corning Working Capital FY2022\n\u2022\tTable Summary: A summary of Corning's working capital, current assets, and current liabilities for FY2022.\n\u2022\tContext: This table helps assess Corning's liquidity and financial health.\n\u2022\tSpecial Notes: Positive working capital indicates efficient use of assets and liabilities.\n\n[Row 1: Current Assets: $11.5B]\n[Row 2: Current Liabilities: $7.8B]",
+    "Based on FY2022 data, Corning has positive working capital, indicating strong liquidity. Current Assets ($11.5B) exceed Current Liabilities ($7.8B).",
+    "Working capital is a useful metric for Corning as it measures short-term financial health. For FY2022, Corning's working capital was positive, reflecting efficient asset management."
+  ],
+  "financebench_id_04209": [
+    "According to Costco's balance sheet for FY2021, the total assets were $48,825 million.",
+    "[Table Level]\n\u2022\tTable Title: FY2021 Balance Sheet Summary\n\u2022\tTable Summary: This table shows the total assets of Costco as of the end of FY2021.\n\u2022\tContext: The total assets represent the company's overall financial position and its ability to meet obligations.\n\u2022\tSpecial Notes: This data is crucial for assessing Costco's financial health.\n\n[Row Level]\n\u2022\tRow 1: Total Assets\n\u2022\tRow 2: $48,825 million",
+    "As of the end of FY2021, Costco reported total assets of $48,825 million on its balance sheet."
+  ],
+  "financebench_id_05915": [
+    "The FY2018 fixed asset turnover ratio for CVS Health is 1.23. This calculation uses FY2018 revenue of $62.2 billion and an average property, plant, and equipment (PP&E) value of $49.8 billion from FY2017 and FY2018.",
+    "[Table Level]\n\u2022\tTable Title: FY2018 Fixed Asset Turnover Ratio Calculation\n\u2022\tTable Summary: This table shows the calculation steps for the FY2018 fixed asset turnover ratio for CVS Health.\n\u2022\tContext: The table helps understand the financial efficiency in utilizing fixed assets.\n\u2022\tSpecial Notes: The table includes detailed figures for revenue and PP&E.\n\n    [Row Level]\n    \u2022\tRow 1: FY2018 Revenue: $62.2 billion\n    \u2022\tRow 2: Average PP&E (FY2017-FY2018): $49.8 billion\n    \u2022\tRow 3: Fixed Asset Turnover Ratio: 1.23",
+    "The FY2018 fixed asset turnover ratio for CVS Health is 1.23, calculated by dividing the"
+  ],
+  "financebench_id_00790": [
+    "Yes, CVS Health is capital-intensive, with FY2022 investments in technology and real estate totaling $5.4 billion.",
+    "[Table Level]\n\u2022\tTable Title: FY2022 Capital Expenditure Breakdown\n\u2022\tTable Summary: This table details CVS Health's capital expenditures across various categories in FY2022.\n\u2022\tContext: Understanding the scale of capital investments helps assess the company's capital intensity.\n\u2022\tSpecial Notes: Key categories include property, plant, and equipment, and technology.\n\n    [Row 1: Property, Plant, and Equipment] \n    [Row 2: Technology]",
+    "In FY2022, CVS Health's capital expenditures on property, plant, and equipment were $4.2 billion, indicating significant investment in physical assets."
+  ],
+  "financebench_id_01107": [
+    "CVS Health reported a significant antitrust lawsuit in 2022 related to their pharmacy benefits business. This case is ongoing and could have substantial financial impacts.",
+    "[Table Level]\n\u2022\tTable Title: CVS Health Legal Cases 2020-2022\n\u2022\tTable Summary: Summary of major legal cases involving CVS Health from 2020 to 2022, including case names, dates, and outcomes.\n\u2022\tContext: This table provides a quick reference for ongoing and resolved legal issues, helping to assess potential risks.\n\u2022\tSpecial Notes: The table includes a column indicating the materiality of each case.\n\n    [Row Level]\n    \u2022\tRow 1: 2022 Antitrust Suit, Ongoing\n    \u2022\tRow 2: 2021 Employment Discrimination, Resolved",
+    "In 2021, CVS Health faced an employment discrimination lawsuit which was resolved, but no other major legal battles were reported for 2020 and 2022."
+  ],
+  "financebench_id_01244": [
+    "Yes, CVS Health paid a dividend of $0.68 per share on May 13, 2022, for the Q2 of FY2022.",
+    "CVS Health distributed dividends totaling $1.36 billion in Q2 of FY2022, maintaining its consistent dividend payment to common shareholders.",
+    "[Table Level]\n\u2022\tTable Title: CVS Health Dividend Payments Q2 FY2022\n\u2022\tTable Summary: This table shows the dividend payment date and amount for Q2 of FY2022.\n\u2022\tContext: The table helps investors understand the timing and amount of dividends received.\n\u2022\tSpecial Notes: The payment was made on May 13, 2022, at $0.68 per share.\n\n    [Row Level]\n    \u2022\tRow 1: Payment Date: May 13, 2022\n    \u2022\tRow 2: Dividend Amount: $0.68 per share"
+  ],
+  "financebench_id_00839": [
+    "Yes, Foot Locker's new CEO, Jane Smith, previously served as CEO of Skechers, a similarly sized athletic footwear company.",
+    "The new CEO, John Doe, has extensive experience in footwear retail, previously heading up Adidas North America before becoming Foot Locker's CEO.",
+    "[Table Level]\n\u2022\tTable Title: Previous CEO Experiences\n\u2022\tTable Summary: A comparison of previous CEO roles between Foot Locker's current CEO and those of similar companies.\n\u2022\tContext: This table highlights the industry and leadership experience of Foot Locker's new CEO, showing relevant past experience.\n\u2022\tSpecial Notes: The table includes key metrics such as company size and industry focus.\n\n    [Row Level]\n    \u2022\tRow 1: Current CEO - Jane Smith, Skechers, 10 years\n    \u2022\tRow 2: Previous CEO - John Doe, Adidas North America, 8 years"
+  ],
+  "financebench_id_00822": [
+    "Yes, nominee Sarah Johnson received significantly more votes against joining compared to the other nominees, with 65% against versus 35% for.",
+    "The board election results showed that out of five nominees, only Sarah Johnson faced a higher percentage of negative votes (62%) than positive ones (38%).",
+    "[Table Level]\n\u2022\tTable Title: Board Nominee Vote Results\n\u2022\tTable Summary: A summary of the voting outcomes for each board nominee, including the percentage of votes for and against.\n\u2022\tContext: This table helps identify which nominees faced significant opposition.\n\u2022\tSpecial Notes: Sarah Johnson had the highest percentage of votes against (65%), indicating substantial opposition.\n\n    [Row Level]\n    \u2022\tRow 1: Sarah Johnson, 65% against, 35% for\n    \u2022\tRow 2: Mark Davis, 55% against, 45% for"
+  ],
+  "financebench_id_04103": [
+    "[Table Level]\n\u2022\tTable Title: FY2019 Cash Conversion Cycle (CCC) Calculation for General Mills\n\u2022\tTable Summary: This table outlines the calculation steps for General Mills' CCC, including DIO, DSO, and DPO.\n\u2022\tContext: Understanding the CCC helps assess General Mills' efficiency in managing its working capital.\n\u2022\tSpecial Notes: The calculation requires data from the income statement and balance sheet.\n\n    [Row Level]\n    \u2022\tRow 1: DIO: 18.25\n    \u2022\tRow 2: DSO: 45.32\n    \u2022\tRow 3: DPO: 54.13\n    \u2022\tRow 4: CCC: 19.44",
+    "The FY2019 cash conversion cycle (CCC) for General Mills is 19.44 days, calculated as DIO (18.25) + DSO (45.32) - DPO (54.13).",
+    "General Mills' FY2019 CCC of 19.44 days indicates a moderate cycle, suggesting efficient inventory and receivables management but potentially"
+  ],
+  "financebench_id_03471": [
+    "[Table Level]\n\u2022\tTable Title: General Mills FY2020 Working Capital Ratio\n\u2022\tTable Summary: This table shows the working capital ratio for General Mills in FY2020, calculated as total current assets divided by total current liabilities.\n\u2022\tContext: The working capital ratio indicates the company's liquidity and short-term financial health.\n\u2022\tSpecial Notes: Data sourced from the FY2020 Statement of Financial Position.",
+    "General Mills's FY2020 working capital ratio was 1.52, calculated from the Statement of Financial Position.",
+    "By analyzing the FY2020 Statement of Financial Position, General Mills had a working capital ratio of 1.52, reflecting its liquidity position."
+  ],
+  "financebench_id_04854": [
+    "[Table Level]\n\u2022\tTable Title: General Mills Cash Flow Statement FY2020\n\u2022\tTable Summary: This table shows the cash from operations and capital expenditures for General Mills in FY2020.\n\u2022\tContext: Free Cash Flow (FCF) is crucial for assessing a company's financial health and its ability to generate cash.\n\u2022\tSpecial Notes: The table includes both operating cash flows and capital expenditures.\n\n    [Row Level]\n    \u2022\tRow 1: Cash from Operations: $7,900 million\n    \u2022\tRow 2: Capital Expenditures: $1,200 million\n    \u2022\tRow 3: Free Cash Flow: $6,700 million",
+    "According to the statement of cash flows for FY2020, General Mills' free cash flow (FCF) was $6,700 million.",
+    "The free cash flow (FCF) for General Mills in FY2020, calculated as cash from operations ($7,900 million) minus capital expenditures ($1,200 million), is $6,700 million."
+  ],
+  "financebench_id_10136": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 General Mills Financial Metrics\n\u2022\tTable Summary: A summary of General Mills' FY2022 financial metrics, including net income and total cash dividends.\n\u2022\tContext: This table helps in calculating the retention ratio by providing necessary financial data.\n\u2022\tSpecial Notes: Ensure net income and dividends are from the same fiscal year.\n\n[Row Level]\n\u2022\tRow 1: Net Income: $4,579 million\n\u2022\tRow 2: Total Cash Dividends: $1,250 million",
+    "The FY2022 retention ratio for General Mills is calculated by subtracting total cash dividends ($1,250 million) from net income ($4,579 million), then dividing by net income. This results in a retention ratio of 73.05%.",
+    "To find the FY2022 retention ratio, use the formula: (Net Income - Total Cash Dividends) / Net Income. For General Mills, this is ($4,579 - $1,250) / $4,579 = 73.05%."
+  ],
+  "financebench_id_00956": [
+    "JnJ's FY2022 financials show a 7% revenue growth, indicating strong performance but not exceptional growth. Key areas like pharmaceuticals and medical devices contributed significantly.",
+    "The FY2022 financials reveal JnJ's diversified portfolio supported steady growth. However, compared to tech giants, JnJ's growth rate is moderate, focusing more on stable expansion.",
+    "[Table Level]\n\u2022\tTable Title: JnJ FY2022 Revenue Breakdown\n\u2022\tTable Summary: Revenue growth across segments (pharmaceuticals, medical devices, consumer). Timeframe: FY2022.\n\u2022\tContext: Highlights JnJ's revenue sources and growth drivers.\n\u2022\tSpecial Notes: Pharmaceuticals led with 8% growth, while medical devices grew 5%.\n\n[Row Level]\n\u2022\tRow 1: Pharmaceuticals - 8% growth\n\u2022\tRow 2: Medical Devices - 5% growth"
+  ],
+  "financebench_id_00669": [
+    "[Table Level]\n\u2022\tTable Title: JnJ Gross Margin Breakdown FY2021 vs FY2022\n\u2022\tTable Summary: This table shows the breakdown of gross margin components for Johnson & Johnson in fiscal years 2021 and 2022.\n\u2022\tContext: Understanding the drivers of gross margin change is crucial for assessing the company's operational efficiency.\n\u2022\tSpecial Notes: Note the significant increase in medical devices, which contributed to the overall margin improvement.",
+    "Gross margin for JnJ in FY2022 improved due to higher sales volumes and cost reductions in medical devices and pharmaceuticals, despite increased raw material costs.",
+    "For JnJ, gross margin is a useful metric as it reflects operational efficiency. However, it doesn't capture all financial health aspects, such as R&D expenses and marketing costs, which are more critical for long-term growth."
+  ],
+  "financebench_id_00711": [
+    "[Table Level]\n\u2022\tTable Title: JnJ FY2022 Inventory Turnover\n\u2022\tTable Summary: The table shows JnJ's inventory turnover ratio for FY2022, calculated as Cost of Goods Sold (COGS) divided by average inventory.\n\u2022\tContext: This ratio indicates how many times JnJ sold and replaced inventory during the fiscal year.\n\u2022\tSpecial Notes: JnJ's pharmaceutical and medical device businesses may have lower turnover due to product nature.\n\n[Row Level]\n\u2022\tRow 1: Inventory Turnover Ratio: 5.2\n\u2022\tRow 2: COGS: $62.5 billion",
+    "JnJ's inventory turnover ratio for FY2022 was approximately 5.2, indicating they sold and replaced their inventory about 5.2 times. This ratio is typical for a diversified company like JnJ.",
+    "For JnJ, conventional inventory management may not be as meaningful due to their focus on high-value, specialized products. Their inventory turnover ratio is likely lower, reflecting the nature of their business."
+  ],
+  "financebench_id_00651": [
+    "[Table Level]\n\u2022\tTable Title: JnJ Quarterly EPS Growth\n\u2022\tTable Summary: Shows QoQ growth in JnJ's adjusted EPS from Q1 to Q4 FY2022.\n\u2022\tContext: Tracks historical EPS growth to predict future trends.\n\u2022\tSpecial Notes: Positive Q4 growth suggests potential acceleration in FY2023.",
+    "JnJ's adjusted EPS grew 5% in Q4 FY2022, up from 3% in Q3, indicating a possible acceleration in FY2023.",
+    "Analysts expect JnJ's adjusted EPS to grow by 6-8% in FY2023, driven by strong performance in pharmaceuticals and medical devices."
+  ],
+  "financebench_id_01484": [
+    "JnJ's US sales grew by 8% in FY2022, outpacing the 5% growth in international sales.",
+    "JnJ reported a 12% increase in US sales compared to a 7% rise in international sales during FY2022.",
+    "[Table Level]\n\u2022\tTable Title: JnJ Sales Growth by Region - FY2022\n\u2022\tTable Summary: This table shows the percentage growth in sales for Johnson & Johnson in the US and internationally for the fiscal year 2022.\n\u2022\tContext: The table highlights regional performance, aiding in strategic planning and understanding market dynamics.\n\u2022\tSpecial Notes: Data includes both pharmaceutical and medical devices segments.\n\n    [Row Level]\n    \u2022\tRow 1: US - 12%\n    \u2022\tRow 2: International - 7%"
+  ],
+  "financebench_id_01488": [
+    "Johnson & Johnson plans to treat its Consumer Health segment as a discontinued operation starting August 30, 2023.",
+    "[Table Level]\n\u2022\tTable Title: J&J Discontinued Operations Schedule\n\u2022\tTable Summary: A timeline indicating the segments to be treated as discontinued operations, including the Consumer Health segment from August 30, 2023.\n\u2022\tContext: This table helps investors understand the company's restructuring plans and potential financial impacts.\n\u2022\tSpecial Notes: The table also includes the expected disposal dates and any associated gains or losses.\n\n    [Row Level]\n    \u2022\tRow 1: Consumer Health, August 30, 2023\n    \u2022\tRow 2: Pharmaceuticals, December 31, 2024",
+    "The Consumer Health segment of J&J will be classified as a discontinued operation effective August 30, 2023, as per the company's recent restructuring announcement."
+  ],
+  "financebench_id_01490": [
+    "The gain from the separation of JnJ's Consumer Health business segment as of August 30, 2023, was approximately $4.3 billion, according to the company's Q3 earnings report.",
+    "As of August 30, 2023, JnJ reported a gain of $4.2 billion from the divestiture of its Consumer Health segment, detailed in the official press release.",
+    "[Table Level]\n\u2022\tTable Title: JnJ Divestiture Financials\n\u2022\tTable Summary: This table outlines the financial gains from JnJ's divestiture of its Consumer Health segment, including the specific amount and date.\n\u2022\tContext: This data is crucial for understanding the financial impact of the separation and can be used for comparative analysis.\n\u2022\tSpecial Notes: The table includes the exact date and amount, providing precise information.\n\n    [Row Level]\n    \u2022\tRow 1: Date: August 30, 2023\n    \u2022\tRow 2: Gain: $4.2 billion"
+  ],
+  "financebench_id_01491": [
+    "JnJ reported cash proceeds of $12.3 billion from the Kenvue separation as of August 30, 2023.",
+    "[Table Level]\n\u2022\tTable Title: JnJ Kenvue Separation Financials\n\u2022\tTable Summary: This table outlines the financial details of Johnson & Johnson's Kenvue separation, including cash proceeds, for the period ending August 30, 2023.\n\u2022\tContext: The table provides critical financial insights into the divestiture, aiding in understanding the company's strategic moves.\n\u2022\tSpecial Notes: The table includes a breakdown of proceeds by region and product line.\n\n    [Row Level]\n    \u2022\tRow 1: Cash Proceeds: $12.3 billion\n    \u2022\tRow 2: Region: North America",
+    "According to JnJ's latest financial report, the company received $12.3 billion in cash from the Kenvue separation by August 30, 2023."
+  ],
+  "financebench_id_01487": [
+    "JnJ's net earnings as a percent of sales increased by 1.2% in Q2 FY2023 compared to Q2 FY2022, due to cost-cutting measures and higher pricing strategies.",
+    "[Table Level]\n\u2022\tTable Title: JnJ Quarterly Earnings Summary\n\u2022\tTable Summary: A comparison of JnJ's net earnings as a percent of sales for Q2 FY2022 and Q2 FY2023.\n\u2022\tContext: This table highlights the financial performance trends, indicating improved efficiency.\n\u2022\tSpecial Notes: The increase is attributed to operational improvements and market conditions.\n\n    [Row Level]\n    \u2022\tRow 1: Q2 FY2022 - 14.5%\n    \u2022\tRow 2: Q2 FY2023 - 15.7%",
+    "The increase in JnJ's net earnings as a percent of sales from Q2 FY2022 to Q2 FY2023 was 1.2%, reflecting better operational efficiency and pricing strategies."
+  ],
+  "financebench_id_00299": [
+    "JPM's Investment Banking segment had the lowest net revenue in 2021 Q1, attributed to lower merger and acquisition advisory fees.",
+    "[Table Level]\n\u2022\tTable Title: JPMorgan Chase Quarterly Revenue Breakdown Q1 2021\n\u2022\tTable Summary: A breakdown of JPMorgan Chase's revenue from various segments in Q1 2021, including net revenues from each segment.\n\u2022\tContext: This table helps identify which segment contributed the least to the overall revenue, indicating potential areas for strategic focus or improvement.\n\u2022\tSpecial Notes: The table includes a comparison with Q4 2020 to highlight any significant changes.\n\n    [Row Level]\n    \u2022\tRow 1: Investment Banking\n    \u2022\tRow 2: Consumer and Community Banking",
+    "JPM's Asset and Wealth Management segment reported the lowest net revenue in 2021 Q1 due to reduced market activity and client investment levels."
+  ],
+  "financebench_id_02119": [
+    "Assuming JPM had $200 billion in assets and $150 billion in liabilities in 2021 Q1, each of the 1 billion shareholders could potentially receive $50 per share.",
+    "If JPM's liquidation value was $250 billion in 2021 Q1, with 10 billion shares outstanding, shareholders might get approximately $25 per share.",
+    "[Table Level]\n\u2022\tTable Title: JPM Asset and Liability Distribution in 2021 Q1\n\u2022\tTable Summary: This table outlines JPM's asset and liability distribution, showing total assets, total liabilities, and net worth.\n\u2022\tContext: Understanding JPM's financial health is crucial for estimating potential shareholder payouts.\n\u2022\tSpecial Notes: Net worth is calculated as total assets minus total liabilities.\n\n    [Row 1: Assets] $250 billion\n    [Row 2: Liabilities] $180 billion\n    [Row 3: Net Worth] $70 billion"
+  ],
+  "financebench_id_00206": [
+    "JPM's gross margins have shown relative stability, fluctuating within a 1.5% to 2.5% range over the past decade, indicating consistent performance.",
+    "Gross margins are not a primary metric for JPM as it operates in financial services, where revenue is more indicative of performance due to the nature of its business models.",
+    "[Table Level]\n\u2022\tTable Title: JPMorgan Chase Gross Margin Stability\n\u2022\tTable Summary: This table shows the annual gross margin percentage of JPMorgan Chase from 2010 to 2022, highlighting the range and consistency.\n\u2022\tContext: Understanding JPM's financial health and operational efficiency.\n\u2022\tSpecial Notes: The table includes both peak and trough years to illustrate the margin's variability.\n\n    [Row Level]\n    \u2022\tRow 1: 2010 - 2.3%\n    \u2022\tRow 2: 2022 - 2.4%"
+  ],
+  "financebench_id_00394": [
+    "[Table Level]\n\u2022\tTable Title: JPMorgan Chase Q2 2022 Segmental Net Income\n\u2022\tTable Summary: This table lists the net income for each business segment of JPMorgan Chase for the second quarter of 2022.\n\u2022\tContext: Understanding which segment performed best helps in assessing the overall financial health and strategic focus areas of the company.\n\u2022\tSpecial Notes: The table includes details on investment banking, consumer and community banking, commercial banking, and investment management.\n\n    [Row Level]\n    \u2022\tRow 1: Investment Banking: $2.1B\n    \u2022\tRow 2: Consumer and Community Banking: $2.8B",
+    "JPMorgan Chase's Consumer and Community Banking segment had the highest net income in Q2 2022, at $2.8 billion.",
+    "In Q2 2022, JPMorgan Chase's Consumer and Community Banking segment reported the highest net income, surpassing Investment Banking by $2.8 billion to $2.1 billion, respectively."
+  ],
+  "financebench_id_02049": [
+    "According to JPM's financial reports, the Value at Risk (VaR) decreased by 15% in the second fiscal quarter of 2023 compared to the same period in 2022, indicating a lower risk exposure.",
+    "The VaR for JPM in Q2 2023 was $2.4 billion, down from $2.8 billion in Q2 2022, suggesting a reduction in risk faced by the firm.",
+    "[Table Level]\n\u2022\tTable Title: JPMorgan VaR Comparison Q2 2022 vs Q2 2023\n\u2022\tTable Summary: This table shows the Value at Risk (VaR) for JPM in the second fiscal quarters of 2022 and 2023.\n\u2022\tContext: The table helps investors understand the risk reduction strategies and their effectiveness.\n\u2022\tSpecial Notes: The decrease in VaR is attributed to improved risk management and market conditions.\n\n    [Row Level]\n    \u2022\tRow 1: Q2 2022 - $2.8 billion\n    \u2022\tRow 2: Q2 2023 - $2.4"
+  ],
+  "financebench_id_10499": [
+    "Kraft Heinz's FY2019 inventory turnover ratio was 4.23 based on COGS of $19.5 billion and an average inventory value of $4.6 billion.",
+    "[Table Level]\n\u2022\tTable Title: Kraft Heinz FY2019 Inventory Turnover\n\u2022\tTable Summary: COGS and average inventory values from the P&L and balance sheet statements.\n\u2022\tContext: This ratio indicates how efficiently the company manages its inventory.\n\u2022\tSpecial Notes: Higher ratios suggest better inventory management.\n\n\u2022\tRow 1: COGS: $19.5B\n\u2022\tRow 2: Avg Inventory: $4.6B",
+    "The FY2019 inventory turnover ratio for Kraft Heinz was 4.23, calculated from COGS and average inventory values. This ratio reflects the company's inventory management efficiency."
+  ],
+  "financebench_id_04412": [
+    "[Table Level]\n\u2022\tTable Title: Asset Turnover Ratio Calculation\n\u2022\tTable Summary: FY2020 revenue divided by average total assets from FY2019 and FY2020.\n\u2022\tContext: This ratio measures how efficiently Lockheed Martin uses its assets to generate revenue.\n\u2022\tSpecial Notes: Ensure to use the correct revenue and average asset figures.\n\n[Row Level]\n\u2022\tRow 1: FY2020 Revenue: $65.2 billion\n\u2022\tRow 2: Average Total Assets: $32.6 billion",
+    "The asset turnover ratio for Lockheed Martin in FY2020 is approximately 2.00, calculated as $65.2 billion in revenue divided by $32.6 billion in average total assets.",
+    "Based on the balance sheet and P&L statement, Lockheed Martin's FY2020 asset turnover ratio is 2.00, derived from $65.2 billion in revenue and an average total asset value of $32.6 billion."
+  ],
+  "financebench_id_03031": [
+    "[Table Level]\n\u2022\tTable Title: FY2021 Net Working Capital for Lockheed Martin\n\u2022\tTable Summary: This table shows the calculation of net working capital by subtracting total current liabilities from total current assets for FY2021.\n\u2022\tContext: This metric is crucial for assessing liquidity and short-term financial health.\n\u2022\tSpecial Notes: Ensure the balance sheet data is from the most recent FY2021 filing.\n\n    [Row Level]\n    \u2022\tRow 1: Total Current Assets: $40,500 million\n    \u2022\tRow 2: Total Current Liabilities: $28,000 million\n    \u2022\tRow 3: Net Working Capital: $12,500 million",
+    "As of FY2021, Lockheed Martin's net working capital was $12,500 million, calculated as total current assets ($40,500 million) minus total current liabilities ($28,000 million).",
+    "For FY2021, Lockheed Martin's net working capital stood at $12,500 million, derived from current assets of $40,500 million and current liabilities"
+  ],
+  "financebench_id_03718": [
+    "[Table Level]\n\u2022\tTable Title: Lockheed Martin Revenue Growth\n\u2022\tTable Summary: This table shows the revenue for FY2020 and FY2022, and the CAGR over the 2-year period.\n\u2022\tContext: The CAGR provides insight into the company's revenue growth rate.\n\u2022\tSpecial Notes: The CAGR is calculated using the revenue from the two fiscal years.",
+    "[Row Level]\n\u2022\tRow 1: FY2020 Revenue: $65.5B\n\u2022\tRow 2: FY2022 Revenue: $74.7B",
+    "The CAGR for Lockheed Martin from FY2020 to FY2022 is 4.5%. This growth rate indicates a steady increase in revenue over the two-year period."
+  ],
+  "financebench_id_04171": [
+    "According to MGM Resorts' 2018 annual report, the year-end FY2018 amount of accounts payable was $2,153 million.",
+    "[Table Level]\n\u2022\tTable Title: MGM Resorts FY2018 Balance Sheet\n\u2022\tTable Summary: This table shows key balance sheet figures for MGM Resorts as of December 31, 2018, including accounts payable.\n\u2022\tContext: The accounts payable figure is crucial for understanding MGM Resorts' short-term liabilities.\n\u2022\tSpecial Notes: This data reflects MGM Resorts' financial obligations at the end of FY2018.\n\n    [Row Level]\n    \u2022\tRow 1: Accounts Payable\n    \u2022\tRow 2: $2,153 million",
+    "As per the MGM Resorts FY2018 financial statements, the accounts payable balance at year-end FY2018 was reported as $2,153 million."
+  ],
+  "financebench_id_03849": [
+    "[Table Level]\n\u2022\tTable Title: MGM Resorts Capex as a % of Revenue\n\u2022\tTable Summary: FY2018 to FY2020 capex percentages as a % of revenue.\n\u2022\tContext: This data helps assess MGM's investment in capital expenditures relative to its revenue over three fiscal years.\n\u2022\tSpecial Notes: Ensure the percentages are rounded to one decimal place.\n\n    [Row Level]\n    \u2022\tRow 1: FY2018 - 12.5%\n    \u2022\tRow 2: FY2019 - 13.2%\n    \u2022\tRow 3: FY2020 - 14.1%",
+    "The 3-year average of capex as a % of revenue for MGM Resorts from FY2018 to FY2020 is 13.2%.",
+    "Based on the statement of cash flows and income, MGM Resorts' capex as a % of revenue averaged 13.2% over FY2018 to FY2020, with individual years at 12.5%, 13.2%, and 14.1% respectively."
+  ],
+  "financebench_id_01254": [
+    "MGM Resorts did not pay dividends to common shareholders in FY2022 due to ongoing financial constraints related to the pandemic.",
+    "[Table Level]\n\u2022\tTable Title: MGM Resorts Dividend History FY2020-FY2022\n\u2022\tTable Summary: This table shows MGM Resorts' dividend payments for the fiscal years 2020, 2021, and 2022, indicating no dividends in FY2022.\n\u2022\tContext: The table highlights MGM's financial decisions during the pandemic.\n\u2022\tSpecial Notes: The table also includes reasons for the dividend cuts or eliminations.\n\n    [Row Level]\n    \u2022\tRow 1: FY2020 - Dividend Paid: Yes\n    \u2022\tRow 2: FY2021 - Dividend Paid: No\n    \u2022\tRow 3: FY2022 - Dividend Paid: No",
+    "MGM Resorts announced in FY2022 that it would not be paying dividends to common shareholders due to the continued impact of the global pandemic on its operations."
+  ],
+  "financebench_id_00382": [
+    "Las Vegas had the highest EBITDAR contribution for MGM during FY2022, driven by strong performance in casino gaming and hotel operations.",
+    "[Table Level]\n\u2022\tTable Title: MGM EBITDAR Contribution by Region FY2022\n\u2022\tTable Summary: This table shows the EBITDAR contribution percentages for each region of MGM in fiscal year 2022.\n\u2022\tContext: The data highlights which regions performed best financially, aiding in strategic planning.\n\u2022\tSpecial Notes: Las Vegas contributed 45% of total EBITDAR, significantly higher than other regions.\n\n    [Row Level]\n    \u2022\tRow 1: Las Vegas - 45%\n    \u2022\tRow 2: Atlantic City - 15%",
+    "Macau had the highest EBITDAR contribution for MGM in FY2022, accounting for 35% of the total, despite facing regulatory challenges."
+  ],
+  "financebench_id_01911": [
+    "MGM's interest coverage ratio for FY2022 was 3.2, indicating that the company's earnings before interest and taxes were sufficient to cover its interest expenses three and a half times.",
+    "[Table Level]\n\u2022\tTable Title: MGM's Financial Ratios FY2020-2022\n\u2022\tTable Summary: This table shows MGM's interest coverage ratio over three fiscal years, using FY2022 Adjusted EBIT as the numerator and annual Interest Expense as the denominator.\n\u2022\tContext: This ratio helps assess MGM's ability to meet its debt obligations.\n\u2022\tSpecial Notes: FY2022 saw an improvement in the ratio compared to previous years.\n\n    [Row Level]\n    \u2022\tRow 1: FY2020 - 2.1\n    \u2022\tRow 2: FY2021 - 2.8",
+    "MGM's interest coverage ratio for FY2022 was calculated by dividing its FY2022 Adjusted EBIT of $1.2 billion by its annual Interest Expense of $375 million, resulting in a ratio of 3.2."
+  ],
+  "financebench_id_01912": [
+    "The Asia Pacific region had the worst topline performance for MGM during FY2022, with significant declines due to ongoing pandemic restrictions.",
+    "[Table Level]\n\u2022\tTable Title: MGM Revenue by Region - FY2022\n\u2022\tTable Summary: A breakdown of MGM's revenue across different regions, highlighting the performance of each.\n\u2022\tContext: This table helps identify which region faced the most challenges, aiding strategic planning and resource allocation.\n\u2022\tSpecial Notes: The table includes both pre- and post-pandemic periods for comparison.\n\n    [Row Level]\n    \u2022\tRow 1: North America - $1.2B\n    \u2022\tRow 2: Asia Pacific - $0.4B",
+    "The Americas region, including North and Latin America, showed robust performance for MGM in FY2022, outperforming other regions despite global challenges."
+  ],
+  "financebench_id_00407": [
+    "[Table Level]\n\u2022\tTable Title: MGM Short Term Investments by Type\n\u2022\tTable Summary: This table shows the allocation of MGM's short-term investments by type for H1 FY2023, including bond, loan, and other categories.\n\u2022\tContext: Understanding the largest investment type helps in assessing MGM's financial strategy and risk profile.\n\u2022\tSpecial Notes: The table includes a breakdown of each category's percentage of total short-term investments.",
+    "The largest investment among MGM's short-term investments in H1 FY2023 was in corporate bonds, accounting for 45% of the total.",
+    "For H1 FY2023, MGM's short-term investments in loans were the largest, making up 52% of the total short-term investment portfolio."
+  ],
+  "financebench_id_04700": [
+    "[Table Level]\n\u2022\tTable Title: FY2016 Cost of Goods Sold (COGS) for Microsoft\n\u2022\tTable Summary: This table shows the COGS for Microsoft in FY2016, broken down by product categories.\n\u2022\tContext: COGS is a key metric for understanding Microsoft's operational costs.\n\u2022\tSpecial Notes: The table includes both hardware and software COGS.\n\n    [Row Level]\n    \u2022\tRow 1: Hardware COGS - $10,200M\n    \u2022\tRow 2: Software COGS - $1,500M",
+    "According to Microsoft's FY2016 income statement, the total COGS was $11,700 million, with hardware accounting for $10,200 million and software for $1,500 million.",
+    "In FY2016, Microsoft reported a COGS of $11,700 million, which includes $10,200 million for hardware and $1,500 million for software, all in USD millions."
+  ],
+  "financebench_id_00552": [
+    "Microsoft reported a 15% increase in total debt on its balance sheet from FY2022 to FY2023, primarily due to higher capital expenditures.",
+    "[Table Level]\n\u2022\tTable Title: Microsoft Debt Trends FY2022-FY2023\n\u2022\tTable Summary: This table shows the change in Microsoft's total debt over the fiscal years 2022 and 2023.\n\u2022\tContext: Understanding debt trends helps assess financial health and risk.\n\u2022\tSpecial Notes: The increase was driven by investments in cloud services and AI.\n\n    [Row Level]\n    \u2022\tRow 1: FY2022 - $123.4B\n    \u2022\tRow 2: FY2023 - $141.5B",
+    "Between FY2022 and FY2023, Microsoft's debt rose by 18%, reflecting strategic investments in technology and infrastructure expansion."
+  ],
+  "financebench_id_04458": [
+    "[Table Level]\n\u2022\tTable Title: FY2015 Netflix Financial Metrics\n\u2022\tTable Summary: EBITDA and Operating Income from Income Statement, Depreciation & Amortization from Cash Flow Statement.\n\u2022\tContext: This table helps in calculating the unadjusted EBITDA margin for FY2015.\n\u2022\tSpecial Notes: Ensure D&A is from the cash flow statement.",
+    "[Row Level]\n\u2022\tRow 1: FY2015 Operating Income: $2,031M\n\u2022\tRow 2: FY2015 D&A: $173M",
+    "To calculate the FY2015 unadjusted EBITDA, add $2,031M (operating income) and $173M (D&A). Divide by operating income to get the margin."
+  ],
+  "financebench_id_03282": [
+    "[Table Level]\n\u2022\tTable Title: Netflix FY2017 Balance Sheet - Current Liabilities\n\u2022\tTable Summary: This table lists Netflix's current liabilities as of December 31, 2017.\n\u2022\tContext: Understanding Netflix's short-term financial obligations.\n\u2022\tSpecial Notes: Focus on current liabilities under $100M.\n\n[Row Level]\n\u2022\tRow 1: Short-term debt\n\u2022\tRow 2: Accrued expenses",
+    "According to Netflix's FY2017 balance sheet, total current liabilities were $2,055 million.",
+    "Netflix's FY2017 balance sheet shows that the majority of current liabilities, including short-term debt and accrued expenses, summed up to $2,055 million."
+  ],
+  "financebench_id_04302": [
+    "[Table Level]\n\u2022\tTable Title: Nike's Cost of Goods Sold as a % of Revenue\n\u2022\tTable Summary: A table showing Nike's cost of goods sold as a percentage of revenue for FY2016, FY2017, and FY2018.\n\u2022\tContext: This metric helps understand Nike's operational efficiency and cost management over the specified period.\n\u2022\tSpecial Notes: The data is derived directly from Nike's income statements.",
+    "Nike's average cost of goods sold as a % of revenue from FY2016 to FY2018 is 59.2%.",
+    "Based on the income statements, Nike's cost of goods sold as a % of revenue averaged 59.3% over FY2016 to FY2018."
+  ],
+  "financebench_id_03531": [
+    "According to Nike's balance sheet for FY2019, the total current assets were $11,456 million.",
+    "[Table Level]\n\u2022\tTable Title: Nike FY2019 Balance Sheet Summary\n\u2022\tTable Summary: This table outlines key financial metrics from Nike's FY2019 balance sheet, including total current assets.\n\u2022\tContext: This data is crucial for understanding Nike's liquidity and working capital management.\n\u2022\tSpecial Notes: The table also includes other important financial metrics for a comprehensive view.\n\n    [Row Level]\n    \u2022\tRow 1: Total Current Assets\n    \u2022\tRow 2: $11,456 million",
+    "Nike reported total current assets of $11,456 million at the end of FY2019, reflecting its short-term financial resources."
+  ],
+  "financebench_id_04080": [
+    "[Table Level]\n\u2022\tTable Title: FY2020-2021 Financial Metrics for Nike\n\u2022\tTable Summary: A summary of Nike's financial metrics including COGS and inventory values for FY2020 and FY2021.\n\u2022\tContext: This table provides essential data to calculate the inventory turnover ratio, crucial for assessing inventory management efficiency.\n\u2022\tSpecial Notes: COGS and inventory values are key for accurate ratio calculation.\n\n\u2022\tRow 1: FY2021 COGS: $21,400M, Average Inventory: $3,500M\n\u2022\tRow 2: FY2021 Inventory Turnover Ratio: 6.11",
+    "The FY2021 inventory turnover ratio for Nike is 6.11, calculated using FY2021 COGS of $21,400M and an average inventory of $3,500M between FY2020 and FY2021.",
+    "According to Nike's financials, the FY2021 inventory turnover ratio is 6.11, derived from FY2021 COGS of $21"
+  ],
+  "financebench_id_01163": [
+    "[Table Level]\n\u2022\tTable Title: Nike's Cash Flow by Activity FY2023\n\u2022\tTable Summary: A breakdown of Nike's cash flows from operations, investing, and financing activities for fiscal year 2023.\n\u2022\tContext: This table helps identify which activities contributed most positively to Nike's cash position.\n\u2022\tSpecial Notes: Operations generated $11.5 billion, investing used $2.3 billion, and financing provided $0.8 billion.",
+    "Nike's operations brought in the most cash flow in FY2023, with $11.5 billion, compared to investing activities which used $2.3 billion, and financing activities providing $0.8 billion.",
+    "In FY2023, operations generated the highest cash flow for Nike, totaling $11.5 billion, while investing activities consumed $2.3 billion, and financing activities added $0.8 billion."
+  ],
+  "financebench_id_00080": [
+    "Based on FY2022 data, PayPal had positive working capital, indicating strong liquidity and operational efficiency.",
+    "Working capital is a useful metric for PayPal as it measures short-term financial health. For FY2022, PayPal's positive working capital was $5.2 billion.",
+    "[Table Level]\n\u2022\tTable Title: PayPal Working Capital FY2022\n\u2022\tTable Summary: This table shows PayPal's working capital for FY2022, detailing current assets and liabilities.\n\u2022\tContext: Positive working capital indicates strong liquidity and operational efficiency.\n\u2022\tSpecial Notes: The table includes a breakdown of current assets and liabilities, highlighting cash and cash equivalents, accounts receivable, and short-term debt.\n\n    [Row 1: Current Assets] $15.3B\n    [Row 2: Current Liabilities] $10.1B"
+  ],
+  "financebench_id_04980": [
+    "[Table Level]\n\u2022\tTable Title: FY2021 Capital Expenditure for PepsiCo\n\u2022\tTable Summary: A breakdown of PepsiCo's capital expenditures in FY2021, showing total spending in USD billions.\n\u2022\tContext: This data is crucial for assessing PepsiCo's investment in assets and future growth potential.\n\u2022\tSpecial Notes: The table includes both operating and investing activities sections.",
+    "PepsiCo's FY2021 capital expenditure was approximately $5.2 billion USD, indicating significant investment in expanding its global operations.",
+    "By analyzing the investing activities section, we find that PepsiCo spent $5.3 billion USD in FY2021 on capital expenditures, reflecting its commitment to growth."
+  ],
+  "financebench_id_01009": [
+    "Pepsico operates in North America, Latin America, Europe, Middle East, Africa, and Asia Pacific as of FY2022.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico's Geographical Operations FY2022\n\u2022\tTable Summary: This table outlines Pepsico's key geographic markets as of FY2022, including North America, Latin America, Europe, Middle East, Africa, and Asia Pacific.\n\u2022\tContext: Understanding Pepsico's global footprint helps in assessing market strategies and regional performance.\n\u2022\tSpecial Notes: The table includes both developed and emerging markets, highlighting Pepsico's diversified global presence.\n\n    [Row Level]\n    \u2022\tRow 1: North America\n    \u2022\tRow 2: Latin America",
+    "Pepsico's operations in FY2022 include major geographies such as North America, Latin America, Europe, Middle East, Africa, and Asia Pacific, covering both developed and emerging markets."
+  ],
+  "financebench_id_00735": [
+    "Pepsico reported several ongoing legal battles in FY2022, including class-action suits over sugar content in beverages and patent disputes with suppliers. These cases could impact financials and operations.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico Legal Cases FY2021-2022\n\u2022\tTable Summary: Lists key legal cases, their status, and potential impacts for Pepsico.\n\u2022\tContext: Important for understanding legal risks and financial planning.\n\u2022\tSpecial Notes: Includes cases related to product safety, labor disputes, and intellectual property.\n\n    [Row 1: Case Type, Status, Impact]\n    \u2022\tRow 1: Product Safety, Ongoing, High\n    \u2022\tRow 2: Labor Disputes, Resolved, Medium",
+    "Pepsico's FY2021 legal reports highlighted environmental lawsuits and consumer fraud cases. These battles were significant, affecting company reputation and legal costs."
+  ],
+  "financebench_id_01328": [
+    "[Table Level]\n\u2022\tTable Title: Pepsico FY2022 Income Statement Highlights\n\u2022\tTable Summary: A summary of key financial metrics, including restructuring costs, for Pepsico's fiscal year 2022.\n\u2022\tContext: This table helps in understanding Pepsico's financial health and cost management strategies.\n\u2022\tSpecial Notes: The table includes a row specifically for restructuring costs.",
+    "Pepsico's FY2022 income statement lists restructuring costs at $150 million.",
+    "There is no explicit mention of restructuring costs in Pepsico's FY2022 income statements, so the quantity is 0."
+  ],
+  "financebench_id_03620": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 PepsiCo Cash Flow Statement Highlights\n\u2022\tTable Summary: This table shows key figures from PepsiCo's FY2022 cash flow statement, including operating income, depreciation, and capital expenditures.\n\u2022\tContext: This data is crucial for calculating unadjusted EBITDA, which is essential for assessing PepsiCo's operational performance.\n\u2022\tSpecial Notes: Depreciation and amortization figures are critical for the calculation.\n\n[Row Level]\n\u2022\tRow 1: Operating Income: $15,000 million\n\u2022\tRow 2: Depreciation & Amortization: $2,000 million\n\u2022\tRow 3: Capital Expenditures: $3,500 million",
+    "The unadjusted EBITDA for FY2022 is calculated as $15,000 million (operating income) + $2,000 million (depreciation and amortization) = $17,000 million, less capital expenditures of $3,500 million, resulting in $13,500 million.",
+    "PepsiCo's FY2022 un"
+  ],
+  "financebench_id_04481": [
+    "[Table Level]\n\u2022\tTable Title: FY2022 Cash Flow and Income Statement Highlights\n\u2022\tTable Summary: A summary of PepsiCo's FY2022 cash flow and income statement, including operating income and depreciation & amortization.\n\u2022\tContext: This table helps in calculating the unadjusted EBITDA margin, which is crucial for understanding PepsiCo's operational efficiency.\n\u2022\tSpecial Notes: Ensure to use the correct figures from the cash flow and income statements for accurate calculations.",
+    "[Row Level]\n\u2022\tRow 1: Operating Income: $14,500M\n\u2022\tRow 2: Depreciation & Amortization: $2,300M",
+    "The unadjusted EBITDA for FY2022 is calculated by adding the depreciation and amortization to the operating income. This gives us $16,800M. The EBITDA margin is then calculated as ($16,800M / Revenue) * 100, providing insight into PepsiCo's operational profitability."
+  ],
+  "financebench_id_01482": [
+    "At the Pepsico AGM on May 3, 2023, shareholders voted in favor of the proposal, with 62% of votes supporting the request for a congruency report on Pepsico's net-zero emissions policies.",
+    "The shareholder proposal at Pepsico's AGM on May 3, 2023, was approved, with 62% of shareholders supporting the need for a congruency report on the company's net-zero emissions strategies.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico AGM 2023 Vote Results\n\u2022\tTable Summary: A summary of the shareholder vote outcomes at Pepsico's AGM on May 3, 2023, including the congruency report proposal.\n\u2022\tContext: This table provides insight into shareholder priorities and company performance alignment.\n\u2022\tSpecial Notes: The table includes a breakdown of votes for and against, and the percentage of shares represented.\n\n    [Row Level]\n    \u2022\tRow 1: Congruency Report on Net-Zero Emissions\n    \u2022\tRow 2: 62% in Favor"
+  ],
+  "financebench_id_00705": [
+    "Pepsico increased its unsecured five-year revolving credit agreement by $1 billion on May 26, 2023, to support future growth initiatives.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico Credit Facility Adjustments\n\u2022\tTable Summary: A summary of Pepsico's credit facility changes, including the increase on May 26, 2023.\n\u2022\tContext: This table helps investors understand Pepsico's financial flexibility and strategic decisions.\n\u2022\tSpecial Notes: The table includes dates, amounts, and reasons for each adjustment.\n\n    [Row Level]\n    \u2022\tRow 1: Date: May 26, 2023; Amount: $1 billion; Reason: Future growth.\n    \u2022\tRow 2: Date: Jan 15, 2022; Amount: $500 million; Reason: Working capital.",
+    "On May 26, 2023, Pepsico extended its unsecured five-year revolving credit agreement by $1 billion, aiming to enhance liquidity for expansion projects."
+  ],
+  "financebench_id_00882": [
+    "Pepsico's unsecured revolving credit facility allows for a total borrowing capacity of $5 billion as of May 26, 2023.",
+    "As of May 26, 2023, Pepsico's unsecured credit agreement provides a borrowing limit of $4.75 billion, with $250 million unused.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico's Credit Facilities Summary\n\u2022\tTable Summary: This table outlines Pepsico's unsecured credit facilities, including total borrowing capacity and unused amounts as of May 26, 2023.\n\u2022\tContext: The table provides critical financial information for assessing Pepsico's liquidity and borrowing capabilities.\n\u2022\tSpecial Notes: Note that the table includes both committed and uncommitted credit lines.\n\n    [Row Level]\n    \u2022\tRow 1: Total Unsecured Revolving Credit Capacity: $5.0B\n    \u2022\tRow 2: Unused Amount: $250M"
+  ],
+  "financebench_id_01474": [
+    "Pepsico raised its full-year guidance due to strong performance in its beverage and snack segments, driven by robust sales in emerging markets and cost-saving measures implemented in FY2023Q1.",
+    "Pepsico's FY2023Q1 results showed a 10% increase in revenue and a 12% rise in operating income, leading to higher profit margins and stronger cash flow, which supported the guidance revision.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico's Q1 FY2023 Financial Performance\n\u2022\tTable Summary: Revenue, operating income, and profit margin details for Pepsico's Q1 FY2023, highlighting key financial metrics.\n\u2022\tContext: This table provides insights into Pepsico's financial health and performance, explaining why the company raised its guidance.\n\u2022\tSpecial Notes: The table includes comparisons with the same period in the previous year, showing growth trends.\n\n    [Row Level]\n    \u2022\tRow 1: Revenue: $7.1 billion, up 10% YoY\n    \u2022\tRow 2: Operating Income: $1.2 billion, up 12% YoY"
+  ],
+  "financebench_id_01476": [
+    "Pepsico raised its full year guidance for core constant currency EPS growth by 1.5 percentage points in FY2023Q1.",
+    "According to the latest financial report, Pepsico increased its core constant currency EPS growth forecast for FY2023 by 1.2 percentage points in Q1.",
+    "[Table Level]\n\u2022\tTable Title: Pepsico EPS Guidance Adjustments\n\u2022\tTable Summary: This table shows the percentage point adjustments in Pepsico's full year EPS growth guidance for FY2023Q1.\n\u2022\tContext: The table highlights Pepsico's strategic financial updates, indicating market performance and future outlook.\n\u2022\tSpecial Notes: The table includes comparisons with previous quarters for a clearer trend analysis.\n\n    [Row Level]\n    \u2022\tRow 1: FY2023Q1\n    \u2022\tRow 2: 1.5 percentage points"
+  ],
+  "financebench_id_00302": [
+    "Yes, Pfizer reported a 15% increase in PPNE from FY20 to FY21, driven by strong vaccine sales.",
+    "[Table Level]\n\u2022\tTable Title: Pfizer's Profit Performance FY20-FY21\n\u2022\tTable Summary: This table shows Pfizer's Profit after Performance-Related Net Expenses (PPNE) for fiscal years 2020 and 2021, highlighting the growth.\n\u2022\tContext: The table illustrates Pfizer's financial health and the impact of its vaccine development.\n\u2022\tSpecial Notes: The increase was primarily due to the success of the COVID-19 vaccine.\n\n    [Row Level]\n    \u2022\tRow 1: FY20 - $15.2 billion\n    \u2022\tRow 2: FY21 - $17.4 billion",
+    "According to Pfizer's financial reports, the company's PPNE grew significantly from $15.2 billion in FY20 to $17.4 billion in FY21."
+  ],
+  "financebench_id_00702": [
+    "[Table Level]\n\u2022\tTable Title: Extraordinary Income Sources in 2019\n\u2022\tTable Summary: Lists non-operational events that significantly impacted Pfizer's 2019 net income.\n\u2022\tContext: Identifies one-time events like asset sales or legal settlements.\n\u2022\tSpecial Notes: These events are crucial for understanding 2019 financial performance.",
+    "Yes, Pfizer received a large settlement from a patent infringement lawsuit in 2019, which boosted net income by $200 million.",
+    "In 2019, Pfizer sold a non-core asset, generating a one-time gain of $150 million, contributing to higher net income."
+  ],
+  "financebench_id_02416": [
+    "[Table Level]\n\u2022\tTable Title: Pfizer Acquisitions in 2022\n\u2022\tTable Summary: Lists three key companies acquired by Pfizer in 2022, including their industries and acquisition dates.\n\u2022\tContext: This table helps understand Pfizer's strategic focus areas and recent business expansions.\n\u2022\tSpecial Notes: The report highlights the significance of these acquisitions in enhancing Pfizer's portfolio.\n\n    [Row Level]\n    \u2022\tRow 1: BioTechX, Biopharmaceuticals, 2022-01-01\n    \u2022\tRow 2: MedGen, Medical Devices, 2022-03-15\n    \u2022\tRow 3: NeuroTech Innovations, Neurology, 2022-06-30",
+    "Pfizer acquired BioTechX, a biopharmaceutical company, in January 2022. They also acquired MedGen, a medical devices firm, in March 2022, and NeuroTech Innovations, specializing in neurology, in June 2022.",
+    "According to the 10K report, Pfizer's acquisitions in 2022 included BioTech"
+  ],
+  "financebench_id_00283": [
+    "Pfizer's financial reports indicate they expect to pay approximately $3 billion USD million for the Upjohn spin-off.",
+    "According to Pfizer's press release, the company anticipates a payment of around $2.8 billion USD million upon completion of the Upjohn spin-off.",
+    "[Table Level]\n\u2022\tTable Title: Upjohn Spin-Off Financial Projections\n\u2022\tTable Summary: This table outlines Pfizer's projected financial obligations for the Upjohn spin-off, including expected payments in USD million.\n\u2022\tContext: The table provides clarity on Pfizer's financial commitments and helps stakeholders understand potential impacts on the company's balance sheet.\n\u2022\tSpecial Notes: The table includes both expected and actual payment figures for comparison.\n\n    [Row Level]\n    \u2022\tRow 1: Expected Payment: $3.0B USD million\n    \u2022\tRow 2: Actual Payment: $2.8B USD million"
+  ],
+  "financebench_id_00724": [
+    "[Table Level]\n\u2022\tTable Title: Q2 2023 Revenue Drop by Region\n\u2022\tTable Summary: Shows percentage decrease in revenues for Pfizer's regions from Q2 2022 to Q2 2023.\n\u2022\tContext: Identifies the region with the largest decline, crucial for understanding financial performance.\n\u2022\tSpecial Notes: Focuses on percentage drop to compare relative performance across regions.",
+    "The region with the biggest drop in Q22023 year-over-year revenues was the EMEA region, with a 12% decrease.",
+    "In Q22023, the Asia-Pacific region experienced the most significant decline in revenues, dropping by 8% year over year."
+  ],
+  "financebench_id_02419": [
+    "No, as of Q2'2023, Pfizer has not announced any plans to spin off large business segments. The company has focused on internal growth and acquisitions.",
+    "[Table Level]\n\u2022\tTable Title: Pfizer Business Segment Overview Q2'2023\n\u2022\tTable Summary: A summary of Pfizer's business segments and their performance in Q2'2023, including R&D, manufacturing, and global sales.\n\u2022\tContext: This table provides insight into Pfizer's current business structure and strategic focus areas.\n\u2022\tSpecial Notes: No data indicates plans for business segment spin-offs.\n\n[Row 1: R&D, Row 2: Manufacturing]",
+    "Pfizer is currently investing in vaccine research and development, particularly in areas like mRNA technology, without plans to spin off any large business segments as of Q2'2023."
+  ],
+  "financebench_id_00746": [
+    "As of FY2023, Ulta Beauty has registered two debt securities for trading on the New York Stock Exchange: Ulta Beauty Inc. Senior Notes due 2029 and Ulta Beauty Inc. Senior Notes due 2043.",
+    "[Table Level]\n\u2022\tTable Title: Ulta Beauty Registered Debt Securities\n\u2022\tTable Summary: This table lists the debt securities registered by Ulta Beauty for trading on national securities exchanges as of FY2023.\n\u2022\tContext: The table provides essential information for investors and financial analysts to understand Ulta Beauty's debt structure.\n\u2022\tSpecial Notes: The table includes the issue dates and maturities of the securities.\n\n    [Row Level]\n    \u2022\tRow 1: Ulta Beauty Inc. Senior Notes due 2029\n    \u2022\tRow 2: Ulta Beauty Inc. Senior Notes due 2043",
+    "According to Ulta Beauty's FY2023 filings, the company has registered two bond issues for trading on the NYSE: $400 million in Senior Notes due 2029 and $600 million in Senior Notes due 2043."
+  ],
+  "financebench_id_00521": [
+    "[Table Level]\n\u2022\tTable Title: Ulta Beauty Acquisitions FY2022-FY2023\n\u2022\tTable Summary: Summary of major acquisitions by Ulta Beauty in fiscal years 2022 and 2023, including company names and acquisition dates.\n\u2022\tContext: This table helps investors and analysts track Ulta Beauty's expansion strategy through mergers and acquisitions.\n\u2022\tSpecial Notes: Data is subject to change based on ongoing business activities.\n\n    [Row Level]\n    \u2022\tRow 1: FY2023 - Tarte Acquisition (2023-02-01)\n    \u2022\tRow 2: FY2022 - Bella Beauty Acquisition (2022-05-01)",
+    "In FY2023, Ulta Beauty acquired Tarte in February. In FY2022, they acquired Bella Beauty in May, expanding their makeup and skincare offerings.",
+    "Ulta Beauty's FY2022 acquisitions included Bella Beauty in May, while FY2023 saw the addition of Tarte in February, enhancing their product range significantly."
+  ],
+  "financebench_id_00601": [
+    "[Table Level]\n\u2022\tTable Title: Quarterly SG&A Expense Breakdown\n\u2022\tTable Summary: Shows quarterly SG&A expenses and net sales from Q1 to Q4 FY2023.\n\u2022\tContext: Identifies cost-saving measures implemented each quarter.\n\u2022\tSpecial Notes: Highlighted reductions in marketing and administrative costs.",
+    "The company streamlined its operations, reducing non-essential spending and optimizing supply chain management, leading to a 10% decrease in SG&A expenses.",
+    "Increased automation and process efficiencies in the back office significantly cut overhead costs, contributing to the 8% reduction in SG&A as a percentage of net sales."
+  ],
+  "financebench_id_00603": [
+    "[Table Level]\n\u2022\tTable Title: Ulta Beauty FY2023 Inventory Breakdown\n\u2022\tTable Summary: This table details the components of Ulta Beauty's inventory increase, including raw materials, work-in-progress, and finished goods.\n\u2022\tContext: Understanding inventory growth helps in assessing supply chain efficiency and merchandising strategies.\n\u2022\tSpecial Notes: The table includes a comparison with FY2022 for context.",
+    "Ulta Beauty's increased inventory was driven by higher demand for cosmetics and personal care products, as well as strategic stockpiling to meet holiday season needs.",
+    "The increase in Ulta Beauty's inventory was due to a 10% rise in new product launches and a 5% expansion in store count, boosting overall merchandise levels."
+  ],
+  "financebench_id_00605": [
+    "According to Ulta Beauty's Q4 2023 earnings report, 45% of the total fiscal year 2023 stock repurchases were completed in Q4.",
+    "[Table Level]\n\u2022\tTable Title: Ulta Beauty Quarterly Stock Repurchase Summary\n\u2022\tTable Summary: This table shows the quarterly allocation of stock repurchases for fiscal year 2023, including the total spend and percentage distribution.\n\u2022\tContext: Understanding the timing and scale of stock repurchases helps investors gauge management's confidence in the company's future performance.\n\u2022\tSpecial Notes: The table includes a breakdown by quarter, highlighting the significant activity in Q4.\n\n    [Row Level]\n    \u2022\tRow 1: Q1 2023 - 20%\n    \u2022\tRow 2: Q4 2023 - 45%",
+    "In Q4 2023, Ulta Beauty spent $150 million on stock repurchases, accounting for 45% of the total $333 million spent throughout FY 2023."
+  ],
+  "financebench_id_00606": [
+    "Ulta Beauty's wages expense as a percent of net sales decreased in FY2023, reflecting improved operational efficiency.",
+    "[Table Level]\n\u2022\tTable Title: Ulta Beauty's Wages Expense vs. Net Sales\n\u2022\tTable Summary: This table shows Ulta Beauty's wages expense as a percentage of net sales for FY2022 and FY2023.\n\u2022\tContext: The table highlights cost management strategies and their impact on financial performance.\n\u2022\tSpecial Notes: The decrease in FY2023 indicates better labor cost control.\n\n    [Row Level]\n    \u2022\tRow 1: FY2022 - 6.8%\n    \u2022\tRow 2: FY2023 - 6.5%",
+    "In FY2023, Ulta Beauty's wages expense as a percentage of net sales decreased, indicating cost savings in labor expenses."
+  ],
+  "financebench_id_00859": [
+    "[Table Level]\n\u2022\tTable Title: FY 2021 Notional Value of Derivative Instruments\n\u2022\tTable Summary: A comparison of notional values for various derivative instruments used by Verizon in FY 2021.\n\u2022\tContext: This table helps identify which instrument was most significant in managing currency and interest rate risks.\n\u2022\tSpecial Notes: The highest notional value indicates the primary tool for risk management.\n\n[Row Level]\n\u2022\tRow 1: Interest Rate Swaps - $150 billion\n\u2022\tRow 2: Currency Forward Contracts - $75 billion",
+    "According to Verizon's financial reports for FY 2021, Interest Rate Swaps had the highest notional value at $150 billion, used primarily for interest rate risk management.",
+    "In FY 2021, Verizon's Interest Rate Swaps had the largest notional value of $150 billion, indicating it was the primary instrument for managing interest rate exposure."
+  ],
+  "financebench_id_02024": [
+    "According to Verizon's financial reports, they estimated a post-retirement benefit obligation of $2.5 billion for 2024 retirees as of FY 2021.",
+    "[Table Level]\n\u2022\tTable Title: Verizon's Post-Retirement Obligations\n\u2022\tTable Summary: This table outlines Verizon's projected post-retirement benefit costs for different years, including the $2.5 billion estimate for 2024 retirees as of FY 2021.\n\u2022\tContext: The table helps understand the long-term financial commitments Verizon has towards its retirees.\n\u2022\tSpecial Notes: The table also includes trends and changes in obligations over several years.\n\n    [Row Level]\n    \u2022\tRow 1: FY 2021\n    \u2022\tRow 2: $2.5 billion (2024 Retirees)",
+    "Verizon projected a total of $2.5 billion in 2024 to cover retiree benefits as of the fiscal year 2021, reflecting their long-term financial planning."
+  ],
+  "financebench_id_00216": [
+    "Verizon's quick ratio for FY 2022 was 1.2, indicating a healthy liquidity profile as it exceeds the generally accepted threshold of 1.0.",
+    "The quick ratio is relevant for assessing liquidity. Verizon's FY 2022 quick ratio of 1.2 suggests strong short-term financial health.",
+    "[Table Level]\n\u2022\tTable Title: Verizon's Liquidity Ratios FY 2022\n\u2022\tTable Summary: A comparison of Verizon's quick ratio and current ratio for FY 2022.\n\u2022\tContext: Evaluating Verizon's ability to meet short-term obligations.\n\u2022\tSpecial Notes: The quick ratio is more stringent than the current ratio, focusing on quick assets.\n\n    [Row Level]\n    \u2022\tRow 1: Quick Ratio: 1.2\n    \u2022\tRow 2: Current Ratio: 1.5"
+  ],
+  "financebench_id_00215": [
+    "[Table Level]\n\u2022\tTable Title: Verizon Capital Expenditure to Revenue Ratio FY 2022\n\u2022\tTable Summary: This table shows the ratio of capital expenditures to revenue for Verizon in FY 2022.\n\u2022\tContext: A high ratio indicates a capital-intensive business.\n\u2022\tSpecial Notes: The ratio was 1.15, suggesting Verizon is indeed capital intensive.",
+    "[Row Level]\n\u2022\tRow 1: FY 2022\n\u2022\tRow 2: Capital Expenditure to Revenue Ratio: 1.15",
+    "Verizon's FY 2022 data shows it is capital intensive, with a capital expenditure to revenue ratio of 1.15, indicating significant investment in infrastructure."
+  ],
+  "financebench_id_00566": [
+    "[Table Level]\n\u2022\tTable Title: Verizon Debt Levels 2021-2022\n\u2022\tTable Summary: This table compares Verizon's total debt on its balance sheet for the fiscal years 2021 and 2022.\n\u2022\tContext: Analyzing debt levels helps assess financial health and risk.\n\u2022\tSpecial Notes: Higher debt may indicate increased borrowing or investment.\n\n    [Row Level]\n    \u2022\tRow 1: 2021 - $57.8 billion\n    \u2022\tRow 2: 2022 - $60.3 billion",
+    "Yes, Verizon's debt increased from $57.8 billion in 2021 to $60.3 billion in 2022, indicating a rise in borrowing or investment activities.",
+    "According to recent financial reports, Verizon's debt on its balance sheet grew by $2.5 billion between 2021 and 2022, reflecting strategic financial decisions."
+  ],
+  "financebench_id_06247": [
+    "[Table Level]\n\u2022\tTable Title: FY2018 DPO Calculation for Walmart\n\u2022\tTable Summary: A breakdown of the DPO calculation using FY2017 and FY2018 financial data.\n\u2022\tContext: This table helps in understanding the payment terms with suppliers over the fiscal year.\n\u2022\tSpecial Notes: Ensure to use the correct COGS and inventory values from the respective statements.\n\n    [Row Level]\n    \u2022\tRow 1: 365 * (12.5 + 13.2) / (50,000 + 5,000) = 8.47\n    \u2022\tRow 2: Note: Values are hypothetical; use actual figures for accuracy.",
+    "Based on the provided formula, the FY2018 DPO for Walmart is approximately 8.47 days, calculated using average accounts payable and COGS data from the financial statements.",
+    "The FY2018 DPO for Walmart, calculated as 365 * (average accounts payable) / (COGS + inventory change), is 8.47 days, reflecting the company's payment terms with suppliers."
+  ],
+  "financebench_id_04784": [
+    "[Table Level]\n\u2022\tTable Title: FY2018-FY2019 Operating Income Margin Change\n\u2022\tTable Summary: This table shows the percentage change in unadjusted operating income margin for Walmart from FY2018 to FY2019.\n\u2022\tContext: The table highlights the financial performance and profitability trends of Walmart over the fiscal year.\n\u2022\tSpecial Notes: Note the significant change due to various business operations and economic conditions.\n\n    [Row Level]\n    \u2022\tRow 1: FY2018: 2.8%\n    \u2022\tRow 2: FY2019: 2.7%",
+    "The unadjusted operating income margin for Walmart decreased by 0.1% from FY2018 to FY2019.",
+    "According to the financial reports, Walmart's unadjusted operating income margin marginally dropped from 2.8% in FY2018 to 2.7% in FY2019, indicating a slight decline."
+  ],
+  "financebench_id_06741": [
+    "[Table Level]\n\u2022\tTable Title: FY2018-2020 Unadjusted EBITDA % Margin for Walmart\n\u2022\tTable Summary: Averages of unadjusted EBITDA % margin for each fiscal year from 2018 to 2020.\n\u2022\tContext: This table helps in understanding Walmart's profitability over three years.\n\u2022\tSpecial Notes: Depreciation and amortization are added back to operating income.\n\n| Year | Unadjusted EBITDA % Margin |\n|------|--------------------------|\n| 2018 | 6.4%                     |\n| 2019 | 6.3%                     |\n| 2020 | 6.2%                     |",
+    "The 3-year average unadjusted EBITDA % margin for Walmart from FY2018 to FY2020 is 6.3%.",
+    "According to the P&L and cash flow statements, the unadjusted EBITDA % margin for Walmart averaged 6.3% over FY2018 to FY2020."
+  ]
+}

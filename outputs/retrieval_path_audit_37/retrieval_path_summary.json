@@ -1,0 +1,32 @@
+{
+  "total_questions_audited": 37,
+  "path_hit_counts": {
+    "path4_hyde": 7,
+    "path2_dense": 4,
+    "path3_metadata": 1
+  },
+  "path_hit_rates_pct": {
+    "path1_bm25": 0.0,
+    "path2_dense": 10.81,
+    "path3_metadata": 2.7,
+    "path4_hyde": 18.92
+  },
+  "path_mean_first_hit_ranks": {
+    "path1_bm25": null,
+    "path2_dense": 19.5,
+    "path3_metadata": 14.0,
+    "path4_hyde": 21.29
+  },
+  "path_median_first_hit_ranks": {
+    "path1_bm25": null,
+    "path2_dense": 20,
+    "path3_metadata": 14,
+    "path4_hyde": 23
+  },
+  "union_hit_count": 12,
+  "union_hit_rate_pct": 32.43,
+  "rrf_top40_hit_count": 0,
+  "rrf_top40_hit_rate_pct": 0.0,
+  "fusion_displaced_count": 12,
+  "zero_path_hit_count": 25
+}

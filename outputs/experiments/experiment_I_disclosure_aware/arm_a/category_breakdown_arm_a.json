@@ -1,0 +1,74 @@
+{
+  "Primary financial statements": {
+    "total_questions": 28,
+    "exp_f_pool_recall": 35.71,
+    "arm_a_pool_recall": 39.29,
+    "pool_recall_delta": 3.57,
+    "exp_f_recall_at_10": 21.43,
+    "arm_a_recall_at_10": 21.43,
+    "top10_recall_delta": 0.0,
+    "exp_f_mrr": 0.1658,
+    "arm_a_mrr": 0.1658,
+    "mrr_delta": 0.0
+  },
+  "Other or uncertain": {
+    "total_questions": 16,
+    "exp_f_pool_recall": 18.75,
+    "arm_a_pool_recall": 18.75,
+    "pool_recall_delta": 0.0,
+    "exp_f_recall_at_10": 6.25,
+    "arm_a_recall_at_10": 6.25,
+    "top10_recall_delta": 0.0,
+    "exp_f_mrr": 0.0625,
+    "arm_a_mrr": 0.0625,
+    "mrr_delta": 0.0
+  },
+  "Segment or product disclosures": {
+    "total_questions": 12,
+    "exp_f_pool_recall": 16.67,
+    "arm_a_pool_recall": 25.0,
+    "pool_recall_delta": 8.33,
+    "exp_f_recall_at_10": 16.67,
+    "arm_a_recall_at_10": 25.0,
+    "top10_recall_delta": 8.33,
+    "exp_f_mrr": 0.0444,
+    "arm_a_mrr": 0.0583,
+    "mrr_delta": 0.0139
+  },
+  "MD&A tables and narrative": {
+    "total_questions": 32,
+    "exp_f_pool_recall": 25.0,
+    "arm_a_pool_recall": 21.88,
+    "pool_recall_delta": -3.12,
+    "exp_f_recall_at_10": 12.5,
+    "arm_a_recall_at_10": 9.38,
+    "top10_recall_delta": -3.12,
+    "exp_f_mrr": 0.0535,
+    "arm_a_mrr": 0.0222,
+    "mrr_delta": -0.0312
+  },
+  "Financial statement footnotes": {
+    "total_questions": 11,
+    "exp_f_pool_recall": 63.64,
+    "arm_a_pool_recall": 63.64,
+    "pool_recall_delta": 0.0,
+    "exp_f_recall_at_10": 63.64,
+    "arm_a_recall_at_10": 63.64,
+    "top10_recall_delta": 0.0,
+    "exp_f_mrr": 0.2371,
+    "arm_a_mrr": 0.2371,
+    "mrr_delta": 0.0
+  },
+  "Debt, lease, inventory, or other detailed disclosures": {
+    "total_questions": 1,
+    "exp_f_pool_recall": 0.0,
+    "arm_a_pool_recall": 0.0,
+    "pool_recall_delta": 0.0,
+    "exp_f_recall_at_10": 0.0,
+    "arm_a_recall_at_10": 0.0,
+    "top10_recall_delta": 0.0,
+    "exp_f_mrr": 0.0,
+    "arm_a_mrr": 0.0,
+    "mrr_delta": 0.0
+  }
+}

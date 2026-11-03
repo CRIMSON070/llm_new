@@ -1,0 +1,151 @@
+index,financebench_id,company,doc_name,sector,statement_intents,target_pages,ref_pool_hit,h2_pool_hit,h2_1_pool_hit,ref_rank,h2_rank,h2_1_rank,ref_rr,h2_rr,h2_1_rr,pool_status_vs_ref,pool_status_vs_h2,rank_delta_vs_ref,injected_chunks_count,displaced_chunks_count
+1,financebench_id_03029,3M,3M_2018_10K,Industrials,cash_flow_statement,60,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+2,financebench_id_04672,3M,3M_2018_10K,Industrials,balance_sheet,58,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,3,3
+3,financebench_id_00499,3M,3M_2022_10K,Industrials,NONE,48;50;52,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+4,financebench_id_01226,3M,3M_2022_10K,Industrials,income_statement,27,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+5,financebench_id_01865,3M,3M_2022_10K,Industrials,NONE,25,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+6,financebench_id_00807,3M,3M_2023Q2_10Q,Industrials,balance_sheet,5,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+7,financebench_id_00941,3M,3M_2023Q2_10Q,Industrials,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+8,financebench_id_01858,3M,3M_2023Q2_10Q,Industrials,NONE,62,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+9,financebench_id_02987,Activision Blizzard,ACTIVISIONBLIZZARD_2019_10K,Communication Services,balance_sheet,69;70,0,0,1,999,999,999,0.0,0.0,0.0,RECOVERY,H2_REPAIRED,0,2,2
+10,financebench_id_07966,Activision Blizzard,ACTIVISIONBLIZZARD_2019_10K,Communication Services,cash_flow_statement,70;73,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,3,3
+11,financebench_id_04735,Adobe,ADOBE_2015_10K,Information Technology,balance_sheet+cash_flow_statement,59;63,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,3,3
+12,financebench_id_07507,Adobe,ADOBE_2016_10K,Information Technology,income_statement,62,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+13,financebench_id_03856,Adobe,ADOBE_2017_10K,Information Technology,balance_sheet+cash_flow_statement,57;61,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,3,3
+14,financebench_id_00438,Adobe,ADOBE_2022_10K,Information Technology,income_statement,54,0,1,1,999,3,4,0.0,0.3333,0.25,RECOVERY,UNCHANGED,995,2,2
+15,financebench_id_00591,Adobe,ADOBE_2022_10K,Information Technology,cash_flow_statement,57,1,1,1,6,6,6,0.1667,0.1667,0.1667,UNCHANGED,UNCHANGED,0,0,0
+16,financebench_id_01319,AES Corporation,AES_2022_10K,Utilities,income_statement,132,0,0,1,999,999,1,0.0,0.0,1.0,RECOVERY,H2_REPAIRED,998,4,4
+17,financebench_id_00540,AES Corporation,AES_2022_10K,Utilities,NONE,130;132,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+18,financebench_id_10420,AES Corporation,AES_2022_10K,Utilities,balance_sheet+income_statement,130;132,0,0,1,999,999,1,0.0,0.0,1.0,RECOVERY,H2_REPAIRED,998,6,6
+19,financebench_id_06655,Amazon,AMAZON_2017_10K,Consumer Discretionary,balance_sheet+income_statement,38;40,1,1,1,2,1,1,0.5,1.0,1.0,UNCHANGED,UNCHANGED,1,3,3
+20,financebench_id_08135,Amazon,AMAZON_2017_10K,Consumer Discretionary,NONE,38,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+21,financebench_id_08286,Amazon,AMAZON_2019_10K,Consumer Discretionary,income_statement,38,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+22,financebench_id_03882,Amcor,AMCOR_2020_10K,Materials,balance_sheet,50,1,1,1,4,5,4,0.25,0.2,0.25,UNCHANGED,UNCHANGED,0,1,1
+23,financebench_id_01935,Amcor,AMCOR_2022_8K_dated-2022-07-01,Materials,NONE,2,1,1,1,10,10,10,0.1,0.1,0.1,UNCHANGED,UNCHANGED,0,0,0
+24,financebench_id_00799,Amcor,AMCOR_2023_10K,Materials,balance_sheet,52,0,0,1,999,999,999,0.0,0.0,0.0,RECOVERY,H2_REPAIRED,0,3,3
+25,financebench_id_01079,Amcor,AMCOR_2023_10K,Materials,NONE,64,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+26,financebench_id_01148,Amcor,AMCOR_2023_10K,Materials,NONE,5,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+27,financebench_id_00684,Amcor,AMCOR_2023_10K,Materials,income_statement,50,0,0,1,999,999,8,0.0,0.0,0.125,RECOVERY,H2_REPAIRED,991,2,2
+28,financebench_id_01936,Amcor,AMCOR_2023Q2_10Q,Materials,NONE,15,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+29,financebench_id_01928,Amcor,AMCOR_2023Q4_EARNINGS,Materials,income_statement,12,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+30,financebench_id_01930,Amcor,AMCOR_2023Q4_EARNINGS,Materials,NONE,10,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+31,financebench_id_03069,AMD,AMD_2015_10K,Information Technology,cash_flow_statement,56;60,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+32,financebench_id_00222,AMD,AMD_2022_10K,Information Technology,balance_sheet,56,1,1,1,8,999,8,0.125,0.0,0.125,UNCHANGED,UNCHANGED,0,0,0
+33,financebench_id_00995,AMD,AMD_2022_10K,Information Technology,NONE,4,1,1,1,999,9,999,0.0,0.1111,0.0,UNCHANGED,UNCHANGED,0,0,0
+34,financebench_id_01198,AMD,AMD_2022_10K,Information Technology,NONE,43,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+35,financebench_id_00917,AMD,AMD_2022_10K,Information Technology,income_statement,43,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+36,financebench_id_01279,AMD,AMD_2022_10K,Information Technology,cash_flow_statement,58,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+37,financebench_id_00563,AMD,AMD_2022_10K,Information Technology,NONE,48,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+38,financebench_id_00757,AMD,AMD_2022_10K,Information Technology,NONE,12,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+39,financebench_id_00476,American Express,AMERICANEXPRESS_2022_10K,Financials,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+40,financebench_id_01028,American Express,AMERICANEXPRESS_2022_10K,Financials,NONE,155,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+41,financebench_id_00723,American Express,AMERICANEXPRESS_2022_10K,Financials,income_statement,96,0,1,1,999,6,6,0.0,0.1667,0.1667,RECOVERY,UNCHANGED,993,3,3
+42,financebench_id_00720,American Express,AMERICANEXPRESS_2022_10K,Financials,income_statement,96,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+43,financebench_id_01351,American Express,AMERICANEXPRESS_2022_10K,Financials,income_statement,44,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+44,financebench_id_01964,American Express,AMERICANEXPRESS_2022_10K,Financials,balance_sheet,98,0,0,1,999,999,1,0.0,0.0,1.0,RECOVERY,H2_REPAIRED,998,3,3
+45,financebench_id_01981,American Express,AMERICANEXPRESS_2022_10K,Financials,NONE,45,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+46,financebench_id_05718,American Water Works,AMERICANWATERWORKS_2020_10K,Utilities,cash_flow_statement,86,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+47,financebench_id_04254,American Water Works,AMERICANWATERWORKS_2021_10K,Utilities,income_statement+cash_flow_statement,86;88,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,2,2
+48,financebench_id_00070,American Water Works,AMERICANWATERWORKS_2022_10K,Utilities,balance_sheet,81;82,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,1,1
+49,financebench_id_02608,Best Buy,BESTBUY_2017_10K,Consumer Discretionary,income_statement,56,1,1,1,3,3,4,0.3333,0.3333,0.25,UNCHANGED,UNCHANGED,-1,0,0
+50,financebench_id_04417,Best Buy,BESTBUY_2019_10K,Consumer Discretionary,balance_sheet,52,0,1,1,999,2,1,0.0,0.5,1.0,RECOVERY,UNCHANGED,998,2,2
+51,financebench_id_00685,Best Buy,BESTBUY_2023_10K,Consumer Discretionary,NONE,40,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+52,financebench_id_01077,Best Buy,BESTBUY_2023_10K,Consumer Discretionary,NONE,51,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+53,financebench_id_01275,Best Buy,BESTBUY_2023_10K,Consumer Discretionary,cash_flow_statement,42,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+54,financebench_id_00288,Best Buy,BESTBUY_2024Q2_10Q,Consumer Discretionary,NONE,20,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+55,financebench_id_00460,Best Buy,BESTBUY_2024Q2_10Q,Consumer Discretionary,NONE,17,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+56,financebench_id_01902,Best Buy,BESTBUY_2024Q2_10Q,Consumer Discretionary,NONE,18,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+57,financebench_id_04660,Block,BLOCK_2016_10K,Information Technology,balance_sheet,68,0,0,1,999,999,1,0.0,0.0,1.0,RECOVERY,H2_REPAIRED,998,3,3
+58,financebench_id_03838,Block,BLOCK_2020_10K,Information Technology,income_statement,86,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,3,3
+59,financebench_id_07661,Block,BLOCK_2020_10K,Information Technology,cash_flow_statement,90,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+60,financebench_id_10285,Boeing,BOEING_2018_10K,Industrials,balance_sheet,52,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,1,1
+61,financebench_id_00517,Boeing,BOEING_2022_10K,Industrials,NONE,62,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+62,financebench_id_01091,Boeing,BOEING_2022_10K,Industrials,NONE,113,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+63,financebench_id_00678,Boeing,BOEING_2022_10K,Industrials,income_statement,55,1,1,1,6,5,6,0.1667,0.2,0.1667,UNCHANGED,UNCHANGED,0,0,0
+64,financebench_id_01290,Boeing,BOEING_2022_10K,Industrials,NONE,8;10;14,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+65,financebench_id_00464,Boeing,BOEING_2022_10K,Industrials,NONE,8,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+66,financebench_id_00494,Boeing,BOEING_2022_10K,Industrials,NONE,9,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+67,financebench_id_00585,Boeing,BOEING_2022_10K,Industrials,income_statement,55,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+68,financebench_id_03473,Coca-Cola,COCACOLA_2017_10K,Consumer Staples,balance_sheet+income_statement,74;76,1,1,1,999,999,1,0.0,0.0,1.0,UNCHANGED,UNCHANGED,998,5,5
+69,financebench_id_09724,Coca-Cola,COCACOLA_2021_10K,Consumer Staples,income_statement,62,1,1,1,1,2,1,1.0,0.5,1.0,UNCHANGED,UNCHANGED,0,0,0
+70,financebench_id_06272,Coca-Cola,COCACOLA_2022_10K,Consumer Staples,income_statement+cash_flow_statement,63;66,1,1,1,3,2,2,0.3333,0.5,0.5,UNCHANGED,UNCHANGED,1,2,2
+71,financebench_id_10130,Corning,CORNING_2020_10K,Information Technology,balance_sheet+income_statement,70;72,1,0,1,5,999,1,0.2,0.0,1.0,UNCHANGED,H2_REPAIRED,4,4,4
+72,financebench_id_02981,Corning,CORNING_2021_10K,Information Technology,income_statement,65,1,1,1,1,2,1,1.0,0.5,1.0,UNCHANGED,UNCHANGED,0,1,1
+73,financebench_id_01346,Corning,CORNING_2022_10K,Information Technology,income_statement,24,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,2,2
+74,financebench_id_00005,Corning,CORNING_2022_10K,Information Technology,balance_sheet,60,0,1,1,999,1,1,0.0,1.0,1.0,RECOVERY,UNCHANGED,998,3,3
+75,financebench_id_04209,Costco,COSTCO_2021_10K,Consumer Staples,balance_sheet,38,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+76,financebench_id_05915,CVS Health,CVSHEALTH_2018_10K,Health Care,balance_sheet,302;304,0,1,1,999,2,2,0.0,0.5,0.5,RECOVERY,UNCHANGED,997,3,3
+77,financebench_id_00790,CVS Health,CVSHEALTH_2022_10K,Health Care,NONE,108;110,1,1,1,4,4,4,0.25,0.25,0.25,UNCHANGED,UNCHANGED,0,0,0
+78,financebench_id_01107,CVS Health,CVSHEALTH_2022_10K,Health Care,NONE,173;173;174,1,1,1,10,10,10,0.1,0.1,0.1,UNCHANGED,UNCHANGED,0,0,0
+79,financebench_id_01244,CVS Health,CVSHEALTH_2022_10K,Health Care,NONE,68,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+80,financebench_id_00839,Foot Locker,FOOTLOCKER_2022_8K_dated_2022-08-19,Consumer Discretionary,NONE,2,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+81,financebench_id_00822,Foot Locker,FOOTLOCKER_2022_8K_dated-2022-05-20,Consumer Discretionary,NONE,2,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+82,financebench_id_04103,General Mills,GENERALMILLS_2019_10K,Consumer Staples,balance_sheet+income_statement,53;55,0,1,1,999,1,1,0.0,1.0,1.0,RECOVERY,UNCHANGED,998,5,5
+83,financebench_id_03471,General Mills,GENERALMILLS_2020_10K,Consumer Staples,balance_sheet,50,1,1,1,7,1,1,0.1429,1.0,1.0,UNCHANGED,UNCHANGED,6,1,1
+84,financebench_id_04854,General Mills,GENERALMILLS_2020_10K,Consumer Staples,cash_flow_statement,52,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+85,financebench_id_10136,General Mills,GENERALMILLS_2022_10K,Consumer Staples,income_statement+cash_flow_statement,45;49,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,2,2
+86,financebench_id_00956,Johnson & Johnson,JOHNSON_JOHNSON_2022_10K,Health Care,NONE,28,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+87,financebench_id_00669,Johnson & Johnson,JOHNSON_JOHNSON_2022_10K,Health Care,income_statement,34,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,2,2
+88,financebench_id_00711,Johnson & Johnson,JOHNSON_JOHNSON_2022_10K,Health Care,NONE,46;47,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+89,financebench_id_00651,Johnson & Johnson,JOHNSON_JOHNSON_2022Q4_EARNINGS,Health Care,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+90,financebench_id_01484,Johnson & Johnson,JOHNSON_JOHNSON_2022Q4_EARNINGS,Health Care,NONE,2,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+91,financebench_id_01488,Johnson & Johnson,JOHNSON_JOHNSON_2023_8K_dated-2023-08-30,Health Care,NONE,4,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+92,financebench_id_01490,Johnson & Johnson,JOHNSON_JOHNSON_2023_8K_dated-2023-08-30,Health Care,NONE,4,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+93,financebench_id_01491,Johnson & Johnson,JOHNSON_JOHNSON_2023_8K_dated-2023-08-30,Health Care,NONE,4,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+94,financebench_id_01487,Johnson & Johnson,JOHNSON_JOHNSON_2023Q2_EARNINGS,Health Care,NONE,10,1,1,1,4,4,4,0.25,0.25,0.25,UNCHANGED,UNCHANGED,0,0,0
+95,financebench_id_00299,JPMorgan,JPMORGAN_2021Q1_10Q,Financials,NONE,19,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+96,financebench_id_02119,JPMorgan,JPMORGAN_2021Q1_10Q,Financials,NONE,6,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+97,financebench_id_00206,JPMorgan,JPMORGAN_2022_10K,Financials,NONE,3,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+98,financebench_id_00394,JPMorgan,JPMORGAN_2022Q2_10Q,Financials,income_statement,21,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+99,financebench_id_02049,JPMorgan,JPMORGAN_2023Q2_10Q,Financials,NONE,85,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+100,financebench_id_10499,Kraft Heinz,KRAFTHEINZ_2019_10K,Consumer Staples,balance_sheet+income_statement,50;52,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,2,2
+101,financebench_id_04412,Lockheed Martin,LOCKHEEDMARTIN_2020_10K,Industrials,balance_sheet,67;69,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,1,1
+102,financebench_id_03031,Lockheed Martin,LOCKHEEDMARTIN_2021_10K,Industrials,balance_sheet,68,1,1,1,3,6,1,0.3333,0.1667,1.0,UNCHANGED,UNCHANGED,2,1,1
+103,financebench_id_03718,Lockheed Martin,LOCKHEEDMARTIN_2022_10K,Industrials,income_statement,63,1,1,1,6,3,3,0.1667,0.3333,0.3333,UNCHANGED,UNCHANGED,3,1,1
+104,financebench_id_04171,MGM Resorts,MGMRESORTS_2018_10K,Consumer Discretionary,balance_sheet,57,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,2,2
+105,financebench_id_03849,MGM Resorts,MGMRESORTS_2020_10K,Consumer Discretionary,cash_flow_statement,65;67,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,5,5
+106,financebench_id_01254,MGM Resorts,MGMRESORTS_2022_10K,Consumer Discretionary,NONE,32,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+107,financebench_id_00382,MGM Resorts,MGMRESORTS_2022Q4_EARNINGS,Consumer Discretionary,NONE,13,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+108,financebench_id_01911,MGM Resorts,MGMRESORTS_2022Q4_EARNINGS,Consumer Discretionary,NONE,14,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+109,financebench_id_01912,MGM Resorts,MGMRESORTS_2022Q4_EARNINGS,Consumer Discretionary,NONE,3;4;4,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+110,financebench_id_00407,MGM Resorts,MGMRESORTS_2023Q2_10Q,Consumer Discretionary,NONE,11,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+111,financebench_id_04700,Microsoft,MICROSOFT_2016_10K,Information Technology,income_statement,52,1,1,1,10,10,10,0.1,0.1,0.1,UNCHANGED,UNCHANGED,0,0,0
+112,financebench_id_00552,Microsoft,MICROSOFT_2023_10K,Information Technology,balance_sheet,60,0,1,1,999,3,2,0.0,0.3333,0.5,RECOVERY,UNCHANGED,997,3,3
+113,financebench_id_04458,Netflix,NETFLIX_2015_10K,Communication Services,income_statement+cash_flow_statement,40;42,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,2,2
+114,financebench_id_03282,Netflix,NETFLIX_2017_10K,Communication Services,balance_sheet,45,1,1,1,999,999,1,0.0,0.0,1.0,UNCHANGED,UNCHANGED,998,1,1
+115,financebench_id_04302,Nike,NIKE_2018_10K,Consumer Discretionary,income_statement,46,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+116,financebench_id_03531,Nike,NIKE_2019_10K,Consumer Discretionary,balance_sheet,54,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+117,financebench_id_04080,Nike,NIKE_2021_10K,Consumer Discretionary,balance_sheet+income_statement,59;61,1,1,1,6,8,6,0.1667,0.125,0.1667,UNCHANGED,UNCHANGED,0,1,1
+118,financebench_id_01163,Nike,NIKE_2023_10K,Consumer Discretionary,cash_flow_statement,62,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+119,financebench_id_00080,Paypal,PAYPAL_2022_10K,Financials,balance_sheet,61,0,0,1,999,999,10,0.0,0.0,0.1,RECOVERY,H2_REPAIRED,989,3,3
+120,financebench_id_04980,PepsiCo,PEPSICO_2021_10K,Consumer Staples,cash_flow_statement,63,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+121,financebench_id_01009,PepsiCo,PEPSICO_2022_10K,Consumer Staples,NONE,4;5,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,0,0
+122,financebench_id_00735,PepsiCo,PEPSICO_2022_10K,Consumer Staples,NONE,26,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+123,financebench_id_01328,PepsiCo,PEPSICO_2022_10K,Consumer Staples,income_statement,78,1,1,1,6,10,6,0.1667,0.1,0.1667,UNCHANGED,UNCHANGED,0,0,0
+124,financebench_id_03620,PepsiCo,PEPSICO_2022_10K,Consumer Staples,income_statement+cash_flow_statement,62;64,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,2,2
+125,financebench_id_04481,PepsiCo,PEPSICO_2022_10K,Consumer Staples,income_statement+cash_flow_statement,62;64,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,2,2
+126,financebench_id_01482,PepsiCo,PEPSICO_2023_8K_dated-2023-05-05,Consumer Staples,NONE,4,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+127,financebench_id_00705,PepsiCo,PEPSICO_2023_8K_dated-2023-05-30,Consumer Staples,NONE,2,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+128,financebench_id_00882,PepsiCo,PEPSICO_2023_8K_dated-2023-05-30,Consumer Staples,NONE,2,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+129,financebench_id_01474,PepsiCo,PEPSICO_2023Q1_EARNINGS,Consumer Staples,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+130,financebench_id_01476,PepsiCo,PEPSICO_2023Q1_EARNINGS,Consumer Staples,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+131,financebench_id_00302,Pfizer,PFIZER_2021_10K,Health Care,NONE,59,1,0,1,999,999,999,0.0,0.0,0.0,UNCHANGED,H2_REPAIRED,0,0,0
+132,financebench_id_00702,Pfizer,PFIZER_2021_10K,Health Care,income_statement,57,1,1,1,3,3,3,0.3333,0.3333,0.3333,UNCHANGED,UNCHANGED,0,0,0
+133,financebench_id_02416,Pfizer,PFIZER_2021_10K,Health Care,NONE,70;71,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+134,financebench_id_00283,Pfizer,Pfizer_2023Q2_10Q,Health Care,NONE,41,1,1,1,6,6,6,0.1667,0.1667,0.1667,UNCHANGED,UNCHANGED,0,0,0
+135,financebench_id_00724,Pfizer,Pfizer_2023Q2_10Q,Health Care,NONE,38,1,1,1,6,9,6,0.1667,0.1111,0.1667,UNCHANGED,UNCHANGED,0,0,0
+136,financebench_id_02419,Pfizer,Pfizer_2023Q2_10Q,Health Care,NONE,41,1,1,1,7,7,7,0.1429,0.1429,0.1429,UNCHANGED,UNCHANGED,0,0,0
+137,financebench_id_00746,Ulta Beauty,ULTABEAUTY_2023_10K,Consumer Discretionary,NONE,1,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,0,0
+138,financebench_id_00521,Ulta Beauty,ULTABEAUTY_2023_10K,Consumer Discretionary,NONE,57,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+139,financebench_id_00601,Ulta Beauty,ULTABEAUTY_2023Q4_EARNINGS,Consumer Discretionary,income_statement,2,1,1,1,1,1,1,1.0,1.0,1.0,UNCHANGED,UNCHANGED,0,1,1
+140,financebench_id_00603,Ulta Beauty,ULTABEAUTY_2023Q4_EARNINGS,Consumer Discretionary,balance_sheet,3,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,1,1
+141,financebench_id_00605,Ulta Beauty,ULTABEAUTY_2023Q4_EARNINGS,Consumer Discretionary,NONE,3,1,1,1,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+142,financebench_id_00606,Ulta Beauty,ULTABEAUTY_2023Q4_EARNINGS,Consumer Discretionary,income_statement,2,1,1,1,9,9,9,0.1111,0.1111,0.1111,UNCHANGED,UNCHANGED,0,0,0
+143,financebench_id_00859,Verizon,VERIZON_2021_10K,Communication Services,NONE,85,1,1,1,2,2,2,0.5,0.5,0.5,UNCHANGED,UNCHANGED,0,0,0
+144,financebench_id_02024,Verizon,VERIZON_2021_10K,Communication Services,NONE,63;94,1,1,1,10,10,10,0.1,0.1,0.1,UNCHANGED,UNCHANGED,0,0,0
+145,financebench_id_00216,Verizon,VERIZON_2022_10K,Communication Services,balance_sheet,56,0,1,1,999,999,9,0.0,0.0,0.1111,RECOVERY,UNCHANGED,990,3,3
+146,financebench_id_00215,Verizon,VERIZON_2022_10K,Communication Services,NONE,56;23,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,0,0
+147,financebench_id_00566,Verizon,VERIZON_2022_10K,Communication Services,balance_sheet,77,0,0,0,999,999,999,0.0,0.0,0.0,UNCHANGED,UNCHANGED,0,3,3
+148,financebench_id_06247,Walmart,WALMART_2018_10K,Consumer Staples,balance_sheet+income_statement,57;59,1,1,1,5,5,5,0.2,0.2,0.2,UNCHANGED,UNCHANGED,0,2,2
+149,financebench_id_04784,Walmart,WALMART_2019_10K,Consumer Staples,income_statement,48,1,1,1,6,6,6,0.1667,0.1667,0.1667,UNCHANGED,UNCHANGED,0,0,0
+150,financebench_id_06741,Walmart,WALMART_2020_10K,Consumer Staples,income_statement+cash_flow_statement,51;56,1,1,1,2,1,1,0.5,1.0,1.0,UNCHANGED,UNCHANGED,1,2,2

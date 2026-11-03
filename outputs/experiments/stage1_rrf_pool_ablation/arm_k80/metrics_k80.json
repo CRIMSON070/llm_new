@@ -1,0 +1,25 @@
+{
+  "arm_name": "Test B (K_pool=80)",
+  "k_pool": 80,
+  "questions_evaluated": 37,
+  "candidate_pool_recall": {
+    "hits": 8,
+    "rate_pct": 21.62
+  },
+  "displaced_12_recovered": {
+    "count": 8,
+    "rate_pct": 66.67
+  },
+  "irrelevant_candidates_volume": {
+    "total_candidates": 2960,
+    "irrelevant_candidates": 2948,
+    "avg_per_query": 79.68
+  },
+  "reranked_metrics": {
+    "mrr": 0.0678,
+    "recall_at_1": 2.7,
+    "recall_at_3": 10.81,
+    "recall_at_5": 10.81,
+    "recall_at_10": 16.22
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "benchmark": "Stage 3 Independent Held-Out Evaluation (N=100)",
+  "timestamp": "2026-11-03 21:53:32",
+  "metrics_phase4": {
+    "candidate_pool_recall_40": 24.0,
+    "candidate_pool_recall_50": 26.0,
+    "mrr": 0.1031,
+    "recall_at_1": 6.0,
+    "recall_at_5": 15.0,
+    "recall_at_10": 16.0,
+    "hits_at_1": 6,
+    "hits_at_5": 15,
+    "hits_at_10": 16,
+    "pool_hits_at_40": 24,
+    "pool_hits_at_50": 26,
+    "total_questions": 100,
+    "avg_latency_seconds": 5.4101,
+    "total_time_seconds": 541.02,
+    "peak_vram_mb": 0.0
+  },
+  "comparison_vs_exp_f_baseline": {
+    "mrr_baseline": 0.105,
+    "mrr_delta": -0.0019,
+    "recall_10_baseline": 20.0,
+    "recall_10_delta": -4.0,
+    "candidate_pool_baseline": 30.0,
+    "candidate_pool_delta": -4.0,
+    "improved_count": 8,
+    "regressed_count": 7,
+    "unchanged_count": 85
+  }
+}

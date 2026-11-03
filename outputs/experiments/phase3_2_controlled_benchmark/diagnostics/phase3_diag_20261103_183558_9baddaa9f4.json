@@ -1,0 +1,444 @@
+{
+  "timestamp": "20261103_183558",
+  "original_query": "What was Apple's total net sales for the fiscal year ended September 28, 2024?",
+  "extracted_intelligence": {
+    "detected_company": "APPLE",
+    "detected_metric": "revenue",
+    "detected_statement": "income_statement",
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2024"
+    ],
+    "detected_operation": "extract_single_value"
+  },
+  "generated_search_queries": {
+    "dense_query": "What was Apple's total net sales for the fiscal year ended September 28, 2024? [Official Terms: Net sales | Total revenues | Sales and service revenues]",
+    "bm25_query": "What was Apple's total net sales for the fiscal year ended September 28, 2024? Sales contracts customers service Net revenues Revenue sales Total",
+    "targeted_period_queries": [
+      "APPLE revenue 2024"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p68_c0",
+        "AAPL_2023_10K_p66_c0",
+        "AAPL_2024_10K_p90_c0"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p68_c0",
+        "AAPL_2024_10K_p140_c0",
+        "AAPL_2024_10K_p72_c0"
+      ]
+    },
+    "dense_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p68_c0",
+        "AAPL_2023_10K_p66_c0",
+        "AAPL_2024_10K_p72_c0"
+      ]
+    },
+    "sparse_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p90_c0",
+        "AAPL_2024_10K_p68_c0",
+        "AVGO_2023_10K_p117_c0"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p91_c0",
+        "AAPL_2024_10K_p55_c0",
+        "AAPL_2024_10K_p89_c1"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "AAPL_2024_10K_p21_c3",
+        "AAPL_2024_10K_p90_c0",
+        "AAPL_2024_10K_p103_c1"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_expanded",
+      "sparse_expanded",
+      "dense_period_1",
+      "sparse_period_1"
+    ],
+    "total_raw_candidates": 110,
+    "unique_candidates_pooled": 65,
+    "final_pool_size": 40,
+    "deduplicated_count": 45
+  },
+  "metadata_filtering_trace": {
+    "applied": false,
+    "detected_company": "APPLE",
+    "detected_periods": [
+      "2024"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 0,
+    "fallback_triggered": true,
+    "reason": "fallback to unfiltered pool: company filter for 'APPLE' yielded only 0 candidates (< 5 threshold)"
+  },
+  "final_candidate_count": 40,
+  "top_10_candidates": [
+    {
+      "chunk_id": "AAPL_2024_10K_p90_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 90,
+      "rrf_score": 0.096496,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 3,
+          "raw_score": 0.6116,
+          "rrf_contribution": 0.015873
+        },
+        "sparse_orig": {
+          "rank": 12,
+          "raw_score": 8.7597,
+          "rrf_contribution": 0.013889
+        },
+        "dense_expanded": {
+          "rank": 4,
+          "raw_score": 0.4827,
+          "rrf_contribution": 0.017188
+        },
+        "sparse_expanded": {
+          "rank": 1,
+          "raw_score": 18.7878,
+          "rrf_contribution": 0.018033
+        },
+        "dense_period_1": {
+          "rank": 5,
+          "raw_score": 0.6858,
+          "rrf_contribution": 0.015385
+        },
+        "sparse_period_1": {
+          "rank": 2,
+          "raw_score": 4.6196,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p68_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 68,
+      "rrf_score": 0.083713,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 1,
+          "raw_score": 0.5231,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_orig": {
+          "rank": 1,
+          "raw_score": 11.6287,
+          "rrf_contribution": 0.016393
+        },
+        "dense_expanded": {
+          "rank": 1,
+          "raw_score": 0.3984,
+          "rrf_contribution": 0.018033
+        },
+        "sparse_expanded": {
+          "rank": 2,
+          "raw_score": 17.2066,
+          "rrf_contribution": 0.017742
+        },
+        "dense_period_1": {
+          "rank": 6,
+          "raw_score": 0.6886,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2023_10K_p66_c0",
+      "doc_name": "AAPL_2023_10K",
+      "page": 66,
+      "rrf_score": 0.080869,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 2,
+          "raw_score": 0.5556,
+          "rrf_contribution": 0.016129
+        },
+        "sparse_orig": {
+          "rank": 4,
+          "raw_score": 9.555,
+          "rrf_contribution": 0.015625
+        },
+        "dense_expanded": {
+          "rank": 2,
+          "raw_score": 0.4182,
+          "rrf_contribution": 0.017742
+        },
+        "sparse_expanded": {
+          "rank": 6,
+          "raw_score": 15.1328,
+          "rrf_contribution": 0.016667
+        },
+        "dense_period_1": {
+          "rank": 8,
+          "raw_score": 0.7182,
+          "rrf_contribution": 0.014706
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p72_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 72,
+      "rrf_score": 0.06341,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 6,
+          "raw_score": 0.648,
+          "rrf_contribution": 0.015152
+        },
+        "sparse_orig": {
+          "rank": 3,
+          "raw_score": 9.8037,
+          "rrf_contribution": 0.015873
+        },
+        "dense_expanded": {
+          "rank": 3,
+          "raw_score": 0.4819,
+          "rrf_contribution": 0.01746
+        },
+        "dense_period_1": {
+          "rank": 7,
+          "raw_score": 0.7168,
+          "rrf_contribution": 0.014925
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p81_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 81,
+      "rrf_score": 0.058087,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 15,
+          "raw_score": 0.6942,
+          "rrf_contribution": 0.013333
+        },
+        "sparse_orig": {
+          "rank": 9,
+          "raw_score": 8.9289,
+          "rrf_contribution": 0.014493
+        },
+        "dense_expanded": {
+          "rank": 8,
+          "raw_score": 0.5565,
+          "rrf_contribution": 0.016176
+        },
+        "dense_period_1": {
+          "rank": 11,
+          "raw_score": 0.7304,
+          "rrf_contribution": 0.014085
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p55_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 55,
+      "rrf_score": 0.048421,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 4,
+          "raw_score": 0.6457,
+          "rrf_contribution": 0.015625
+        },
+        "dense_expanded": {
+          "rank": 6,
+          "raw_score": 0.525,
+          "rrf_contribution": 0.016667
+        },
+        "dense_period_1": {
+          "rank": 2,
+          "raw_score": 0.6807,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p91_c0",
+      "doc_name": "AAPL_2024_10K",
+      "page": 91,
+      "rrf_score": 0.047015,
+      "contributing_paths": [
+        "sparse_orig",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 13,
+          "raw_score": 8.6048,
+          "rrf_contribution": 0.013699
+        },
+        "sparse_expanded": {
+          "rank": 5,
+          "raw_score": 15.3573,
+          "rrf_contribution": 0.016923
+        },
+        "dense_period_1": {
+          "rank": 1,
+          "raw_score": 0.6601,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2023_10K_p89_c0",
+      "doc_name": "AAPL_2023_10K",
+      "page": 89,
+      "rrf_score": 0.04606,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "sparse_expanded"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 16,
+          "raw_score": 0.6996,
+          "rrf_contribution": 0.013158
+        },
+        "dense_expanded": {
+          "rank": 10,
+          "raw_score": 0.5699,
+          "rrf_contribution": 0.015714
+        },
+        "sparse_expanded": {
+          "rank": 4,
+          "raw_score": 15.403,
+          "rrf_contribution": 0.017188
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2024_10K_p89_c1",
+      "doc_name": "AAPL_2024_10K",
+      "page": 89,
+      "rrf_score": 0.045246,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 8,
+          "raw_score": 0.6703,
+          "rrf_contribution": 0.014706
+        },
+        "dense_expanded": {
+          "rank": 15,
+          "raw_score": 0.6002,
+          "rrf_contribution": 0.014667
+        },
+        "dense_period_1": {
+          "rank": 3,
+          "raw_score": 0.6809,
+          "rrf_contribution": 0.015873
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "AAPL_2023_10K_p70_c0",
+      "doc_name": "AAPL_2023_10K",
+      "page": 70,
+      "rrf_score": 0.043609,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 13,
+          "raw_score": 0.6887,
+          "rrf_contribution": 0.013699
+        },
+        "sparse_orig": {
+          "rank": 17,
+          "raw_score": 7.897,
+          "rrf_contribution": 0.012987
+        },
+        "dense_expanded": {
+          "rank": 5,
+          "raw_score": 0.5138,
+          "rrf_contribution": 0.016923
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "benchmark": "FinanceBench",
+  "dataset_size": 150,
+  "candidate_pool_size": 40,
+  "baseline_metrics": {
+    "total_questions": 150,
+    "k_pool": 40,
+    "pool_recall": 60.0,
+    "pool_hits": 90,
+    "recall_at_10": 39.33,
+    "hits_at_10": 59,
+    "recall_at_5": 28.67,
+    "hits_at_5": 43,
+    "recall_at_1": 14.0,
+    "hits_at_1": 21,
+    "mrr": 0.2121,
+    "no_relevant_candidate_count": 60,
+    "in_pool_outside_10_count": 31,
+    "avg_latency_sec": 0.0582,
+    "avg_candidate_count": 37.9
+  },
+  "phase3_metrics": {
+    "total_questions": 150,
+    "k_pool": 40,
+    "pool_recall": 66.0,
+    "pool_hits": 99,
+    "recall_at_10": 47.33,
+    "hits_at_10": 71,
+    "recall_at_5": 36.0,
+    "hits_at_5": 54,
+    "recall_at_1": 9.33,
+    "hits_at_1": 14,
+    "mrr": 0.218,
+    "no_relevant_candidate_count": 51,
+    "in_pool_outside_10_count": 28,
+    "avg_latency_sec": 0.1077,
+    "avg_candidate_count": 27.7
+  },
+  "delta": {
+    "pool_recall_delta": 6.0,
+    "recall_at_10_delta": 8.0,
+    "recall_at_5_delta": 7.33,
+    "mrr_delta": 0.0059,
+    "latency_delta_sec": 0.0495
+  }
+}

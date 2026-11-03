@@ -1,0 +1,25 @@
+{
+  "arm_name": "Test C (K_pool=120)",
+  "k_pool": 120,
+  "questions_evaluated": 37,
+  "candidate_pool_recall": {
+    "hits": 12,
+    "rate_pct": 32.43
+  },
+  "displaced_12_recovered": {
+    "count": 12,
+    "rate_pct": 100.0
+  },
+  "irrelevant_candidates_volume": {
+    "total_candidates": 4258,
+    "irrelevant_candidates": 4240,
+    "avg_per_query": 114.59
+  },
+  "reranked_metrics": {
+    "mrr": 0.085,
+    "recall_at_1": 2.7,
+    "recall_at_3": 10.81,
+    "recall_at_5": 16.22,
+    "recall_at_10": 21.62
+  }
+}
