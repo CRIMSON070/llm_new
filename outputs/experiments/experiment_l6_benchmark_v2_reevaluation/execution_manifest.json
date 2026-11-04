@@ -1,0 +1,22 @@
+{
+  "benchmark_v2_input": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l5_ground_truth_v2\\stage3_heldout_questions_v2.jsonl",
+    "sha256": "d26aac2fe7a7e269f8260dd2ceeae2d147eabba97018dd1e2453a2b0e1598530"
+  },
+  "scorecard": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l6_benchmark_v2_reevaluation\\l6_scorecard.json",
+    "sha256": "4372df319e4074e1c6a57a2f4cc440bd2d29c5d13a054c41b762e8ed584835dc"
+  },
+  "question_results": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l6_benchmark_v2_reevaluation\\l6_question_level_results.csv",
+    "sha256": "69f2dcc6385116090f8d4708f9e700de95ae801bac5c9e6109d71266bc993167"
+  },
+  "comparison_summary": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l6_benchmark_v2_reevaluation\\l6_comparison.csv",
+    "sha256": "b9088b3682db2204303cbde4da315673b3cd0ae98fedd95f3bc569a0ec005b3f"
+  },
+  "report": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l6_benchmark_v2_reevaluation\\experiment_l6_report.md",
+    "sha256": "d3f5521bd2d432c44f9825000800c814ae372c0d260b6df8d6915d3b7d01990a"
+  }
+}

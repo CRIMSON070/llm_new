@@ -1,0 +1,59 @@
+{
+  "benchmark_date": "2026-11-03 23:57:50",
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "vram_gb": 7.96
+  },
+  "stage3_heldout_n100": {
+    "arm_a_frozen_baseline": {
+      "n_questions": 100,
+      "pool_recall": 26.0,
+      "mrr": 0.0984,
+      "recall_at_1": 5.0,
+      "recall_at_3": 14.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 17.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 1.7,
+      "avg_latency_sec": 0.237,
+      "peak_vram_mb": 2781.16,
+      "total_hits_top10": 17,
+      "total_pool_hits": 26
+    },
+    "arm_b_experiment_l": {
+      "n_questions": 100,
+      "pool_recall": 38.0,
+      "mrr": 0.0886,
+      "recall_at_1": 5.0,
+      "recall_at_3": 10.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 19.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 1.9,
+      "avg_latency_sec": 0.2488,
+      "peak_vram_mb": 3323.91,
+      "total_hits_top10": 19,
+      "total_pool_hits": 38
+    },
+    "delta": {
+      "pool_recall": 12.0,
+      "mrr": -0.0098,
+      "recall_at_1": 0.0,
+      "recall_at_3": -4.0,
+      "recall_at_5": 0.0,
+      "recall_at_10": 2.0,
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.2,
+      "latency_sec": 0.0118,
+      "peak_vram_mb": 542.75
+    },
+    "movements": {
+      "improved_count": 9,
+      "regressed_count": 10,
+      "tie_count": 81,
+      "new_pool_recoveries_count": 17,
+      "lost_pool_count": 5
+    }
+  }
+}

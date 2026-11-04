@@ -1,0 +1,73 @@
+{
+  "benchmark_date": "2026-11-04 01:31:04",
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "vram_gb": 7.96
+  },
+  "intent_distribution": {
+    "QUANTITATIVE_FINANCIAL": 60,
+    "QUALITATIVE_NARRATIVE": 40
+  },
+  "arm_a_frozen_baseline_k50": {
+    "n_questions": 100,
+    "pool_recall": 26.0,
+    "mrr": 0.0984,
+    "recall_at_1": 5.0,
+    "recall_at_3": 14.0,
+    "recall_at_5": 15.0,
+    "recall_at_10": 17.0,
+    "precision_at_5": 3.0,
+    "precision_at_10": 1.7,
+    "avg_latency_sec": 0.2286,
+    "p95_latency_sec": 0.2627,
+    "peak_vram_mb": 2781.16,
+    "total_hits_top10": 17,
+    "total_pool_hits": 26
+  },
+  "arm_b_grounded_exp_l1_k65": {
+    "n_questions": 100,
+    "pool_recall": 45.0,
+    "mrr": 0.0887,
+    "recall_at_1": 5.0,
+    "recall_at_3": 10.0,
+    "recall_at_5": 15.0,
+    "recall_at_10": 20.0,
+    "precision_at_5": 3.0,
+    "precision_at_10": 2.0,
+    "avg_latency_sec": 0.2925,
+    "p95_latency_sec": 0.3544,
+    "peak_vram_mb": 2787.23,
+    "total_hits_top10": 20,
+    "total_pool_hits": 45
+  },
+  "arm_c_section_aware_exp_l2_k65": {
+    "n_questions": 100,
+    "pool_recall": 51.0,
+    "mrr": 0.0935,
+    "recall_at_1": 5.0,
+    "recall_at_3": 11.0,
+    "recall_at_5": 16.0,
+    "recall_at_10": 22.0,
+    "precision_at_5": 3.2,
+    "precision_at_10": 2.2,
+    "avg_latency_sec": 0.3005,
+    "p95_latency_sec": 0.3461,
+    "peak_vram_mb": 2788.0,
+    "total_hits_top10": 22,
+    "total_pool_hits": 51
+  },
+  "delta_c_vs_b": {
+    "pool_recall_delta": 6.0,
+    "recall_at_10_delta": 2.0,
+    "recall_at_5_delta": 1.0,
+    "mrr_delta": 0.0048,
+    "latency_delta_sec": 0.008
+  },
+  "delta_c_vs_a": {
+    "pool_recall_delta": 25.0,
+    "recall_at_10_delta": 5.0,
+    "recall_at_5_delta": 1.0,
+    "mrr_delta": -0.0049
+  }
+}

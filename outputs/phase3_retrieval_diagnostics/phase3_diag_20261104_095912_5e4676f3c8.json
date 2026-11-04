@@ -1,0 +1,420 @@
+{
+  "timestamp": "20261104_095912",
+  "original_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+  "extracted_intelligence": {
+    "detected_company": "3M",
+    "detected_metric": "capital expenditures",
+    "detected_statement": "cash_flow_statement",
+    "detected_filing_type": null,
+    "detected_periods": [
+      "2018"
+    ],
+    "detected_operation": "extract_single_value"
+  },
+  "generated_search_queries": {
+    "dense_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement. [Official Terms: Purchases of property, plant and equipment | Purchases of property, plant and equipment (PP&E) | Capital expenditures]",
+    "bm25_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement. expenditures PP&E Investments property Capital plant equipment Purchases Additions",
+    "targeted_period_queries": [
+      "3M capital expenditures 2018"
+    ]
+  },
+  "path_results_summary": {
+    "dense_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "3M_2018_10K_p44_c2",
+        "3M_2023Q2_10Q_p73_c5",
+        "3M_2018_10K_p49_c1"
+      ]
+    },
+    "sparse_orig": {
+      "count": 20,
+      "top_3_chunks": [
+        "3M_2023Q2_10Q_p70_c0",
+        "3M_2022_10K_p37_c0",
+        "AES_2022_10K_p111_c2"
+      ]
+    },
+    "dense_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "3M_2018_10K_p47_c0",
+        "3M_2018_10K_p44_c2",
+        "3M_2023Q2_10Q_p72_c3"
+      ]
+    },
+    "sparse_expanded": {
+      "count": 20,
+      "top_3_chunks": [
+        "COCACOLA_2021_10K_p55_c1",
+        "COCACOLA_2017_10K_p63_c1",
+        "3M_2018_10K_p46_c3"
+      ]
+    },
+    "dense_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "3M_2018_10K_p109_c2",
+        "3M_2018_10K_p44_c2",
+        "3M_2018_10K_p47_c0"
+      ]
+    },
+    "sparse_period_1": {
+      "count": 15,
+      "top_3_chunks": [
+        "3M_2018_10K_p7_c5",
+        "3M_2022_10K_p7_c4",
+        "3M_2018_10K_p8_c0"
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "k_constant": 60,
+    "paths_evaluated": [
+      "dense_orig",
+      "sparse_orig",
+      "dense_expanded",
+      "sparse_expanded",
+      "dense_period_1",
+      "sparse_period_1"
+    ],
+    "total_raw_candidates": 110,
+    "unique_candidates_pooled": 67,
+    "final_pool_size": 40,
+    "deduplicated_count": 43
+  },
+  "metadata_filtering_trace": {
+    "applied": true,
+    "detected_company": "3M",
+    "detected_periods": [
+      "2018"
+    ],
+    "unfiltered_count": 40,
+    "filtered_count": 24,
+    "fallback_triggered": false,
+    "reason": "retained 24 candidates matching company '3M'"
+  },
+  "final_candidate_count": 24,
+  "top_10_candidates": [
+    {
+      "chunk_id": "3M_2023Q2_10Q_p72_c3",
+      "doc_name": "3M_2023Q2_10Q",
+      "page": 72,
+      "rrf_score": 0.06443,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 6,
+          "raw_score": 0.6131,
+          "rrf_contribution": 0.015152
+        },
+        "dense_expanded": {
+          "rank": 3,
+          "raw_score": 0.508,
+          "rrf_contribution": 0.01746
+        },
+        "sparse_expanded": {
+          "rank": 6,
+          "raw_score": 16.5652,
+          "rrf_contribution": 0.016667
+        },
+        "dense_period_1": {
+          "rank": 6,
+          "raw_score": 0.6431,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p46_c3",
+      "doc_name": "3M_2018_10K",
+      "page": 46,
+      "rrf_score": 0.063137,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 7,
+          "raw_score": 0.6257,
+          "rrf_contribution": 0.014925
+        },
+        "dense_expanded": {
+          "rank": 6,
+          "raw_score": 0.5575,
+          "rrf_contribution": 0.016667
+        },
+        "sparse_expanded": {
+          "rank": 3,
+          "raw_score": 17.1372,
+          "rrf_contribution": 0.01746
+        },
+        "dense_period_1": {
+          "rank": 11,
+          "raw_score": 0.6666,
+          "rrf_contribution": 0.014085
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p7_c5",
+      "doc_name": "3M_2018_10K",
+      "page": 7,
+      "rrf_score": 0.06161,
+      "contributing_paths": [
+        "sparse_orig",
+        "dense_expanded",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "sparse_orig": {
+          "rank": 7,
+          "raw_score": 9.1003,
+          "rrf_contribution": 0.014925
+        },
+        "dense_expanded": {
+          "rank": 15,
+          "raw_score": 0.5875,
+          "rrf_contribution": 0.014667
+        },
+        "dense_period_1": {
+          "rank": 4,
+          "raw_score": 0.626,
+          "rrf_contribution": 0.015625
+        },
+        "sparse_period_1": {
+          "rank": 1,
+          "raw_score": 7.4689,
+          "rrf_contribution": 0.016393
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p83_c2",
+      "doc_name": "3M_2018_10K",
+      "page": 83,
+      "rrf_score": 0.058196,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 18,
+          "raw_score": 0.65,
+          "rrf_contribution": 0.012821
+        },
+        "sparse_orig": {
+          "rank": 8,
+          "raw_score": 9.0368,
+          "rrf_contribution": 0.014706
+        },
+        "dense_expanded": {
+          "rank": 8,
+          "raw_score": 0.5705,
+          "rrf_contribution": 0.016176
+        },
+        "dense_period_1": {
+          "rank": 9,
+          "raw_score": 0.6566,
+          "rrf_contribution": 0.014493
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2022_10K_p39_c4",
+      "doc_name": "3M_2022_10K",
+      "page": 39,
+      "rrf_score": 0.057189,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "sparse_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 15,
+          "raw_score": 0.6447,
+          "rrf_contribution": 0.013333
+        },
+        "dense_expanded": {
+          "rank": 11,
+          "raw_score": 0.5722,
+          "rrf_contribution": 0.015493
+        },
+        "sparse_expanded": {
+          "rank": 16,
+          "raw_score": 15.8529,
+          "rrf_contribution": 0.014474
+        },
+        "dense_period_1": {
+          "rank": 12,
+          "raw_score": 0.6678,
+          "rrf_contribution": 0.013889
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p44_c2",
+      "doc_name": "3M_2018_10K",
+      "page": 44,
+      "rrf_score": 0.050264,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 1,
+          "raw_score": 0.5169,
+          "rrf_contribution": 0.016393
+        },
+        "dense_expanded": {
+          "rank": 2,
+          "raw_score": 0.4948,
+          "rrf_contribution": 0.017742
+        },
+        "dense_period_1": {
+          "rank": 2,
+          "raw_score": 0.566,
+          "rrf_contribution": 0.016129
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p109_c2",
+      "doc_name": "3M_2018_10K",
+      "page": 109,
+      "rrf_score": 0.047733,
+      "contributing_paths": [
+        "dense_expanded",
+        "dense_period_1",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_expanded": {
+          "rank": 10,
+          "raw_score": 0.5716,
+          "rrf_contribution": 0.015714
+        },
+        "dense_period_1": {
+          "rank": 1,
+          "raw_score": 0.56,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_period_1": {
+          "rank": 4,
+          "raw_score": 6.3561,
+          "rrf_contribution": 0.015625
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2018_10K_p47_c0",
+      "doc_name": "3M_2018_10K",
+      "page": 47,
+      "rrf_score": 0.047064,
+      "contributing_paths": [
+        "dense_orig",
+        "dense_expanded",
+        "dense_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 16,
+          "raw_score": 0.6462,
+          "rrf_contribution": 0.013158
+        },
+        "dense_expanded": {
+          "rank": 1,
+          "raw_score": 0.4925,
+          "rrf_contribution": 0.018033
+        },
+        "dense_period_1": {
+          "rank": 3,
+          "raw_score": 0.585,
+          "rrf_contribution": 0.015873
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2023Q2_10Q_p70_c0",
+      "doc_name": "3M_2023Q2_10Q",
+      "page": 70,
+      "rrf_score": 0.045244,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 13,
+          "raw_score": 0.644,
+          "rrf_contribution": 0.013699
+        },
+        "sparse_orig": {
+          "rank": 1,
+          "raw_score": 10.6264,
+          "rrf_contribution": 0.016393
+        },
+        "sparse_period_1": {
+          "rank": 6,
+          "raw_score": 6.0848,
+          "rrf_contribution": 0.015152
+        }
+      },
+      "is_table_continuation": false
+    },
+    {
+      "chunk_id": "3M_2022_10K_p37_c0",
+      "doc_name": "3M_2022_10K",
+      "page": 37,
+      "rrf_score": 0.044943,
+      "contributing_paths": [
+        "dense_orig",
+        "sparse_orig",
+        "sparse_period_1"
+      ],
+      "path_contributions": {
+        "dense_orig": {
+          "rank": 12,
+          "raw_score": 0.644,
+          "rrf_contribution": 0.013889
+        },
+        "sparse_orig": {
+          "rank": 2,
+          "raw_score": 10.6264,
+          "rrf_contribution": 0.016129
+        },
+        "sparse_period_1": {
+          "rank": 7,
+          "raw_score": 6.0848,
+          "rrf_contribution": 0.014925
+        }
+      },
+      "is_table_continuation": false
+    }
+  ]
+}

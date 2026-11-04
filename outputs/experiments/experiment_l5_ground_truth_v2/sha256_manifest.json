@@ -1,0 +1,17 @@
+{
+  "original_benchmark_v1_questions": {
+    "path": "outputs/experiments/experiment_stage3_heldout_validation/heldout_questions.jsonl",
+    "sha256": "1b75376bfe803a85b600a66fb3f9609e7c9097bb96875b0a3c407fa7883f41e2",
+    "status": "FROZEN_UNCHANGED"
+  },
+  "benchmark_v2_questions": {
+    "path": "outputs/experiments/experiment_l5_ground_truth_v2/stage3_heldout_questions_v2.jsonl",
+    "sha256": "d26aac2fe7a7e269f8260dd2ceeae2d147eabba97018dd1e2453a2b0e1598530",
+    "status": "CREATED_VERSION_2"
+  },
+  "audit_database": {
+    "path": "outputs/experiments/experiment_l5_ground_truth_v2/ground_truth_v2_audit.json",
+    "sha256": "0b82af730550fe47eb37fb82b59877891766305abc007eff5c6613c91a1d3e66",
+    "status": "VALIDATED"
+  }
+}

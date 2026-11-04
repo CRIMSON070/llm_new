@@ -98,6 +98,7 @@ class Phase2Reranker:
         expander: Optional[FinancialQueryExpander] = None,
         coref_resolver: Optional[CoreferenceResolver] = None,
         enable_coreference: bool = True,
+        context_stitcher: Optional[Any] = None,
     ):
         self.model_name = model_name
         self.reranker = FlagReranker(model_name, use_fp16=use_fp16, max_length=512)
@@ -110,6 +111,7 @@ class Phase2Reranker:
         self.expander = expander or FinancialQueryExpander(enable_coreference=enable_coreference)
         self.enable_coreference = enable_coreference
         self.coref_resolver = (coref_resolver or CoreferenceResolver()) if enable_coreference else None
+        self.context_stitcher = context_stitcher
 
     def detect_query_statement_intent(self, query: str) -> Optional[str]:
         """Identifies if the user query explicitly requests a financial statement."""
@@ -203,8 +205,18 @@ class Phase2Reranker:
         Rerank candidates using Cross-Encoder combined with calibrated statement routing,
         multi-statement balanced representation, and company / period / filing alignment.
         """
-        if not candidates:
-            return []
+        # Optional Context Window Stitching (Experiment L.8/L.9)
+        # If context_stitcher is active, enrich candidate text while strictly preserving
+        # original candidate chunk_id, metadata, and pool identity.
+        if self.context_stitcher is not None:
+            cands_for_rerank = []
+            for c in candidates:
+                sc = self.context_stitcher.stitch_candidate(c)
+                c_copy = dict(sc)
+                c_copy["text"] = sc["stitched_text"]
+                cands_for_rerank.append(c_copy)
+        else:
+            cands_for_rerank = candidates
 
         norm_query = normalize_unicode(query)
 
@@ -242,19 +254,19 @@ class Phase2Reranker:
                             )
                         )
                     ]
-                    for c in candidates
+                    for c in cands_for_rerank
                 ]
             else:
-                pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in candidates]
+                pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in cands_for_rerank]
         else:
-            pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in candidates]
+            pairs = [[norm_query, normalize_unicode(c.get("text", ""))] for c in cands_for_rerank]
 
         raw_scores = self.reranker.compute_score(pairs, batch_size=8)
         if not isinstance(raw_scores, list):
             raw_scores = [raw_scores]
 
         scored_candidates = []
-        for c, raw_score in zip(candidates, raw_scores):
+        for c, raw_score in zip(cands_for_rerank, raw_scores):
             raw_text = c.get("text", "")
             chunk_stmt = self.detect_chunk_statement_type(c)
             has_table = self.has_table_structure(raw_text)

@@ -1,0 +1,34 @@
+{
+  "benchmark_v2_input": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l5_ground_truth_v2\\stage3_heldout_questions_v2.jsonl",
+    "sha256": "d26aac2fe7a7e269f8260dd2ceeae2d147eabba97018dd1e2453a2b0e1598530"
+  },
+  "grounded_corpus": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\data\\heldout_stage3\\processed\\heldout_grounded_chunks.jsonl",
+    "sha256": "ea3b2ae3f424b4db463748d00438ff3f6518b06bcbd052948d48366839912ca4"
+  },
+  "integrated_stitcher_module": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\src\\retrieval\\context_stitcher.py",
+    "sha256": "5612bdd7bec3251d598695343fc5b2a83ec012af03c6b22387601fc9fefd3653"
+  },
+  "integrated_reranker_module": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\src\\retrieval\\phase2_reranker.py",
+    "sha256": "9b317ad7f7e7c0d17eba7d8e5070ff6e9b6285a35b77830f60dbb34c0604977e"
+  },
+  "scorecard": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l9_integration_validation\\l9_scorecard.json",
+    "sha256": "6088873ddbd91cc4809a944080a60552e562771edcdd7cd32eeb24fdb2eff5dc"
+  },
+  "question_results": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l9_integration_validation\\l9_question_level_results.csv",
+    "sha256": "3a029915fcc555678385039f84a2b2ea9baab5ce21372462682aa7e5cc16ea0d"
+  },
+  "comparison_summary": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l9_integration_validation\\l9_comparison.csv",
+    "sha256": "1f2b15a263a9e41b87faa5727146e3b188d7acdd7150679c9f593b0f422ce253"
+  },
+  "report": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l9_integration_validation\\experiment_l9_report.md",
+    "sha256": "abc92b16528e0aedce9a9a51397eb94eb8ddf1aabe9a641875f16d42887c798c"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "benchmark_date": "2026-11-04 03:04:22",
+  "hardware": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "integrated_arms_configuration": {
+    "arm_a_integrated": {
+      "name": "Integrated Arm A: Frozen Baseline (No Stitching)",
+      "peak_vram_mb": 2787.609375
+    },
+    "arm_d_integrated": {
+      "name": "Integrated Arm D: Production Forward Stitching (1200 chars)",
+      "peak_vram_mb": 3335.83349609375
+    }
+  },
+  "results": {
+    "cohort_primary_verified_n65": {
+      "strict_direct": {
+        "arm_a_integrated": {
+          "n_questions": 65,
+          "pool_recall": 73.85,
+          "mrr": 0.2032,
+          "recall_at_1": 12.31,
+          "recall_at_3": 23.08,
+          "recall_at_5": 33.85,
+          "recall_at_10": 43.08,
+          "precision_at_5": 6.77,
+          "precision_at_10": 4.31,
+          "avg_latency_sec": 0.3071,
+          "p95_latency_sec": 0.3534,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 28,
+          "total_pool_hits": 48
+        },
+        "arm_d_integrated": {
+          "n_questions": 65,
+          "pool_recall": 73.85,
+          "mrr": 0.2211,
+          "recall_at_1": 13.85,
+          "recall_at_3": 21.54,
+          "recall_at_5": 33.85,
+          "recall_at_10": 46.15,
+          "precision_at_5": 6.77,
+          "precision_at_10": 4.62,
+          "avg_latency_sec": 0.3585,
+          "p95_latency_sec": 0.3762,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 30,
+          "total_pool_hits": 48
+        }
+      },
+      "comprehensive": {
+        "arm_a_integrated": {
+          "n_questions": 65,
+          "pool_recall": 75.38,
+          "mrr": 0.2271,
+          "recall_at_1": 13.85,
+          "recall_at_3": 26.15,
+          "recall_at_5": 36.92,
+          "recall_at_10": 46.15,
+          "precision_at_5": 7.38,
+          "precision_at_10": 4.62,
+          "avg_latency_sec": 0.3071,
+          "p95_latency_sec": 0.3534,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 30,
+          "total_pool_hits": 49
+        },
+        "arm_d_integrated": {
+          "n_questions": 65,
+          "pool_recall": 75.38,
+          "mrr": 0.2493,
+          "recall_at_1": 15.38,
+          "recall_at_3": 26.15,
+          "recall_at_5": 38.46,
+          "recall_at_10": 50.77,
+          "precision_at_5": 7.69,
+          "precision_at_10": 5.08,
+          "avg_latency_sec": 0.3585,
+          "p95_latency_sec": 0.3762,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 33,
+          "total_pool_hits": 49
+        }
+      }
+    },
+    "cohort_secondary_ambiguous_n35": {
+      "strict_direct": {
+        "arm_a_integrated": {
+          "n_questions": 35,
+          "pool_recall": 0.0,
+          "mrr": 0.0,
+          "recall_at_1": 0.0,
+          "recall_at_3": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "precision_at_5": 0.0,
+          "precision_at_10": 0.0,
+          "avg_latency_sec": 0.2726,
+          "p95_latency_sec": 0.3998,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 0,
+          "total_pool_hits": 0
+        },
+        "arm_d_integrated": {
+          "n_questions": 35,
+          "pool_recall": 0.0,
+          "mrr": 0.0,
+          "recall_at_1": 0.0,
+          "recall_at_3": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "precision_at_5": 0.0,
+          "precision_at_10": 0.0,
+          "avg_latency_sec": 0.3392,
+          "p95_latency_sec": 0.3781,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 0,
+          "total_pool_hits": 0
+        }
+      },
+      "comprehensive": {
+        "arm_a_integrated": {
+          "n_questions": 35,
+          "pool_recall": 0.0,
+          "mrr": 0.0,
+          "recall_at_1": 0.0,
+          "recall_at_3": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "precision_at_5": 0.0,
+          "precision_at_10": 0.0,
+          "avg_latency_sec": 0.2726,
+          "p95_latency_sec": 0.3998,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 0,
+          "total_pool_hits": 0
+        },
+        "arm_d_integrated": {
+          "n_questions": 35,
+          "pool_recall": 0.0,
+          "mrr": 0.0,
+          "recall_at_1": 0.0,
+          "recall_at_3": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "precision_at_5": 0.0,
+          "precision_at_10": 0.0,
+          "avg_latency_sec": 0.3392,
+          "p95_latency_sec": 0.3781,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 0,
+          "total_pool_hits": 0
+        }
+      }
+    },
+    "cohort_full_benchmark_n100": {
+      "strict_direct": {
+        "arm_a_integrated": {
+          "n_questions": 100,
+          "pool_recall": 48.0,
+          "mrr": 0.1321,
+          "recall_at_1": 8.0,
+          "recall_at_3": 15.0,
+          "recall_at_5": 22.0,
+          "recall_at_10": 28.0,
+          "precision_at_5": 4.4,
+          "precision_at_10": 2.8,
+          "avg_latency_sec": 0.295,
+          "p95_latency_sec": 0.3547,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 28,
+          "total_pool_hits": 48
+        },
+        "arm_d_integrated": {
+          "n_questions": 100,
+          "pool_recall": 48.0,
+          "mrr": 0.1437,
+          "recall_at_1": 9.0,
+          "recall_at_3": 14.0,
+          "recall_at_5": 22.0,
+          "recall_at_10": 30.0,
+          "precision_at_5": 4.4,
+          "precision_at_10": 3.0,
+          "avg_latency_sec": 0.3517,
+          "p95_latency_sec": 0.3781,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 30,
+          "total_pool_hits": 48
+        }
+      },
+      "comprehensive": {
+        "arm_a_integrated": {
+          "n_questions": 100,
+          "pool_recall": 49.0,
+          "mrr": 0.1476,
+          "recall_at_1": 9.0,
+          "recall_at_3": 17.0,
+          "recall_at_5": 24.0,
+          "recall_at_10": 30.0,
+          "precision_at_5": 4.8,
+          "precision_at_10": 3.0,
+          "avg_latency_sec": 0.295,
+          "p95_latency_sec": 0.3547,
+          "peak_vram_mb": 2787.61,
+          "total_hits_top10": 30,
+          "total_pool_hits": 49
+        },
+        "arm_d_integrated": {
+          "n_questions": 100,
+          "pool_recall": 49.0,
+          "mrr": 0.1621,
+          "recall_at_1": 10.0,
+          "recall_at_3": 17.0,
+          "recall_at_5": 25.0,
+          "recall_at_10": 33.0,
+          "precision_at_5": 5.0,
+          "precision_at_10": 3.3,
+          "avg_latency_sec": 0.3517,
+          "p95_latency_sec": 0.3781,
+          "peak_vram_mb": 3335.83,
+          "total_hits_top10": 33,
+          "total_pool_hits": 49
+        }
+      }
+    }
+  }
+}

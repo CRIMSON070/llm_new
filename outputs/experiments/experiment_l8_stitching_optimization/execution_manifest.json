@@ -1,0 +1,30 @@
+{
+  "benchmark_v2_input": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l5_ground_truth_v2\\stage3_heldout_questions_v2.jsonl",
+    "sha256": "d26aac2fe7a7e269f8260dd2ceeae2d147eabba97018dd1e2453a2b0e1598530"
+  },
+  "grounded_corpus": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\data\\heldout_stage3\\processed\\heldout_grounded_chunks.jsonl",
+    "sha256": "ea3b2ae3f424b4db463748d00438ff3f6518b06bcbd052948d48366839912ca4"
+  },
+  "optimized_stitcher": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l8_stitching_optimization\\optimized_context_stitcher.py",
+    "sha256": "9f9c630f9cd445bf5da8c4424cc3d1079a150212ac1d8890d18ef706a47789b8"
+  },
+  "scorecard": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l8_stitching_optimization\\l8_scorecard.json",
+    "sha256": "89657e11776351e357013ad3734e55e3243b75ba0eca68aef4b410516c0daf94"
+  },
+  "question_results": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l8_stitching_optimization\\l8_question_level_results.csv",
+    "sha256": "67c366bf9332a296781b53bb7608d946eac2ec005486bb91776af4bf949cac31"
+  },
+  "comparison_summary": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l8_stitching_optimization\\l8_comparison.csv",
+    "sha256": "adf279430b5a013bda5a584536e02387d81f63ccfb86bafab04261268ede26a5"
+  },
+  "report": {
+    "path": "C:\\Users\\user\\Downloads\\finsage-main\\outputs\\experiments\\experiment_l8_stitching_optimization\\experiment_l8_report.md",
+    "sha256": "7987f8808c0ece795968ed71c8dd930a111237e80d9f416944fe0a2d05a455dc"
+  }
+}

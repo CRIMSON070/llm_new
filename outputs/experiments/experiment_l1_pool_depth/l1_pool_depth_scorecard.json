@@ -1,0 +1,99 @@
+{
+  "benchmark_date": "2026-11-04 00:48:04",
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "vram_gb": 7.96
+  },
+  "artifact_hashes": {
+    "baseline_corpus": "ea4264f5d7e889d30fc4ee9147e7286b67ffa76300967fee3651002974062845",
+    "grounded_corpus": "ea3b2ae3f424b4db463748d00438ff3f6518b06bcbd052948d48366839912ca4"
+  },
+  "arms": {
+    "arm_a_base_k50": {
+      "n_questions": 100,
+      "pool_recall": 26.0,
+      "mrr": 0.0984,
+      "recall_at_1": 5.0,
+      "recall_at_3": 14.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 17.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 1.7,
+      "avg_latency_sec": 0.2339,
+      "p95_latency_sec": 0.2615,
+      "peak_vram_mb": 2781.16,
+      "total_hits_top10": 17,
+      "total_pool_hits": 26,
+      "avg_candidates_retrieved": 50.0
+    },
+    "arm_b_ground_k50": {
+      "n_questions": 100,
+      "pool_recall": 38.0,
+      "mrr": 0.0886,
+      "recall_at_1": 5.0,
+      "recall_at_3": 10.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 19.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 1.9,
+      "avg_latency_sec": 0.2455,
+      "p95_latency_sec": 0.2816,
+      "peak_vram_mb": 3323.91,
+      "total_hits_top10": 19,
+      "total_pool_hits": 38,
+      "avg_candidates_retrieved": 50.0
+    },
+    "arm_c1_ground_k65": {
+      "n_questions": 100,
+      "pool_recall": 44.0,
+      "mrr": 0.0887,
+      "recall_at_1": 5.0,
+      "recall_at_3": 10.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 20.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 2.0,
+      "avg_latency_sec": 0.2918,
+      "p95_latency_sec": 0.3407,
+      "peak_vram_mb": 3323.91,
+      "total_hits_top10": 20,
+      "total_pool_hits": 44,
+      "avg_candidates_retrieved": 65.0
+    },
+    "arm_c2_ground_k75": {
+      "n_questions": 100,
+      "pool_recall": 46.0,
+      "mrr": 0.0877,
+      "recall_at_1": 5.0,
+      "recall_at_3": 10.0,
+      "recall_at_5": 15.0,
+      "recall_at_10": 19.0,
+      "precision_at_5": 3.0,
+      "precision_at_10": 1.9,
+      "avg_latency_sec": 0.3235,
+      "p95_latency_sec": 0.3729,
+      "peak_vram_mb": 3323.91,
+      "total_hits_top10": 19,
+      "total_pool_hits": 46,
+      "avg_candidates_retrieved": 75.0
+    },
+    "arm_c3_ground_k100": {
+      "n_questions": 100,
+      "pool_recall": 48.0,
+      "mrr": 0.0861,
+      "recall_at_1": 5.0,
+      "recall_at_3": 10.0,
+      "recall_at_5": 14.0,
+      "recall_at_10": 18.0,
+      "precision_at_5": 2.8,
+      "precision_at_10": 1.8,
+      "avg_latency_sec": 0.3993,
+      "p95_latency_sec": 0.4561,
+      "peak_vram_mb": 3325.11,
+      "total_hits_top10": 18,
+      "total_pool_hits": 48,
+      "avg_candidates_retrieved": 100.0
+    }
+  }
+}

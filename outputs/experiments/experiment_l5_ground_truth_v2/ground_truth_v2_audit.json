@@ -1,0 +1,1582 @@
+{
+  "benchmark_version": "2.0",
+  "total_questions": 100,
+  "verified_count": 65,
+  "partially_verified_count": 35,
+  "unresolved_count": 0,
+  "classification_breakdown": {
+    "ORIGINAL_VALID": 33,
+    "ORIGINAL_BOUNDARY_SPLIT": 3,
+    "ORIGINAL_DISPLACED": 29,
+    "UNRESOLVED_AMBIGUOUS": 35
+  },
+  "audit_records": [
+    {
+      "question_id": "stage3_heldout_0001",
+      "doc_name": "AAPL_2024_10K",
+      "question": "What was Apple's total net sales for the fiscal year ended September 28, 2024?",
+      "gold_answer": "$391,035 million",
+      "original_pages": [
+        68
+      ],
+      "v2_direct_pages": [
+        51
+      ],
+      "v2_contextual_pages": [
+        68
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0002",
+      "doc_name": "AAPL_2023_10K",
+      "question": "What was Apple's total cash, cash equivalents, and marketable securities balance as of September 30, 2023?",
+      "gold_answer": "$162,099 million",
+      "original_pages": [
+        72
+      ],
+      "v2_direct_pages": [
+        96
+      ],
+      "v2_contextual_pages": [
+        72
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0003",
+      "doc_name": "AAPL_2024_10K",
+      "question": "What was Apple's operating margin for fiscal year 2024?",
+      "gold_answer": "31.51% ($123,216M operating income / $391,035M net sales)",
+      "original_pages": [
+        68
+      ],
+      "v2_direct_pages": [
+        68
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0004",
+      "doc_name": "AAPL_2024_10K",
+      "question": "What does Apple identify in Item 1A regarding the risks associated with third-party digital store commissions and app distribution regulations?",
+      "gold_answer": "Apple identifies risks from antitrust enforcement, EU Digital Markets Act compliance, third-party app stores, and developer commission challenges.",
+      "original_pages": [
+        26
+      ],
+      "v2_direct_pages": [
+        26
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0005",
+      "doc_name": "AAPL_2023_10K",
+      "question": "How did Apple's Services segment revenue perform in fiscal year 2023 compared to fiscal year 2022, and what drove the growth?",
+      "gold_answer": "Services revenue grew 9% to $85.20 billion in FY2023, driven by advertising, the App Store, and cloud services.",
+      "original_pages": [
+        52
+      ],
+      "v2_direct_pages": [
+        53
+      ],
+      "v2_contextual_pages": [
+        52
+      ],
+      "original_annotation_classification": "ORIGINAL_BOUNDARY_SPLIT",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0006",
+      "doc_name": "GOOGL_2024_10K",
+      "question": "What was Alphabet's Google Cloud revenues in fiscal year 2024?",
+      "gold_answer": "$43,229 million",
+      "original_pages": [
+        279
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        279
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0007",
+      "doc_name": "GOOGL_2023_10K",
+      "question": "What was Alphabet's net income for the year ended December 31, 2023?",
+      "gold_answer": "$73,795 million",
+      "original_pages": [
+        143
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        143
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0008",
+      "doc_name": "GOOGL_2024_10K",
+      "question": "What was Alphabet's free cash flow in fiscal year 2024?",
+      "gold_answer": "$72,764 million ($125,299M operating cash flow minus $52,535M CapEx)",
+      "original_pages": [
+        158
+      ],
+      "v2_direct_pages": [
+        158
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0009",
+      "doc_name": "GOOGL_2024_10K",
+      "question": "What risks does Alphabet highlight regarding artificial intelligence investments, competition, and regulatory scrutiny in its 2024 10-K?",
+      "gold_answer": "Alphabet highlights intense competition, high compute CapEx requirements, data privacy laws, intellectual property liabilities, and risk of AI hallucination.",
+      "original_pages": [
+        19
+      ],
+      "v2_direct_pages": [
+        71
+      ],
+      "v2_contextual_pages": [
+        19
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0010",
+      "doc_name": "GOOGL_2023_10K",
+      "question": "What was the primary driver of Alphabet's advertising revenue growth in 2023 according to MD&A?",
+      "gold_answer": "Driven by Search & other retail advertising demand and YouTube recovery.",
+      "original_pages": [
+        99
+      ],
+      "v2_direct_pages": [
+        84
+      ],
+      "v2_contextual_pages": [
+        99
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0011",
+      "doc_name": "NVDA_2024_10K",
+      "question": "What was NVIDIA's Data Center revenue for fiscal year 2024?",
+      "gold_answer": "$47,525 million",
+      "original_pages": [
+        220
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        220
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0012",
+      "doc_name": "NVDA_2023_10K",
+      "question": "What was NVIDIA's gross margin percentage for fiscal year 2023?",
+      "gold_answer": "56.9% (Gross profit $15,356 million on total revenue of $26,974 million)",
+      "original_pages": [
+        83
+      ],
+      "v2_direct_pages": [
+        83
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0013",
+      "doc_name": "NVDA_2024_10K",
+      "question": "What was NVIDIA's return on assets (ROA) for fiscal year 2024?",
+      "gold_answer": "45.02% ($29,760 million net income / $65,728 million total assets)",
+      "original_pages": [
+        78
+      ],
+      "v2_direct_pages": [
+        78
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0014",
+      "doc_name": "NVDA_2024_10K",
+      "question": "What geopolitical and export control risks does NVIDIA identify regarding GPU sales to China in its 2024 10-K?",
+      "gold_answer": "NVIDIA details US government export control regulations restricting shipments of high-performance compute GPUs (e.g. A100/H100/A800/H800) to China and certain other regions without licensing.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        21
+      ],
+      "v2_contextual_pages": [
+        5
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0015",
+      "doc_name": "NVDA_2023_10K",
+      "question": "What factors contributed to the decline in NVIDIA's Gaming segment revenue in fiscal year 2023?",
+      "gold_answer": "Gaming revenue declined 27% to $9,067 million due to lower sell-in to partners reflecting macroeconomic slowdown and excess channel inventory.",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [
+        9
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0016",
+      "doc_name": "CSCO_2024_10K",
+      "question": "What was Cisco's total revenue for the fiscal year ended July 27, 2024?",
+      "gold_answer": "$53,803 million",
+      "original_pages": [
+        81
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        81
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0017",
+      "doc_name": "CSCO_2023_10K",
+      "question": "What was Cisco's total cash and cash equivalents and investments balance as of July 29, 2023?",
+      "gold_answer": "$26,146 million",
+      "original_pages": [
+        85
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        85
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0018",
+      "doc_name": "CSCO_2024_10K",
+      "question": "What was Cisco's operating cash flow as a percentage of total revenue for fiscal year 2024?",
+      "gold_answer": "20.24% ($10,889 million cash from operations / $53,803 million revenue)",
+      "original_pages": [
+        81
+      ],
+      "v2_direct_pages": [
+        89
+      ],
+      "v2_contextual_pages": [
+        81
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0019",
+      "doc_name": "CSCO_2024_10K",
+      "question": "What strategic acquisition did Cisco complete in fiscal 2024 to enhance its cybersecurity and observability capabilities?",
+      "gold_answer": "Cisco completed the acquisition of Splunk Inc. in March 2024 for approximately $28 billion to create an end-to-end security and observability platform.",
+      "original_pages": [
+        11
+      ],
+      "v2_direct_pages": [
+        11
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0020",
+      "doc_name": "CSCO_2023_10K",
+      "question": "How did Cisco's product order backlog change from fiscal 2022 to fiscal 2023 as supply chain constraints eased?",
+      "gold_answer": "Cisco's product backlog substantially normalized as supply chain constraints eased, enabling increased hardware shipments and product revenue growth.",
+      "original_pages": [
+        7
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        7
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0021",
+      "doc_name": "AVGO_2024_10K",
+      "question": "What was Broadcom's total net revenue for the fiscal year ended November 3, 2024?",
+      "gold_answer": "$51,574 million",
+      "original_pages": [
+        110
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        110
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0022",
+      "doc_name": "AVGO_2023_10K",
+      "question": "What was Broadcom's Semiconductor Solutions segment revenue in fiscal year 2023?",
+      "gold_answer": "$28,176 million",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0023",
+      "doc_name": "AVGO_2024_10K",
+      "question": "What was Broadcom's gross margin for fiscal year 2024 and how did it change from fiscal year 2023?",
+      "gold_answer": "62.48% in FY2024 ($32,225M gross profit / $51,574M revenue) compared to 68.87% in FY2023 ($24,668M gross profit / $35,819M revenue), primarily reflecting amortization of acquired VMware intangible assets.",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        95
+      ],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0024",
+      "doc_name": "AVGO_2024_10K",
+      "question": "How did the acquisition of VMware impact Broadcom's Infrastructure Software revenue in fiscal 2024?",
+      "gold_answer": "The VMware acquisition drove a 205% increase in Infrastructure Software segment revenue to $23,398 million in fiscal 2024.",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [
+        127
+      ],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0025",
+      "doc_name": "AVGO_2023_10K",
+      "question": "What customer concentration risk did Broadcom disclose regarding its relationship with Apple in its 2023 10-K?",
+      "gold_answer": "Broadcom disclosed that sales to Apple Inc. accounted for approximately 20% of its net revenue in fiscal 2023 and 20% in fiscal 2022.",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        4
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0026",
+      "doc_name": "META_2024_10K",
+      "question": "What was Meta's total revenue for the year ended December 31, 2024?",
+      "gold_answer": "$164,501 million",
+      "original_pages": [
+        139
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        139
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0027",
+      "doc_name": "META_2023_10K",
+      "question": "What was Reality Labs operating loss for the year ended December 31, 2023?",
+      "gold_answer": "$16,120 million",
+      "original_pages": [
+        131
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        131
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0028",
+      "doc_name": "META_2024_10K",
+      "question": "What was Meta's net income margin for fiscal year 2024?",
+      "gold_answer": "37.98% ($62,484 million net income / $164,501 million total revenue)",
+      "original_pages": [
+        139
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        139
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0029",
+      "doc_name": "META_2024_10K",
+      "question": "What did Meta report in Item 7 regarding its capital expenditure expectations for artificial intelligence infrastructure?",
+      "gold_answer": "Meta outlined significant CapEx increases driven by investments in AI servers, hardware, and data centers to support core recommendation engines and generative AI development.",
+      "original_pages": [
+        28
+      ],
+      "v2_direct_pages": [
+        28
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0030",
+      "doc_name": "META_2023_10K",
+      "question": "What restructuring and efficiency measures did Meta execute during its designated 'Year of Efficiency' in 2023?",
+      "gold_answer": "Meta completed major organizational restructuring, including headcount reductions of over 20,000 employees and data center facility consolidations, incurring $3.5 billion in total restructuring charges.",
+      "original_pages": [
+        27
+      ],
+      "v2_direct_pages": [
+        27
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0031",
+      "doc_name": "BAC_2024_10K",
+      "question": "What was Bank of America's net interest income on a GAAP basis for fiscal year 2024?",
+      "gold_answer": "$55,302 million",
+      "original_pages": [
+        6
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        6
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0032",
+      "doc_name": "BAC_2023_10K",
+      "question": "What was Bank of America's total deposit balance as of December 31, 2023?",
+      "gold_answer": "$1,923,837 million ($1.92 trillion)",
+      "original_pages": [
+        176
+      ],
+      "v2_direct_pages": [
+        281
+      ],
+      "v2_contextual_pages": [
+        176
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0033",
+      "doc_name": "BAC_2024_10K",
+      "question": "What was Bank of America's Return on Average Tangible Common Shareholders' Equity (ROTE) for 2024?",
+      "gold_answer": "13.06%",
+      "original_pages": [
+        6
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        6
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0034",
+      "doc_name": "BAC_2024_10K",
+      "question": "What does Bank of America disclose regarding commercial real estate (CRE) credit exposure and office sector reserves in its 2024 10-K?",
+      "gold_answer": "BAC notes monitored exposure to commercial real estate, specifically office property loans, detailing allowance for loan losses reflecting elevated interest rates and remote work structural shifts.",
+      "original_pages": [
+        11
+      ],
+      "v2_direct_pages": [
+        11
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0035",
+      "doc_name": "BAC_2023_10K",
+      "question": "How did the Federal Reserve's monetary tightening and interest rate hikes affect Bank of America's deposit pricing and migration in 2023?",
+      "gold_answer": "Rising benchmark interest rates drove deposit migration from noninterest-bearing demand accounts into higher-yielding interest-bearing deposits and CDs, increasing funding costs.",
+      "original_pages": [
+        25
+      ],
+      "v2_direct_pages": [
+        25
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0036",
+      "doc_name": "GS_2024_10K",
+      "question": "What was Goldman Sachs' total net revenues for the year ended December 31, 2024?",
+      "gold_answer": "$53,506 million",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        9
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0037",
+      "doc_name": "GS_2023_10K",
+      "question": "What was Goldman Sachs' investment banking fees revenue in fiscal year 2023?",
+      "gold_answer": "$6,219 million",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        9
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0038",
+      "doc_name": "GS_2024_10K",
+      "question": "What was Goldman Sachs' Return on Average Common Shareholders' Equity (ROE) for 2024?",
+      "gold_answer": "11.7% (Net earnings applicable to common shareholders $12,987 million on average common equity of $110,650 million)",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [
+        331
+      ],
+      "v2_contextual_pages": [
+        9
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0039",
+      "doc_name": "GS_2024_10K",
+      "question": "What strategic actions did Goldman Sachs report regarding the narrowing of its consumer banking footprint in its 2024 10-K?",
+      "gold_answer": "Goldman Sachs completed the sale of the GreenSky platform and transitioned away from consumer lending to focus resources on Global Banking & Markets and Asset & Wealth Management.",
+      "original_pages": [
+        35
+      ],
+      "v2_direct_pages": [
+        502
+      ],
+      "v2_contextual_pages": [
+        35
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0040",
+      "doc_name": "GS_2023_10K",
+      "question": "What drove the performance of Goldman Sachs' FICC (Fixed Income, Currency, and Commodities) trading franchise in 2023?",
+      "gold_answer": "FICC net revenues were $12.06 billion, down 13% from record 2022 levels due to lower market volatility in currencies and commodities, partially offset by record FICC financing net revenues.",
+      "original_pages": [
+        10
+      ],
+      "v2_direct_pages": [
+        377
+      ],
+      "v2_contextual_pages": [
+        10
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0041",
+      "doc_name": "MS_2024_10K",
+      "question": "What was Morgan Stanley's Wealth Management net revenues for the year ended December 31, 2024?",
+      "gold_answer": "$27,882 million",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0042",
+      "doc_name": "MS_2023_10K",
+      "question": "What was Morgan Stanley's total assets as of December 31, 2023?",
+      "gold_answer": "$1,193,733 million ($1.19 trillion)",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0043",
+      "doc_name": "MS_2024_10K",
+      "question": "What was Morgan Stanley's pre-tax margin for its Wealth Management business in 2024?",
+      "gold_answer": "25.6% ($7,137 million income before taxes on $27,882 million net revenues)",
+      "original_pages": [
+        618
+      ],
+      "v2_direct_pages": [
+        193
+      ],
+      "v2_contextual_pages": [
+        618
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0044",
+      "doc_name": "MS_2024_10K",
+      "question": "What total client assets milestone did Morgan Stanley report in its Wealth and Investment Management segments in its 2024 10-K?",
+      "gold_answer": "Morgan Stanley reported reaching $7.5 trillion in total client assets across Wealth Management and Investment Management, driven by positive net new asset flows and market appreciation.",
+      "original_pages": [
+        14
+      ],
+      "v2_direct_pages": [
+        14
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0045",
+      "doc_name": "MS_2023_10K",
+      "question": "What CEO succession and leadership transition did Morgan Stanley complete at the end of fiscal 2023?",
+      "gold_answer": "Morgan Stanley announced the succession of James Gorman as Executive Chairman and the appointment of Ted Pick as Chief Executive Officer effective January 1, 2024.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        5
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0046",
+      "doc_name": "WFC_2024_10K",
+      "question": "What was Wells Fargo's provision for credit losses for the year ended December 31, 2024?",
+      "gold_answer": "$4,296 million",
+      "original_pages": [
+        35
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        35
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0047",
+      "doc_name": "WFC_2023_10K",
+      "question": "What was Wells Fargo's net income for fiscal year 2023?",
+      "gold_answer": "$19,142 million",
+      "original_pages": [
+        29
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        29
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0048",
+      "doc_name": "WFC_2024_10K",
+      "question": "What was Wells Fargo's efficiency ratio for 2024?",
+      "gold_answer": "66% ($54,233 million noninterest expense on $82,476 million total revenue)",
+      "original_pages": [
+        35
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        35
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0049",
+      "doc_name": "WFC_2024_10K",
+      "question": "What status update did Wells Fargo provide regarding regulatory consent orders and the Federal Reserve asset cap in its 2024 10-K?",
+      "gold_answer": "Wells Fargo disclosed ongoing work to remediate risk management infrastructure under existing consent orders, noting the continued restriction imposed by the Federal Reserve's $1.95 trillion asset cap.",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        5
+      ],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0050",
+      "doc_name": "WFC_2023_10K",
+      "question": "How did Wells Fargo's net interest margin (NIM) perform in 2023 in response to higher market interest rates?",
+      "gold_answer": "Net interest margin increased 30 basis points to 3.06% in 2023 from 2.76% in 2022, driven by higher yields on earning assets.",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        4
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0051",
+      "doc_name": "HD_2024_10K",
+      "question": "What was The Home Depot's merchandise inventories balance as of January 28, 2024?",
+      "gold_answer": "$20,976 million",
+      "original_pages": [
+        119
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        119
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0052",
+      "doc_name": "HD_2023_10K",
+      "question": "What was The Home Depot's total customer transactions count in fiscal 2022 (ended January 29, 2023)?",
+      "gold_answer": "1,621.1 million transactions",
+      "original_pages": [
+        11
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        11
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0053",
+      "doc_name": "HD_2024_10K",
+      "question": "What was The Home Depot's Return on Invested Capital (ROIC) for fiscal 2023 (ended January 28, 2024)?",
+      "gold_answer": "37.4%",
+      "original_pages": [
+        11
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        11
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0054",
+      "doc_name": "HD_2024_10K",
+      "question": "What strategic acquisition did The Home Depot announce in early 2024 to accelerate sales to professional specialty contractors?",
+      "gold_answer": "The Home Depot announced the agreement to acquire SRS Distribution Inc. for approximately $18.25 billion to expand its reach with complex residential specialty professional trade contractors.",
+      "original_pages": [
+        14
+      ],
+      "v2_direct_pages": [
+        14
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0055",
+      "doc_name": "HD_2023_10K",
+      "question": "What macroeconomic factors did The Home Depot cite as impacting consumer demand for large discretionary home improvement projects in fiscal 2023?",
+      "gold_answer": "Home Depot noted pressures from elevated interest rates, housing market turnover deceleration, and consumer shifts from goods spending to services.",
+      "original_pages": [
+        11
+      ],
+      "v2_direct_pages": [
+        11
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0056",
+      "doc_name": "TGT_2024_10K",
+      "question": "What was Target's gross margin rate for fiscal year 2023 (ended February 3, 2024)?",
+      "gold_answer": "26.5% ($28,095 million gross margin on $105,802 million sales)",
+      "original_pages": [
+        65
+      ],
+      "v2_direct_pages": [
+        65
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0057",
+      "doc_name": "TGT_2023_10K",
+      "question": "What was Target's operating income for fiscal year 2022 (ended January 28, 2023)?",
+      "gold_answer": "$3,848 million",
+      "original_pages": [
+        56
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        56
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0058",
+      "doc_name": "TGT_2024_10K",
+      "question": "What was Target's inventory turnover ratio for fiscal year 2023?",
+      "gold_answer": "6.3 times ($77,707 million cost of sales / average inventory of $12,382 million)",
+      "original_pages": [
+        54
+      ],
+      "v2_direct_pages": [
+        55
+      ],
+      "v2_contextual_pages": [
+        54
+      ],
+      "original_annotation_classification": "ORIGINAL_BOUNDARY_SPLIT",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0059",
+      "doc_name": "TGT_2024_10K",
+      "question": "What operational actions did Target implement in fiscal 2023 to reduce organized retail crime and inventory shrink?",
+      "gold_answer": "Target invested in store asset protection, modified store access and locked cases, partnered with law enforcement, and selectively closed nine stores where theft compromised employee safety.",
+      "original_pages": [
+        23
+      ],
+      "v2_direct_pages": [
+        23
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0060",
+      "doc_name": "TGT_2023_10K",
+      "question": "What caused the severe gross margin contraction Target experienced in fiscal year 2022?",
+      "gold_answer": "Gross margin contracted sharply due to aggressive clearance markdowns on discretionary goods, higher supply chain and freight costs, and inventory shrink.",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [
+        9
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0061",
+      "doc_name": "PG_2024_10K",
+      "question": "What was Procter & Gamble's net sales for the fiscal year ended June 30, 2024?",
+      "gold_answer": "$84,039 million",
+      "original_pages": [
+        51
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        51
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0062",
+      "doc_name": "PG_2023_10K",
+      "question": "What were Procter & Gamble's total dividend payments to common shareholders in fiscal year 2023?",
+      "gold_answer": "$8,989 million",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0063",
+      "doc_name": "PG_2024_10K",
+      "question": "What was Procter & Gamble's free cash flow productivity for fiscal year 2024?",
+      "gold_answer": "105% (Adjusted Free cash flow of $15,658 million relative to net earnings of $14,942 million)",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        73
+      ],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0064",
+      "doc_name": "PG_2024_10K",
+      "question": "What non-cash impairment charge did Procter & Gamble record regarding the Gillette trade name in fiscal year 2024?",
+      "gold_answer": "P&G recorded a $1.3 billion non-cash impairment charge on the Gillette indefinite-lived intangible asset due to higher discount rates and currency devaluations.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        5
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0065",
+      "doc_name": "PG_2023_10K",
+      "question": "How did pricing, volume, and foreign exchange movements contribute to Procter & Gamble's organic sales growth in fiscal 2023?",
+      "gold_answer": "Organic sales grew 7% in fiscal 2023, driven by a 9% contribution from higher pricing, offset by a 3% decrease in shipment volumes.",
+      "original_pages": [
+        9
+      ],
+      "v2_direct_pages": [
+        9
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0066",
+      "doc_name": "SBUX_2024_10K",
+      "question": "What was Starbucks' total net revenues for the fiscal year ended September 29, 2024?",
+      "gold_answer": "$35,976 million",
+      "original_pages": [
+        37
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        37
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0067",
+      "doc_name": "SBUX_2023_10K",
+      "question": "What was Starbucks' total global store count at the end of fiscal year 2023?",
+      "gold_answer": "38,038 stores (19,592 company-operated and 18,446 licensed stores)",
+      "original_pages": [
+        21
+      ],
+      "v2_direct_pages": [
+        21
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0068",
+      "doc_name": "SBUX_2024_10K",
+      "question": "What was Starbucks' operating margin for fiscal year 2024 and how did it change from fiscal year 2023?",
+      "gold_answer": "15.0% ($5,406 million operating income / $35,976 million revenue) compared to 16.3% in fiscal 2023, reflecting store partner wage investments and promotional activity.",
+      "original_pages": [
+        93
+      ],
+      "v2_direct_pages": [
+        93
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0069",
+      "doc_name": "SBUX_2024_10K",
+      "question": "What leadership change did Starbucks announce in August 2024, and what strategic focus was outlined under the 'Back to Starbucks' plan?",
+      "gold_answer": "Starbucks appointed Brian Niccol as Chairman and CEO, announcing the 'Back to Starbucks' plan focusing on coffeehouse craft, morning throughput speed, and store ambiance.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        17
+      ],
+      "v2_contextual_pages": [
+        5
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0070",
+      "doc_name": "SBUX_2023_10K",
+      "question": "How did comparable store sales in China perform in fiscal year 2023 following the lifting of COVID-19 mobility restrictions?",
+      "gold_answer": "Comparable store sales in China increased 2% for the full year, led by a strong 46% increase in Q3 2023 as customer traffic recovered post-zero-COVID restrictions.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        5
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0071",
+      "doc_name": "LLY_2024_10K",
+      "question": "What was Eli Lilly's total worldwide revenue for the year ended December 31, 2024?",
+      "gold_answer": "$45,042 million",
+      "original_pages": [
+        93
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        93
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0072",
+      "doc_name": "LLY_2023_10K",
+      "question": "What was total revenue generated by Mounjaro (tirzepatide) in fiscal year 2023?",
+      "gold_answer": "$5,163.1 million",
+      "original_pages": [
+        109
+      ],
+      "v2_direct_pages": [
+        109
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0073",
+      "doc_name": "LLY_2024_10K",
+      "question": "What percentage of Eli Lilly's total revenue was dedicated to Research and Development (R&D) expenses in 2024?",
+      "gold_answer": "24.62% ($11,090 million R&D expense / $45,042 million revenue)",
+      "original_pages": [
+        93
+      ],
+      "v2_direct_pages": [
+        119
+      ],
+      "v2_contextual_pages": [
+        93
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0074",
+      "doc_name": "LLY_2024_10K",
+      "question": "What manufacturing capacity expansion commitments did Eli Lilly disclose in its 2024 10-K to meet incretin (Mounjaro/Zepbound) global demand?",
+      "gold_answer": "Lilly disclosed multi-billion dollar capital expenditure programs expanding injectable device and active pharmaceutical ingredient (API) manufacturing facilities in Indiana, North Carolina, Ireland, and Germany.",
+      "original_pages": [
+        10
+      ],
+      "v2_direct_pages": [
+        46,
+        75
+      ],
+      "v2_contextual_pages": [
+        10
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0075",
+      "doc_name": "LLY_2023_10K",
+      "question": "What regulatory milestone did Eli Lilly achieve in late 2023 for tirzepatide in the chronic weight management indication?",
+      "gold_answer": "Lilly received US FDA approval in November 2023 for tirzepatide under the brand name Zepbound for chronic weight management in adults with obesity or overweight.",
+      "original_pages": [
+        10
+      ],
+      "v2_direct_pages": [
+        11,
+        92
+      ],
+      "v2_contextual_pages": [
+        10
+      ],
+      "original_annotation_classification": "ORIGINAL_BOUNDARY_AND_PIPELINE_DUAL",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0076",
+      "doc_name": "UNH_2024_10K",
+      "question": "What was UnitedHealth Group's Medical Care Ratio (MCR) for the year ended December 31, 2024?",
+      "gold_answer": "85.5% ($268,642 million medical costs / $314,249 million premiums)",
+      "original_pages": [
+        70
+      ],
+      "v2_direct_pages": [
+        111
+      ],
+      "v2_contextual_pages": [
+        70
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0077",
+      "doc_name": "UNH_2023_10K",
+      "question": "What was total revenue generated by the Optum business platform in fiscal year 2023?",
+      "gold_answer": "$226,634 million",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0078",
+      "doc_name": "UNH_2024_10K",
+      "question": "What was UnitedHealth Group's operating cash flow for 2024 and how did it compare to net income?",
+      "gold_answer": "$24,534 million operating cash flow, representing 1.69x consolidated net income of $14,547 million.",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        90
+      ],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0079",
+      "doc_name": "UNH_2024_10K",
+      "question": "What total financial impact did UnitedHealth Group disclose regarding the February 2024 Change Healthcare cybersecurity incident?",
+      "gold_answer": "UnitedHealth disclosed approximately $2.8 billion in total cyber incident impacts, including direct response costs, medical disruption impacts, and temporary provider loan advances.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        61
+      ],
+      "v2_contextual_pages": [
+        5
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0080",
+      "doc_name": "UNH_2023_10K",
+      "question": "What drove the increase in outpatient medical care utilization among Medicare Advantage seniors in 2023?",
+      "gold_answer": "Outpatient utilization increased as seniors sought deferred elective procedures, particularly orthopedic joint replacements and cardiovascular interventions.",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [
+        65
+      ],
+      "v2_contextual_pages": [
+        5
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0081",
+      "doc_name": "MRK_2024_10K",
+      "question": "What was Keytruda's worldwide sales for the year ended December 31, 2024?",
+      "gold_answer": "$29,482 million",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0082",
+      "doc_name": "MRK_2023_10K",
+      "question": "What was Merck's research and development (R&D) expense for fiscal year 2023?",
+      "gold_answer": "$30,531 million (including $11.4 billion Prometheus acquisition charge)",
+      "original_pages": [
+        135
+      ],
+      "v2_direct_pages": [
+        138
+      ],
+      "v2_contextual_pages": [
+        135
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0083",
+      "doc_name": "MRK_2024_10K",
+      "question": "What percentage of Merck's total pharmaceutical revenue did Keytruda represent in fiscal year 2024?",
+      "gold_answer": "51.3% ($29,482 million Keytruda sales / $57,432 million total pharmaceutical sales)",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [
+        381
+      ],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0084",
+      "doc_name": "MRK_2024_10K",
+      "question": "What strategy does Merck outline in Item 1 regarding the upcoming loss of market exclusivity for Keytruda in 2028?",
+      "gold_answer": "Merck details its pipeline diversification strategy, including the clinical advancement of subcutaneous Keytruda formulations, Daiichi Sankyo antibody-drug conjugate partnerships, and Winrevair (sotatercept).",
+      "original_pages": [
+        38
+      ],
+      "v2_direct_pages": [
+        38
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0085",
+      "doc_name": "MRK_2023_10K",
+      "question": "What therapeutic acquisition did Merck complete in June 2023 to expand its immunology pipeline?",
+      "gold_answer": "Merck acquired Prometheus Biosciences for approximately $10.8 billion to acquire MK-7240 (formerly PRA023), an anti-TL1A monoclonal antibody for ulcerative colitis and Crohn's disease.",
+      "original_pages": [
+        38
+      ],
+      "v2_direct_pages": [
+        38
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0086",
+      "doc_name": "ABBV_2024_10K",
+      "question": "What was total global net revenue for Humira in fiscal year 2024?",
+      "gold_answer": "$9,067 million",
+      "original_pages": [
+        6
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        6
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0087",
+      "doc_name": "ABBV_2023_10K",
+      "question": "What were the combined net revenues of Skyrizi and Rinvoq in fiscal year 2023?",
+      "gold_answer": "$11,725 million ($7,763M Skyrizi + $3,962M Rinvoq)",
+      "original_pages": [
+        6
+      ],
+      "v2_direct_pages": [
+        12
+      ],
+      "v2_contextual_pages": [
+        6
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0088",
+      "doc_name": "ABBV_2024_10K",
+      "question": "Did combined Skyrizi and Rinvoq revenues exceed Humira global revenues in fiscal year 2024?",
+      "gold_answer": "Yes, combined Skyrizi ($11,105M) and Rinvoq ($5,984M) revenues reached $17,089 million, substantially surpassing Humira's $9,067 million revenue.",
+      "original_pages": [
+        6
+      ],
+      "v2_direct_pages": [
+        12
+      ],
+      "v2_contextual_pages": [
+        6
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0089",
+      "doc_name": "ABBV_2024_10K",
+      "question": "What two major acquisitions did AbbVie complete in 2024 to strengthen its oncology and neuroscience pipelines?",
+      "gold_answer": "AbbVie completed the acquisition of ImmunoGen for $10.1 billion (bringing Elahere for ovarian cancer) and Cerevel Therapeutics for $8.7 billion for psychiatric and neurological pipelines.",
+      "original_pages": [
+        28
+      ],
+      "v2_direct_pages": [
+        28
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0090",
+      "doc_name": "ABBV_2023_10K",
+      "question": "How did the entry of US biosimilar competition in 2023 affect Humira's pricing and volume?",
+      "gold_answer": "Humira US net revenues declined 35% in 2023 as multiple biosimilar competitors entered the market, forcing increased direct rebates and unfavorable price mix.",
+      "original_pages": [
+        28
+      ],
+      "v2_direct_pages": [
+        28
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0091",
+      "doc_name": "XOM_2024_10K",
+      "question": "What was ExxonMobil's net income attributable to ExxonMobil for the year ended December 31, 2024?",
+      "gold_answer": "$36,110 million",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0092",
+      "doc_name": "XOM_2023_10K",
+      "question": "What was ExxonMobil's Upstream earnings in fiscal year 2023?",
+      "gold_answer": "$21,307 million",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0093",
+      "doc_name": "XOM_2024_10K",
+      "question": "What was ExxonMobil's total shareholder distributions (dividends plus share repurchases) for 2024?",
+      "gold_answer": "$32,382 million ($16,339 million dividends + $16,043 million share repurchases)",
+      "original_pages": [
+        4
+      ],
+      "v2_direct_pages": [
+        3
+      ],
+      "v2_contextual_pages": [
+        4
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0094",
+      "doc_name": "XOM_2024_10K",
+      "question": "What transformative acquisition did ExxonMobil close in May 2024 to double its Permian Basin unconventional resource footprint?",
+      "gold_answer": "ExxonMobil completed the all-stock merger with Pioneer Natural Resources for approximately $60 billion, creating an unmatched high-return inventory position in the Permian Midland Basin.",
+      "original_pages": [
+        7
+      ],
+      "v2_direct_pages": [
+        7
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0095",
+      "doc_name": "XOM_2023_10K",
+      "question": "How did crude oil and natural gas commodity price realizations affect ExxonMobil's earnings change from 2022 to 2023?",
+      "gold_answer": "Lower crude oil and natural gas prices reduced earnings by $14.1 billion relative to the record levels achieved in 2022.",
+      "original_pages": [
+        10
+      ],
+      "v2_direct_pages": [
+        10
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0096",
+      "doc_name": "CAT_2024_10K",
+      "question": "What was Caterpillar's total sales and revenues for the year ended December 31, 2024?",
+      "gold_answer": "$64,809 million",
+      "original_pages": [
+        77
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        77
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0097",
+      "doc_name": "CAT_2023_10K",
+      "question": "What was Caterpillar's Construction Industries operating profit in fiscal year 2023?",
+      "gold_answer": "$6,506 million",
+      "original_pages": [
+        5
+      ],
+      "v2_direct_pages": [],
+      "v2_contextual_pages": [
+        5
+      ],
+      "original_annotation_classification": "UNRESOLVED_AMBIGUOUS",
+      "verification_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0098",
+      "doc_name": "CAT_2024_10K",
+      "question": "What was Caterpillar's operating profit margin for fiscal year 2024 and how did it compare to 2023?",
+      "gold_answer": "20.7% ($13,446 million operating profit / $64,809 million sales) compared to 19.5% ($13,047 million / $67,060 million) in 2023.",
+      "original_pages": [
+        65
+      ],
+      "v2_direct_pages": [
+        65
+      ],
+      "v2_contextual_pages": [],
+      "original_annotation_classification": "ORIGINAL_VALID",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0099",
+      "doc_name": "CAT_2024_10K",
+      "question": "How did changes in dealer machine inventory affect Caterpillar's enterprise sales volume in fiscal year 2024?",
+      "gold_answer": "Dealers reduced machine inventories in 2024 compared to an inventory build in 2023, leading to lower sales volumes across Construction and Resource Industries.",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [
+        72
+      ],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "question_id": "stage3_heldout_0100",
+      "doc_name": "CAT_2023_10K",
+      "question": "What factors drove the significant expansion in Caterpillar's Energy & Transportation segment operating profit in 2023?",
+      "gold_answer": "Energy & Transportation profit rose 48% to $4,295 million due to strong demand for reciprocating engines in power generation and oil and gas, alongside favorable price realization.",
+      "original_pages": [
+        8
+      ],
+      "v2_direct_pages": [
+        93,
+        94
+      ],
+      "v2_contextual_pages": [
+        8
+      ],
+      "original_annotation_classification": "ORIGINAL_DISPLACED",
+      "verification_status": "VERIFIED"
+    }
+  ]
+}

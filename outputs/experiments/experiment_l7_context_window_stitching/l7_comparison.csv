@@ -1,0 +1,7 @@
+cohort,standard,n_questions,pool_arm_a,pool_arm_b,delta_pool_b_vs_a,r10_arm_a,r10_arm_b,delta_r10_b_vs_a,mrr_arm_a,mrr_arm_b,delta_mrr_b_vs_a,lat_avg_arm_a,lat_avg_arm_b,lat_p95_arm_a,lat_p95_arm_b
+cohort_primary_verified_n65,strict_direct,65,72.31,72.31,0.0,41.54,46.15,4.61,0.1999,0.1958,-0.0041,8.3534,11.2412,10.1848,13.4792
+cohort_primary_verified_n65,comprehensive,65,73.85,73.85,0.0,44.62,50.77,6.15,0.2238,0.2211,-0.0027,8.3534,11.2412,10.1848,13.4792
+cohort_secondary_ambiguous_n35,strict_direct,35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6212,11.6349,9.3875,12.7108
+cohort_secondary_ambiguous_n35,comprehensive,35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6212,11.6349,9.3875,12.7108
+cohort_full_benchmark_n100,strict_direct,100,47.0,47.0,0.0,27.0,30.0,3.0,0.1299,0.1272,-0.0027,8.0971,11.379,10.0382,13.0502
+cohort_full_benchmark_n100,comprehensive,100,48.0,48.0,0.0,29.0,33.0,4.0,0.1454,0.1437,-0.0017,8.0971,11.379,10.0382,13.0502

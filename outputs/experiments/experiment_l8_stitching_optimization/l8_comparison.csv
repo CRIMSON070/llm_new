@@ -1,0 +1,31 @@
+cohort,standard,arm,arm_name,n_questions,pool_recall,delta_pool_vs_base,recall_at_1,delta_r1_vs_base,recall_at_3,recall_at_5,recall_at_10,delta_r10_vs_base,precision_at_5,precision_at_10,mrr,delta_mrr_vs_base,avg_latency_sec,p95_latency_sec,peak_vram_mb,total_stitched
+cohort_primary_verified_n65,strict_direct,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),65,73.85,0.0,13.85,0.0,24.62,35.38,43.08,0.0,7.08,4.31,0.2161,0.0,0.2948,0.3654,2787.61,0
+cohort_primary_verified_n65,strict_direct,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",65,73.85,0.0,12.31,-1.54,23.08,33.85,47.69,4.61,6.77,4.77,0.2127,-0.0034,0.3487,0.3762,2804.61,6491
+cohort_primary_verified_n65,strict_direct,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",65,73.85,0.0,9.23,-4.62,20.0,32.31,46.15,3.07,6.46,4.62,0.1837,-0.0324,0.3397,0.3708,2798.87,6491
+cohort_primary_verified_n65,strict_direct,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",65,73.85,0.0,15.38,1.53,23.08,35.38,46.15,3.07,7.08,4.62,0.2348,0.0187,0.3519,0.3827,2799.69,6490
+cohort_primary_verified_n65,strict_direct,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",65,73.85,0.0,15.38,1.53,21.54,30.77,44.62,1.54,6.15,4.46,0.2221,0.006,0.2773,0.3039,2783.56,2707
+cohort_primary_verified_n65,comprehensive,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),65,75.38,0.0,15.38,0.0,27.69,38.46,46.15,0.0,7.69,4.62,0.2399,0.0,0.2948,0.3654,2787.61,0
+cohort_primary_verified_n65,comprehensive,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",65,75.38,0.0,13.85,-1.53,27.69,38.46,52.31,6.16,7.69,5.23,0.2381,-0.0018,0.3487,0.3762,2804.61,6491
+cohort_primary_verified_n65,comprehensive,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",65,75.38,0.0,9.23,-6.15,23.08,35.38,49.23,3.08,7.08,4.92,0.1965,-0.0434,0.3397,0.3708,2798.87,6491
+cohort_primary_verified_n65,comprehensive,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",65,75.38,0.0,16.92,1.54,27.69,40.0,50.77,4.62,8.0,5.08,0.263,0.0231,0.3519,0.3827,2799.69,6490
+cohort_primary_verified_n65,comprehensive,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",65,75.38,0.0,16.92,1.54,24.62,33.85,47.69,1.54,6.77,4.77,0.2452,0.0053,0.2773,0.3039,2783.56,2707
+cohort_secondary_ambiguous_n35,strict_direct,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2525,0.298,2787.61,0
+cohort_secondary_ambiguous_n35,strict_direct,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3452,0.3748,2804.61,6491
+cohort_secondary_ambiguous_n35,strict_direct,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3279,0.3658,2798.87,6491
+cohort_secondary_ambiguous_n35,strict_direct,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3388,0.3743,2799.69,6490
+cohort_secondary_ambiguous_n35,strict_direct,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2721,0.2969,2783.56,2707
+cohort_secondary_ambiguous_n35,comprehensive,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2525,0.298,2787.61,0
+cohort_secondary_ambiguous_n35,comprehensive,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3452,0.3748,2804.61,6491
+cohort_secondary_ambiguous_n35,comprehensive,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3279,0.3658,2798.87,6491
+cohort_secondary_ambiguous_n35,comprehensive,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3388,0.3743,2799.69,6490
+cohort_secondary_ambiguous_n35,comprehensive,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2721,0.2969,2783.56,2707
+cohort_full_benchmark_n100,strict_direct,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),100,48.0,0.0,9.0,0.0,16.0,23.0,28.0,0.0,4.6,2.8,0.1404,0.0,0.28,0.3112,2787.61,0
+cohort_full_benchmark_n100,strict_direct,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",100,48.0,0.0,8.0,-1.0,15.0,22.0,31.0,3.0,4.4,3.1,0.1382,-0.0022,0.3475,0.3762,2804.61,6491
+cohort_full_benchmark_n100,strict_direct,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",100,48.0,0.0,6.0,-3.0,13.0,21.0,30.0,2.0,4.2,3.0,0.1194,-0.021,0.3356,0.3708,2798.87,6491
+cohort_full_benchmark_n100,strict_direct,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",100,48.0,0.0,10.0,1.0,15.0,23.0,30.0,2.0,4.6,3.0,0.1526,0.0122,0.3473,0.3823,2799.69,6490
+cohort_full_benchmark_n100,strict_direct,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",100,48.0,0.0,10.0,1.0,14.0,20.0,29.0,1.0,4.0,2.9,0.1444,0.004,0.2755,0.3024,2783.56,2707
+cohort_full_benchmark_n100,comprehensive,arm_a,Arm A: Frozen L.2 Baseline (No Stitching),100,49.0,0.0,10.0,0.0,18.0,25.0,30.0,0.0,5.0,3.0,0.1559,0.0,0.28,0.3112,2787.61,0
+cohort_full_benchmark_n100,comprehensive,arm_b,"Arm B: Prev + Cand + Next (1200 chars, L.7 Reproduction)",100,49.0,0.0,9.0,-1.0,18.0,25.0,34.0,4.0,5.0,3.4,0.1547,-0.0012,0.3475,0.3762,2804.61,6491
+cohort_full_benchmark_n100,comprehensive,arm_c,"Arm C: Prev + Cand Only (1200 chars, Backward Asymmetric)",100,49.0,0.0,6.0,-4.0,15.0,23.0,32.0,2.0,4.6,3.2,0.1277,-0.0282,0.3356,0.3708,2798.87,6491
+cohort_full_benchmark_n100,comprehensive,arm_d,"Arm D: Cand + Next Only (1200 chars, Forward Asymmetric)",100,49.0,0.0,11.0,1.0,18.0,26.0,33.0,3.0,5.2,3.3,0.1709,0.015,0.3473,0.3823,2799.69,6490
+cohort_full_benchmark_n100,comprehensive,arm_e,"Arm E: Prev + Cand + Next (800 chars, Compact Symmetric)",100,49.0,0.0,11.0,1.0,16.0,22.0,31.0,1.0,4.4,3.1,0.1594,0.0035,0.2755,0.3024,2783.56,2707
